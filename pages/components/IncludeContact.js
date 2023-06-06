@@ -19,7 +19,7 @@ export default function IncludeContact() {
   };
 
   return (
-    <section className="contact-sec py-4 py-lg-5 py-xl-6" data-aos="fadeIn">
+    <section className="contact-sec py-4 py-lg-5 py-xl-7" data-aos="fadeIn">
       <Container fluid="xxl">
         <Row>
           <Col lg={6} xs={12}>

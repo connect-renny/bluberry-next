@@ -75,12 +75,12 @@ export default function BannerCarousel() {
                   </div>
                   <div>
                     <div>
-                      <h1>Lorem</h1>
+                      <h1>Branding</h1>
                     </div>
                   </div>
                   <div>
                     <div>
-                      <h1>Ipsum</h1>
+                      <h1>Marketing</h1>
                     </div>
                   </div>
                 </Slider>

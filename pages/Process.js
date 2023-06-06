@@ -13,7 +13,7 @@ export default function Contact() {
 
   return (
     <>
-      <section className="ins-slider-hd py-4 py-lg-5 py-xl-6">
+      <section className="ins-slider-hd py-4 py-lg-5 py-xl-7">
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>

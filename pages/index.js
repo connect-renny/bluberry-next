@@ -104,7 +104,7 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="facts-sec py-4 py-lg-5 py-xl-6">
+      <section className="facts-sec py-4 py-lg-5 py-xl-7">
         <Container fluid="xxl">
           <Row>
             <Col xs="12">
@@ -416,7 +416,7 @@ export default function Home() {
           <Row>
             <Col lg={6} xs={12}>
               <div
-                className="section-hd"
+                className="section-hd industries-hd"
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000"

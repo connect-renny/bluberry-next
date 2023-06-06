@@ -53,7 +53,7 @@ const settings = {
 export default function Blog() {
   return (
     <>
-      <section className="blog-sec py-4 py-lg-5 py-xl-6">
+      <section className="blog-sec py-4 py-lg-5 py-xl-7">
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>

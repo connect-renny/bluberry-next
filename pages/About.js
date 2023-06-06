@@ -8,7 +8,7 @@ import { FiArrowRight } from 'react-icons/fi';
 export default function About() {
   return (
     <>
-      <section className="ins-slider-hd py-4 py-lg-5 py-xl-6">
+      <section className="ins-slider-hd py-4 py-lg-5 py-xl-7">
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
@@ -104,7 +104,7 @@ export default function About() {
         </Container>
       </section>
 
-      <section className="services-acc-sec pt-4 pt-lg-5 pb-4 pb-lg-5">
+      <section className="services-acc-sec pt-4 pt-lg-5 pb-4 pb-lg-7">
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
@@ -304,7 +304,7 @@ export default function About() {
           <Row>
             <Col xs={12}>
               <div className="brand-story">
-                <div className="section-hd">
+                <div className="section-hd brand-hd">
                   <h3>
                     So, let&lsquo;s grab a virtual cup of coffee and dive into
                     your brand&lsquo;s story.
@@ -321,7 +321,7 @@ export default function About() {
         </Container>
       </section>
 
-      <section className="values-sec pt-4 pt-lg-5 pb-4 pb-lg-5">
+      <section className="values-sec pt-4 pt-lg-5 pt-xl-7 pb-4 pb-lg-5">
         <Container fluid="xxl">
           <Row>
             <Col lg={6} xs={12}>
@@ -422,7 +422,7 @@ export default function About() {
         </Container>
       </section>
 
-      <section className="dig-magic-sec py-4 py-lg-5 py-xxl-6">
+      <section className="dig-magic-sec py-4 py-lg-5 py-xl-7">
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>

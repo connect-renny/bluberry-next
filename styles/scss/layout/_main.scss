@@ -315,19 +315,6 @@ input[type='number']::-webkit-inner-spin-button {
     border-radius: 0.25rem;
     text-align: center;
     z-index: 1;
-    &::before {
-      content: '';
-      position: absolute;
-      left: -3px;
-      right: -3px;
-      top: -3px;
-      bottom: -3px;
-      background: linear-gradient(90deg, #241d57, #7a2789);
-      background-size: 300%;
-      border-radius: 0.25rem;
-      z-index: -1;
-      @include transEase;
-    }
     .btn-label {
       flex: 1 0 0%;
       margin-right: 1rem;
@@ -354,9 +341,6 @@ input[type='number']::-webkit-inner-spin-button {
       background-size: 400% 400%;
       animation: btnGradient 2s ease infinite;
       border: 0;
-      &::before {
-        filter: blur(10px);
-      }
       .btn-icon {
         svg {
           transform: rotate(0);
@@ -580,12 +564,13 @@ input[type='number']::-webkit-inner-spin-button {
   }
   &:hover {
     transform: translateY(-5px);
-    border-color: var(--color-200);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
   }
 }
 
 .service-footer {
+  margin-top: 4rem;
   .btn-explore {
     @include btnCom(var(--color-100), var(--white), rgba($color-100, 40%));
     display: inline-flex;
@@ -602,7 +587,7 @@ input[type='number']::-webkit-inner-spin-button {
       );
       background-size: 400% 400%;
       animation: btnGradient 2s ease infinite;
-      border: 1px solid var(--color-100);
+      border: 1px solid transparent;
       .btn-icon {
         svg {
           transform: rotate(0);
@@ -644,22 +629,13 @@ input[type='number']::-webkit-inner-spin-button {
   display: block;
   figure {
     margin: 0;
+    overflow: hidden;
     img {
       width: 100%;
       height: 450px;
       object-fit: cover;
+      @include transEase;
     }
-  }
-  .fe-overlay {
-    position: absolute;
-    left: 1rem;
-    right: 1rem;
-    top: 1rem;
-    bottom: 1rem;
-    background-color: rgba($color-100, 75%);
-    transform: scale(0.5);
-    opacity: 0;
-    @include transEase;
   }
   .fe-arrow {
     position: absolute;
@@ -676,9 +652,11 @@ input[type='number']::-webkit-inner-spin-button {
     border-radius: 50%;
   }
   &:hover {
-    .fe-overlay {
-      opacity: 1;
-      transform: scale(1);
+    figure {
+      img {
+        transform: scale(1.1);
+        filter: grayscale(1);
+      }
     }
     .fe-arrow {
       color: var(--color-100);
@@ -691,9 +669,13 @@ input[type='number']::-webkit-inner-spin-button {
   overflow: hidden;
 }
 
+.industries-hd {
+  margin-bottom: 6rem;
+}
+
 .industries-intro {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   p {
     color: var(--bk-grade-550);
     margin: 0 0 1rem 0;
@@ -731,10 +713,10 @@ input[type='number']::-webkit-inner-spin-button {
   .slick-track {
     display: flex;
   }
-  .slick-track:hover > .slick-slide:not(:hover) .industries-item figure img {
-    opacity: 0.5;
-    filter: blur(2px);
-  }
+  // .slick-track:hover > .slick-slide:not(:hover) .industries-item figure img {
+  //   opacity: 0.5;
+  //   filter: blur(2px);
+  // }
 }
 
 .industries-item {
@@ -840,6 +822,24 @@ input[type='number']::-webkit-inner-spin-button {
     margin-bottom: 1rem;
     img {
       width: 100%;
+    }
+  }
+  .slick-dots {
+    li {
+      button {
+        width: 10px;
+        height: 10px;
+        background-color: var(--bk-grade-200);
+        border-radius: 50%;
+        &::before {
+          display: none;
+        }
+      }
+      &.slick-active {
+        button {
+          background-color: var(--color-100);
+        }
+      }
     }
   }
 }
@@ -1374,8 +1374,11 @@ input[type='number']::-webkit-inner-spin-button {
   margin-top: 335px;
   background-color: var(--white);
   border-radius: 1rem 1rem 0 0;
-  .section-hd {
+  .brand-hd {
     text-align: center;
+    h3 {
+      font-size: var(--fs-20);
+    }
   }
   p {
     color: var(--bk-grade-550);

@@ -29,7 +29,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="footer-sec py-4 py-lg-5 py-xl-6">
+      <footer className="footer-sec py-4 py-lg-5 py-xl-7">
         <Container fluid="xxl">
           <Row className="gx-xxl-5">
             <Col className="col-ft-service">
