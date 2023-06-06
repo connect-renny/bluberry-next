@@ -785,6 +785,9 @@
     width: 400px;
     height: 400px;
   }
+  .error-404-cover .error-elements {
+    transform: translateY(-50%) scale(0.75);
+  }
 }
 
 @media (max-width: 480px) {
