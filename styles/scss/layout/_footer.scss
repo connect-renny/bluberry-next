@@ -1,0 +1,213 @@
+.footer-sec {
+  position: relative;
+  background: url(../../../public/images/footer-bg.png) fixed,
+    linear-gradient(45deg, var(--color-100), var(--color-200));
+}
+
+.col-ft-service {
+  flex: 0 0 32%;
+  max-width: 32%;
+}
+.col-ft-company {
+  flex: 0 0 20%;
+  max-width: 20%;
+  border-left: 1px solid rgba($white, 10%);
+}
+.col-ft-technology {
+  flex: 0 0 26%;
+  max-width: 26%;
+  border-left: 1px solid rgba($white, 10%);
+}
+.col-ft-about {
+  flex: 0 0 22%;
+  max-width: 22%;
+  border-left: 1px solid rgba($white, 10%);
+}
+
+.ft-links-cover {
+  margin-bottom: 2rem;
+  h3 {
+    color: var(--white);
+    font-size: var(--fs-13);
+    font-weight: var(--font-weight-medium);
+    margin: 0 0 2rem;
+  }
+  .ft-list {
+    .ft-item {
+      margin-bottom: 0.5rem;
+      .ft-nav {
+        position: relative;
+        display: block;
+        color: var(--white);
+        padding: 0.25rem 0 0.25rem 0.5rem;
+        text-decoration: none;
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 50%;
+          width: 2px;
+          height: 0;
+          background-color: var(--white);
+          transform: translateY(-50%);
+          @include transEase;
+        }
+        &:hover {
+          color: var(--white);
+          &::before {
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer-logo {
+  .footer-logo {
+    display: block;
+    max-width: 90px;
+    margin-bottom: 2rem;
+    img {
+      width: 100%;
+    }
+  }
+  h3 {
+    color: var(--white);
+    font-size: var(--fs-13);
+    font-weight: var(--font-weight-semibold);
+  }
+}
+
+.col-ft-subscribe {
+  flex: 0 0 78%;
+  max-width: 78%;
+}
+.col-ft-social {
+  flex: 0 0 22%;
+  max-width: 22%;
+}
+
+.subscribe-cover {
+  max-width: 750px;
+  margin-bottom: 2rem;
+  h3 {
+    color: var(--white);
+    font-size: var(--fs-13);
+    font-weight: var(--font-weight-medium);
+    margin: 0 0 2rem;
+  }
+}
+
+.news-letter {
+  .form-control {
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 0.5rem !important;
+    background-color: transparent;
+    margin-right: 1rem;
+    &::placeholder {
+      color: var(--white);
+    }
+  }
+  .btn-send {
+    @include btnCom(var(--white), var(--color-100), var(--color-100));
+    display: inline-flex;
+    border-radius: 0.5rem !important;
+    &:hover {
+      color: var(--white);
+      background: linear-gradient(
+        to right,
+        #354099 0%,
+        #6a2d8f 25%,
+        #354099 50%,
+        #6a2d8f 75%,
+        #354099 100%
+      );
+      background-size: 400% 400%;
+      animation: btnGradient 2s ease infinite;
+      border: 1px solid transparent;
+    }
+  }
+}
+
+.policy-input {
+  color: #c5abf6;
+  font-size: var(--fs-09);
+}
+
+.footer-social {
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  h3 {
+    color: var(--white);
+    font-size: var(--fs-13);
+    font-weight: var(--font-weight-medium);
+    margin: 0 0 2rem;
+  }
+}
+
+.social-list {
+  display: flex;
+  .soc-item {
+    + .soc-item {
+      margin-left: 0.5rem;
+    }
+    .soc-link {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--white);
+      width: 36px;
+      height: 36px;
+      font-size: var(--fs-12);
+      background-color: transparent;
+      border-radius: 50%;
+      text-align: center;
+      text-decoration: none;
+      &:hover {
+        color: var(--color-100);
+        background-color: var(--white);
+        svg {
+          animation: navIcon 3s ease-out infinite;
+        }
+      }
+    }
+  }
+}
+
+.copyright {
+  color: rgba($white, 75%);
+  font-size: var(--fs-09);
+}
+
+.btm-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  .btm-item {
+    position: relative;
+    font-size: var(--fs-09);
+    padding: 0.25rem;
+    + .btm-item {
+      margin-left: 1rem;
+      &::before {
+        content: '';
+        position: absolute;
+        left: -0.5rem;
+        top: 10px;
+        width: 1px;
+        height: 12px;
+        background-color: var(--white);
+      }
+    }
+    .btm-link {
+      display: block;
+      color: rgba($white, 75%);
+      &:hover {
+        color: var(--white);
+      }
+    }
+  }
+}

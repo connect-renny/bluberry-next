@@ -1,0 +1,42 @@
+.loader-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  z-index: 9999;
+  .loader-cover {
+    .loader {
+      position: relative;
+      width: 100px;
+      height: 93px;
+      background-color: var(--color-100);
+      background: linear-gradient(
+        to right,
+        #354099 0%,
+        #6a2d8f 25%,
+        #354099 50%,
+        #6a2d8f 75%,
+        #354099 100%
+      );
+      background-size: 400% 400%;
+      margin-bottom: 0.5rem;
+      animation: btnGradient 10s ease infinite;
+      .overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .loader-txt {
+      color: var(--color-100);
+      text-align: center;
+    }
+  }
+}
