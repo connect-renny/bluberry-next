@@ -252,9 +252,9 @@ export default function Contact() {
                       campaigns. The reports cover key metrics such as website
                       traffic, conversion rates, social media engagement, and
                       search engine rankings. With a breakdown of the results
-                      and insights into the audience's behavior, the reports
-                      help usidentify areas of improvement and make data-driven
-                      decisions for ongoing optimization.
+                      and insights into the audience&lsquo;s behavior, the
+                      reports help usidentify areas of improvement and make
+                      data-driven decisions for ongoing optimization.
                     </p>
                   </div>
                 </div>
@@ -280,13 +280,13 @@ export default function Contact() {
                     <div className="count">06</div>
                     <h3>Ongoing Management & Support:</h3>
                     <p>
-                      Our commitment doesn't end with the delivery of the final
-                      output. We offer ongoing management and support services
-                      to ensure the sustained success of your digital marketing
-                      efforts. This includes managing social media accounts,
-                      updating website content, conducting periodic reviews, and
-                      staying updated with industry trends to keep your brand at
-                      the forefront.
+                      Our commitment doesn&lsquo;t end with the delivery of the
+                      final output. We offer ongoing management and support
+                      services to ensure the sustained success of your digital
+                      marketing efforts. This includes managing social media
+                      accounts, updating website content, conducting periodic
+                      reviews, and staying updated with industry trends to keep
+                      your brand at the forefront.
                     </p>
                   </div>
                 </div>

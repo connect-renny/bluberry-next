@@ -60,10 +60,10 @@ export default function About() {
                 <p>
                   We believe in the power of human connections and the art of
                   storytelling. Our team of passionate experts is dedicated to
-                  understanding your unique goals and challenges. We're not here
-                  to provide cookie-cutter solutions; we're here to be your
-                  trusted partner, guiding you through the ever-evolving digital
-                  landscape.
+                  understanding your unique goals and challenges. We&lsquo;re
+                  not here to provide cookie-cutter solutions; we&lsquo;re here
+                  to be your trusted partner, guiding you through the
+                  ever-evolving digital landscape.
                 </p>
               </div>
             </Col>
@@ -78,7 +78,8 @@ export default function About() {
               <div className="mindset-img">
                 <h3>
                   With a keen eye for detail and a strategic mindset, we delve
-                  deep into your brand's DNA to uncover its true potential.
+                  deep into your brand&lsquo;s DNA to uncover its true
+                  potential.
                 </h3>
               </div>
             </Col>
@@ -90,11 +91,12 @@ export default function About() {
                   alive.
                 </h4>
                 <p>
-                  But it's not just about creating something beautiful - we're
-                  all about results. Our strategies are laser-focused on driving
-                  real, measurable outcomes for your business. Whether it's
-                  increasing your online presence, boosting conversions, or
-                  building a loyal community, we're here to make it happen.
+                  But it&lsquo;s not just about creating something beautiful -
+                  we&lsquo;re all about results. Our strategies are
+                  laser-focused on driving real, measurable outcomes for your
+                  business. Whether it&lsquo;s increasing your online presence,
+                  boosting conversions, or building a loyal community,
+                  we&lsquo;re here to make it happen.
                 </p>
               </div>
             </Col>
@@ -304,12 +306,12 @@ export default function About() {
               <div className="brand-story">
                 <div className="section-hd">
                   <h3>
-                    So, let's grab a virtual cup of coffee and dive into your
-                    brand's story.
+                    So, let&lsquo;s grab a virtual cup of coffee and dive into
+                    your brand&lsquo;s story.
                   </h3>
                 </div>
                 <p>
-                  Together, we'll navigate the digital landscape, craft
+                  Together, we&lsquo;ll navigate the digital landscape, craft
                   strategies that resonate with your audience, and create
                   unforgettable experiences that set you apart from the crowd.
                 </p>
@@ -427,8 +429,9 @@ export default function About() {
               <div className="dig-magic">
                 <h3>Are you ready to take your brand to new heights? </h3>
                 <p>
-                  Let's embark on this exciting journey together. Reach out to
-                  us today, and let's start making some digital magic!
+                  Let&lsquo;s embark on this exciting journey together. Reach
+                  out to us today, and let&lsquo;s start making some digital
+                  magic!
                 </p>
               </div>
             </Col>

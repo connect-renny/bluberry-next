@@ -43,10 +43,10 @@ export default function Home() {
                 <p>
                   We believe in the power of human connections and the art of
                   storytelling. Our team of passionate experts is dedicated to
-                  understanding your unique goals and challenges. We're not here
-                  to provide cookie-cutter solutions; we're here to be your
-                  trusted partner, guiding you through the ever-evolving digital
-                  landscape.
+                  understanding your unique goals and challenges. We&lsquo;re
+                  not here to provide cookie-cutter solutions; we&lsquo;re here
+                  to be your trusted partner, guiding you through the
+                  ever-evolving digital landscape.
                 </p>
               </div>
             </Col>
@@ -70,15 +70,17 @@ export default function Home() {
                 </div>
                 <p>
                   The company prides itself on its ability to understand its
-                  clients' unique needs and objectives, and to create customized
-                  solutions that meet those needs. We have a strong reputation
-                  for delivering high-quality work on time and within budget.
+                  clients&lsquo; unique needs and objectives, and to create
+                  customized solutions that meet those needs. We have a strong
+                  reputation for delivering high-quality work on time and within
+                  budget.
                 </p>
                 <p>
                   The company prides itself on its ability to understand its
-                  clients' unique needs and objectives, and to create customized
-                  solutions that meet those needs. We have a strong reputation
-                  for delivering high-quality work on time and within budget.
+                  clients&lsquo; unique needs and objectives, and to create
+                  customized solutions that meet those needs. We have a strong
+                  reputation for delivering high-quality work on time and within
+                  budget.
                 </p>
                 <Link className="btn btn-shine btn-explore" href="#">
                   <span className="btn-label">Explore</span>
@@ -193,7 +195,7 @@ export default function Home() {
                 data-aos-duration="1000"
               >
                 <h6>What We Do</h6>
-                <h3>Services we're offering to customer</h3>
+                <h3>Services we&lsquo;re offering to customer</h3>
               </div>
             </Col>
           </Row>
@@ -477,7 +479,7 @@ export default function Home() {
               >
                 <div className="section-hd">
                   <h6>Customers</h6>
-                  <h3>Clients we've worked with</h3>
+                  <h3>Clients we&lsquo;ve worked with</h3>
                 </div>
                 <p>
                   We are inspired. Our clientele is growing day by day. We are
