@@ -290,7 +290,7 @@ input[type='number']::-webkit-inner-spin-button {
   padding: 0 0 0 4rem;
   h1 {
     color: var(--color-100);
-    font-size: var(--fs-29);
+    font-size: var(--fs-28);
     font-weight: var(--font-weight-bold);
     line-height: 88%;
     padding-bottom: 2rem;
@@ -570,7 +570,7 @@ input[type='number']::-webkit-inner-spin-button {
 }
 
 .service-footer {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   .btn-explore {
     @include btnCom(var(--color-100), var(--white), rgba($color-100, 40%));
     display: inline-flex;
