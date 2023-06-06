@@ -296,7 +296,7 @@ input[type='number']::-webkit-inner-spin-button {
     padding-bottom: 2rem;
     background: #3b4aa1;
     background: linear-gradient(to top, #3b4aa1 0%, #752a8b 100%);
-    // -webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     @include transEase;
     .txt-anm {
