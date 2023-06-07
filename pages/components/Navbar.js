@@ -79,7 +79,7 @@ export default function NavbarMain() {
                 <span className="nav-icon">
                   <GoMail />
                 </span>
-                info@adventz.net
+                info@bluberry.com
               </Link>
             </div>
           </div>
