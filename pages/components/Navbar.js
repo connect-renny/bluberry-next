@@ -75,11 +75,11 @@ export default function NavbarMain() {
               </Link>
             </div>
             <div className="nav-item">
-              <Link className="nav-link" href="mailto:info@bluberry.com">
+              <Link className="nav-link" href="mailto:Hello@thebblabs.com">
                 <span className="nav-icon">
                   <GoMail />
                 </span>
-                info@bluberry.com
+                Hello@thebblabs.com
               </Link>
             </div>
           </div>
