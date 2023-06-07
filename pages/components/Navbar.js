@@ -75,7 +75,7 @@ export default function NavbarMain() {
               </Link>
             </div>
             <div className="nav-item">
-              <Link className="nav-link" href="mailto:info@adventz.net">
+              <Link className="nav-link" href="mailto:info@bluberry.com">
                 <span className="nav-icon">
                   <GoMail />
                 </span>
