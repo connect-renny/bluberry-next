@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
+import Image from "next/image";
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
-import IncludeContact from './components/IncludeContact';
+import IncludeContact from "./components/IncludeContact";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function About() {
   return (

@@ -1,12 +1,12 @@
-import Image from 'next/image';
-import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
+import Image from "next/image";
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
-import WorkSection from './components/WorkSection';
-import IndustriesSection from './components/IndustriesSection';
-import IncludeContact from './components/IncludeContact';
-import ContactConsultation from './components/ContactConsultation';
+import WorkSection from "./components/WorkSection";
+import IndustriesSection from "./components/IndustriesSection";
+import IncludeContact from "./components/IncludeContact";
+import ContactConsultation from "./components/ContactConsultation";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function About() {
   return (

@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import { Container, Row, Col, Accordion } from 'react-bootstrap';
+import Image from "next/image";
+import { Container, Row, Col, Accordion } from "react-bootstrap";
 
-import IncludeContact from './components/IncludeContact';
+import IncludeContact from "./components/IncludeContact";
 
-import { FiArrowRight } from 'react-icons/fi';
+import { FiArrowRight } from "react-icons/fi";
 
 export default function About() {
   return (

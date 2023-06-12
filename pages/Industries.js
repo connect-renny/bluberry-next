@@ -1,16 +1,16 @@
-import React, { useState, useRef } from 'react';
-import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap';
-import IncludeContact from './components/IncludeContact';
-import { FiArrowRight } from 'react-icons/fi';
+import React, { useState, useRef } from "react";
+import Image from "next/image";
+import { Container, Row, Col } from "react-bootstrap";
+import IncludeContact from "./components/IncludeContact";
+import { FiArrowRight } from "react-icons/fi";
 
-import Link from 'next/link';
+import Link from "next/link";
 
-import Slider from 'react-slick';
+import Slider from "react-slick";
 
 // slick carousel import css files
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function About() {
   const [indSliderNav, setIndSliderNav] = useState(0);

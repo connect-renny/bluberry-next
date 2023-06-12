@@ -1,16 +1,16 @@
-import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap';
-import BannerCarousel from './components/BannerCarousel';
-import IndustriesSection from './components/IndustriesSection';
-import ClientSlider from './components/ClientSlider';
-import Blog from './components/Blog';
-import IncludeContact from './components/IncludeContact';
+import Image from "next/image";
+import { Container, Row, Col } from "react-bootstrap";
+import BannerCarousel from "./components/BannerCarousel";
+import IndustriesSection from "./components/IndustriesSection";
+import ClientSlider from "./components/ClientSlider";
+import Blog from "./components/Blog";
+import IncludeContact from "./components/IncludeContact";
 
-import { FiArrowDownRight } from 'react-icons/fi';
-import { FiArrowRight } from 'react-icons/fi';
+import { FiArrowDownRight } from "react-icons/fi";
+import { FiArrowRight } from "react-icons/fi";
 
-import Marquee from 'react-fast-marquee';
-import Link from 'next/link';
+import Marquee from "react-fast-marquee";
+import Link from "next/link";
 
 export default function Home() {
   return (

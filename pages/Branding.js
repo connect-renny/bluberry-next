@@ -1,14 +1,14 @@
-import Image from 'next/image';
-import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
+import Image from "next/image";
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
-import WorkSection from './components/WorkSection';
-import IndustriesSection from './components/IndustriesSection';
-import IncludeContact from './components/IncludeContact';
+import WorkSection from "./components/WorkSection";
+import IndustriesSection from "./components/IndustriesSection";
+import IncludeContact from "./components/IncludeContact";
 
-import { FiArrowDownRight } from 'react-icons/fi';
-import { FiArrowRight } from 'react-icons/fi';
+import { FiArrowDownRight } from "react-icons/fi";
+import { FiArrowRight } from "react-icons/fi";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function About() {
   return (

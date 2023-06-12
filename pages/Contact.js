@@ -1,21 +1,21 @@
-import { useState, useEffect } from 'react';
-import Image from 'next/image';
-import { Container, Row, Col, Form, FloatingLabel } from 'react-bootstrap';
-import { FiArrowRight } from 'react-icons/fi';
+import { useState, useEffect } from "react";
+import Image from "next/image";
+import { Container, Row, Col, Form, FloatingLabel } from "react-bootstrap";
+import { FiArrowRight } from "react-icons/fi";
 
-import { MdOutlinePhonelinkRing } from 'react-icons/md';
-import { TfiEmail } from 'react-icons/tfi';
-import { AiOutlineUser } from 'react-icons/ai';
-import { FiPhoneCall } from 'react-icons/fi';
-import { GrCircleInformation } from 'react-icons/gr';
-import { RxShare1 } from 'react-icons/rx';
-import { GrEdit } from 'react-icons/gr';
+import { MdOutlinePhonelinkRing } from "react-icons/md";
+import { TfiEmail } from "react-icons/tfi";
+import { AiOutlineUser } from "react-icons/ai";
+import { FiPhoneCall } from "react-icons/fi";
+import { GrCircleInformation } from "react-icons/gr";
+import { RxShare1 } from "react-icons/rx";
+import { GrEdit } from "react-icons/gr";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Contact() {
   // Radio js
-  const [selectedOption, setSelectedOption] = useState('');
+  const [selectedOption, setSelectedOption] = useState("");
 
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
@@ -226,7 +226,7 @@ export default function Contact() {
                         name="options"
                         label="I agree that my data is collected and stored"
                         value="option1"
-                        checked={selectedOption === 'option1'}
+                        checked={selectedOption === "option1"}
                         onChange={handleOptionChange}
                       />
                     </div>

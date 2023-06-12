@@ -1,11 +1,11 @@
-import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import Image from "next/image";
+import { useState, useEffect } from "react";
 
-import { Container, Row, Col, Form, FloatingLabel } from 'react-bootstrap';
+import { Container, Row, Col, Form, FloatingLabel } from "react-bootstrap";
 
 export default function Contact() {
   // Radio js
-  const [selectedOption, setSelectedOption] = useState('');
+  const [selectedOption, setSelectedOption] = useState("");
 
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
