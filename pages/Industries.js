@@ -200,7 +200,7 @@ export default function About() {
                           e-commerce experiences.
                         </p>
                         <p className="mb-0">
-                          Whether you're a small boutique or a large-scale
+                          Whether you&lsquo;re a small boutique or a large-scale
                           retailer, we help you optimize your online store,
                           drive traffic, and enhance the customer journey,
                           ultimately boosting sales and fostering customer
@@ -240,7 +240,7 @@ export default function About() {
                           e-commerce experiences.
                         </p>
                         <p className="mb-0">
-                          Whether you're a small boutique or a large-scale
+                          Whether you&lsquo;re a small boutique or a large-scale
                           retailer, we help you optimize your online store,
                           drive traffic, and enhance the customer journey,
                           ultimately boosting sales and fostering customer
@@ -280,7 +280,7 @@ export default function About() {
                           e-commerce experiences.
                         </p>
                         <p className="mb-0">
-                          Whether you're a small boutique or a large-scale
+                          Whether you&lsquo;re a small boutique or a large-scale
                           retailer, we help you optimize your online store,
                           drive traffic, and enhance the customer journey,
                           ultimately boosting sales and fostering customer
@@ -320,7 +320,7 @@ export default function About() {
                           e-commerce experiences.
                         </p>
                         <p className="mb-0">
-                          Whether you're a small boutique or a large-scale
+                          Whether you&lsquo;re a small boutique or a large-scale
                           retailer, we help you optimize your online store,
                           drive traffic, and enhance the customer journey,
                           ultimately boosting sales and fostering customer
@@ -360,7 +360,7 @@ export default function About() {
                           e-commerce experiences.
                         </p>
                         <p className="mb-0">
-                          Whether you're a small boutique or a large-scale
+                          Whether you&lsquo;re a small boutique or a large-scale
                           retailer, we help you optimize your online store,
                           drive traffic, and enhance the customer journey,
                           ultimately boosting sales and fostering customer
@@ -397,7 +397,7 @@ export default function About() {
                           e-commerce experiences.
                         </p>
                         <p className="mb-0">
-                          Whether you're a small boutique or a large-scale
+                          Whether you&lsquo;re a small boutique or a large-scale
                           retailer, we help you optimize your online store,
                           drive traffic, and enhance the customer journey,
                           ultimately boosting sales and fostering customer
@@ -437,7 +437,7 @@ export default function About() {
                           e-commerce experiences.
                         </p>
                         <p className="mb-0">
-                          Whether you're a small boutique or a large-scale
+                          Whether you&lsquo;re a small boutique or a large-scale
                           retailer, we help you optimize your online store,
                           drive traffic, and enhance the customer journey,
                           ultimately boosting sales and fostering customer
@@ -477,7 +477,7 @@ export default function About() {
                           e-commerce experiences.
                         </p>
                         <p className="mb-0">
-                          Whether you're a small boutique or a large-scale
+                          Whether you&lsquo;re a small boutique or a large-scale
                           retailer, we help you optimize your online store,
                           drive traffic, and enhance the customer journey,
                           ultimately boosting sales and fostering customer
@@ -517,7 +517,7 @@ export default function About() {
                           e-commerce experiences.
                         </p>
                         <p className="mb-0">
-                          Whether you're a small boutique or a large-scale
+                          Whether you&lsquo;re a small boutique or a large-scale
                           retailer, we help you optimize your online store,
                           drive traffic, and enhance the customer journey,
                           ultimately boosting sales and fostering customer

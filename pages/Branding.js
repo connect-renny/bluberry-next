@@ -52,10 +52,10 @@ export default function About() {
                 <h4>The answers to these are what make you stand out.</h4>
                 <p>
                   At BluBerry Labs, we understand that branding is the
-                  cornerstone of success in today's competitive landscape. It is
-                  the art of creating a powerful connection with your audience,
-                  leaving an indelible mark that resonates long after the
-                  encounter.
+                  cornerstone of success in today&lsquo;s competitive landscape.
+                  It is the art of creating a powerful connection with your
+                  audience, leaving an indelible mark that resonates long after
+                  the encounter.
                 </p>
               </div>
             </Col>
@@ -115,7 +115,7 @@ export default function About() {
                 </h4>
                 <p>
                   We design captivating logos and graphics, expressing your
-                  brand's persona through meaningful art, colors, and
+                  brand&lsquo;s persona through meaningful art, colors, and
                   typography.
                 </p>
               </div>
@@ -141,9 +141,9 @@ export default function About() {
             <Col xs={12}>
               <div className="brand-imp-con">
                 <h4>
-                  Just as important, it's also not merely about captivating
-                  visuals— it's about creating an immersive journey that beckons
-                  your audience to embark.
+                  Just as important, it&lsquo;s also not merely about
+                  captivating visuals— it&lsquo;s about creating an immersive
+                  journey that beckons your audience to embark.
                 </h4>
                 <p>
                   We craft compelling brand stories, meticulously honed to

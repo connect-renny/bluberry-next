@@ -59,9 +59,9 @@ export default function About() {
                   Military, a renowned brand specializing in high-quality
                   watches and other accessories. The objective of the project
                   was to create a visually appealing and user-friendly online
-                  platform that would enhance the Swiss Military's brand image,
-                  drive sales, and provide a seamless shopping experience to
-                  customers.
+                  platform that would enhance the Swiss Military&lsquo;s brand
+                  image, drive sales, and provide a seamless shopping experience
+                  to customers.
                 </p>
                 <p>
                   Client Background: Swiss Military is a prestigious brand known
@@ -144,7 +144,7 @@ export default function About() {
                     <h4>Custom Design and Development</h4>
                     <p>
                       Created a visually striking and unique website design
-                      tailored to the Swiss Military's brand identity,
+                      tailored to the Swiss Military&lsquo;s brand identity,
                       incorporating captivating visuals and clear product
                       showcases.
                     </p>
@@ -190,7 +190,7 @@ export default function About() {
                     <p>
                       Conducted extensive optimization techniques, including
                       caching, image compression, and code optimization, to
-                      enhance the website's speed and performance.
+                      enhance the website&lsquo;s speed and performance.
                     </p>
                   </div>
                 </div>

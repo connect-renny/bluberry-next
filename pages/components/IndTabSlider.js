@@ -1,48 +1,46 @@
-import React from 'react';
-import Link from 'next/link';
-
+import React, { useState, useRef } from 'react';
 import Slider from 'react-slick';
 
 // slick carousel import css files
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const [indSliderNav, setsliderNav] = useState(0);
-const [indSliderMain, setsliderMain] = useState(0);
-
-const indSliderNavRef = useRef();
-const indSliderMainRef = useRef();
-
-const handleSliderOneBeforeChange = (oldIndex, newIndex) => {
-  setsliderMain(newIndex);
-  indSliderNavRef.current.slickGoTo(newIndex);
-};
-
-const handleSliderTwoBeforeChange = (oldIndex, newIndex) => {
-  setsliderNav(newIndex);
-  indSliderMainRef.current.slickGoTo(newIndex);
-};
-
-const settings01 = {
-  infinite: true,
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  dots: false,
-  centerMode: false,
-  focusOnSelect: true,
-  variableWidth: true,
-  beforeChange: handleSliderTwoBeforeChange,
-};
-
-const settings02 = {
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: true,
-  beforeChange: handleSliderOneBeforeChange,
-};
-
 export default function IndustriesSlider() {
+  const [indSliderNav, setsliderNav] = useState(0);
+  const [indSliderMain, setsliderMain] = useState(0);
+
+  const indSliderNavRef = useRef();
+  const indSliderMainRef = useRef();
+
+  const handleSliderOneBeforeChange = (oldIndex, newIndex) => {
+    setsliderMain(newIndex);
+    indSliderNavRef.current.slickGoTo(newIndex);
+  };
+
+  const handleSliderTwoBeforeChange = (oldIndex, newIndex) => {
+    setsliderNav(newIndex);
+    indSliderMainRef.current.slickGoTo(newIndex);
+  };
+
+  const settings01 = {
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    dots: false,
+    centerMode: false,
+    focusOnSelect: true,
+    variableWidth: true,
+    beforeChange: handleSliderTwoBeforeChange,
+  };
+
+  const settings02 = {
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    beforeChange: handleSliderOneBeforeChange,
+  };
+
   return (
     <section className="ind-tab-sec">
       <div className="ind-tab-nav">
