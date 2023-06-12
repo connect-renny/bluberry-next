@@ -1,8 +1,7 @@
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import BannerCarousel from './components/BannerCarousel';
-import IndustriesSlider from './components/IndustriesSlider';
+import IndustriesSection from './components/IndustriesSection';
 import ClientSlider from './components/ClientSlider';
 import Blog from './components/Blog';
 import IncludeContact from './components/IncludeContact';
@@ -17,7 +16,6 @@ export default function Home() {
   return (
     <>
       <BannerCarousel />
-
       <section
         className="who-we-sec pt-4 pt-lg-5 pt-xl-7 pb-4 pb-lg-4 pb-xl-5"
         data-aos="fadeIn"
@@ -180,7 +178,6 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-
       <section
         className="service-sec pt-4 pt-lg-5 pt-xl-6 pb-4 pb-lg-5"
         data-aos="fadeIn"
@@ -369,7 +366,7 @@ export default function Home() {
             </Col>
             <Col xs={6}>
               <Row className="gx-0">
-                <Col xs={6} className="xxx ccc">
+                <Col xs={6}>
                   <Link className="feature-item" href="#">
                     <figure>
                       <img src="images/portfolio-thumb-sm-03.jpg" alt="Image" />
@@ -408,54 +405,7 @@ export default function Home() {
         </Container>
       </section>
 
-      <section
-        className="industries-sec pt-4 pt-lg-5 pt-xl-7 pb-4 pb-lg-4 pb-xl-5"
-        data-aos="fadeIn"
-      >
-        <Container fluid="xxl">
-          <Row>
-            <Col lg={6} xs={12}>
-              <div
-                className="section-hd industries-hd"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
-                <h6>Industries</h6>
-                <h3>Solving challenges in every industry, every day.</h3>
-              </div>
-            </Col>
-            <Col lg={6} xs={12}>
-              <div
-                className="industries-intro"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
-                <p>
-                  Our experience allows us to understand the specificities of
-                  your industry and develop an strategy that matches your needs.
-                  No matter your industry, Bluberry Labs has helped businesses
-                  like yours with IT solutions.
-                </p>
-                <Link className="btn btn-shine btn-explore" href="#">
-                  <span className="btn-label">Explore</span>
-                  <span className="btn-icon">
-                    <FiArrowRight />
-                  </span>
-                </Link>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-        <Container fluid>
-          <Row>
-            <Col xs={12}>
-              <IndustriesSlider />
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      <IndustriesSection />
 
       <section className="client-sec py-4 py-lg-5 py-xl-6" data-aos="fadeIn">
         <Container fluid>
@@ -494,9 +444,7 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-
       <Blog />
-
       <IncludeContact />
     </>
   );

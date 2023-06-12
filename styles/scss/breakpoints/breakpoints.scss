@@ -647,6 +647,9 @@
     order: 2;
     margin: 0;
   }
+  .ins-slider-hd-sec {
+    padding: 4rem 0 4rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -787,6 +790,9 @@
   }
   .error-404-cover .error-elements {
     transform: translateY(-50%) scale(0.75);
+  }
+  .ins-slider-hd-sec {
+    padding: 3rem 0 3rem;
   }
 }
 

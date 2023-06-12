@@ -106,12 +106,20 @@ export default function NavbarMain() {
                 <div className="mega-menu-links">
                   <ul className="drop-mega-link">
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/">
+                      <Link
+                        className="mg-nav"
+                        href="/Branding"
+                        onClick={handleLinkClick}
+                      >
                         Branding
                       </Link>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/">
+                      <Link
+                        className="mg-nav"
+                        href="/Graphic-Design"
+                        onClick={handleLinkClick}
+                      >
                         Graphic Design
                       </Link>
                     </li>

@@ -8,7 +8,7 @@ import { FiArrowRight } from 'react-icons/fi';
 export default function About() {
   return (
     <>
-      <section className="ins-slider-hd py-4 py-lg-5 py-xl-7">
+      <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
@@ -33,7 +33,7 @@ export default function About() {
         </Container>
       </section>
 
-      <section className="ins-slider-sec">
+      <section className="ins-slider-img-sec">
         <Container fluid="xxl">
           <div className="ins-slider">
             <Image
@@ -71,7 +71,7 @@ export default function About() {
         </Container>
       </section>
 
-      <section className="mindset-sec pt-4 pt-lg-5 pt-xl-6 pb-4 pb-lg-5">
+      <section className="mindset-sec pt-4 pb-4">
         <Container fluid="xxl">
           <Row className="d-flex align-items-center gx-xxl-5">
             <Col lg={6} xs={12}>
@@ -104,7 +104,7 @@ export default function About() {
         </Container>
       </section>
 
-      <section className="services-acc-sec pt-4 pt-lg-5 pb-4 pb-lg-7">
+      <section className="services-acc-sec pt-4 pb-4 pb-lg-7">
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
