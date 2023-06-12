@@ -1,4 +1,4 @@
-import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -17,8 +17,8 @@ export default function WorkSection() {
             </div>
             <div className="brand-work-hd">
               <h4>
-                But don't just take our word for it - let our work speak for
-                itself.
+                But don&lsquo;t just take our word for it - let our work speak
+                for itself.
               </h4>
               <p>
                 Check out our portfolio of projects that have transformed
@@ -31,7 +31,13 @@ export default function WorkSection() {
           <Col xs={6} px="0">
             <Link className="feature-item" href="#">
               <figure>
-                <img src="images/portfolio-thumb-lg-01.jpg" alt="Image" />
+                <Image
+                  src="images/portfolio-thumb-lg-01.jpg"
+                  alt="Image"
+                  layout="intrinsic"
+                  width={920}
+                  height={450}
+                />
               </figure>
               <div className="fe-overlay"></div>
               <div className="fe-arrow">
@@ -44,7 +50,13 @@ export default function WorkSection() {
               <Col xs={6}>
                 <Link className="feature-item" href="#">
                   <figure>
-                    <img src="images/portfolio-thumb-sm-01.jpg" alt="Image" />
+                    <Image
+                      src="images/portfolio-thumb-sm-01.jpg"
+                      alt="Image"
+                      layout="intrinsic"
+                      width={450}
+                      height={450}
+                    />
                   </figure>
                   <div className="fe-overlay"></div>
                   <div className="fe-arrow">
@@ -55,7 +67,13 @@ export default function WorkSection() {
               <Col xs={6}>
                 <Link className="feature-item" href="#">
                   <figure>
-                    <img src="images/portfolio-thumb-sm-02.jpg" alt="Image" />
+                    <Image
+                      src="images/portfolio-thumb-sm-02.jpg"
+                      alt="Image"
+                      layout="intrinsic"
+                      width={450}
+                      height={450}
+                    />
                   </figure>
                   <div className="fe-overlay"></div>
                   <div className="fe-arrow">
@@ -70,7 +88,13 @@ export default function WorkSection() {
               <Col xs={6}>
                 <Link className="feature-item" href="#">
                   <figure>
-                    <img src="images/portfolio-thumb-sm-03.jpg" alt="Image" />
+                    <Image
+                      src="images/portfolio-thumb-sm-03.jpg"
+                      alt="Image"
+                      layout="intrinsic"
+                      width={450}
+                      height={450}
+                    />
                   </figure>
                   <div className="fe-overlay"></div>
                   <div className="fe-arrow">
@@ -81,7 +105,13 @@ export default function WorkSection() {
               <Col xs={6}>
                 <Link className="feature-item" href="#">
                   <figure>
-                    <img src="images/portfolio-thumb-sm-04.jpg" alt="Image" />
+                    <Image
+                      src="images/portfolio-thumb-sm-04.jpg"
+                      alt="Image"
+                      layout="intrinsic"
+                      width={450}
+                      height={450}
+                    />
                   </figure>
                   <div className="fe-overlay"></div>
                   <div className="fe-arrow">
@@ -94,7 +124,13 @@ export default function WorkSection() {
           <Col xs={6}>
             <Link className="feature-item" href="#">
               <figure>
-                <img src="images/portfolio-thumb-lg-02.jpg" alt="Image" />
+                <Image
+                  src="images/portfolio-thumb-lg-02.jpg"
+                  alt="Image"
+                  layout="intrinsic"
+                  width={920}
+                  height={450}
+                />
               </figure>
               <div className="fe-overlay"></div>
               <div className="fe-arrow">
