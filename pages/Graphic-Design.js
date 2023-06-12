@@ -61,9 +61,10 @@ export default function About() {
                 </h4>
                 <p>
                   But all graphics are not created equal. You need fresh,
-                  creative designs that represent your brand's innovativeness
-                  and freshness.Your visuals are, after all, the framework for
-                  the optics you seek to portray for your business.
+                  creative designs that represent your brand&apos;s
+                  innovativeness and freshness.Your visuals are, after all, the
+                  framework for the optics you seek to portray for your
+                  business.
                 </p>
               </div>
             </Col>
@@ -93,9 +94,9 @@ export default function About() {
                 </h4>
                 <p>
                   Every element in a design should have a purpose. And every end
-                  product should communicate a powerful message. And that's what
-                  we offer; we convey your brand's message through our mindful
-                  and effective digital media.
+                  product should communicate a powerful message. And that&apos;s
+                  what we offer; we convey your brand&apos;s message through our
+                  mindful and effective digital media.
                 </p>
                 <p>
                   Our service covers your diverse needs. From logo creation and
@@ -134,7 +135,8 @@ export default function About() {
                   Harnessing the power of color, typography, and imagery, they
                   create unforgettable visual experiences.They combine their
                   technical expertise with a keen eye for aesthetics to create
-                  visually stunning art that aligns with your brand's identity.
+                  visually stunning art that aligns with your brand&apos;s
+                  identity.
                 </p>
               </div>
             </Col>
@@ -148,8 +150,9 @@ export default function About() {
             <Col lg={6} xs={12}>
               <div className="graphics-high-con">
                 <h4>
-                  We translate your brand's message into mesmerizing logos and
-                  striking marketing materials that embody your brand's essence.
+                  We translate your brand&apos;s message into mesmerizing logos
+                  and striking marketing materials that embody your brand&apos;s
+                  essence.
                 </h4>
                 <p>
                   Whether it is for a catchy social media post or a compelling
