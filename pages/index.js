@@ -14,7 +14,16 @@ import Marquee from "react-fast-marquee";
 import Link from "next/link";
 
 import ScrollTrigger from "react-scroll-trigger";
-import CountUp from 'react-countup';
+import CountUp from "react-countup";
+
+import LightGallery from 'lightgallery/react';
+
+import 'lightgallery/scss/lightgallery.scss';
+import 'lightgallery/scss/lg-zoom.scss';
+import 'lightgallery/scss/lg-thumbnail.scss';
+
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
+import lgZoom from 'lightgallery/plugins/zoom';
 
 export default function Home() {
   const [counterOn, setCounterOn] = useState(false);
@@ -106,10 +115,12 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-
-      <ScrollTrigger onEnter={setCounterOn(true)} onExit={setCounterOn(false)}>
-        <section className="facts-sec py-4 py-lg-5 py-xl-7">
-          <Container fluid="xxl">
+      <section className="facts-sec py-4 py-lg-5 py-xl-7">
+        <Container fluid="xxl">
+          <ScrollTrigger
+            onEnter={() => setCounterOn(true)}
+            onExit={() => setCounterOn(false)}
+          >
             <Row>
               <Col xs="12">
                 <div
@@ -144,7 +155,10 @@ export default function Home() {
                     </div>
                     <div className="facts-it-body">
                       <h4>
-                        {counterOn && <CountUp start={0} end={500} duration={2} delay={0} />}+
+                        {counterOn && (
+                          <CountUp start={0} end={500} duration={2} delay={0} />
+                        )}
+                        +
                       </h4>
                       <p>projects</p>
                     </div>
@@ -162,7 +176,10 @@ export default function Home() {
                     </div>
                     <div className="facts-it-body">
                       <h4>
-                      {counterOn && <CountUp start={0} end={200} duration={2} delay={0} />}+
+                        {counterOn && (
+                          <CountUp start={0} end={200} duration={2} delay={0} />
+                        )}
+                        +
                       </h4>
                       <p>happy clients</p>
                     </div>
@@ -180,7 +197,10 @@ export default function Home() {
                     </div>
                     <div className="facts-it-body">
                       <h4>
-                      {counterOn && <CountUp start={0} end={400} duration={2} delay={0} />}+
+                        {counterOn && (
+                          <CountUp start={0} end={400} duration={2} delay={0} />
+                        )}
+                        +
                       </h4>
                       <p>active clients</p>
                     </div>
@@ -188,9 +208,9 @@ export default function Home() {
                 </div>
               </Col>
             </Row>
-          </Container>
-        </section>
-      </ScrollTrigger>
+          </ScrollTrigger>
+        </Container>
+      </section>
       <section
         className="service-sec pt-4 pt-lg-5 pt-xl-6 pb-4 pb-lg-5"
         data-aos="fadeIn"
@@ -339,9 +359,14 @@ export default function Home() {
               </div>
             </Col>
           </Row>
+          <LightGallery
+                speed={500}
+                plugins={[lgThumbnail, lgZoom]}
+                selector='a'
+            >
           <Row className="gx-0">
             <Col xs={6} px="0">
-              <Link className="feature-item" href="#">
+              <Link className="feature-item" href="images/portfolio-thumb-lg-01.jpg">
                 <figure>
                   <img src="images/portfolio-thumb-lg-01.jpg" alt="Image" />
                 </figure>
@@ -354,7 +379,7 @@ export default function Home() {
             <Col xs={6}>
               <Row className="gx-0">
                 <Col xs={6}>
-                  <Link className="feature-item" href="#">
+                  <Link className="feature-item" href="images/portfolio-thumb-sm-01.jpg">
                     <figure>
                       <img src="images/portfolio-thumb-sm-01.jpg" alt="Image" />
                     </figure>
@@ -365,7 +390,7 @@ export default function Home() {
                   </Link>
                 </Col>
                 <Col xs={6}>
-                  <Link className="feature-item" href="#">
+                  <Link className="feature-item" href="images/portfolio-thumb-sm-02.jpg">
                     <figure>
                       <img src="images/portfolio-thumb-sm-02.jpg" alt="Image" />
                     </figure>
@@ -380,7 +405,7 @@ export default function Home() {
             <Col xs={6}>
               <Row className="gx-0">
                 <Col xs={6}>
-                  <Link className="feature-item" href="#">
+                  <Link className="feature-item" href="images/portfolio-thumb-sm-03.jpg">
                     <figure>
                       <img src="images/portfolio-thumb-sm-03.jpg" alt="Image" />
                     </figure>
@@ -391,7 +416,7 @@ export default function Home() {
                   </Link>
                 </Col>
                 <Col xs={6}>
-                  <Link className="feature-item" href="#">
+                  <Link className="feature-item" href="images/portfolio-thumb-sm-04.jpg">
                     <figure>
                       <img src="images/portfolio-thumb-sm-04.jpg" alt="Image" />
                     </figure>
@@ -415,6 +440,7 @@ export default function Home() {
               </Link>
             </Col>
           </Row>
+          </LightGallery>
         </Container>
       </section>
 
