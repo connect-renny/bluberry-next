@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import IncludeContact from "./components/IncludeContact";
 
@@ -21,7 +21,7 @@ export default function About() {
         </Container>
       </section>
 
-      <section className="pt-4 pt-lg-5 pt-xl-6 pb-4">
+      <section className="pt-4 pb-4">
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
