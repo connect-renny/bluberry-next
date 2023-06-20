@@ -1,45 +1,45 @@
 @font-face {
-  font-family: 'Plus Jakarta Sans';
-  src: url('../../../public/fonts/PlusJakartaSans-Bold.woff2') format('woff2'),
-    url('../../../public/fonts/PlusJakartaSans-Bold.woff') format('woff');
+  font-family: "Plus Jakarta Sans";
+  src: url("../../../public/fonts/PlusJakartaSans-Bold.woff2") format("woff2"),
+    url("../../../public/fonts/PlusJakartaSans-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Plus Jakarta Sans';
-  src: url('../../../public/fonts/PlusJakartaSans-Medium.woff2') format('woff2'),
-    url('../../../public/fonts/PlusJakartaSans-Medium.woff') format('woff');
+  font-family: "Plus Jakarta Sans";
+  src: url("../../../public/fonts/PlusJakartaSans-Medium.woff2") format("woff2"),
+    url("../../../public/fonts/PlusJakartaSans-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Plus Jakarta Sans';
-  src: url('../../../public/fonts/PlusJakartaSans-SemiBold.woff2')
-      format('woff2'),
-    url('../../../public/fonts/PlusJakartaSans-SemiBold.woff') format('woff');
+  font-family: "Plus Jakarta Sans";
+  src: url("../../../public/fonts/PlusJakartaSans-SemiBold.woff2")
+      format("woff2"),
+    url("../../../public/fonts/PlusJakartaSans-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Plus Jakarta Sans';
-  src: url('../../../public/fonts/PlusJakartaSans-Regular.woff2')
-      format('woff2'),
-    url('../../../public/fonts/PlusJakartaSans-Regular.woff') format('woff');
+  font-family: "Plus Jakarta Sans";
+  src: url("../../../public/fonts/PlusJakartaSans-Regular.woff2")
+      format("woff2"),
+    url("../../../public/fonts/PlusJakartaSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Plus Jakarta Sans';
-  src: url('../../../public/fonts/PlusJakartaSans-Light.woff2') format('woff2'),
-    url('../../../public/fonts/PlusJakartaSans-Light.woff') format('woff');
+  font-family: "Plus Jakarta Sans";
+  src: url("../../../public/fonts/PlusJakartaSans-Light.woff2") format("woff2"),
+    url("../../../public/fonts/PlusJakartaSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -71,8 +71,8 @@ button:focus {
   outline: none !important;
 }
 
-input[type='number']::-webkit-outer-spin-button,
-input[type='number']::-webkit-inner-spin-button {
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -986,7 +986,7 @@ input[type='number']::-webkit-inner-spin-button {
     padding: 0 1rem;
     z-index: 1;
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       right: 0;
       top: 0;
@@ -1197,7 +1197,7 @@ input[type='number']::-webkit-inner-spin-button {
   margin-bottom: 4rem;
   z-index: 10;
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     right: 0;
@@ -1362,7 +1362,7 @@ input[type='number']::-webkit-inner-spin-button {
       transform: rotate(45deg);
       @include transEase;
     }
-    &[aria-expanded='true'] {
+    &[aria-expanded="true"] {
       .acc-nav-arrow {
         transform: rotate(0);
       }
@@ -1496,7 +1496,7 @@ input[type='number']::-webkit-inner-spin-button {
   box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 1),
     inset 10px 10px 10px rgba(0, 0, 0, 0.1);
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1670,7 +1670,7 @@ input[type='number']::-webkit-inner-spin-button {
       padding: 0.5rem 1.5rem;
       z-index: 10;
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         top: 50%;
@@ -1681,7 +1681,7 @@ input[type='number']::-webkit-inner-spin-button {
         z-index: -1;
       }
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         right: 0;
         top: 0;
@@ -1979,7 +1979,7 @@ input[type='number']::-webkit-inner-spin-button {
       padding: 1rem 1rem 1rem 1.5rem;
       z-index: 10;
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         top: 50%;
@@ -1991,7 +1991,7 @@ input[type='number']::-webkit-inner-spin-button {
         z-index: -1;
       }
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         right: 0;
         top: 0;
@@ -2282,10 +2282,10 @@ input[type='number']::-webkit-inner-spin-button {
       color: var(--white);
       font-size: var(--fs-12);
       margin-right: 2rem;
-      background-color: var(--color-100);
+      background-color: var(--color-200);
       border-radius: 50%;
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         left: 50%;
         top: 100%;
