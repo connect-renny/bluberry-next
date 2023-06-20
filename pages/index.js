@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import BannerCarousel from "./components/BannerCarousel";
@@ -12,7 +13,6 @@ import { FiArrowRight } from "react-icons/fi";
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
 
-<<<<<<< HEAD
 import ScrollTrigger from "react-scroll-trigger";
 import CountUp from "react-countup";
 
@@ -25,9 +25,8 @@ import 'lightgallery/scss/lg-thumbnail.scss';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 
-=======
->>>>>>> 27ccf5b6a2629660c797f17e91e8f468b6ae67ac
 export default function Home() {
+  const [counterOn, setCounterOn] = useState(false);
   return (
     <>
       <BannerCarousel />
@@ -116,7 +115,6 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-<<<<<<< HEAD
       <section className="facts-sec py-4 py-lg-5 py-xl-7">
         <Container fluid="xxl">
           <ScrollTrigger
@@ -211,83 +209,6 @@ export default function Home() {
               </Col>
             </Row>
           </ScrollTrigger>
-=======
-
-      <section className="facts-sec py-4 py-lg-5 py-xl-7">
-        <Container fluid="xxl">
-          <Row>
-            <Col xs="12">
-              <div
-                className="section-hd facts-sec-hd"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
-                <h6>Key facts</h6>
-                <h3>Reasons why we are the best</h3>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs="12">
-              <div
-                className="facts-cover"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
-                <div className="facts-item">
-                  <div className="facts-icon">
-                    <i>
-                      <img src="images/facts-icon-01.png" alt="Icon" />
-                      <img
-                        src="images/facts-icon-01.png"
-                        className="hover"
-                        alt="Icon"
-                      />
-                    </i>
-                  </div>
-                  <div className="facts-it-body">
-                    <h4>500+</h4>
-                    <p>projects</p>
-                  </div>
-                </div>
-                <div className="facts-item">
-                  <div className="facts-icon">
-                    <i>
-                      <img src="images/facts-icon-02.png" alt="Icon" />
-                      <img
-                        src="images/facts-icon-02.png"
-                        className="hover"
-                        alt="Icon"
-                      />
-                    </i>
-                  </div>
-                  <div className="facts-it-body">
-                    <h4>200+</h4>
-                    <p>happy clients</p>
-                  </div>
-                </div>
-                <div className="facts-item">
-                  <div className="facts-icon">
-                    <i>
-                      <img src="images/facts-icon-03.png" alt="Icon" />
-                      <img
-                        src="images/facts-icon-03.png"
-                        className="hover"
-                        alt="Icon"
-                      />
-                    </i>
-                  </div>
-                  <div className="facts-it-body">
-                    <h4>400+</h4>
-                    <p>active clients</p>
-                  </div>
-                </div>
-              </div>
-            </Col>
-          </Row>
->>>>>>> 27ccf5b6a2629660c797f17e91e8f468b6ae67ac
         </Container>
       </section>
       <section
