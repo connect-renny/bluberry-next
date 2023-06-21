@@ -1,12 +1,12 @@
-import React from 'react';
-import Link from 'next/link';
-import { Container, Row, Col } from 'react-bootstrap';
-import { FiArrowRight } from 'react-icons/fi';
-import Slider from 'react-slick';
+import React from "react";
+import Link from "next/link";
+import { Container, Row, Col } from "react-bootstrap";
+import { FiArrowRight } from "react-icons/fi";
+import Slider from "react-slick";
 
 // slick carousel import css files
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // Industries carousel
 const settings = {
@@ -104,7 +104,7 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="images/industries-item-01.jpg" alt="Image" />
+                      <img src="/images/industries-item-01.jpg" alt="Image" />
                       <div className="counter">01</div>
                     </figure>
                     <div className="ind-body">
@@ -113,8 +113,8 @@ export default function IndustriesSlider() {
                       </div>
                       <div className="ind-content">
                         <p>
-                          For businesses in the health and wellness sector,
-                          building trust and credibility is vital.
+                          In the fast-paced world of online shopping, we
+                          understand the importance...
                         </p>
                       </div>
                     </div>
@@ -123,7 +123,7 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="images/industries-item-02.jpg" alt="Image" />
+                      <img src="/images/industries-item-02.jpg" alt="Image" />
                       <div className="counter">02</div>
                     </figure>
                     <div className="ind-body">
@@ -132,8 +132,8 @@ export default function IndustriesSlider() {
                       </div>
                       <div className="ind-content">
                         <p>
-                          For businesses in the health and wellness sector,
-                          building trust and credibility is vital.
+                          The tech industry is constantly evolving, and
+                          we&#39;re here to help you stay...
                         </p>
                       </div>
                     </div>
@@ -142,7 +142,7 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="images/industries-item-03.jpg" alt="Image" />
+                      <img src="/images/industries-item-03.jpg" alt="Image" />
                       <div className="counter">03</div>
                     </figure>
                     <div className="ind-body">
@@ -152,7 +152,7 @@ export default function IndustriesSlider() {
                       <div className="ind-content">
                         <p>
                           For businesses in the health and wellness sector,
-                          building trust and credibility is vital.
+                          building trust and credibility...
                         </p>
                       </div>
                     </div>
@@ -161,7 +161,7 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="images/industries-item-04.jpg" alt="Image" />
+                      <img src="/images/industries-item-04.jpg" alt="Image" />
                       <div className="counter">04</div>
                     </figure>
                     <div className="ind-body">
@@ -170,8 +170,8 @@ export default function IndustriesSlider() {
                       </div>
                       <div className="ind-content">
                         <p>
-                          For businesses in the health and wellness sector,
-                          building trust and credibility is vital.
+                          Building trust is crucial in the financial services
+                          industry. We assist banks, insurance...
                         </p>
                       </div>
                     </div>
@@ -180,7 +180,7 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="images/industries-item-01.jpg" alt="Image" />
+                      <img src="/images/industries-item-01.jpg" alt="Image" />
                       <div className="counter">05</div>
                     </figure>
                     <div className="ind-body">
@@ -190,8 +190,7 @@ export default function IndustriesSlider() {
                       <div className="ind-content">
                         <p>
                           We understand that in the competitive hospitality and
-                          tourism industry, captivating your audience is
-                          essential.
+                          tourism industry, captivating...
                         </p>
                       </div>
                     </div>
@@ -200,7 +199,7 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="images/industries-item-02.jpg" alt="Image" />
+                      <img src="/images/industries-item-02.jpg" alt="Image" />
                       <div className="counter">06</div>
                     </figure>
                     <div className="ind-body">
@@ -210,7 +209,7 @@ export default function IndustriesSlider() {
                       <div className="ind-content">
                         <p>
                           In the digital age, education has transcended
-                          traditional boundaries. We work with educational
+                          traditional boundaries. We work...
                         </p>
                       </div>
                     </div>
@@ -219,7 +218,7 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="images/industries-item-03.jpg" alt="Image" />
+                      <img src="/images/industries-item-03.jpg" alt="Image" />
                       <div className="counter">07</div>
                     </figure>
                     <div className="ind-body">
@@ -229,7 +228,7 @@ export default function IndustriesSlider() {
                       <div className="ind-content">
                         <p>
                           The real estate industry demands a powerful online
-                          presence to showcase properties and attract
+                          presence to showcase properties...
                         </p>
                       </div>
                     </div>
@@ -238,7 +237,7 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="images/industries-item-04.jpg" alt="Image" />
+                      <img src="/images/industries-item-04.jpg" alt="Image" />
                       <div className="counter">08</div>
                     </figure>
                     <div className="ind-body">
@@ -248,8 +247,7 @@ export default function IndustriesSlider() {
                       <div className="ind-content">
                         <p>
                           We are dedicated to supporting non-profit
-                          organizations in their mission to make a positive
-                          impact.
+                          organizations in their mission...
                         </p>
                       </div>
                     </div>
@@ -258,7 +256,7 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="images/industries-item-01.jpg" alt="Image" />
+                      <img src="/images/industries-item-01.jpg" alt="Image" />
                       <div className="counter">09</div>
                     </figure>
                     <div className="ind-body">
@@ -268,7 +266,7 @@ export default function IndustriesSlider() {
                       <div className="ind-content">
                         <p>
                           We are also ready to collaborate with government
-                          agencies, municipalities, and public
+                          agencies, municipalities...
                         </p>
                       </div>
                     </div>

@@ -1,8 +1,8 @@
-import Slider from 'react-slick';
+import Slider from "react-slick";
 
 // slick carousel import css files
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // Industries carousel
 const settings = {
@@ -43,78 +43,130 @@ export default function ClientSlider() {
     <Slider className="slider " {...settings}>
       <div>
         <div className="client-item">
-          <img src="images/customer-icon-01.png" alt="Image" />
+          <img src="/images/customer-icon-01.png" alt="Image" />
         </div>
         <div className="client-item">
-          <img src="images/customer-icon-02.png" alt="Image" />
-        </div>
-      </div>
-      <div>
-        <div>
-          <div className="client-item">
-            <img src="images/customer-icon-03.png" alt="Image" />
-          </div>
-          <div className="client-item">
-            <img src="images/customer-icon-04.png" alt="Image" />
-          </div>
-        </div>
-      </div>
-      <div>
-        <div>
-          <di className="client-item">
-            <img src="images/customer-icon-05.png" alt="Image" />
-          </di>
-          <div className="client-item">
-            <img src="images/customer-icon-06.png" alt="Image" />
-          </div>
-        </div>
-      </div>
-      <div>
-        <div>
-          <div className="client-item">
-            <img src="images/customer-icon-07.png" alt="Image" />
-          </div>
-          <div className="client-item">
-            <img src="images/customer-icon-08.png" alt="Image" />
-          </div>
+          <img src="/images/customer-icon-02.png" alt="Image" />
         </div>
       </div>
       <div>
         <div className="client-item">
-          <img src="images/customer-icon-01.png" alt="Image" />
+          <img src="/images/customer-icon-03.png" alt="Image" />
         </div>
         <div className="client-item">
-          <img src="images/customer-icon-02.png" alt="Image" />
+          <img src="/images/customer-icon-04.png" alt="Image" />
         </div>
       </div>
       <div>
-        <div>
-          <div className="client-item">
-            <img src="images/customer-icon-03.png" alt="Image" />
-          </div>
-          <div className="client-item">
-            <img src="images/customer-icon-04.png" alt="Image" />
-          </div>
+        <di className="client-item">
+          <img src="/images/customer-icon-05.png" alt="Image" />
+        </di>
+        <div className="client-item">
+          <img src="/images/customer-icon-06.png" alt="Image" />
         </div>
       </div>
       <div>
-        <div>
-          <di className="client-item">
-            <img src="images/customer-icon-05.png" alt="Image" />
-          </di>
-          <div className="client-item">
-            <img src="images/customer-icon-06.png" alt="Image" />
-          </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-07.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-08.png" alt="Image" />
         </div>
       </div>
       <div>
-        <div>
-          <div className="client-item">
-            <img src="images/customer-icon-07.png" alt="Image" />
-          </div>
-          <div className="client-item">
-            <img src="images/customer-icon-08.png" alt="Image" />
-          </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-01.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-02.png" alt="Image" />
+        </div>
+      </div>
+      <div>
+        <div className="client-item">
+          <img src="/images/customer-icon-03.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-04.png" alt="Image" />
+        </div>
+      </div>
+      <div>
+        <di className="client-item">
+          <img src="/images/customer-icon-05.png" alt="Image" />
+        </di>
+        <div className="client-item">
+          <img src="/images/customer-icon-06.png" alt="Image" />
+        </div>
+      </div>
+      <div>
+        <div className="client-item">
+          <img src="/images/customer-icon-07.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-08.png" alt="Image" />
+        </div>
+      </div>
+      <div>
+        <div className="client-item">
+          <img src="/images/customer-icon-09.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-10.png" alt="Image" />
+        </div>
+      </div>
+      <div>
+        <div className="client-item">
+          <img src="/images/customer-icon-11.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-12.png" alt="Image" />
+        </div>
+      </div>
+      <div>
+        <div className="client-item">
+          <img src="/images/customer-icon-13.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-14.png" alt="Image" />
+        </div>
+      </div>
+      <div>
+        <div className="client-item">
+          <img src="/images/customer-icon-15.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-16.png" alt="Image" />
+        </div>
+      </div>
+      <div>
+        <div className="client-item">
+          <img src="/images/customer-icon-17.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-18.png" alt="Image" />
+        </div>
+      </div>
+      <div>
+        <div className="client-item">
+          <img src="/images/customer-icon-19.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-20.png" alt="Image" />
+        </div>
+      </div>
+      <div>
+        <div className="client-item">
+          <img src="/images/customer-icon-21.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-22.png" alt="Image" />
+        </div>
+      </div>
+      <div>
+        <div className="client-item">
+          <img src="/images/customer-icon-23.png" alt="Image" />
+        </div>
+        <div className="client-item">
+          <img src="/images/customer-icon-24.png" alt="Image" />
         </div>
       </div>
     </Slider>

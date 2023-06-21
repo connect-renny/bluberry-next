@@ -23,20 +23,7 @@ export default function Contact() {
 
   return (
     <>
-      <section className="ins-slider-sec">
-        <Container fluid="xxl">
-          <Row>
-            <Col xs={12}>
-              <div className="ins-slider-hd">
-                <h6>Get in Touch</h6>
-                <h1>Contact Us</h1>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
-      <section className="ins-slider-sec">
+      <section className="ins-slider-img-sec">
         <Container fluid="xxl">
           <div className="ins-slider">
             <Image
@@ -47,6 +34,19 @@ export default function Contact() {
               height={350}
             />
           </div>
+        </Container>
+      </section>
+
+      <section className="ins-slider-hd-sec">
+        <Container fluid="xxl">
+          <Row>
+            <Col xs={12}>
+              <div className="ins-slider-hd">
+                <h6>Get in Touch</h6>
+                <h1>Contact Us</h1>
+              </div>
+            </Col>
+          </Row>
         </Container>
       </section>
 
@@ -107,25 +107,34 @@ export default function Contact() {
                   <div className="con-add-body d-flex flex-column">
                     <div className="social-m-logos">
                       <div className="m-logo">
-                        <Link href="">
+                        <Link
+                          href="https://www.facebook.com/people/Thebblabs/100092399283850/"
+                          target="_blank"
+                        >
                           <img
-                            src="images/social-logo-01.png"
+                            src="/images/social-logo-01.png"
                             alt="Social Media"
                           />
                         </Link>
                       </div>
                       <div className="m-logo">
-                        <Link href="">
+                        <Link
+                          href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fm%2Fcompany%2Fthebblabs"
+                          target="_blank"
+                        >
                           <img
-                            src="images/social-logo-02.png"
+                            src="/images/social-logo-02.png"
                             alt="Social Media"
                           />
                         </Link>
                       </div>
                       <div className="m-logo">
-                        <Link href="">
+                        <Link
+                          href="https://www.instagram.com/thebblabs/?igshid=ZDdkNTZiNTM%3D"
+                          target="_blank"
+                        >
                           <img
-                            src="images/social-logo-03.png"
+                            src="/images/social-logo-03.png"
                             alt="Social Media"
                           />
                         </Link>
@@ -249,7 +258,7 @@ export default function Contact() {
                 data-aos-duration="1000"
               >
                 <figure>
-                  <img src="images/virtual-img.png" alt="Image" />
+                  <img src="/images/virtual-img.png" alt="Image" />
                 </figure>
                 <div className="virtual-body">
                   <h4>

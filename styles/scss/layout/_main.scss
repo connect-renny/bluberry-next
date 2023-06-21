@@ -233,8 +233,8 @@ input[type="number"]::-webkit-inner-spin-button {
   margin: 0 auto;
   .slider-img {
     position: relative;
-    flex: 0 1 52%;
-    max-width: 52%;
+    flex: 0 1 48%;
+    max-width: 48%;
     max-width: 750px;
     .carousel {
       height: 100%;
@@ -276,8 +276,8 @@ input[type="number"]::-webkit-inner-spin-button {
     }
   }
   .slider-con {
-    flex: 0 1 48%;
-    max-width: 48%;
+    flex: 0 1 52%;
+    max-width: 52%;
   }
 }
 
@@ -363,7 +363,7 @@ input[type="number"]::-webkit-inner-spin-button {
   }
   h3 {
     color: var(--color-100);
-    font-size: var(--fs-22);
+    font-size: var(--fs-20);
     font-weight: var(--font-weight-bold);
     line-height: 100%;
     margin: 0;
@@ -1112,7 +1112,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .ins-slider-hd-sec {
   position: relative;
-  padding: 6rem 0 6rem;
+  padding: 2rem 0 2rem;
 }
 
 .ins-slider-hd {
@@ -1137,6 +1137,11 @@ input[type="number"]::-webkit-inner-spin-button {
     -webkit-text-fill-color: transparent;
     margin: 0;
   }
+}
+
+.ins-slider-img-sec {
+  position: relative;
+  padding: 2rem 0 2rem;
 }
 
 .ins-slider {
@@ -1285,7 +1290,7 @@ input[type="number"]::-webkit-inner-spin-button {
   text-align: center;
   h4 {
     color: var(--bk-grade-550);
-    font-size: var(--fs-14);
+    font-size: var(--fs-12);
     font-weight: var(--font-weight-medium);
     max-width: 900px;
     margin: 0 auto 1rem;
@@ -1297,7 +1302,8 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .mindset-img {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
   min-height: 435px;
   padding: 2rem 2rem;
@@ -1310,6 +1316,9 @@ input[type="number"]::-webkit-inner-spin-button {
     font-size: var(--fs-16);
     font-weight: var(--font-weight-semibold);
     margin: 0;
+  }
+  p {
+    color: var(--white);
   }
 }
 
@@ -1855,27 +1864,17 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .branding-intro {
-  h3 {
-    color: var(--color-100);
-    font-size: var(--fs-20);
-    font-weight: var(--font-weight-bold);
-    line-height: 100%;
-    margin: 0 0 2rem 0;
-  }
-}
-
-.branding-intro {
   text-align: center;
   h3 {
     color: var(--color-100);
-    font-size: var(--fs-20);
+    font-size: var(--fs-18);
     font-weight: var(--font-weight-bold);
     line-height: 100%;
     margin: 0 0 2rem 0;
   }
   h4 {
     color: var(--color-100);
-    font-size: var(--fs-16);
+    font-size: var(--fs-14);
     font-weight: var(--font-weight-bold);
     line-height: 100%;
     margin: 0 0 2rem 0;
@@ -1889,7 +1888,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .branding-content {
   h4 {
     color: var(--bk-grade-500);
-    font-size: var(--fs-14);
+    font-size: var(--fs-12);
     font-weight: var(--font-weight-medium);
     margin: 0 0 2rem 0;
   }
@@ -1968,7 +1967,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .exp-tb-nav {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 450px;
   .nav-item {
     .nav-link {
       display: flex;
@@ -2320,5 +2319,73 @@ input[type="number"]::-webkit-inner-spin-button {
   position: relative;
   img {
     width: 100%;
+  }
+}
+
+.client-img {
+  max-width: 900px;
+  img {
+    width: 100%;
+  }
+}
+
+.website-column {
+  padding-right: calc((100vw - 1320px) / 2);
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  h4 {
+    color: var(--bk-grade-550);
+    font-size: var(--fs-12);
+    font-weight: var(--font-weight-medium);
+    margin: 0 0 1.5rem 0;
+  }
+  p {
+    color: var(--bk-grade-550);
+    margin: 0;
+  }
+}
+
+.web-des-item {
+  figure {
+    position: relative;
+    margin: 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+  .web-des-body {
+    padding: 1.5rem 1.5rem;
+    p {
+      color: var(--bk-grade-550);
+      margin: 0 0 1rem 0;
+    }
+  }
+}
+
+.web-highlights-sec {
+  position: relative;
+  background-image: url(../../../public/images/web-des-hi-bg.jpg);
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.web-highlights {
+  text-align: center;
+  .web-high-icon {
+    position: relative;
+    max-width: 100px;
+    margin: 0 auto 2rem;
+    img {
+      width: 100%;
+    }
+  }
+  .web-high-body {
+    p {
+      color: var(--white);
+      font-size: var(--fs-12);
+      margin: 0;
+    }
   }
 }

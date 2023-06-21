@@ -13,7 +13,7 @@ export default function Contact() {
 
   return (
     <>
-      <section className="ins-slider-sec">
+      <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>

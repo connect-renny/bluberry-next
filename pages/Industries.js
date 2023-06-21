@@ -12,7 +12,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function About() {
+export default function Industries() {
   const [indSliderNav, setIndSliderNav] = useState(0);
   const [indSliderMain, setIndSliderMain] = useState(0);
 
@@ -50,6 +50,20 @@ export default function About() {
 
   return (
     <>
+      <section className="ins-slider-img-sec">
+        <Container fluid="xxl">
+          <div className="ins-slider">
+            <Image
+              src="/images/ins-slider-industries.jpg"
+              alt="Slider"
+              layout="intrinsic"
+              width={1320}
+              height={350}
+            />
+          </div>
+        </Container>
+      </section>
+
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>
@@ -72,20 +86,6 @@ export default function About() {
               </div>
             </Col>
           </Row>
-        </Container>
-      </section>
-
-      <section className="ins-slider-img-sec">
-        <Container fluid="xxl">
-          <div className="ins-slider">
-            <Image
-              src="/images/ins-slider-industries.jpg"
-              alt="Slider"
-              layout="intrinsic"
-              width={1320}
-              height={350}
-            />
-          </div>
         </Container>
       </section>
 
@@ -197,14 +197,11 @@ export default function About() {
                         <p>
                           In the fast-paced world of online shopping, we
                           understand the importance of creating easy, intuitive
-                          e-commerce experiences.
-                        </p>
-                        <p className="mb-0">
-                          Whether you&lsquo;re a small boutique or a large-scale
-                          retailer, we help you optimize your online store,
-                          drive traffic, and enhance the customer journey,
-                          ultimately boosting sales and fostering customer
-                          loyalty.
+                          e-commerce experiences. Whether you&#39;re a small
+                          boutique or a large-scale retailer, we help you
+                          optimize your online store, drive traffic, and enhance
+                          the customer journey, ultimately boosting sales and
+                          fostering customer loyalty.
                         </p>
                       </div>
                     </Col>
@@ -235,16 +232,13 @@ export default function About() {
                           </h4>
                         </div>
                         <p>
-                          In the fast-paced world of online shopping, we
-                          understand the importance of creating easy, intuitive
-                          e-commerce experiences.
-                        </p>
-                        <p className="mb-0">
-                          Whether you&lsquo;re a small boutique or a large-scale
-                          retailer, we help you optimize your online store,
-                          drive traffic, and enhance the customer journey,
-                          ultimately boosting sales and fostering customer
-                          loyalty.
+                          The tech industry is constantly evolving, and
+                          we&#39;re here to help you stay at the forefront of
+                          digital innovation. From software development
+                          companies to tech startups, we provide solutions that
+                          highlight your product&#39;s unique value proposition,
+                          attract the right audience, and position you as a
+                          leader in the industry.
                         </p>
                       </div>
                     </Col>
@@ -275,16 +269,13 @@ export default function About() {
                           </h4>
                         </div>
                         <p>
-                          In the fast-paced world of online shopping, we
-                          understand the importance of creating easy, intuitive
-                          e-commerce experiences.
-                        </p>
-                        <p className="mb-0">
-                          Whether you&lsquo;re a small boutique or a large-scale
-                          retailer, we help you optimize your online store,
-                          drive traffic, and enhance the customer journey,
-                          ultimately boosting sales and fostering customer
-                          loyalty.
+                          We understand that in the competitive hospitality and
+                          tourism industry, captivating your audience is
+                          essential. Our digital strategies and branding
+                          services help hotels, resorts, travel agencies, and
+                          other hospitality businesses create an exceptional
+                          online presence, reach a global audience, and drive
+                          bookings.
                         </p>
                       </div>
                     </Col>
@@ -315,16 +306,12 @@ export default function About() {
                           </h4>
                         </div>
                         <p>
-                          In the fast-paced world of online shopping, we
-                          understand the importance of creating easy, intuitive
-                          e-commerce experiences.
-                        </p>
-                        <p className="mb-0">
-                          Whether you&lsquo;re a small boutique or a large-scale
-                          retailer, we help you optimize your online store,
-                          drive traffic, and enhance the customer journey,
-                          ultimately boosting sales and fostering customer
-                          loyalty.
+                          For businesses in the health and wellness sector,
+                          building trust and credibility is vital. We help
+                          medical professionals, wellness centers, fitness
+                          studios, and other health-related businesses establish
+                          a strong online presence, communicate their expertise,
+                          and connect with individuals seeking their services.
                         </p>
                       </div>
                     </Col>
@@ -355,16 +342,12 @@ export default function About() {
                           </h4>
                         </div>
                         <p>
-                          In the fast-paced world of online shopping, we
-                          understand the importance of creating easy, intuitive
-                          e-commerce experiences.
-                        </p>
-                        <p className="mb-0">
-                          Whether you&lsquo;re a small boutique or a large-scale
-                          retailer, we help you optimize your online store,
-                          drive traffic, and enhance the customer journey,
-                          ultimately boosting sales and fostering customer
-                          loyalty.
+                          In the digital age, education has transcended
+                          traditional boundaries. We work with educational
+                          institutions, e-learning platforms, and online course
+                          providers to create engaging digital experiences,
+                          drive enrollments, and empower learners with
+                          accessible and interactive content.
                         </p>
                       </div>
                     </Col>
@@ -392,16 +375,12 @@ export default function About() {
                           <h4>Real Estate</h4>
                         </div>
                         <p>
-                          In the fast-paced world of online shopping, we
-                          understand the importance of creating easy, intuitive
-                          e-commerce experiences.
-                        </p>
-                        <p className="mb-0">
-                          Whether you&lsquo;re a small boutique or a large-scale
-                          retailer, we help you optimize your online store,
-                          drive traffic, and enhance the customer journey,
-                          ultimately boosting sales and fostering customer
-                          loyalty.
+                          The real estate industry demands a powerful online
+                          presence to showcase properties and attract potential
+                          buyers or renters. Our expertise in website design,
+                          virtual tours, and digital marketing strategies helps
+                          real estate agents and property developers effectively
+                          engage with their target audience and generate leads.
                         </p>
                       </div>
                     </Col>
@@ -432,16 +411,12 @@ export default function About() {
                           </h4>
                         </div>
                         <p>
-                          In the fast-paced world of online shopping, we
-                          understand the importance of creating easy, intuitive
-                          e-commerce experiences.
-                        </p>
-                        <p className="mb-0">
-                          Whether you&lsquo;re a small boutique or a large-scale
-                          retailer, we help you optimize your online store,
-                          drive traffic, and enhance the customer journey,
-                          ultimately boosting sales and fostering customer
-                          loyalty.
+                          Building trust is crucial in the financial services
+                          industry. We assist banks, insurance companies,
+                          investment firms, and financial advisors in
+                          establishing a credible and user- friendly digital
+                          presence, providing educational resources, and guiding
+                          users towards their financial goals.
                         </p>
                       </div>
                     </Col>
@@ -472,16 +447,12 @@ export default function About() {
                           </h4>
                         </div>
                         <p>
-                          In the fast-paced world of online shopping, we
-                          understand the importance of creating easy, intuitive
-                          e-commerce experiences.
-                        </p>
-                        <p className="mb-0">
-                          Whether you&lsquo;re a small boutique or a large-scale
-                          retailer, we help you optimize your online store,
-                          drive traffic, and enhance the customer journey,
-                          ultimately boosting sales and fostering customer
-                          loyalty.
+                          We are dedicated to supporting non-profit
+                          organizations in their mission to make a positive
+                          impact. Our digital strategies and fundraising
+                          campaigns help non-profits raise awareness, engage
+                          supporters, and mobilize resources to drive meaningful
+                          change.
                         </p>
                       </div>
                     </Col>
@@ -512,16 +483,12 @@ export default function About() {
                           </h4>
                         </div>
                         <p>
-                          In the fast-paced world of online shopping, we
-                          understand the importance of creating easy, intuitive
-                          e-commerce experiences.
-                        </p>
-                        <p className="mb-0">
-                          Whether you&lsquo;re a small boutique or a large-scale
-                          retailer, we help you optimize your online store,
-                          drive traffic, and enhance the customer journey,
-                          ultimately boosting sales and fostering customer
-                          loyalty.
+                          We are also ready to collaborate with government
+                          agencies, municipalities, and public institutions to
+                          create impactful digital strategies. These are aimed
+                          to enhance public participation, empower citizens, and
+                          foster transparency and a stronger connection with the
+                          community.
                         </p>
                       </div>
                     </Col>

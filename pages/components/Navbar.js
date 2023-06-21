@@ -1,25 +1,25 @@
-import { useState, useEffect } from 'react';
-import { useRouter } from 'next/router';
-import { Navbar, NavDropdown, Container } from 'react-bootstrap';
-import Link from 'next/link';
-import { GoMail } from 'react-icons/go';
-import { FiPhoneCall } from 'react-icons/fi';
-import { SlHome } from 'react-icons/sl';
-import { FiArrowRight } from 'react-icons/fi';
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
+import { Navbar, NavDropdown, Container } from "react-bootstrap";
+import Link from "next/link";
+import { GoMail } from "react-icons/go";
+import { FiPhoneCall } from "react-icons/fi";
+import { SlHome } from "react-icons/sl";
+import { FiArrowRight } from "react-icons/fi";
 
 export default function NavbarMain() {
-  const [stickyClass, setStickyClass] = useState('');
+  const [stickyClass, setStickyClass] = useState("");
 
   useEffect(() => {
-    window.addEventListener('scroll', stickNavbar);
-    return () => window.removeEventListener('scroll', stickNavbar);
+    window.addEventListener("scroll", stickNavbar);
+    return () => window.removeEventListener("scroll", stickNavbar);
   }, []);
 
   const stickNavbar = () => {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
       // window height changed for the demo
-      windowHeight > 100 ? setStickyClass('navbar-fixed') : setStickyClass('');
+      windowHeight > 100 ? setStickyClass("navbar-fixed") : setStickyClass("");
     }
   };
 
@@ -41,7 +41,7 @@ export default function NavbarMain() {
       <Container fluid="xxl">
         <div className="logo">
           <Link href="/">
-            <img src="images/bluberry-logo.png" alt="BluBerry Logo" />
+            <img src="/images/bluberry-logo.png" alt="BluBerry Logo" />
           </Link>
         </div>
         <Navbar.Toggle
@@ -71,7 +71,7 @@ export default function NavbarMain() {
                 <span className="nav-icon">
                   <FiPhoneCall />
                 </span>
-                +968 9126 9531
+                +1(347)882−8281
               </Link>
             </div>
             <div className="nav-item">
@@ -88,9 +88,9 @@ export default function NavbarMain() {
               <Link
                 href="/"
                 className={
-                  router.pathname == '/'
-                    ? 'active nav-link nav-home'
-                    : 'nav-link nav-home'
+                  router.pathname == "/"
+                    ? "active nav-link nav-home"
+                    : "nav-link nav-home"
                 }
                 onClick={handleLinkClick}
               >
@@ -129,7 +129,10 @@ export default function NavbarMain() {
                       </Link>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/">
+                      <Link
+                        className="mg-nav"
+                        href="/Website-Design-Development"
+                      >
                         Website Design & Development
                       </Link>
                     </li>
@@ -172,9 +175,9 @@ export default function NavbarMain() {
               <Link
                 href="/Industries"
                 className={
-                  router.pathname == '/Industries'
-                    ? 'active nav-link'
-                    : 'nav-link'
+                  router.pathname == "/Industries"
+                    ? "active nav-link"
+                    : "nav-link"
                 }
                 onClick={handleLinkClick}
               >
@@ -185,9 +188,9 @@ export default function NavbarMain() {
               <Link
                 href="/Case-Studies"
                 className={
-                  router.pathname == '/Case-Studies'
-                    ? 'active nav-link'
-                    : 'nav-link'
+                  router.pathname == "/Case-Studies"
+                    ? "active nav-link"
+                    : "nav-link"
                 }
                 onClick={handleLinkClick}
               >
@@ -198,7 +201,7 @@ export default function NavbarMain() {
               <Link
                 href="/Blog"
                 className={
-                  router.pathname == '/Blog' ? 'active nav-link' : 'nav-link'
+                  router.pathname == "/Blog" ? "active nav-link" : "nav-link"
                 }
                 onClick={handleLinkClick}
               >
@@ -208,7 +211,7 @@ export default function NavbarMain() {
             <div className="nav-item">
               <Link
                 className={
-                  router.pathname == '/About' ? 'active nav-link' : 'nav-link'
+                  router.pathname == "/About" ? "active nav-link" : "nav-link"
                 }
                 href="/About"
                 onClick={handleLinkClick}
@@ -220,7 +223,7 @@ export default function NavbarMain() {
               <Link
                 href="/Contact"
                 className={
-                  router.pathname == '/Contact' ? 'active nav-link' : 'nav-link'
+                  router.pathname == "/Contact" ? "active nav-link" : "nav-link"
                 }
                 onClick={handleLinkClick}
               >

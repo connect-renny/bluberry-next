@@ -31,7 +31,7 @@ export default function Home() {
     <>
       <BannerCarousel />
       <section
-        className="who-we-sec pt-4 pt-lg-5 pt-xl-7 pb-4 pb-lg-4 pb-xl-5"
+        className="who-we-sec pt-4 pt-lg-5 pb-4 pb-lg-4 pb-xl-5"
         data-aos="fadeIn"
       >
         <Container fluid="xxl">
@@ -109,7 +109,7 @@ export default function Home() {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <img src="images/we-works-img.png" alt="Image" />
+                <img src="/images/we-works-img.png" alt="Image" />
               </div>
             </Col>
           </Row>
@@ -145,9 +145,9 @@ export default function Home() {
                   <div className="facts-item">
                     <div className="facts-icon">
                       <i>
-                        <img src="images/facts-icon-01.png" alt="Icon" />
+                        <img src="/images/facts-icon-01.png" alt="Icon" />
                         <img
-                          src="images/facts-icon-01.png"
+                          src="/images/facts-icon-01.png"
                           className="hover"
                           alt="Icon"
                         />
@@ -166,9 +166,9 @@ export default function Home() {
                   <div className="facts-item">
                     <div className="facts-icon">
                       <i>
-                        <img src="images/facts-icon-02.png" alt="Icon" />
+                        <img src="/images/facts-icon-02.png" alt="Icon" />
                         <img
-                          src="images/facts-icon-02.png"
+                          src="/images/facts-icon-02.png"
                           className="hover"
                           alt="Icon"
                         />
@@ -187,9 +187,9 @@ export default function Home() {
                   <div className="facts-item">
                     <div className="facts-icon">
                       <i>
-                        <img src="images/facts-icon-03.png" alt="Icon" />
+                        <img src="/images/facts-icon-03.png" alt="Icon" />
                         <img
-                          src="images/facts-icon-03.png"
+                          src="/images/facts-icon-03.png"
                           className="hover"
                           alt="Icon"
                         />
@@ -233,7 +233,7 @@ export default function Home() {
             <Col lg={4} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
-                  <img src="images/service-icon-01.png" alt="Icon" />
+                  <img src="/images/service-icon-01.png" alt="Icon" />
                 </div>
                 <div className="service-body">
                   <h4>Social Media</h4>
@@ -247,7 +247,7 @@ export default function Home() {
             <Col lg={4} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
-                  <img src="images/service-icon-02.png" alt="Icon" />
+                  <img src="/images/service-icon-02.png" alt="Icon" />
                 </div>
                 <div className="service-body">
                   <h4>Content</h4>
@@ -261,7 +261,7 @@ export default function Home() {
             <Col lg={4} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
-                  <img src="images/service-icon-03.png" alt="Icon" />
+                  <img src="/images/service-icon-03.png" alt="Icon" />
                 </div>
                 <div className="service-body">
                   <h4>SEO</h4>
@@ -276,7 +276,7 @@ export default function Home() {
             <Col lg={4} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
-                  <img src="images/service-icon-04.png" alt="Icon" />
+                  <img src="/images/service-icon-04.png" alt="Icon" />
                 </div>
                 <div className="service-body">
                   <h4>Branding</h4>
@@ -291,7 +291,7 @@ export default function Home() {
             <Col lg={4} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
-                  <img src="images/service-icon-05.png" alt="Icon" />
+                  <img src="/images/service-icon-05.png" alt="Icon" />
                 </div>
                 <div className="service-body">
                   <h4>Website Design</h4>
@@ -305,7 +305,7 @@ export default function Home() {
             <Col lg={4} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
-                  <img src="images/service-icon-06.png" alt="Icon" />
+                  <img src="/images/service-icon-06.png" alt="Icon" />
                 </div>
                 <div className="service-body">
                   <h4>App Development</h4>
@@ -368,10 +368,10 @@ export default function Home() {
               <Col xs={6} px="0">
                 <Link
                   className="feature-item"
-                  href="images/portfolio-thumb-lg-01.jpg"
+                  href="/images/portfolio-thumb-lg-01.jpg"
                 >
                   <figure>
-                    <img src="images/portfolio-thumb-lg-01.jpg" alt="Image" />
+                    <img src="/images/portfolio-thumb-lg-01.jpg" alt="Image" />
                   </figure>
                   <div className="fe-overlay"></div>
                   <div className="fe-arrow">
@@ -384,11 +384,11 @@ export default function Home() {
                   <Col xs={6}>
                     <Link
                       className="feature-item"
-                      href="images/portfolio-thumb-sm-01.jpg"
+                      href="/images/portfolio-thumb-sm-01.jpg"
                     >
                       <figure>
                         <img
-                          src="images/portfolio-thumb-sm-01.jpg"
+                          src="/images/portfolio-thumb-sm-01.jpg"
                           alt="Image"
                         />
                       </figure>
@@ -401,11 +401,11 @@ export default function Home() {
                   <Col xs={6}>
                     <Link
                       className="feature-item"
-                      href="images/portfolio-thumb-sm-02.jpg"
+                      href="/images/portfolio-thumb-sm-02.jpg"
                     >
                       <figure>
                         <img
-                          src="images/portfolio-thumb-sm-02.jpg"
+                          src="/images/portfolio-thumb-sm-02.jpg"
                           alt="Image"
                         />
                       </figure>
@@ -422,11 +422,11 @@ export default function Home() {
                   <Col xs={6}>
                     <Link
                       className="feature-item"
-                      href="images/portfolio-thumb-sm-03.jpg"
+                      href="/images/portfolio-thumb-sm-03.jpg"
                     >
                       <figure>
                         <img
-                          src="images/portfolio-thumb-sm-03.jpg"
+                          src="/images/portfolio-thumb-sm-03.jpg"
                           alt="Image"
                         />
                       </figure>
@@ -439,11 +439,11 @@ export default function Home() {
                   <Col xs={6}>
                     <Link
                       className="feature-item"
-                      href="images/portfolio-thumb-sm-04.jpg"
+                      href="/images/portfolio-thumb-sm-04.jpg"
                     >
                       <figure>
                         <img
-                          src="images/portfolio-thumb-sm-04.jpg"
+                          src="/images/portfolio-thumb-sm-04.jpg"
                           alt="Image"
                         />
                       </figure>
@@ -458,10 +458,10 @@ export default function Home() {
               <Col xs={6}>
                 <Link
                   className="feature-item"
-                  href="images/portfolio-thumb-lg-02.jpg"
+                  href="/images/portfolio-thumb-lg-02.jpg"
                 >
                   <figure>
-                    <img src="images/portfolio-thumb-lg-02.jpg" alt="Image" />
+                    <img src="/images/portfolio-thumb-lg-02.jpg" alt="Image" />
                   </figure>
                   <div className="fe-overlay"></div>
                   <div className="fe-arrow">
@@ -486,7 +486,7 @@ export default function Home() {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <img src="images/customer-img.png" alt="Image" />
+                <img src="/images/customer-img.png" alt="Image" />
               </div>
             </Col>
             <Col lg={6} xs={12}>

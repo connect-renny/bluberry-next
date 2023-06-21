@@ -1,13 +1,13 @@
-import { useState, useEffect } from 'react';
-import { Carousel } from 'react-bootstrap';
-import { FiArrowRight } from 'react-icons/fi';
-import Link from 'next/link';
+import { useState, useEffect } from "react";
+import { Carousel } from "react-bootstrap";
+import { FiArrowRight } from "react-icons/fi";
+import Link from "next/link";
 
-import Slider from 'react-slick';
+import Slider from "react-slick";
 
 // slick carousel import css files
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function BannerCarousel() {
   // Bootstra carousel hover pause
@@ -48,17 +48,17 @@ export default function BannerCarousel() {
                 indicators={false}
               >
                 <Carousel.Item>
-                  <img src="images/slider-01.jpg" alt="First Slide" />
+                  <img src="/images/slider-01.jpg" alt="First Slide" />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src="images/slider-02.jpg" alt="Second Slide" />
+                  <img src="/images/slider-02.jpg" alt="Second Slide" />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src="images/slider-03.jpg" alt="Third Slide" />
+                  <img src="/images/slider-03.jpg" alt="Third Slide" />
                 </Carousel.Item>
               </Carousel>
               <div className="slider-overlay">
-                <img src="images/slider-mask.png" alt="Slider Mask" />
+                <img src="/images/slider-mask.png" alt="Slider Mask" />
               </div>
             </div>
           </div>
@@ -70,17 +70,22 @@ export default function BannerCarousel() {
                 <Slider className="slider " {...settings}>
                   <div>
                     <div>
-                      <h1>Digital</h1>
+                      <h1>Custom</h1>
                     </div>
                   </div>
                   <div>
                     <div>
-                      <h1>Branding</h1>
+                      <h1>Design</h1>
                     </div>
                   </div>
                   <div>
                     <div>
-                      <h1>Marketing</h1>
+                      <h1>Strategy</h1>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <h1>Approach</h1>
                     </div>
                   </div>
                 </Slider>

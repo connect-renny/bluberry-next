@@ -8,6 +8,20 @@ import { FiArrowRight } from "react-icons/fi";
 export default function About() {
   return (
     <>
+      <section className="ins-slider-img-sec">
+        <Container fluid="xxl">
+          <div className="ins-slider">
+            <Image
+              src="/images/ins-slider-about.jpg"
+              alt="Slider"
+              layout="intrinsic"
+              width={1320}
+              height={350}
+            />
+          </div>
+        </Container>
+      </section>
+
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>
@@ -25,25 +39,11 @@ export default function About() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="section-hd text-center">
+              <div className="section-hd mb-0 text-center">
                 <h3>Where creativity meets strategy, magic happens. </h3>
               </div>
             </Col>
           </Row>
-        </Container>
-      </section>
-
-      <section className="ins-slider-img-sec">
-        <Container fluid="xxl">
-          <div className="ins-slider">
-            <Image
-              src="/images/ins-slider-about.jpg"
-              alt="Slider"
-              layout="intrinsic"
-              width={1320}
-              height={350}
-            />
-          </div>
         </Container>
       </section>
 
@@ -124,7 +124,7 @@ export default function About() {
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
-                      <img src="images/service-acc-icon-01.png" alt="Icon" />
+                      <img src="/images/service-acc-icon-01.png" alt="Icon" />
                     </span>
                     <span className="acc-nav-label">Social Media</span>
                     <span className="acc-nav-arrow">
@@ -145,7 +145,7 @@ export default function About() {
                 <Accordion.Item eventKey="1">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
-                      <img src="images/service-acc-icon-02.png" alt="Icon" />
+                      <img src="/images/service-acc-icon-02.png" alt="Icon" />
                     </span>
                     <span className="acc-nav-label">Branding</span>
                     <span className="acc-nav-arrow">
@@ -166,7 +166,7 @@ export default function About() {
                 <Accordion.Item eventKey="2">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
-                      <img src="images/service-acc-icon-03.png" alt="Icon" />
+                      <img src="/images/service-acc-icon-03.png" alt="Icon" />
                     </span>
                     <span className="acc-nav-label">Website Design</span>
                     <span className="acc-nav-arrow">
@@ -187,7 +187,7 @@ export default function About() {
                 <Accordion.Item eventKey="3">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
-                      <img src="images/service-acc-icon-04.png" alt="Icon" />
+                      <img src="/images/service-acc-icon-04.png" alt="Icon" />
                     </span>
                     <span className="acc-nav-label">Website Development</span>
                     <span className="acc-nav-arrow">
@@ -212,7 +212,7 @@ export default function About() {
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
-                      <img src="images/service-acc-icon-05.png" alt="Icon" />
+                      <img src="/images/service-acc-icon-05.png" alt="Icon" />
                     </span>
                     <span className="acc-nav-label">Content</span>
                     <span className="acc-nav-arrow">
@@ -233,7 +233,7 @@ export default function About() {
                 <Accordion.Item eventKey="1">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
-                      <img src="images/service-acc-icon-06.png" alt="Icon" />
+                      <img src="/images/service-acc-icon-06.png" alt="Icon" />
                     </span>
                     <span className="acc-nav-label">SEO</span>
                     <span className="acc-nav-arrow">
@@ -254,7 +254,7 @@ export default function About() {
                 <Accordion.Item eventKey="2">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
-                      <img src="images/service-acc-icon-07.png" alt="Icon" />
+                      <img src="/images/service-acc-icon-07.png" alt="Icon" />
                     </span>
                     <span className="acc-nav-label">App Development</span>
                     <span className="acc-nav-arrow">
@@ -275,7 +275,7 @@ export default function About() {
                 <Accordion.Item eventKey="3">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
-                      <img src="images/service-acc-icon-08.png" alt="Icon" />
+                      <img src="/images/service-acc-icon-08.png" alt="Icon" />
                     </span>
                     <span className="acc-nav-label">Online Advertising</span>
                     <span className="acc-nav-arrow">
@@ -303,7 +303,7 @@ export default function About() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-story">
+              <div className="brand-story text-center">
                 <div className="section-hd brand-hd">
                   <h3>
                     So, let&lsquo;s grab a virtual cup of coffee and dive into

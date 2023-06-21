@@ -8,22 +8,9 @@ import ContactConsultation from "./components/ContactConsultation";
 
 import Link from "next/link";
 
-export default function About() {
+export default function GraphicDesign() {
   return (
     <>
-      <section className="ins-slider-hd-sec">
-        <Container fluid="xxl">
-          <Row>
-            <Col xs={12}>
-              <div className="ins-slider-hd">
-                <h6>Services</h6>
-                <h1>Graphic Design</h1>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
       <section className="ins-slider-img-sec">
         <Container fluid="xxl">
           <div className="ins-slider">
@@ -35,6 +22,19 @@ export default function About() {
               height={350}
             />
           </div>
+        </Container>
+      </section>
+
+      <section className="ins-slider-hd-sec">
+        <Container fluid="xxl">
+          <Row>
+            <Col xs={12}>
+              <div className="ins-slider-hd">
+                <h6>Services</h6>
+                <h1>Graphic Design</h1>
+              </div>
+            </Col>
+          </Row>
         </Container>
       </section>
 

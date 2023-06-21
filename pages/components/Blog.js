@@ -1,13 +1,13 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import Link from 'next/link';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Link from "next/link";
 
-import { FiArrowRight } from 'react-icons/fi';
+import { FiArrowRight } from "react-icons/fi";
 
-import Slider from 'react-slick';
+import Slider from "react-slick";
 // slick carousel import css files
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // Industries carousel
 const settings = {
@@ -81,7 +81,7 @@ export default function Blog() {
                     <div className="blog-item">
                       <figure>
                         <Link href="#">
-                          <img src="images/blog-thumb-01.jpg" alt="Image" />
+                          <img src="/images/blog-thumb-01.jpg" alt="Image" />
                         </Link>
                       </figure>
                       <div className="blog-body">
@@ -100,7 +100,7 @@ export default function Blog() {
                     <div className="blog-item">
                       <figure>
                         <Link href="#">
-                          <img src="images/blog-thumb-02.jpg" alt="Image" />
+                          <img src="/images/blog-thumb-02.jpg" alt="Image" />
                         </Link>
                       </figure>
                       <div className="blog-body">
@@ -119,7 +119,7 @@ export default function Blog() {
                     <div className="blog-item">
                       <figure>
                         <Link href="#">
-                          <img src="images/blog-thumb-03.jpg" alt="Image" />
+                          <img src="/images/blog-thumb-03.jpg" alt="Image" />
                         </Link>
                       </figure>
                       <div className="blog-body">

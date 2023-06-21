@@ -13,19 +13,6 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-      <section className="ins-slider-hd-sec">
-        <Container fluid="xxl">
-          <Row>
-            <Col xs={12}>
-              <div className="ins-slider-hd">
-                <h6>Services</h6>
-                <h1>Branding</h1>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
       <section className="ins-slider-img-sec">
         <Container fluid="xxl">
           <div className="ins-slider">
@@ -40,7 +27,20 @@ export default function About() {
         </Container>
       </section>
 
-      <section className="pt-4 pt-lg-5 pt-xl-6 pb-4">
+      <section className="ins-slider-hd-sec">
+        <Container fluid="xxl">
+          <Row>
+            <Col xs={12}>
+              <div className="ins-slider-hd">
+                <h6>Services</h6>
+                <h1>Branding</h1>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="pt-4 pb-4">
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col xs={12}>

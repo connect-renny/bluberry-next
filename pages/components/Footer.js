@@ -1,26 +1,26 @@
-import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
-import { Container, Row, Col, Form, InputGroup, Button } from 'react-bootstrap';
+import Link from "next/link";
+import React, { useState, useEffect } from "react";
+import { Container, Row, Col, Form, InputGroup, Button } from "react-bootstrap";
 import {
   FaFacebookF,
   FaInstagram,
   FaTwitter,
   FaLinkedinIn,
   FaYoutube,
-} from 'react-icons/fa';
-import { FiArrowRight } from 'react-icons/fi';
-import ScrollToTopButton from './ScrollToTopButton';
+} from "react-icons/fa";
+import { FiArrowRight } from "react-icons/fi";
+import ScrollToTopButton from "./ScrollToTopButton";
 
 export default function Footer() {
   // Radio js
-  const [selectedOption, setSelectedOption] = useState('');
+  const [selectedOption, setSelectedOption] = useState("");
 
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
   };
 
   // Copyright current year
-  const [currentYear, setCurrentYear] = useState('');
+  const [currentYear, setCurrentYear] = useState("");
 
   useEffect(() => {
     const year = new Date().getFullYear();
@@ -178,7 +178,7 @@ export default function Footer() {
               <div className="footer-logo">
                 <Link className="footer-logo" href="/">
                   <img
-                    src="images/bluberry-logo-footer.png"
+                    src="/images/bluberry-logo-footer.png"
                     alt="BluBerry Footer"
                   />
                 </Link>
@@ -217,7 +217,7 @@ export default function Footer() {
                       name="options"
                       label="I agree to the Privacy Policy and give my permission to process my personal data for the purposes specified in the Privacy Policy."
                       value="option2"
-                      checked={selectedOption === 'option2'}
+                      checked={selectedOption === "option2"}
                       onChange={handleOptionChange}
                     />
                   </div>

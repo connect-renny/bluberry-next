@@ -1,9 +1,18 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { Container, Row, Col } from 'react-bootstrap';
+import Image from "next/image";
+import Link from "next/link";
+import { Container, Row, Col } from "react-bootstrap";
 
-import { FiArrowRight } from 'react-icons/fi';
-import { FiArrowDownRight } from 'react-icons/fi';
+import { FiArrowRight } from "react-icons/fi";
+import { FiArrowDownRight } from "react-icons/fi";
+
+import LightGallery from "lightgallery/react";
+
+import "lightgallery/scss/lightgallery.scss";
+import "lightgallery/scss/lg-zoom.scss";
+import "lightgallery/scss/lg-thumbnail.scss";
+
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
 
 export default function WorkSection() {
   return (
@@ -27,118 +36,138 @@ export default function WorkSection() {
             </div>
           </Col>
         </Row>
-        <Row className="gx-0">
-          <Col xs={6} px="0">
-            <Link className="feature-item" href="#">
-              <figure>
-                <Image
-                  src="images/portfolio-thumb-lg-01.jpg"
-                  alt="Image"
-                  layout="intrinsic"
-                  width={920}
-                  height={450}
-                />
-              </figure>
-              <div className="fe-overlay"></div>
-              <div className="fe-arrow">
-                <FiArrowDownRight />
-              </div>
-            </Link>
-          </Col>
-          <Col xs={6}>
-            <Row className="gx-0">
-              <Col xs={6}>
-                <Link className="feature-item" href="#">
-                  <figure>
-                    <Image
-                      src="images/portfolio-thumb-sm-01.jpg"
-                      alt="Image"
-                      layout="intrinsic"
-                      width={450}
-                      height={450}
-                    />
-                  </figure>
-                  <div className="fe-overlay"></div>
-                  <div className="fe-arrow">
-                    <FiArrowDownRight />
-                  </div>
-                </Link>
-              </Col>
-              <Col xs={6}>
-                <Link className="feature-item" href="#">
-                  <figure>
-                    <Image
-                      src="images/portfolio-thumb-sm-02.jpg"
-                      alt="Image"
-                      layout="intrinsic"
-                      width={450}
-                      height={450}
-                    />
-                  </figure>
-                  <div className="fe-overlay"></div>
-                  <div className="fe-arrow">
-                    <FiArrowDownRight />
-                  </div>
-                </Link>
-              </Col>
-            </Row>
-          </Col>
-          <Col xs={6}>
-            <Row className="gx-0">
-              <Col xs={6}>
-                <Link className="feature-item" href="#">
-                  <figure>
-                    <Image
-                      src="images/portfolio-thumb-sm-03.jpg"
-                      alt="Image"
-                      layout="intrinsic"
-                      width={450}
-                      height={450}
-                    />
-                  </figure>
-                  <div className="fe-overlay"></div>
-                  <div className="fe-arrow">
-                    <FiArrowDownRight />
-                  </div>
-                </Link>
-              </Col>
-              <Col xs={6}>
-                <Link className="feature-item" href="#">
-                  <figure>
-                    <Image
-                      src="images/portfolio-thumb-sm-04.jpg"
-                      alt="Image"
-                      layout="intrinsic"
-                      width={450}
-                      height={450}
-                    />
-                  </figure>
-                  <div className="fe-overlay"></div>
-                  <div className="fe-arrow">
-                    <FiArrowDownRight />
-                  </div>
-                </Link>
-              </Col>
-            </Row>
-          </Col>
-          <Col xs={6}>
-            <Link className="feature-item" href="#">
-              <figure>
-                <Image
-                  src="images/portfolio-thumb-lg-02.jpg"
-                  alt="Image"
-                  layout="intrinsic"
-                  width={920}
-                  height={450}
-                />
-              </figure>
-              <div className="fe-overlay"></div>
-              <div className="fe-arrow">
-                <FiArrowDownRight />
-              </div>
-            </Link>
-          </Col>
-        </Row>
+        <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]} selector="a">
+          <Row className="gx-0">
+            <Col xs={6} px="0">
+              <Link
+                className="feature-item"
+                href="/images/portfolio-thumb-lg-01.jpg"
+              >
+                <figure>
+                  <Image
+                    src="/images/portfolio-thumb-lg-01.jpg"
+                    alt="Image"
+                    layout="intrinsic"
+                    width={920}
+                    height={450}
+                  />
+                </figure>
+                <div className="fe-overlay"></div>
+                <div className="fe-arrow">
+                  <FiArrowDownRight />
+                </div>
+              </Link>
+            </Col>
+            <Col xs={6}>
+              <Row className="gx-0">
+                <Col xs={6}>
+                  <Link
+                    className="feature-item"
+                    href="/images/portfolio-thumb-sm-01.jpg"
+                  >
+                    <figure>
+                      <Image
+                        src="/images/portfolio-thumb-sm-01.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={450}
+                        height={450}
+                      />
+                    </figure>
+                    <div className="fe-overlay"></div>
+                    <div className="fe-arrow">
+                      <FiArrowDownRight />
+                    </div>
+                  </Link>
+                </Col>
+                <Col xs={6}>
+                  <Link
+                    className="feature-item"
+                    href="/images/portfolio-thumb-sm-02.jpg"
+                  >
+                    <figure>
+                      <Image
+                        src="/images/portfolio-thumb-sm-02.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={450}
+                        height={450}
+                      />
+                    </figure>
+                    <div className="fe-overlay"></div>
+                    <div className="fe-arrow">
+                      <FiArrowDownRight />
+                    </div>
+                  </Link>
+                </Col>
+              </Row>
+            </Col>
+            <Col xs={6}>
+              <Row className="gx-0">
+                <Col xs={6}>
+                  <Link
+                    className="feature-item"
+                    href="/images/portfolio-thumb-sm-03.jpg"
+                  >
+                    <figure>
+                      <Image
+                        src="/images/portfolio-thumb-sm-03.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={450}
+                        height={450}
+                      />
+                    </figure>
+                    <div className="fe-overlay"></div>
+                    <div className="fe-arrow">
+                      <FiArrowDownRight />
+                    </div>
+                  </Link>
+                </Col>
+                <Col xs={6}>
+                  <Link
+                    className="feature-item"
+                    href="/images/portfolio-thumb-sm-04.jpg"
+                  >
+                    <figure>
+                      <Image
+                        src="/images/portfolio-thumb-sm-04.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={450}
+                        height={450}
+                      />
+                    </figure>
+                    <div className="fe-overlay"></div>
+                    <div className="fe-arrow">
+                      <FiArrowDownRight />
+                    </div>
+                  </Link>
+                </Col>
+              </Row>
+            </Col>
+            <Col xs={6}>
+              <Link
+                className="feature-item"
+                href="/images/portfolio-thumb-lg-02.jpg"
+              >
+                <figure>
+                  <Image
+                    src="/images/portfolio-thumb-lg-02.jpg"
+                    alt="Image"
+                    layout="intrinsic"
+                    width={920}
+                    height={450}
+                  />
+                </figure>
+                <div className="fe-overlay"></div>
+                <div className="fe-arrow">
+                  <FiArrowDownRight />
+                </div>
+              </Link>
+            </Col>
+          </Row>
+        </LightGallery>
         <Row>
           <Col xs={12}>
             <div className="feature-footer-nav">
