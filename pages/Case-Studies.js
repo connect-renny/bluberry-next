@@ -5,7 +5,7 @@ import IncludeContact from "./components/IncludeContact";
 
 import Link from "next/link";
 
-export default function About() {
+export default function CaseStudies() {
   return (
     <>
       <section className="ins-slider-hd-sec">

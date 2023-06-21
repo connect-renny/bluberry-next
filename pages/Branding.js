@@ -10,7 +10,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 import Link from "next/link";
 
-export default function About() {
+export default function Branding() {
   return (
     <>
       <section className="ins-slider-img-sec">

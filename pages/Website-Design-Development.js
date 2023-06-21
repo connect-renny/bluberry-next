@@ -61,7 +61,7 @@ export default function WebsiteDesign() {
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
               <div
-                className="client-img"
+                className="website-img"
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000"
@@ -251,11 +251,15 @@ export default function WebsiteDesign() {
         <Tab.Container id="tab-expertise" defaultActiveKey="exp-tab-01">
           <Container fluid="xxl">
             <Row>
-              <Col lg={6} xs={12}>
+              <Col xs={12}>
                 <div className="section-hd">
                   <h6>What we do</h6>
                   <h3>Our Expertise</h3>
                 </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col lg={6} xs={12}>
                 <Nav className="exp-tb-nav">
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-01">

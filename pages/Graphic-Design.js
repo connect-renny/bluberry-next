@@ -116,7 +116,7 @@ export default function GraphicDesign() {
             <Col lg={6} xs={12}>
               <div className="graphics-img">
                 <Image
-                  src="/images/graphic-des-01.jpg"
+                  src="/images/graphic-des-02.jpg"
                   alt="Team"
                   layout="intrinsic"
                   width={625}
@@ -148,6 +148,17 @@ export default function GraphicDesign() {
         <Container fluid="xxl">
           <Row className="d-flex flex-row-reverse align-items-end">
             <Col lg={6} xs={12}>
+              <div className="brand-high-img">
+                <Image
+                  src="/images/graphic-computer.png"
+                  alt="Values"
+                  layout="intrinsic"
+                  width={600}
+                  height={485}
+                />
+              </div>
+            </Col>
+            <Col lg={6} xs={12}>
               <div className="graphics-high-con">
                 <h4>
                   We translate your brand&apos;s message into mesmerizing logos
@@ -159,17 +170,6 @@ export default function GraphicDesign() {
                   business presentation, we provide classy designs that take
                   into account the changing aesthetic values of your audience.
                 </p>
-              </div>
-            </Col>
-            <Col lg={6} xs={12}>
-              <div className="brand-high-img">
-                <Image
-                  src="/images/graphic-computer.png"
-                  alt="Values"
-                  layout="intrinsic"
-                  width={600}
-                  height={485}
-                />
               </div>
             </Col>
           </Row>
@@ -229,7 +229,7 @@ export default function GraphicDesign() {
         </Container>
       </section>
 
-      <section className="expertise-tb-sec pt-4 pt-lg-5 pt-xl-7 pb-4 pb-lg-5">
+      <section className="expertise-tb-sec pt-4 pt-lg-5 pt-xl-7 pb-4 pb-lg-5 pb-xl-7">
         <Tab.Container id="tab-expertise" defaultActiveKey="exp-tab-01">
           <Container fluid="xxl">
             <Row>

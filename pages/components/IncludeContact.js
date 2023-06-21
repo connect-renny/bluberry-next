@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from 'react';
-import { Container, Row, Col, Form, FloatingLabel } from 'react-bootstrap';
-import { MdOutlinePhonelinkRing } from 'react-icons/md';
-import { TfiEmail } from 'react-icons/tfi';
-import { AiOutlineUser } from 'react-icons/ai';
-import { FiPhoneCall } from 'react-icons/fi';
-import { GrCircleInformation } from 'react-icons/gr';
-import { GrEdit } from 'react-icons/gr';
-import { FiArrowRight } from 'react-icons/fi';
+import React, { useEffect, useState } from "react";
+import { Container, Row, Col, Form, FloatingLabel } from "react-bootstrap";
+import { MdOutlinePhonelinkRing } from "react-icons/md";
+import { TfiEmail } from "react-icons/tfi";
+import { AiOutlineUser } from "react-icons/ai";
+import { FiPhoneCall } from "react-icons/fi";
+import { IoIosInformationCircleOutline } from "react-icons/io";
+import { MdOutlineEdit } from "react-icons/md";
+import { FiArrowRight } from "react-icons/fi";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function IncludeContact() {
   // Radio js
-  const [selectedOption, setSelectedOption] = useState('');
+  const [selectedOption, setSelectedOption] = useState("");
 
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
@@ -122,7 +122,7 @@ export default function IncludeContact() {
                   >
                     <Form.Control placeholder="Subject" />
                     <div className="icon">
-                      <GrCircleInformation />
+                      <IoIosInformationCircleOutline />
                     </div>
                   </FloatingLabel>
                 </Col>
@@ -137,7 +137,7 @@ export default function IncludeContact() {
                       placeholder="How can we help you? Feel free to get in touch!"
                     />
                     <div className="icon">
-                      <GrEdit />
+                      <MdOutlineEdit />
                     </div>
                   </FloatingLabel>
                 </Col>
@@ -157,7 +157,7 @@ export default function IncludeContact() {
                       name="options"
                       label="I agree that my data is collected and stored"
                       value="option1"
-                      checked={selectedOption === 'option1'}
+                      checked={selectedOption === "option1"}
                       onChange={handleOptionChange}
                     />
                   </div>

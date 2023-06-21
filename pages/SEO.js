@@ -8,14 +8,14 @@ import ContactConsultation from "./components/ContactConsultation";
 
 import Link from "next/link";
 
-export default function AppDevelopment() {
+export default function SEO() {
   return (
     <>
       <section className="ins-slider-img-sec">
         <Container fluid="xxl">
           <div className="ins-slider">
             <Image
-              src="/images/ins-slider-app.jpg"
+              src="/images/ins-slider-seo.jpg"
               alt="Slider"
               layout="intrinsic"
               width={1320}
@@ -31,7 +31,7 @@ export default function AppDevelopment() {
             <Col xs={12}>
               <div className="ins-slider-hd">
                 <h6>Services</h6>
-                <h1>App Development</h1>
+                <h1>SEO</h1>
               </div>
             </Col>
           </Row>
@@ -44,55 +44,54 @@ export default function AppDevelopment() {
             <Col xs={12}>
               <div className="branding-intro">
                 <h3>
-                  Is your web presence limited to website & social media? Have
-                  you considered how apps can transform your digital presence?
+                  When you search your brand on Google, does it appear on the
+                  first page of Google results? <br /> What if you search for
+                  your service or product? Is your brand visible in the results?
                 </h3>
-                <h4>Applications are computing made mobile.</h4>
+                <h4>
+                  To feature among the top results, you have to beat
+                  Google&lsquo;s algorithms. That&lsquo;s where SEO comes in.
+                </h4>
               </div>
             </Col>
           </Row>
         </Container>
       </section>
 
-      <section className="py-4 py-lg-5 py-xl-6" data-aos="fadeIn">
+      <section className="pt-4 pt-lg-5 pb-4 pb-lg-5 pb-xl-7">
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div
-                className="app-dev-img"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
+              <div className="seo-img">
                 <Image
-                  src="/images/app-dev-img.png"
-                  alt="Website"
+                  src="/images/seo-img.png"
+                  alt="Team"
                   layout="intrinsic"
-                  width={900}
-                  height={800}
+                  width={600}
+                  height={555}
                 />
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div
-                className="app-dev-column"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
-                <h4>Want to book a ticket? Get healthier? Think better? </h4>
+              <div className="seo-content">
+                <h4 className="mb-xxl-4">
+                  Visibility on search engines is paramount to driving organic
+                  traffic, increasing brand awareness, and achieving sustainable
+                  growth.
+                </h4>
                 <p>
-                  There&lsquo;s an app for each of that and for a million other
-                  tasks. Apps are fast becoming the interface of choice for the
-                  current generation brought up as digital natives.Therefore,
-                  having a well-designed and functional app can significantly
-                  enhance your business&lsquo;s reach and user experience.
+                  BluBerry Labs brings to youpersonalizedsearch engine
+                  optimization (SEO) services that can help you achieve success.
+                  We offer personalized solutions, including keyword research,
+                  on-page optimization, backlink building, and analytics
+                  tracking.
                 </p>
                 <p>
-                  We at BluBerry Labsunderstand this. In today&lsquo;s
-                  hypermobile world, having a cutting-edge, user-friendly app is
-                  crucial for staying ahead of the competition and reaching your
-                  target audience wherever they are.
+                  Our SEO service is aimed at improving your website&lsquo;s
+                  visibility on search engines like Google, Bing, and Yahoo.We
+                  combine cutting-edge techniques, industry best practices, and
+                  a deep understanding of search algorithms to optimize every
+                  aspect of your digital presence.
                 </p>
               </div>
             </Col>
@@ -100,23 +99,24 @@ export default function AppDevelopment() {
         </Container>
       </section>
 
-      <section className="app-highlight-sec py-4 py-lg-5 py-xl-7">
+      <section className="seo-highlight-sec py-4 py-lg-5 py-xl-7">
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="app-highlight">
-                <h4>
-                  We specialize in creating custom applications for mobile on
-                  iOS and Android platforms as well as for the web.
-                </h4>
+              <div className="seo-highlight">
+                <h3>
+                  Our team of SEO experts employs a range of techniques to boost
+                  your website&lsquo;s authority and credibility.
+                </h3>
                 <p>
-                  Our strong focus is on user experience (UX) and user interface
-                  (UI) design. We meticulously optimize the navigation flow,
-                  ensuring that users can effortlessly navigate through your app
-                  and accomplish their goals with ease. Using the latest
-                  advances in Cloud computing, AI, and Automation, we offer
-                  feature-rich apps that are innovative, creative, and
-                  intuitive.
+                  Through thorough keyword research, we identify the most
+                  relevant and high-traffic keywords for your business. Armed
+                  with this knowledge, we strategically integrate these keywords
+                  into your website&lsquo;s content, meta tags, and URLs,
+                  maximizing its relevance and ensuring it aligns with the
+                  intent of search engine users.We also leverage the power of
+                  local SEO to target specific geographical areas, ensuring that
+                  your business thrives in the local market.
                 </p>
               </div>
             </Col>
@@ -124,34 +124,37 @@ export default function AppDevelopment() {
         </Container>
       </section>
 
-      <section className="py-4 py-lg-5 py-xl-7">
+      <section className="pt-4 pt-lg-5 pt-xl-7 pb-4 pb-lg-5">
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div className="app-dev-column">
-                <p>
-                  Our mobile and web app development services are tailored to
-                  bring your vision to life and create a seamless mobile
-                  experience that captivates users and drives business growth.
-                  From ideation to deployment, we guide you through every step
-                  of the app development process.
-                </p>
-                <p>
-                  We transform your ideas into wireframes and prototypes,
-                  ensuring that every element of the app aligns with your brand
-                  identity and user expectations.
-                </p>
-              </div>
-            </Col>
-            <Col lg={6} xs={12}>
-              <div className="app-column-01">
+              <div className="seo-column-img">
                 <Image
-                  src="/images/app-dev-img-01.jpg"
+                  src="/images/seo-img-01.jpg"
                   alt="Team"
                   layout="intrinsic"
                   width={630}
-                  height={390}
+                  height={430}
                 />
+              </div>
+            </Col>
+            <Col lg={6} xs={12}>
+              <div className="seo-column-con">
+                <h4 className="mb-xxl-4">
+                  But SEO goes beyond keywords. We meticulously analyze and
+                  optimize your website&lsquo;s structure, ensuring it adheres
+                  to industry standards and search engine guidelines.
+                </h4>
+                <p>
+                  Our on-page optimization services ensure your website is
+                  optimized for search engines and user experience. We optimize
+                  page load speed, enhance mobile responsiveness, and improve
+                  user experience, creating a seamless journey for both search
+                  engine crawlers and your visitors. We develop strategic
+                  link-building campaigns, earning high-quality backlinks from
+                  reputable sources to enhance your website&lsquo;s visibility
+                  and improve search rankings.
+                </p>
               </div>
             </Col>
           </Row>
@@ -161,84 +164,50 @@ export default function AppDevelopment() {
         </Container>
       </section>
 
-      <section className="app-expertise-sec">
-        <Container fluid className="gx-0">
-          <Row className="gx-0">
-            <Col lg={6} xs={12}>
-              <div className="app-expert-img">
-                <Image
-                  src="/images/app-expertise-img.jpg"
-                  alt="App"
-                  layout="intrinsic"
-                  width={985}
-                  height={425}
-                />
-              </div>
-            </Col>
-            <Col lg={6} xs={12} className="d-flex align-items-center">
-              <div className="app-expert-con">
-                <h4>
-                  We combine technical expertise, creative flair, and a deep
-                  understanding of user behavior to build robust, scalable, and
-                  secure applications.
-                </h4>
-                <p>
-                  And then, we rigorously test every aspect of the app to ensure
-                  its functionality, performance, and compatibility across
-                  different devices and operating systems.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
-      <section className="py-4 py-lg-5 py-xl-7">
+      <section className="pt-4 pt-lg-5 pb-4 pb-lg-5">
         <Container fluid="xxl">
-          <Row className="gx-xxl-5">
+          <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div className="app-exp-item">
+              <div className="team-content">
                 <h4>
-                  If your business or service caters to retail, e-commerce, or
-                  other service industries, apps are a natural extension of your
-                  sales platforms.
+                  Finally, our analytics tracking services help you measure the
+                  success of your SEO efforts and make data-driven decisions.
                 </h4>
                 <p>
-                  However, even for other domains like education, healthcare,
-                  wellness, finance, engineering, etc., there are various ways
-                  that apps can complement your sales and operations.
+                  We provide in-depth analytics and reporting, offering valuable
+                  insights into the performance of your SEO efforts. Our team
+                  continuously monitors search engine trends, algorithm updates,
+                  and emerging SEO techniques, ensuring that your brand remains
+                  at the forefront of optimization strategies.
                 </p>
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="app-exp-item">
-                <p>
-                  We also offer comprehensive app deployment and ongoing
-                  maintenance services, ensuring your app remains up-to-date,
-                  secure, and optimized for the ever-evolving mobile landscape.
-                </p>
-                <p>
-                  Our services include app store optimization (ASO) strategies
-                  to increase your app&lsquo;s visibility and downloads.
-                  Additionally, we monitor app performance, user feedback, and
-                  analytics to identify areas for improvement and implement
-                  updates accordingly.
-                </p>
+              <div className="seo-column-hlt">
+                <h3>
+                  So, if you&apos;re ready to claim your position at the top of
+                  search engine results, drive organic traffic, and establish
+                  your brand as an authority in your industry, get started with
+                  SEO today.
+                </h3>
               </div>
             </Col>
+          </Row>
+          <Row>
+            <Col xs={12}></Col>
           </Row>
         </Container>
       </section>
 
-      <section className="brand-story-sec app-exp-sec">
+      <section className="brand-story-sec seo-bg-sec">
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
               <div className="brand-story">
                 <div className="section-hd unique-hd">
                   <h3>
-                    So if you are looking at new avenues for business growth,
-                    give apps a try.
+                    We invite you to embark on this transformative journey with
+                    us.
                   </h3>
                 </div>
               </div>
@@ -263,62 +232,58 @@ export default function AppDevelopment() {
                 <Nav className="exp-tb-nav">
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-01">
-                      01. Mobile App Development
+                      01. Website Audit and Analysis
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-02">
-                      02. Web App Development
+                      02. Keyword Research and Analysis:
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-03">
-                      03. User Experience (UX) Design
+                      03. On-Page Optimization
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-04">
-                      04. User Interface (UI) Design
+                      04. Off-Page Optimization
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-05">
-                      05. Front-end and Back-end Development
+                      05. Content Development and Optimization
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="exp-tab-06">
-                      06. Database Design and Development
-                    </Nav.Link>
+                    <Nav.Link eventKey="exp-tab-06">06. Technical SEO</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="exp-tab-07">
-                      07. API Development and Integration
-                    </Nav.Link>
+                    <Nav.Link eventKey="exp-tab-07">07. Local SEO</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-08">
-                      08. Cross-Platform Development
+                      08. SEO Performance Tracking and Reporting
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-09">
-                      09. Native App Development
+                      09. Competitor Analysis
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-10">
-                      10. Quality Assurance and Testing
+                      10. SEO Consultation and Strategy
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-11">
-                      11. App Deployment and Release
+                      11. E-commerce SEO
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="exp-tab-12">
-                      12. App Maintenance and Support
+                    <Nav.Link eventKey="exp-tab-11">
+                      12. Penalty Recovery
                     </Nav.Link>
                   </Nav.Item>
                 </Nav>
@@ -329,10 +294,10 @@ export default function AppDevelopment() {
                     <div className="exp-tb-con">
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/seo-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
                           height={750}
                         />
                         <div className="counter">01</div>
@@ -343,10 +308,10 @@ export default function AppDevelopment() {
                     <div className="exp-tb-con">
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/seo-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
                           height={750}
                         />
                         <div className="counter">02</div>
@@ -357,10 +322,10 @@ export default function AppDevelopment() {
                     <div className="exp-tb-con">
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/seo-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
                           height={750}
                         />
                         <div className="counter">03</div>
@@ -371,10 +336,10 @@ export default function AppDevelopment() {
                     <div className="exp-tb-con">
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/seo-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
                           height={750}
                         />
                         <div className="counter">04</div>
@@ -385,10 +350,10 @@ export default function AppDevelopment() {
                     <div className="exp-tb-con">
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/seo-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
                           height={750}
                         />
                         <div className="counter">05</div>
@@ -399,10 +364,10 @@ export default function AppDevelopment() {
                     <div className="exp-tb-con">
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/seo-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
                           height={750}
                         />
                         <div className="counter">06</div>
@@ -413,10 +378,10 @@ export default function AppDevelopment() {
                     <div className="exp-tb-con">
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/seo-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
                           height={750}
                         />
                         <div className="counter">07</div>
@@ -427,10 +392,10 @@ export default function AppDevelopment() {
                     <div className="exp-tb-con">
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/seo-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
                           height={750}
                         />
                         <div className="counter">08</div>
@@ -441,10 +406,10 @@ export default function AppDevelopment() {
                     <div className="exp-tb-con">
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/seo-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
                           height={750}
                         />
                         <div className="counter">09</div>
@@ -455,10 +420,10 @@ export default function AppDevelopment() {
                     <div className="exp-tb-con">
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/seo-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
                           height={750}
                         />
                         <div className="counter">10</div>
@@ -469,10 +434,24 @@ export default function AppDevelopment() {
                     <div className="exp-tb-con">
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/seo-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
+                          height={750}
+                        />
+                        <div className="counter">11</div>
+                      </figure>
+                    </div>
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="exp-tab-12">
+                    <div className="exp-tb-con">
+                      <figure>
+                        <Image
+                          src="/images/seo-expertise-tb-01.jpg"
+                          alt="Values"
+                          layout="intrinsic"
+                          width={655}
                           height={750}
                         />
                         <div className="counter">11</div>

@@ -147,7 +147,7 @@ export default function NavbarMain() {
                       </Link>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/">
+                      <Link className="mg-nav" href="/SEO">
                         SEO
                       </Link>
                     </li>
@@ -158,16 +158,16 @@ export default function NavbarMain() {
                     </li>
                   </ul>
                 </div>
-                <div className="mega-menu-button">
-                  {/* <Link className="btn btn-shine btn-schedule" href="">
+                {/* <div className="mega-menu-button">
+                  <Link className="btn btn-shine btn-schedule" href="">
                     <span className="btn-label">
                       Schedule a Free consultation
                     </span>
                     <span className="btn-icon">
                       <FiArrowRight />
                     </span>
-                  </Link> */}
-                </div>
+                  </Link>
+                </div> */}
               </div>
             </NavDropdown>
 

@@ -7,9 +7,9 @@ import { MdOutlinePhonelinkRing } from "react-icons/md";
 import { TfiEmail } from "react-icons/tfi";
 import { AiOutlineUser } from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
-import { GrCircleInformation } from "react-icons/gr";
+import { IoIosInformationCircleOutline } from "react-icons/io";
 import { RxShare1 } from "react-icons/rx";
-import { GrEdit } from "react-icons/gr";
+import { MdOutlineEdit } from "react-icons/md";
 
 import Link from "next/link";
 
@@ -153,7 +153,10 @@ export default function Contact() {
               >
                 <div className="con-add-hd">
                   <h3>Hello.</h3>
-                  <h4>Have a question? Want to connect? Reach out to us.</h4>
+                  <h4>
+                    Please tell us about yourself and we will get back to within
+                    24 hours.
+                  </h4>
                 </div>
                 <Row>
                   <Col md={6}>
@@ -200,7 +203,7 @@ export default function Contact() {
                     >
                       <Form.Control placeholder="Subject" />
                       <div className="icon">
-                        <GrCircleInformation />
+                        <IoIosInformationCircleOutline />
                       </div>
                     </FloatingLabel>
                   </Col>
@@ -215,7 +218,7 @@ export default function Contact() {
                         placeholder="How can we help you? Feel free to get in touch!"
                       />
                       <div className="icon">
-                        <GrEdit />
+                        <MdOutlineEdit />
                       </div>
                     </FloatingLabel>
                   </Col>

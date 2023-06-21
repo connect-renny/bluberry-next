@@ -77,24 +77,13 @@ export default function Industries() {
         </Container>
       </section>
 
-      <section>
-        <Container fluid="xxl">
-          <Row>
-            <Col xs={12}>
-              <div className="section-hd text-center">
-                <h3>Every industry is different in its needs.</h3>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
-      <section className="py-4 py-lg-5">
+      <section className="pt-3 pb-4 pb-lg-5">
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col xs={12}>
               <div className="industry-intro">
                 <h4>
+                  Every industry is different in its needs. <br />
                   The challenges and opportunities too are unique to each
                   sector.
                 </h4>
@@ -568,13 +557,13 @@ export default function Industries() {
                 </p>
                 <div>
                   <Link className="btn btn-shine btn-contact" href="#">
-                    <span className="btn-label">Load All Services</span>
+                    <span className="btn-label">Contact Us</span>
                     <span className="btn-icon">
                       <FiArrowRight />
                     </span>
                   </Link>
                   <Link className="btn btn-shine btn-contact" href="#">
-                    <span className="btn-label">Load All Services</span>
+                    <span className="btn-label">Book a Free Consultation</span>
                     <span className="btn-icon">
                       <FiArrowRight />
                     </span>

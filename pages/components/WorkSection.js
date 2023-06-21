@@ -177,6 +177,12 @@ export default function WorkSection() {
                   <FiArrowRight />
                 </span>
               </Link>
+              <Link className="btn btn-shine btn-explore" href="/Process">
+                <span className="btn-label">Process</span>
+                <span className="btn-icon">
+                  <FiArrowRight />
+                </span>
+              </Link>
             </div>
           </Col>
         </Row>

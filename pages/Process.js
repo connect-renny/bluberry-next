@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 import { Container, Row, Col, Form, FloatingLabel } from "react-bootstrap";
 
-export default function Contact() {
+export default function Process() {
   // Radio js
   const [selectedOption, setSelectedOption] = useState("");
 
