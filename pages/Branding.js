@@ -163,7 +163,7 @@ export default function About() {
               <div className="brand-story">
                 <div className="section-hd unique-hd">
                   <h3>
-                    The world is waiting to embrace your unique story—let us
+                    The world is waiting to embrace your unique story - let us
                     unveil it.
                   </h3>
                 </div>

@@ -137,7 +137,7 @@ export default function NavbarMain() {
                       </Link>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/">
+                      <Link className="mg-nav" href="/App-Development">
                         App Development
                       </Link>
                     </li>
