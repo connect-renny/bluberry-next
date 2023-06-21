@@ -12,7 +12,7 @@ import { GrEdit } from "react-icons/gr";
 
 import Link from "next/link";
 
-export default function error() {
+export default function ErrorPage() {
   // Radio js
   const [selectedOption, setSelectedOption] = useState("");
 
