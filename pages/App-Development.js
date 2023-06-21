@@ -82,17 +82,17 @@ export default function AppDevelopment() {
               >
                 <h4>Want to book a ticket? Get healthier? Think better? </h4>
                 <p>
-                  There's an app for each of that and for a million other tasks.
-                  Apps are fast becoming the interface of choice for the current
-                  generation brought up as digital natives.Therefore, having a
-                  well-designed and functional app can significantly enhance
-                  your business's reach and user experience.
+                  There&lsquo;s an app for each of that and for a million other
+                  tasks. Apps are fast becoming the interface of choice for the
+                  current generation brought up as digital natives.Therefore,
+                  having a well-designed and functional app can significantly
+                  enhance your business&lsquo;s reach and user experience.
                 </p>
                 <p>
-                  We at BluBerry Labsunderstand this. In today's hypermobile
-                  world, having a cutting-edge, user-friendly app is crucial for
-                  staying ahead of the competition and reaching your target
-                  audience wherever they are.
+                  We at BluBerry Labsunderstand this. In today&lsquo;s
+                  hypermobile world, having a cutting-edge, user-friendly app is
+                  crucial for staying ahead of the competition and reaching your
+                  target audience wherever they are.
                 </p>
               </div>
             </Col>
@@ -219,10 +219,10 @@ export default function AppDevelopment() {
                 </p>
                 <p>
                   Our services include app store optimization (ASO) strategies
-                  to increase your app's visibility and downloads. Additionally,
-                  we monitor app performance, user feedback, and analytics to
-                  identify areas for improvement and implement updates
-                  accordingly.
+                  to increase your app&lsquo;s visibility and downloads.
+                  Additionally, we monitor app performance, user feedback, and
+                  analytics to identify areas for improvement and implement
+                  updates accordingly.
                 </p>
               </div>
             </Col>

@@ -232,7 +232,7 @@ export default function WebsiteDesign() {
             <Col lg={6} xs={12}>
               <div className="mindset-content">
                 <h4>
-                  And our commitment doesn't end with the launch of your
+                  And our commitment doesn&lsquo;t end with the launch of your
                   website.
                 </h4>
                 <p>

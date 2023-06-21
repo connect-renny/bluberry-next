@@ -159,14 +159,14 @@ export default function NavbarMain() {
                   </ul>
                 </div>
                 <div className="mega-menu-button">
-                  <Link className="btn btn-shine btn-schedule" href="">
+                  {/* <Link className="btn btn-shine btn-schedule" href="">
                     <span className="btn-label">
                       Schedule a Free consultation
                     </span>
                     <span className="btn-icon">
                       <FiArrowRight />
                     </span>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </NavDropdown>
