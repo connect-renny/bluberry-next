@@ -8,8 +8,10 @@ import {
   FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa";
-import { FiArrowRight } from "react-icons/fi";
+
 import ScrollToTopButton from "./ScrollToTopButton";
+
+import Image from "next/image";
 
 export default function Footer() {
   // Radio js
@@ -29,7 +31,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="footer-sec py-4 py-lg-5 py-xl-7">
+      <footer className="footer-sec pt-4 pt-lg-5 pt-xl-7 pb-4 pb-lg-5">
         <Container fluid="xxl">
           <Row className="gx-xxl-5">
             <Col className="col-ft-service">
@@ -177,9 +179,12 @@ export default function Footer() {
             <Col className="col-ft-about">
               <div className="footer-logo">
                 <Link className="footer-logo" href="/">
-                  <img
+                  <Image
                     src="/images/bluberry-logo-footer.png"
-                    alt="BluBerry Footer"
+                    alt="Slider"
+                    layout="intrinsic"
+                    width={90}
+                    height={110}
                   />
                 </Link>
                 <h3>
@@ -194,39 +199,66 @@ export default function Footer() {
           </Row>
           <Row className="mt-xxl-5">
             <Col className="col-ft-subscribe" xs={12}>
-              <div className="subscribe-cover">
-                <h3>Dont miss out updates</h3>
-                <div className="news-letter">
-                  <InputGroup className="mb-4">
-                    <Form.Control
-                      placeholder="Recipient's username"
-                      aria-label="Recipient's username"
-                      aria-describedby="basic-addon2"
-                    />
-                    <button className="btn btn-shine btn-send" href="#">
-                      <span className="btn-label">Send</span>
-                      <span className="btn-icon">
-                        <FiArrowRight />
-                      </span>
-                    </button>
-                  </InputGroup>
-                  <div className="policy-input">
-                    <Form.Check
-                      type="radio"
-                      id="option2"
-                      name="options"
-                      label="I agree to the Privacy Policy and give my permission to process my personal data for the purposes specified in the Privacy Policy."
-                      value="option2"
-                      checked={selectedOption === "option2"}
-                      onChange={handleOptionChange}
-                    />
-                  </div>
-                </div>
-              </div>
+              <ul className="hashtags">
+                <li className="hash-item">
+                  <Link className="hash-link" href="#">
+                    #LoremIpsum
+                  </Link>
+                </li>
+                <li className="hash-item">
+                  <Link className="hash-link" href="#">
+                    #DolorSitAmet
+                  </Link>
+                </li>
+                <li className="hash-item">
+                  <Link className="hash-link" href="#">
+                    #ConsecteturAdipi
+                  </Link>
+                </li>
+                <li className="hash-item">
+                  <Link className="hash-link" href="#">
+                    #SedRepudiandae
+                  </Link>
+                </li>
+                <li className="hash-item">
+                  <Link className="hash-link" href="#">
+                    #MagniCumqueVoluptas
+                  </Link>
+                </li>
+                <li className="hash-item">
+                  <Link className="hash-link" href="#">
+                    #QuisNesciuntMollitia
+                  </Link>
+                </li>
+                <li className="hash-item">
+                  <Link className="hash-link" href="#">
+                    #ConsecteturAdipi
+                  </Link>
+                </li>
+                <li className="hash-item">
+                  <Link className="hash-link" href="#">
+                    #SedRepudiandae
+                  </Link>
+                </li>
+                <li className="hash-item">
+                  <Link className="hash-link" href="#">
+                    #MagniCumqueVoluptas
+                  </Link>
+                </li>
+                <li className="hash-item">
+                  <Link className="hash-link" href="#">
+                    #LoremIpsum
+                  </Link>
+                </li>
+                <li className="hash-item">
+                  <Link className="hash-link" href="#">
+                    #DolorSitAmet
+                  </Link>
+                </li>
+              </ul>
             </Col>
             <Col className="col-ft-social" xs={12}>
               <div className="footer-social">
-                <h3>Follow Us</h3>
                 <ul className="social-list">
                   <li className="soc-item">
                     <Link
@@ -273,7 +305,7 @@ export default function Footer() {
               </div>
             </Col>
           </Row>
-          <Row className="mt-xxl-5">
+          <Row className="mt-xxl-4">
             <Col lg={6} xs={12}>
               <div className="copyright">
                 &copy; {currentYear} BluberryLabs LLC &nbsp; | &nbsp; All Rights

@@ -26,7 +26,7 @@ export default function WorkSection() {
             </div>
             <div className="brand-work-hd">
               <h4>
-                But don&lsquo;t just take our word for it - let our work speak
+                But don&apos;t just take our word for it - let our work speak
                 for itself.
               </h4>
               <p>

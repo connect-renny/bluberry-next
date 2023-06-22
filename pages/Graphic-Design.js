@@ -266,50 +266,18 @@ export default function GraphicDesign() {
                 </Nav>
               </Col>
               <Col lg={6} xs={12}>
-                <Tab.Content>
-                  <Tab.Pane eventKey="exp-tab-01">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/expertise-tb-02.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">01</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-02">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/expertise-tb-02.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">02</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-03">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/expertise-tb-02.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">03</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                </Tab.Content>
+                <div className="exp-tb-con">
+                  <figure>
+                    <Image
+                      src="/images/expertise-tb-graphic-01.jpg"
+                      alt="Values"
+                      layout="intrinsic"
+                      width={700}
+                      height={700}
+                    />
+                    {/* <div className="counter">01</div> */}
+                  </figure>
+                </div>
               </Col>
             </Row>
           </Container>

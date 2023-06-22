@@ -265,7 +265,7 @@ export default function Contact() {
                 </figure>
                 <div className="virtual-body">
                   <h4>
-                    Or better yet, let&lsquo;s meet. <br />
+                    Or better yet, let&apos;s meet. <br />
                     <span>We would love to talk to you!</span>
                   </h4>
                   <Link className="btn btn-book" href="">

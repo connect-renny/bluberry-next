@@ -1091,6 +1091,12 @@ input[type="number"]::-webkit-inner-spin-button {
   .con-agree {
     color: var(--bk-grade-450);
     font-size: var(--fs-09);
+    input {
+      margin-right: 0.5rem;
+    }
+    input[type="radio"] {
+      accent-color: var(--color-200);
+    }
   }
   .btn-submit {
     @include btnCom(var(--white), var(--color-100), var(--color-100));

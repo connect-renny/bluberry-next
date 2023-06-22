@@ -50,7 +50,7 @@ export default function SEO() {
                 </h3>
                 <h4>
                   To feature among the top results, you have to beat
-                  Google&lsquo;s algorithms. That&lsquo;s where SEO comes in.
+                  Google&apos;s algorithms. That&apos;s where SEO comes in.
                 </h4>
               </div>
             </Col>
@@ -87,7 +87,7 @@ export default function SEO() {
                   tracking.
                 </p>
                 <p>
-                  Our SEO service is aimed at improving your website&lsquo;s
+                  Our SEO service is aimed at improving your website&apos;s
                   visibility on search engines like Google, Bing, and Yahoo.We
                   combine cutting-edge techniques, industry best practices, and
                   a deep understanding of search algorithms to optimize every
@@ -106,13 +106,13 @@ export default function SEO() {
               <div className="seo-highlight">
                 <h3>
                   Our team of SEO experts employs a range of techniques to boost
-                  your website&lsquo;s authority and credibility.
+                  your website&apos;s authority and credibility.
                 </h3>
                 <p>
                   Through thorough keyword research, we identify the most
                   relevant and high-traffic keywords for your business. Armed
                   with this knowledge, we strategically integrate these keywords
-                  into your website&lsquo;s content, meta tags, and URLs,
+                  into your website&apos;s content, meta tags, and URLs,
                   maximizing its relevance and ensuring it aligns with the
                   intent of search engine users.We also leverage the power of
                   local SEO to target specific geographical areas, ensuring that
@@ -142,8 +142,8 @@ export default function SEO() {
               <div className="seo-column-con">
                 <h4 className="mb-xxl-4">
                   But SEO goes beyond keywords. We meticulously analyze and
-                  optimize your website&lsquo;s structure, ensuring it adheres
-                  to industry standards and search engine guidelines.
+                  optimize your website&apos;s structure, ensuring it adheres to
+                  industry standards and search engine guidelines.
                 </h4>
                 <p>
                   Our on-page optimization services ensure your website is
@@ -152,7 +152,7 @@ export default function SEO() {
                   user experience, creating a seamless journey for both search
                   engine crawlers and your visitors. We develop strategic
                   link-building campaigns, earning high-quality backlinks from
-                  reputable sources to enhance your website&lsquo;s visibility
+                  reputable sources to enhance your website&apos;s visibility
                   and improve search rankings.
                 </p>
               </div>

@@ -42,7 +42,7 @@
         padding: 0.25rem 0 0.25rem 0.5rem;
         text-decoration: none;
         &::before {
-          content: '';
+          content: "";
           position: absolute;
           left: 0;
           top: 50%;
@@ -136,6 +136,21 @@
   font-size: var(--fs-09);
 }
 
+.hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  .hash-item {
+    .hash-link {
+      display: flex;
+      color: var(--white);
+      padding: 0.25rem;
+      &:hover {
+        color: var(--color-200);
+      }
+    }
+  }
+}
+
 .footer-social {
   padding-left: 2rem;
   margin-bottom: 2rem;
@@ -193,7 +208,7 @@
     + .btm-item {
       margin-left: 1rem;
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         left: -0.5rem;
         top: 10px;

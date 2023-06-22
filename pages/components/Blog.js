@@ -4,6 +4,8 @@ import Link from "next/link";
 
 import { FiArrowRight } from "react-icons/fi";
 
+import Image from "next/image";
+
 import Slider from "react-slick";
 // slick carousel import css files
 import "slick-carousel/slick/slick.css";
@@ -81,12 +83,21 @@ export default function Blog() {
                     <div className="blog-item">
                       <figure>
                         <Link href="#">
-                          <img src="/images/blog-thumb-01.jpg" alt="Image" />
+                          <Image
+                            src="/images/blog-thumb-01.jpg"
+                            alt="Image"
+                            layout="intrinsic"
+                            width={420}
+                            height={435}
+                          />
                         </Link>
                       </figure>
                       <div className="blog-body">
                         <div className="blog-date">September 12,2023</div>
-                        <h4>You can use it for any kind of website</h4>
+                        <h4>
+                          Unleashing the Power of GPT-4 and the Future of
+                          ChatGPT
+                        </h4>
                         <Link className="btn btn-shine btn-more" href="#">
                           <span className="btn-label">Read More</span>
                           <span className="btn-icon">
@@ -100,12 +111,18 @@ export default function Blog() {
                     <div className="blog-item">
                       <figure>
                         <Link href="#">
-                          <img src="/images/blog-thumb-02.jpg" alt="Image" />
+                          <Image
+                            src="/images/blog-thumb-02.jpg"
+                            alt="Image"
+                            layout="intrinsic"
+                            width={420}
+                            height={435}
+                          />
                         </Link>
                       </figure>
                       <div className="blog-body">
                         <div className="blog-date">September 12,2023</div>
-                        <h4>You can use it for any kind of website</h4>
+                        <h4>A Paradigm Shift in Business Growth</h4>
                         <Link className="btn btn-shine btn-more" href="#">
                           <span className="btn-label">Read More</span>
                           <span className="btn-icon">
@@ -119,12 +136,18 @@ export default function Blog() {
                     <div className="blog-item">
                       <figure>
                         <Link href="#">
-                          <img src="/images/blog-thumb-03.jpg" alt="Image" />
+                          <Image
+                            src="/images/blog-thumb-03.jpg"
+                            alt="Image"
+                            layout="intrinsic"
+                            width={420}
+                            height={435}
+                          />
                         </Link>
                       </figure>
                       <div className="blog-body">
                         <div className="blog-date">September 12,2023</div>
-                        <h4>You can use it for any kind of website</h4>
+                        <h4>Choosing the Right Social Platforms</h4>
                         <Link className="btn btn-shine btn-more" href="#">
                           <span className="btn-label">Read More</span>
                           <span className="btn-icon">

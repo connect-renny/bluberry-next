@@ -4,6 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FiArrowRight } from "react-icons/fi";
 import Slider from "react-slick";
 
+import Image from "next/image";
+
 // slick carousel import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -104,7 +106,13 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="/images/industries-item-01.jpg" alt="Image" />
+                      <Image
+                        src="/images/industries-item-01.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={420}
+                        height={485}
+                      />
                       <div className="counter">01</div>
                     </figure>
                     <div className="ind-body">
@@ -123,7 +131,13 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="/images/industries-item-02.jpg" alt="Image" />
+                      <Image
+                        src="/images/industries-item-02.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={420}
+                        height={485}
+                      />
                       <div className="counter">02</div>
                     </figure>
                     <div className="ind-body">
@@ -142,7 +156,13 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="/images/industries-item-03.jpg" alt="Image" />
+                      <Image
+                        src="/images/industries-item-03.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={420}
+                        height={485}
+                      />
                       <div className="counter">03</div>
                     </figure>
                     <div className="ind-body">
@@ -161,7 +181,13 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="/images/industries-item-04.jpg" alt="Image" />
+                      <Image
+                        src="/images/industries-item-04.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={420}
+                        height={485}
+                      />
                       <div className="counter">04</div>
                     </figure>
                     <div className="ind-body">
@@ -180,7 +206,13 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="/images/industries-item-01.jpg" alt="Image" />
+                      <Image
+                        src="/images/industries-item-05.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={420}
+                        height={485}
+                      />
                       <div className="counter">05</div>
                     </figure>
                     <div className="ind-body">
@@ -199,7 +231,13 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="/images/industries-item-02.jpg" alt="Image" />
+                      <Image
+                        src="/images/industries-item-06.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={420}
+                        height={485}
+                      />
                       <div className="counter">06</div>
                     </figure>
                     <div className="ind-body">
@@ -218,7 +256,13 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="/images/industries-item-03.jpg" alt="Image" />
+                      <Image
+                        src="/images/industries-item-07.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={420}
+                        height={485}
+                      />
                       <div className="counter">07</div>
                     </figure>
                     <div className="ind-body">
@@ -237,7 +281,13 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="/images/industries-item-04.jpg" alt="Image" />
+                      <Image
+                        src="/images/industries-item-08.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={420}
+                        height={485}
+                      />
                       <div className="counter">08</div>
                     </figure>
                     <div className="ind-body">
@@ -256,7 +306,13 @@ export default function IndustriesSlider() {
                 <div>
                   <Link href="#" className="industries-item">
                     <figure>
-                      <img src="/images/industries-item-01.jpg" alt="Image" />
+                      <Image
+                        src="/images/industries-item-09.jpg"
+                        alt="Image"
+                        layout="intrinsic"
+                        width={420}
+                        height={485}
+                      />
                       <div className="counter">09</div>
                     </figure>
                     <div className="ind-body">

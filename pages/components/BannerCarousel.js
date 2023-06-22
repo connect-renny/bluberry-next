@@ -65,8 +65,8 @@ export default function BannerCarousel() {
           <div className="slider-con">
             <div className="slider-hd">
               <h1>
-                Smarter
-                <br />
+                {/* Smarter
+                <br /> */}
                 <Slider className="slider " {...settings}>
                   <div>
                     <div>

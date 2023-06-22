@@ -55,10 +55,10 @@ export default function Home() {
                 <p>
                   We believe in the power of human connections and the art of
                   storytelling. Our team of passionate experts is dedicated to
-                  understanding your unique goals and challenges. We&lsquo;re
-                  not here to provide cookie-cutter solutions; we&lsquo;re here
-                  to be your trusted partner, guiding you through the
-                  ever-evolving digital landscape.
+                  understanding your unique goals and challenges. We&apos;re not
+                  here to provide cookie-cutter solutions; we&apos;re here to be
+                  your trusted partner, guiding you through the ever-evolving
+                  digital landscape.
                 </p>
               </div>
             </Col>
@@ -82,24 +82,24 @@ export default function Home() {
                 </div>
                 <p>
                   The company prides itself on its ability to understand its
-                  clients&lsquo; unique needs and objectives, and to create
+                  clients&apos; unique needs and objectives, and to create
                   customized solutions that meet those needs. We have a strong
                   reputation for delivering high-quality work on time and within
                   budget.
                 </p>
                 <p>
                   The company prides itself on its ability to understand its
-                  clients&lsquo; unique needs and objectives, and to create
+                  clients&apos; unique needs and objectives, and to create
                   customized solutions that meet those needs. We have a strong
                   reputation for delivering high-quality work on time and within
                   budget.
                 </p>
-                <Link className="btn btn-shine btn-explore" href="#">
+                {/* <Link className="btn btn-shine btn-explore" href="#">
                   <span className="btn-label">Explore</span>
                   <span className="btn-icon">
                     <FiArrowRight />
                   </span>
-                </Link>
+                </Link> */}
               </div>
             </Col>
             <Col xs="12" lg="6">
@@ -198,11 +198,11 @@ export default function Home() {
                     <div className="facts-it-body">
                       <h4>
                         {counterOn && (
-                          <CountUp start={0} end={400} duration={2} delay={0} />
+                          <CountUp start={0} end={100} duration={2} delay={0} />
                         )}
                         +
                       </h4>
-                      <p>active clients</p>
+                      <p>webdesign</p>
                     </div>
                   </div>
                 </div>
@@ -225,12 +225,12 @@ export default function Home() {
                 data-aos-duration="1000"
               >
                 <h6>What We Do</h6>
-                <h3>Services we&lsquo;re offering to customer</h3>
+                <h3>Services we&apos;re offering to customer</h3>
               </div>
             </Col>
           </Row>
           <Row>
-            <Col lg={4} md={6} xs={12}>
+            <Col lg={3} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-01.png" alt="Icon" />
@@ -244,7 +244,7 @@ export default function Home() {
                 </div>
               </Link>
             </Col>
-            <Col lg={4} md={6} xs={12}>
+            <Col lg={3} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-02.png" alt="Icon" />
@@ -258,7 +258,7 @@ export default function Home() {
                 </div>
               </Link>
             </Col>
-            <Col lg={4} md={6} xs={12}>
+            <Col lg={3} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-03.png" alt="Icon" />
@@ -273,7 +273,7 @@ export default function Home() {
                 </div>
               </Link>
             </Col>
-            <Col lg={4} md={6} xs={12}>
+            <Col lg={3} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-04.png" alt="Icon" />
@@ -288,7 +288,7 @@ export default function Home() {
                 </div>
               </Link>
             </Col>
-            <Col lg={4} md={6} xs={12}>
+            <Col lg={3} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-05.png" alt="Icon" />
@@ -302,7 +302,35 @@ export default function Home() {
                 </div>
               </Link>
             </Col>
-            <Col lg={4} md={6} xs={12}>
+            <Col lg={3} md={6} xs={12}>
+              <Link href="#" className="service-item">
+                <div className="service-icon">
+                  <img src="/images/service-icon-06.png" alt="Icon" />
+                </div>
+                <div className="service-body">
+                  <h4>App Development</h4>
+                  <p>
+                    BluBerry Labs offers a variety of services, including
+                    website design and development, mobile app development...
+                  </p>
+                </div>
+              </Link>
+            </Col>
+            <Col lg={3} md={6} xs={12}>
+              <Link href="#" className="service-item">
+                <div className="service-icon">
+                  <img src="/images/service-icon-06.png" alt="Icon" />
+                </div>
+                <div className="service-body">
+                  <h4>App Development</h4>
+                  <p>
+                    BluBerry Labs offers a variety of services, including
+                    website design and development, mobile app development...
+                  </p>
+                </div>
+              </Link>
+            </Col>
+            <Col lg={3} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-06.png" alt="Icon" />
@@ -317,7 +345,7 @@ export default function Home() {
               </Link>
             </Col>
           </Row>
-          <Row>
+          {/* <Row>
             <Col xs={12}>
               <div className="service-footer">
                 <Link className="btn btn-shine btn-explore" href="#">
@@ -328,7 +356,7 @@ export default function Home() {
                 </Link>
               </div>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </section>
 
@@ -498,7 +526,7 @@ export default function Home() {
               >
                 <div className="section-hd">
                   <h6>Customers</h6>
-                  <h3>Clients we&lsquo;ve worked with</h3>
+                  <h3>Clients we&apos;ve worked with</h3>
                 </div>
                 <p>
                   We are inspired. Our clientele is growing day by day. We are

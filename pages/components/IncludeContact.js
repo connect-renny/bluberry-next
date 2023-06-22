@@ -151,15 +151,10 @@ export default function IncludeContact() {
                 </Col>
                 <Col sm={6} xs={12}>
                   <div className="con-agree">
-                    <Form.Check
-                      type="radio"
-                      id="option1"
-                      name="options"
-                      label="I agree that my data is collected and stored"
-                      value="option1"
-                      checked={selectedOption === "option1"}
-                      onChange={handleOptionChange}
-                    />
+                    <label>
+                      <input type="radio" />I agree that my data is collected
+                      and stored
+                    </label>
                   </div>
                 </Col>
               </Row>

@@ -52,7 +52,7 @@ export default function Branding() {
                 <h4>The answers to these are what make you stand out.</h4>
                 <p>
                   At BluBerry Labs, we understand that branding is the
-                  cornerstone of success in today&lsquo;s competitive landscape.
+                  cornerstone of success in today&apos;s competitive landscape.
                   It is the art of creating a powerful connection with your
                   audience, leaving an indelible mark that resonates long after
                   the encounter.
@@ -115,7 +115,7 @@ export default function Branding() {
                 </h4>
                 <p>
                   We design captivating logos and graphics, expressing your
-                  brand&lsquo;s persona through meaningful art, colors, and
+                  brand&apos;s persona through meaningful art, colors, and
                   typography.
                 </p>
               </div>
@@ -141,9 +141,9 @@ export default function Branding() {
             <Col xs={12}>
               <div className="brand-imp-con">
                 <h4>
-                  Just as important, it&lsquo;s also not merely about
-                  captivating visuals— it&lsquo;s about creating an immersive
-                  journey that beckons your audience to embark.
+                  Just as important, it&apos;s also not merely about captivating
+                  visuals— it&apos;s about creating an immersive journey that
+                  beckons your audience to embark.
                 </h4>
                 <p>
                   We craft compelling brand stories, meticulously honed to
@@ -221,50 +221,17 @@ export default function Branding() {
                 </Nav>
               </Col>
               <Col lg={6} xs={12}>
-                <Tab.Content>
-                  <Tab.Pane eventKey="exp-tab-01">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">01</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-02">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">02</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-03">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">03</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                </Tab.Content>
+                <div className="exp-tb-con">
+                  <figure>
+                    <Image
+                      src="/images/expertise-tb-brand-01.jpg"
+                      alt="Values"
+                      layout="intrinsic"
+                      width={700}
+                      height={750}
+                    />
+                  </figure>
+                </div>
               </Col>
             </Row>
           </Container>
