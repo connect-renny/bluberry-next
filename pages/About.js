@@ -27,8 +27,8 @@ export default function About() {
           <Row>
             <Col xs={12}>
               <div className="ins-slider-hd">
-                <h6>Introduction</h6>
-                <h1>About Us</h1>
+                <h6>About Us</h6>
+                <h1>Introduction</h1>
               </div>
             </Col>
           </Row>
@@ -40,7 +40,7 @@ export default function About() {
           <Row>
             <Col xs={12}>
               <div className="section-hd mb-0 text-center">
-                <h3>Where creativity meets strategy, magic happens. </h3>
+                <h3>Welcome to BluBerry Labs.</h3>
               </div>
             </Col>
           </Row>
@@ -53,7 +53,6 @@ export default function About() {
             <Col xs={12}>
               <div className="about-intro">
                 <h4>
-                  Welcome to BluBerry Labs. <br />
                   We are a full-service digital media agency providing top-notch
                   services to help businesses thrive in the online world.
                 </h4>
@@ -123,23 +122,6 @@ export default function About() {
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
-                      <img src="/images/service-acc-icon-01.png" alt="Icon" />
-                    </span>
-                    <span className="acc-nav-label">Social Media</span>
-                    <span className="acc-nav-arrow">
-                      <FiArrowRight />
-                    </span>
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
-                  </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="1">
-                  <Accordion.Header>
-                    <span className="acc-nav-icon">
                       <img src="/images/service-acc-icon-02.png" alt="Icon" />
                     </span>
                     <span className="acc-nav-label">Branding</span>
@@ -154,67 +136,12 @@ export default function About() {
                     ullamco laboris nisi ut aliquip.
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="2">
-                  <Accordion.Header>
-                    <span className="acc-nav-icon">
-                      <img src="/images/service-acc-icon-03.png" alt="Icon" />
-                    </span>
-                    <span className="acc-nav-label">Website Design</span>
-                    <span className="acc-nav-arrow">
-                      <FiArrowRight />
-                    </span>
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
-                  </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="3">
-                  <Accordion.Header>
-                    <span className="acc-nav-icon">
-                      <img src="/images/service-acc-icon-04.png" alt="Icon" />
-                    </span>
-                    <span className="acc-nav-label">Website Development</span>
-                    <span className="acc-nav-arrow">
-                      <FiArrowRight />
-                    </span>
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-            </Col>
-            <Col lg={6} xs={12}>
-              <Accordion className="service-accordion">
-                <Accordion.Item eventKey="0">
+                <Accordion.Item eventKey="1">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
                       <img src="/images/service-acc-icon-05.png" alt="Icon" />
                     </span>
                     <span className="acc-nav-label">Content</span>
-                    <span className="acc-nav-arrow">
-                      <FiArrowRight />
-                    </span>
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
-                  </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="1">
-                  <Accordion.Header>
-                    <span className="acc-nav-icon">
-                      <img src="/images/service-acc-icon-06.png" alt="Icon" />
-                    </span>
-                    <span className="acc-nav-label">SEO</span>
                     <span className="acc-nav-arrow">
                       <FiArrowRight />
                     </span>
@@ -246,9 +173,83 @@ export default function About() {
                 <Accordion.Item eventKey="3">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
+                      <img src="/images/service-acc-icon-06.png" alt="Icon" />
+                    </span>
+                    <span className="acc-nav-label">SEO</span>
+                    <span className="acc-nav-arrow">
+                      <FiArrowRight />
+                    </span>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip.
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+            </Col>
+            <Col lg={6} xs={12}>
+              <Accordion className="service-accordion">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header>
+                    <span className="acc-nav-icon">
+                      <img src="/images/service-acc-icon-03.png" alt="Icon" />
+                    </span>
+                    <span className="acc-nav-label">Graphic Design</span>
+                    <span className="acc-nav-arrow">
+                      <FiArrowRight />
+                    </span>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="1">
+                  <Accordion.Header>
+                    <span className="acc-nav-icon">
+                      <img src="/images/service-acc-icon-04.png" alt="Icon" />
+                    </span>
+                    <span className="acc-nav-label">
+                      Website Design & Development
+                    </span>
+                    <span className="acc-nav-arrow">
+                      <FiArrowRight />
+                    </span>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="2">
+                  <Accordion.Header>
+                    <span className="acc-nav-icon">
+                      <img src="/images/service-acc-icon-01.png" alt="Icon" />
+                    </span>
+                    <span className="acc-nav-label">Social Media</span>
+                    <span className="acc-nav-arrow">
+                      <FiArrowRight />
+                    </span>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="3">
+                  <Accordion.Header>
+                    <span className="acc-nav-icon">
                       <img src="/images/service-acc-icon-08.png" alt="Icon" />
                     </span>
-                    <span className="acc-nav-label">Online Advertising</span>
+                    <span className="acc-nav-label">Paid Ads</span>
                     <span className="acc-nav-arrow">
                       <FiArrowRight />
                     </span>

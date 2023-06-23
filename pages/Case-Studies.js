@@ -5,6 +5,53 @@ import IncludeContact from "./components/IncludeContact";
 
 import Link from "next/link";
 
+import Slider from "react-slick";
+
+// slick carousel import css files
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+// Casestudies Result carousel
+const settings = {
+  dots: false,
+  infinite: true,
+  speed: 1000,
+  autoplay: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  variableWidth: true,
+  responsive: [
+    {
+      breakpoint: 1080,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
+
 export default function CaseStudies() {
   return (
     <>
@@ -205,6 +252,102 @@ export default function CaseStudies() {
                   width={450}
                   height={900}
                 />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="casestudy-res-sec py-4 py-lg-5 py-xl-5">
+        <Container fluid>
+          <Row>
+            <Col xs={12} className="case-res-img-col">
+              <div className="case-caro-img">
+                <Image
+                  src="/images/case-result-img.png"
+                  alt="Image"
+                  layout="intrinsic"
+                  width={730}
+                  height={965}
+                />
+              </div>
+            </Col>
+            <Col xs={12} className="case-res-caro-col">
+              <div className="case-carousel">
+                <div className="case-dtl-con mb-4">
+                  <div className="count">03</div>
+                  <h4>Result</h4>
+                  <p>
+                    The e-commerce website development project for the Swiss
+                    Military delivered the following results:
+                  </p>
+                </div>
+                <Slider className="slider " {...settings}>
+                  <div>
+                    <div className="case-result-item">
+                      <div className="case-result-hd">
+                        <h4>1. Enhanced Brand Representation</h4>
+                      </div>
+                      <div className="case-result-body">
+                        <p>
+                          The website is created in WordPress and effectively
+                          showcased the Swiss Military's brand identity, values,
+                          and commitment to quality, leading to increased brand
+                          recognition and customer trust.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="case-result-item">
+                      <div className="case-result-hd">
+                        <h4>2. Improved User Experience</h4>
+                      </div>
+                      <div className="case-result-body">
+                        <p>
+                          The intuitive navigation, streamlined purchasing
+                          process, and user-friendly features enhanced the
+                          overall shopping experience, resulting in increased
+                          customer satisfaction and reduced bounce rates. The
+                          website follows the colour scheme of the parent brand
+                          and adopts the latest trends and features of the era.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="case-result-item">
+                      <div className="case-result-hd">
+                        <h4>1. Enhanced Brand Representation</h4>
+                      </div>
+                      <div className="case-result-body">
+                        <p>
+                          The website is created in WordPress and effectively
+                          showcased the Swiss Military's brand identity, values,
+                          and commitment to quality, leading to increased brand
+                          recognition and customer trust.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="case-result-item">
+                      <div className="case-result-hd">
+                        <h4>2. Improved User Experience</h4>
+                      </div>
+                      <div className="case-result-body">
+                        <p>
+                          The intuitive navigation, streamlined purchasing
+                          process, and user-friendly features enhanced the
+                          overall shopping experience, resulting in increased
+                          customer satisfaction and reduced bounce rates. The
+                          website follows the colour scheme of the parent brand
+                          and adopts the latest trends and features of the era.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </Slider>
               </div>
             </Col>
           </Row>

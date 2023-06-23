@@ -41,28 +41,23 @@ export default function Footer() {
                   <Col xs={6}>
                     <ul className="ft-list">
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
-                          Social Media
-                        </Link>
-                      </li>
-                      <li className="ft-item">
-                        <Link className="ft-nav" href="#">
-                          Content
-                        </Link>
-                      </li>
-                      <li className="ft-item">
-                        <Link className="ft-nav" href="#">
-                          SEO
-                        </Link>
-                      </li>
-                      <li className="ft-item">
-                        <Link className="ft-nav" href="#">
+                        <Link className="ft-nav" href="/Branding">
                           Branding
                         </Link>
                       </li>
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
-                          Website Design
+                        <Link className="ft-nav" href="/Content">
+                          Content
+                        </Link>
+                      </li>
+                      <li className="ft-item">
+                        <Link className="ft-nav" href="/App-Development">
+                          App Development
+                        </Link>
+                      </li>
+                      <li className="ft-item">
+                        <Link className="ft-nav" href="/SEO">
+                          SEO
                         </Link>
                       </li>
                     </ul>
@@ -70,18 +65,26 @@ export default function Footer() {
                   <Col xs={6}>
                     <ul className="ft-list">
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
-                          Website Development
+                        <Link className="ft-nav" href="/Graphic-Design">
+                          Graphic Design
                         </Link>
                       </li>
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
-                          App Development
+                        <Link
+                          className="ft-nav"
+                          href="/Website-Design-Development"
+                        >
+                          Website Design & Development
                         </Link>
                       </li>
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
-                          Online Advertising
+                        <Link className="ft-nav" href="/Social-Media">
+                          Social Media
+                        </Link>
+                      </li>
+                      <li className="ft-item">
+                        <Link className="ft-nav" href="/Paid-Ads">
+                          Paid Ads
                         </Link>
                       </li>
                     </ul>

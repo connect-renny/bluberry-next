@@ -115,7 +115,13 @@ export default function Home() {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <img src="/images/we-works-img.png" alt="Image" />
+                <Image
+                  src="/images/we-works-img.png"
+                  alt="Image"
+                  layout="intrinsic"
+                  width={940}
+                  height={755}
+                />
               </div>
             </Col>
           </Row>
@@ -151,11 +157,20 @@ export default function Home() {
                   <div className="facts-item">
                     <div className="facts-icon">
                       <i>
-                        <img src="/images/facts-icon-01.png" alt="Icon" />
-                        <img
+                        <Image
                           src="/images/facts-icon-01.png"
-                          className="hover"
                           alt="Icon"
+                          layout="intrinsic"
+                          width={90}
+                          height={90}
+                        />
+                        <Image
+                          className="hover"
+                          src="/images/facts-icon-01.png"
+                          alt="Icon"
+                          layout="intrinsic"
+                          width={90}
+                          height={90}
                         />
                       </i>
                     </div>
@@ -172,11 +187,20 @@ export default function Home() {
                   <div className="facts-item">
                     <div className="facts-icon">
                       <i>
-                        <img src="/images/facts-icon-03.png" alt="Icon" />
-                        <img
+                        <Image
                           src="/images/facts-icon-03.png"
-                          className="hover"
                           alt="Icon"
+                          layout="intrinsic"
+                          width={90}
+                          height={90}
+                        />
+                        <Image
+                          className="hover"
+                          src="/images/facts-icon-03.png"
+                          alt="Icon"
+                          layout="intrinsic"
+                          width={90}
+                          height={90}
                         />
                       </i>
                     </div>
@@ -193,11 +217,20 @@ export default function Home() {
                   <div className="facts-item">
                     <div className="facts-icon">
                       <i>
-                        <img src="/images/facts-icon-02.png" alt="Icon" />
-                        <img
+                        <Image
                           src="/images/facts-icon-02.png"
-                          className="hover"
                           alt="Icon"
+                          layout="intrinsic"
+                          width={90}
+                          height={90}
+                        />
+                        <Image
+                          className="hover"
+                          src="/images/facts-icon-02.png"
+                          alt="Icon"
+                          layout="intrinsic"
+                          width={90}
+                          height={90}
                         />
                       </i>
                     </div>

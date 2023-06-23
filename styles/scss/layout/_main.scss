@@ -426,6 +426,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .how-we-img {
+  position: relative;
   max-width: 840px;
   img {
     width: 100%;
@@ -1369,6 +1370,7 @@ input[type="number"]::-webkit-inner-spin-button {
       font-size: var(--fs-16);
       font-weight: var(--font-weight-bold);
       margin-right: 1rem;
+      @include transEase;
     }
     .acc-nav-arrow {
       display: inline-flex;
@@ -1380,6 +1382,11 @@ input[type="number"]::-webkit-inner-spin-button {
     &[aria-expanded="true"] {
       .acc-nav-arrow {
         transform: rotate(0);
+      }
+    }
+    &:hover {
+      .acc-nav-label {
+        color: var(--color-200);
       }
     }
   }
@@ -1435,13 +1442,26 @@ input[type="number"]::-webkit-inner-spin-button {
       margin: 0;
     }
   }
-  .value-list {
-    .value-item {
-      display: flex;
-      align-items: center;
-      padding-bottom: 1rem;
-      margin-bottom: 1rem;
-      border-bottom: 1px solid var(--bk-grade-150);
+}
+
+.value-list {
+  .value-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--bk-grade-150);
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 0;
+      height: 100%;
+      background-color: rgba($color-100, 10%);
+      transition: 0.3s ease-out;
+      z-index: -1;
     }
     .value-icon {
       position: relative;
@@ -1452,6 +1472,12 @@ input[type="number"]::-webkit-inner-spin-button {
     .value-label {
       color: var(--bk-grade-550);
       font-size: var(--fs-12);
+    }
+    &:hover {
+      &::before {
+        left: 0;
+        width: 100%;
+      }
     }
   }
 }
@@ -2327,6 +2353,107 @@ input[type="number"]::-webkit-inner-spin-button {
   img {
     width: 100%;
   }
+}
+
+.case-carousel {
+  .slick-track {
+    display: flex;
+  }
+  .slick-slide {
+    flex: 1 1 0;
+    height: unset;
+    > div {
+      height: 100%;
+      > div {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.case-result-item {
+  position: relative;
+  height: 100%;
+  padding: 3.5rem 2.5rem 2rem;
+  margin: 0 0.5rem;
+  background: linear-gradient(
+    to right,
+    rgba(65, 60, 152, 1) 0%,
+    rgba(101, 46, 144, 1) 100%
+  );
+  border-radius: 0.5rem;
+  overflow: hidden;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    transform: translate(50%, 50%);
+    @include transEase;
+  }
+  &::before {
+    width: 300px;
+    height: 300px;
+    background-color: #a52288;
+    transition-delay: 250ms;
+  }
+  &::after {
+    width: 200px;
+    height: 200px;
+    background-color: #7e268a;
+
+    transition-delay: 150ms;
+  }
+  .case-result-hd {
+    position: relative;
+    margin-bottom: 1.5rem;
+    z-index: 10;
+    h4 {
+      color: var(--white);
+      font-size: var(--fs-12);
+      font-weight: var(--font-weight-medium);
+      margin: 0;
+    }
+  }
+  .case-result-body {
+    position: relative;
+    z-index: 10;
+    p {
+      color: var(--white);
+    }
+  }
+  &:hover {
+    &::before {
+      width: 1500px;
+      height: 1500px;
+      opacity: 0.25;
+    }
+    &::after {
+      width: 1000px;
+      height: 1000px;
+      opacity: 0.25;
+    }
+  }
+}
+
+.casestudy-res-sec {
+  position: relative;
+  background-color: lighten($color-100, 75%);
+  background-image: url(../../../public/images/casestudy-bg-03.png);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.case-res-img-col {
+  flex: 0 0 36%;
+  max-width: 36%;
+}
+.case-res-caro-col {
+  flex: 0 0 64%;
+  max-width: 64%;
 }
 
 .website-img {

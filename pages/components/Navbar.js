@@ -124,7 +124,7 @@ export default function NavbarMain() {
                       </Link>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/">
+                      <Link className="mg-nav" href="/Content">
                         Content
                       </Link>
                     </li>
@@ -142,7 +142,7 @@ export default function NavbarMain() {
                       </Link>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/">
+                      <Link className="mg-nav" href="/ Social-Media">
                         Social Media
                       </Link>
                     </li>
@@ -152,7 +152,7 @@ export default function NavbarMain() {
                       </Link>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/">
+                      <Link className="mg-nav" href="/Paid-Ads">
                         Paid Ads
                       </Link>
                     </li>
