@@ -141,21 +141,21 @@ export default function IncludeContact() {
                     </div>
                   </FloatingLabel>
                 </Col>
-                <Col sm={6} xs={12}>
-                  <button className="btn btn-shine btn-submit" href="#">
-                    <span className="btn-label">Submit</span>
-                    <span className="btn-icon">
-                      <FiArrowRight />
-                    </span>
-                  </button>
-                </Col>
-                <Col sm={6} xs={12}>
-                  <div className="con-agree">
+                <Col xs={12}>
+                  <div className="con-agree mb-4">
                     <label>
                       <input type="radio" />I agree that my data is collected
                       and stored
                     </label>
                   </div>
+                </Col>
+                <Col xs={12} className="d-flex justify-content-end">
+                  <button className="btn btn-shine btn-submit">
+                    <span className="btn-label">Submit</span>
+                    <span className="btn-icon">
+                      <FiArrowRight />
+                    </span>
+                  </button>
                 </Col>
               </Row>
             </div>

@@ -67,7 +67,7 @@ export default function IndustriesSlider() {
               data-aos-duration="1000"
             >
               <h6>Industries</h6>
-              <h3>Solving challenges in every industry, every day.</h3>
+              <h3>Every industry is different in its needs.</h3>
             </div>
           </Col>
           <Col lg={6} xs={12}>
@@ -78,10 +78,11 @@ export default function IndustriesSlider() {
               data-aos-duration="1000"
             >
               <p>
-                Our experience allows us to understand the specificities of your
-                industry and develop an strategy that matches your needs. No
-                matter your industry, Bluberry Labs has helped businesses like
-                yours with IT solutions.
+                BluBerry Labs understands this and offers customized care and
+                expertise across a variety of domains. Whether you are just
+                starting a business or trying to expand one, wherever you may be
+                on the growth journey, partner with us to get an accelerated
+                foothold into the digital world.
               </p>
               <Link className="btn btn-shine btn-explore" href="#">
                 <span className="btn-label">Explore</span>

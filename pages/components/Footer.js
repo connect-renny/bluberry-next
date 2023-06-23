@@ -187,121 +187,39 @@ export default function Footer() {
                     height={110}
                   />
                 </Link>
-                <h3>
-                  Book a Free
-                  <br />
-                  Consultation
-                  <br />
-                  Now!
-                </h3>
-              </div>
-            </Col>
-          </Row>
-          <Row className="mt-xxl-5">
-            <Col className="col-ft-subscribe" xs={12}>
-              <ul className="hashtags">
-                <li className="hash-item">
-                  <Link className="hash-link" href="#">
-                    #LoremIpsum
-                  </Link>
-                </li>
-                <li className="hash-item">
-                  <Link className="hash-link" href="#">
-                    #DolorSitAmet
-                  </Link>
-                </li>
-                <li className="hash-item">
-                  <Link className="hash-link" href="#">
-                    #ConsecteturAdipi
-                  </Link>
-                </li>
-                <li className="hash-item">
-                  <Link className="hash-link" href="#">
-                    #SedRepudiandae
-                  </Link>
-                </li>
-                <li className="hash-item">
-                  <Link className="hash-link" href="#">
-                    #MagniCumqueVoluptas
-                  </Link>
-                </li>
-                <li className="hash-item">
-                  <Link className="hash-link" href="#">
-                    #QuisNesciuntMollitia
-                  </Link>
-                </li>
-                <li className="hash-item">
-                  <Link className="hash-link" href="#">
-                    #ConsecteturAdipi
-                  </Link>
-                </li>
-                <li className="hash-item">
-                  <Link className="hash-link" href="#">
-                    #SedRepudiandae
-                  </Link>
-                </li>
-                <li className="hash-item">
-                  <Link className="hash-link" href="#">
-                    #MagniCumqueVoluptas
-                  </Link>
-                </li>
-                <li className="hash-item">
-                  <Link className="hash-link" href="#">
-                    #LoremIpsum
-                  </Link>
-                </li>
-                <li className="hash-item">
-                  <Link className="hash-link" href="#">
-                    #DolorSitAmet
-                  </Link>
-                </li>
-              </ul>
-            </Col>
-            <Col className="col-ft-social" xs={12}>
-              <div className="footer-social">
-                <ul className="social-list">
-                  <li className="soc-item">
-                    <Link
-                      className="soc-link"
-                      href="https://www.facebook.com/people/Thebblabs/100092399283850/"
-                      target="_blank"
-                    >
-                      <FaFacebookF />
-                    </Link>
-                  </li>
-                  <li className="soc-item">
-                    <Link
-                      className="soc-link"
-                      href="https://www.instagram.com/thebblabs/?igshid=ZDdkNTZiNTM%3D"
-                      target="_blank"
-                    >
-                      <FaInstagram />
-                    </Link>
-                  </li>
-                  <li className="soc-item">
-                    <Link
-                      className="soc-link"
-                      href="https://twitter.com/TheBluBerryLabs?t=VXlPhTzqlW0PeyUOvoc-rw&s=08"
-                      target="_blank"
-                    >
-                      <FaTwitter />
-                    </Link>
-                  </li>
-                  <li className="soc-item">
-                    <Link
-                      className="soc-link"
-                      href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fm%2Fcompany%2Fthebblabs"
-                      target="_blank"
-                    >
-                      <FaLinkedinIn />
-                    </Link>
-                  </li>
-                  <li className="soc-item">
-                    <Link className="soc-link" href="#">
-                      <FaYoutube />
-                    </Link>
-                  </li>
-                </ul>
+
+                <div className="footer-social">
+                  <h3>Follow Us</h3>
+                  <ul className="social-list">
+                    <li className="soc-item">
+                      <Link
+                        className="soc-link"
+                        href="https://www.facebook.com/people/Thebblabs/100092399283850/"
+                        target="_blank"
+                      >
+                        <FaFacebookF />
+                      </Link>
+                    </li>
+                    <li className="soc-item">
+                      <Link
+                        className="soc-link"
+                        href="https://www.instagram.com/thebblabs/?igshid=ZDdkNTZiNTM%3D"
+                        target="_blank"
+                      >
+                        <FaInstagram />
+                      </Link>
+                    </li>
+                    <li className="soc-item">
+                      <Link
+                        className="soc-link"
+                        href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fm%2Fcompany%2Fthebblabs"
+                        target="_blank"
+                      >
+                        <FaLinkedinIn />
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </Col>
           </Row>
@@ -322,16 +240,6 @@ export default function Footer() {
                 <li class="btm-item">
                   <Link class="btm-link" href="#">
                     Privacy policy
-                  </Link>
-                </li>
-                <li class="btm-item">
-                  <Link class="btm-link" href="#">
-                    Cookies
-                  </Link>
-                </li>
-                <li class="btm-item">
-                  <Link class="btm-link" href="#">
-                    Copyrights
                   </Link>
                 </li>
               </ul>

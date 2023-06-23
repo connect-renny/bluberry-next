@@ -45,20 +45,26 @@ export default function Home() {
               >
                 <div className="section-hd">
                   <h6>Who we are</h6>
-                  <h3>Where creativity meets strategy, magic happens. </h3>
+                  <h3>Welcome to BluBerry Labs.</h3>
                 </div>
                 <h4>
-                  Welcome to BluBerry Labs. We are a full-service digital media
-                  agency providing top-notch services to help businesses thrive
-                  in the online world.
+                  We are a full-service digital media agency from the heart of
+                  New York. As you navigate through the ever-evolving digital
+                  landscape, we are here to guide you with an entire portfolio
+                  of futuristic services.
                 </h4>
                 <p>
-                  We believe in the power of human connections and the art of
-                  storytelling. Our team of passionate experts is dedicated to
-                  understanding your unique goals and challenges. We&apos;re not
-                  here to provide cookie-cutter solutions; we&apos;re here to be
-                  your trusted partner, guiding you through the ever-evolving
-                  digital landscape.
+                  We believe in the power of human connections, the art of
+                  storytelling, and the science of data-backed strategies. And
+                  using these, we craft digital experiences for your brand that
+                  will change the way the world sees you.
+                </p>
+                <p>
+                  Our bespoke solutions, infused with color, creativity, and
+                  collaboration, are as unique as you are.
+                </p>
+                <p>
+                  Be future-ready and future-proof. Come, let&apos;s partner.
                 </p>
               </div>
             </Col>
@@ -77,22 +83,22 @@ export default function Home() {
                 data-aos-duration="1000"
               >
                 <div className="section-hd">
-                  <h6>How We Works</h6>
+                  <h6>How We Work</h6>
                   <h3>Elevating brands through exceptional design.</h3>
                 </div>
                 <p>
-                  The company prides itself on its ability to understand its
-                  clients&apos; unique needs and objectives, and to create
-                  customized solutions that meet those needs. We have a strong
-                  reputation for delivering high-quality work on time and within
-                  budget.
+                  We work on the maxim that content dictates action. Every
+                  service we offer is, therefore, underlined by strong focus on
+                  content that informs, influences, and inspires.
                 </p>
                 <p>
-                  The company prides itself on its ability to understand its
-                  clients&apos; unique needs and objectives, and to create
-                  customized solutions that meet those needs. We have a strong
-                  reputation for delivering high-quality work on time and within
-                  budget.
+                  We seek to be partners, understanding your needs, aspirations,
+                  and goals. Our work thus reflects our collaborative approach.
+                  We dig deep into your psyche and arrive at a streamlined
+                  strategy across the team before we embark on a project. Each
+                  piece of work whether it is a logo or website or advertisement
+                  or design is part of a comprehensive and unified plan of
+                  action.
                 </p>
                 {/* <Link className="btn btn-shine btn-explore" href="#">
                   <span className="btn-label">Explore</span>
@@ -160,28 +166,7 @@ export default function Home() {
                         )}
                         +
                       </h4>
-                      <p>projects</p>
-                    </div>
-                  </div>
-                  <div className="facts-item">
-                    <div className="facts-icon">
-                      <i>
-                        <img src="/images/facts-icon-02.png" alt="Icon" />
-                        <img
-                          src="/images/facts-icon-02.png"
-                          className="hover"
-                          alt="Icon"
-                        />
-                      </i>
-                    </div>
-                    <div className="facts-it-body">
-                      <h4>
-                        {counterOn && (
-                          <CountUp start={0} end={200} duration={2} delay={0} />
-                        )}
-                        +
-                      </h4>
-                      <p>happy clients</p>
+                      <p>no of Projects</p>
                     </div>
                   </div>
                   <div className="facts-item">
@@ -202,7 +187,28 @@ export default function Home() {
                         )}
                         +
                       </h4>
-                      <p>webdesign</p>
+                      <p>Websites</p>
+                    </div>
+                  </div>
+                  <div className="facts-item">
+                    <div className="facts-icon">
+                      <i>
+                        <img src="/images/facts-icon-02.png" alt="Icon" />
+                        <img
+                          src="/images/facts-icon-02.png"
+                          className="hover"
+                          alt="Icon"
+                        />
+                      </i>
+                    </div>
+                    <div className="facts-it-body">
+                      <h4>
+                        {counterOn && (
+                          <CountUp start={0} end={250} duration={2} delay={0} />
+                        )}
+                        +
+                      </h4>
+                      <p>Happy Clients</p>
                     </div>
                   </div>
                 </div>
@@ -225,7 +231,7 @@ export default function Home() {
                 data-aos-duration="1000"
               >
                 <h6>What We Do</h6>
-                <h3>Services we&apos;re offering to customer</h3>
+                <h3>Services we offer</h3>
               </div>
             </Col>
           </Row>
@@ -233,13 +239,29 @@ export default function Home() {
             <Col lg={3} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
+                  <img src="/images/service-icon-04.png" alt="Icon" />
+                </div>
+                <div className="service-body">
+                  <h4>Branding</h4>
+                  <p>
+                    Our branding services transcend aesthetics and delve into
+                    strategic craftsmanship. We create compelling brand stories
+                    honed to reflect your core values.
+                  </p>
+                </div>
+              </Link>
+            </Col>
+            <Col lg={3} md={6} xs={12}>
+              <Link href="#" className="service-item">
+                <div className="service-icon">
                   <img src="/images/service-icon-01.png" alt="Icon" />
                 </div>
                 <div className="service-body">
-                  <h4>Social Media</h4>
+                  <h4>Creative Design</h4>
                   <p>
-                    BluBerry Labs specializes in managing and optimizing social
-                    media channels for businesses and individuals.
+                    Our visual storytelling transforms ideas into captivating
+                    realities. We convey your brand&apos;s message through
+                    engaging and effective digital media.
                   </p>
                 </div>
               </Link>
@@ -252,8 +274,55 @@ export default function Home() {
                 <div className="service-body">
                   <h4>Content</h4>
                   <p>
-                    BluBerry Labs offers a variety of services, including
-                    website design and development, mobile app development...
+                    We weave stories through words and visuals - stories that
+                    inspire, educate, entertain, and drive action, and positions
+                    your brand as a voice of trust.
+                  </p>
+                </div>
+              </Link>
+            </Col>
+            <Col lg={3} md={6} xs={12}>
+              <Link href="#" className="service-item">
+                <div className="service-icon">
+                  <img src="/images/service-icon-06.png" alt="Icon" />
+                </div>
+                <div className="service-body">
+                  <h4>Website Design & Development</h4>
+                  <p>
+                    Go full throttle with our custom-designed websites that
+                    embody the essence of your brand and backed by intuitive
+                    navigation, fast loading times, and responsive layouts.
+                  </p>
+                </div>
+              </Link>
+            </Col>
+            <Col lg={3} md={6} xs={12}>
+              <Link href="#" className="service-item">
+                <div className="service-icon">
+                  <img src="/images/service-icon-06.png" alt="Icon" />
+                </div>
+                <div className="service-body">
+                  <h4>App Development</h4>
+                  <p>
+                    We create intuitive, secure, and scalable applications built
+                    for iOS, Android, and the web with a strong focus on user
+                    experience (UX) and user interface (UI) design.
+                  </p>
+                </div>
+              </Link>
+            </Col>
+            <Col lg={3} md={6} xs={12}>
+              <Link href="#" className="service-item">
+                <div className="service-icon">
+                  <img src="/images/service-icon-03.png" alt="Icon" />
+                </div>
+                <div className="service-body">
+                  <h4>Social Media</h4>
+                  <p>
+                    Partner with us to harness the power of internet. Our social
+                    media marketing and management (SMM) services will enable
+                    you to build a loyal community of followers and drive
+                    engagement.
                   </p>
                 </div>
               </Link>
@@ -266,38 +335,9 @@ export default function Home() {
                 <div className="service-body">
                   <h4>SEO</h4>
                   <p>
-                    BluBerry Labs is a specialized agency that provides SEO
-                    services to businesses looking to improve their online
-                    visibility and ranking.
-                  </p>
-                </div>
-              </Link>
-            </Col>
-            <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
-                <div className="service-icon">
-                  <img src="/images/service-icon-04.png" alt="Icon" />
-                </div>
-                <div className="service-body">
-                  <h4>Branding</h4>
-                  <p>
-                    We have a team of branding experts who can create logos,
-                    taglines, messaging, and other visual and verbal elements
-                    that represent a brand.
-                  </p>
-                </div>
-              </Link>
-            </Col>
-            <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
-                <div className="service-icon">
-                  <img src="/images/service-icon-05.png" alt="Icon" />
-                </div>
-                <div className="service-body">
-                  <h4>Website Design</h4>
-                  <p>
-                    BluBerry Labs is a firm that specializes in designing and
-                    developing websites for businesses and individuals.
+                    We combine cutting-edge techniques, industry best practices,
+                    and a deep understanding of search engine algorithms to
+                    optimize every aspect of your digital presence.
                   </p>
                 </div>
               </Link>
@@ -308,55 +348,17 @@ export default function Home() {
                   <img src="/images/service-icon-06.png" alt="Icon" />
                 </div>
                 <div className="service-body">
-                  <h4>App Development</h4>
+                  <h4>Paid Ads</h4>
                   <p>
-                    BluBerry Labs offers a variety of services, including
-                    website design and development, mobile app development...
-                  </p>
-                </div>
-              </Link>
-            </Col>
-            <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
-                <div className="service-icon">
-                  <img src="/images/service-icon-06.png" alt="Icon" />
-                </div>
-                <div className="service-body">
-                  <h4>App Development</h4>
-                  <p>
-                    BluBerry Labs offers a variety of services, including
-                    website design and development, mobile app development...
-                  </p>
-                </div>
-              </Link>
-            </Col>
-            <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
-                <div className="service-icon">
-                  <img src="/images/service-icon-06.png" alt="Icon" />
-                </div>
-                <div className="service-body">
-                  <h4>App Development</h4>
-                  <p>
-                    BluBerry Labs offers a variety of services, including
-                    website design and development, mobile app development...
+                    We bring to you amplified reach with measurable impact.
+                    Through strategic campaigns and data-driven insights, we
+                    help you drive targeted traffic and achieve tangible
+                    results.
                   </p>
                 </div>
               </Link>
             </Col>
           </Row>
-          {/* <Row>
-            <Col xs={12}>
-              <div className="service-footer">
-                <Link className="btn btn-shine btn-explore" href="#">
-                  <span className="btn-label">Load All Services</span>
-                  <span className="btn-icon">
-                    <FiArrowRight />
-                  </span>
-                </Link>
-              </div>
-            </Col>
-          </Row> */}
         </Container>
       </section>
 
@@ -369,9 +371,9 @@ export default function Home() {
             data-aos-duration="1000"
           >
             <Marquee pauseOnHover="true">
-              <div className="txt-item">BluBerry Lab.</div>
-              <div className="txt-item">BluBerry Lab.</div>
-              <div className="txt-item">BluBerry Lab.</div>
+              <div className="txt-item">BluBerry Labs.</div>
+              <div className="txt-item">BluBerry Labs.</div>
+              <div className="txt-item">BluBerry Labs.</div>
             </Marquee>
           </div>
         </Container>
@@ -526,12 +528,12 @@ export default function Home() {
               >
                 <div className="section-hd">
                   <h6>Customers</h6>
-                  <h3>Clients we&apos;ve worked with</h3>
+                  <h3>Clients we have helped</h3>
                 </div>
                 <p>
-                  We are inspired. Our clientele is growing day by day. We are
-                  proud to associate with a great bunch of customers across
-                  different verticals and of different sizes.
+                  From small startups to established enterprises, we partner
+                  with businesses of all sizes and sectors, each with their
+                  unique dreams and aspirations.
                 </p>
                 <div className="client-carousel">
                   <ClientSlider />
