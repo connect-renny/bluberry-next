@@ -291,9 +291,9 @@ export default function CaseStudies() {
                       <div className="case-result-body">
                         <p>
                           The website is created in WordPress and effectively
-                          showcased the Swiss Military's brand identity, values,
-                          and commitment to quality, leading to increased brand
-                          recognition and customer trust.
+                          showcased the Swiss Military&apos;s brand identity,
+                          values, and commitment to quality, leading to
+                          increased brand recognition and customer trust.
                         </p>
                       </div>
                     </div>
@@ -323,9 +323,9 @@ export default function CaseStudies() {
                       <div className="case-result-body">
                         <p>
                           The website is created in WordPress and effectively
-                          showcased the Swiss Military's brand identity, values,
-                          and commitment to quality, leading to increased brand
-                          recognition and customer trust.
+                          showcased the Swiss Military&apos;s brand identity,
+                          values, and commitment to quality, leading to
+                          increased brand recognition and customer trust.
                         </p>
                       </div>
                     </div>
