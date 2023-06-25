@@ -392,14 +392,14 @@ export default function CaseStudies() {
             <Col lg={6} xs={12}>
               <div className="case-dev-con">
                 <h4 className="mb-xxl-4">
-                  Our team successfully transformed the Swiss Military's online
-                  presence by developing a unique and user-friendly e-commerce
-                  website.
+                  Our team successfully transformed the Swiss Military&apos;s
+                  online presence by developing a unique and user-friendly
+                  e-commerce website.
                 </h4>
                 <p>
                   The project resulted in enhanced brand representation,
                   improved user experience, increased sales, and positive
-                  customer feedback. By aligning with the Swiss Military's
+                  customer feedback. By aligning with the Swiss Military&apos;s
                   objectives and leveraging our expertise, we delivered a
                   high-quality e-commerce solution that positioned the brand for
                   continued growth and success in the competitive digital

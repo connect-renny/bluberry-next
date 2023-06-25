@@ -175,9 +175,9 @@ export default function AppDevelopment() {
                 </figure>
                 <div className="paid-com-body">
                   <h4>
-                    Whether you're aiming to increase brand awareness, generate
-                    leads, or drive conversions, our paid ads service offers you
-                    a powerful tool to outshine the competition.
+                    Whether you&apos;re aiming to increase brand awareness,
+                    generate leads, or drive conversions, our paid ads service
+                    offers you a powerful tool to outshine the competition.
                   </h4>
                   <p>
                     We continuously analyze performance metrics, adjust
@@ -203,7 +203,7 @@ export default function AppDevelopment() {
                   <h4>
                     Rest assured, we keep you informed every step of the way,
                     providing detailed reports and transparent insights into
-                    your campaign's performance.
+                    your campaign&apos;s performance.
                   </h4>
                   <p>
                     Our collaborative approach allows us to align our efforts
@@ -224,13 +224,13 @@ export default function AppDevelopment() {
               <div className="brand-imp-con">
                 <h4>
                   Make the best use of paid advertising and catapult your brand
-                  to new heights.Let's ignite your online presence, boost your
-                  visibility, and connect with your ideal customers through our
-                  expertly crafted paid ad campaigns.
+                  to new heights.Let&apos;s ignite your online presence, boost
+                  your visibility, and connect with your ideal customers through
+                  our expertly crafted paid ad campaigns.
                 </h4>
                 <p>
-                  Get in touch with us today, and let's embark on a journey to
-                  drive your business forward.
+                  Get in touch with us today, and let&apos;s embark on a journey
+                  to drive your business forward.
                 </p>
               </div>
             </Col>
