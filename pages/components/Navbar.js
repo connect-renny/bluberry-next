@@ -116,9 +116,9 @@ export default function NavbarMain() {
                       </Link>
                     </li>
                     <li className="mg-item">
-                      <NavDropdown.Item className="mg-nav" href="/Content">
+                      <Link className="mg-nav" href="/Content">
                         Content
-                      </NavDropdown.Item>
+                      </Link>
                     </li>
                     <li className="mg-item">
                       <Link
