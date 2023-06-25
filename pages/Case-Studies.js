@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 
 import IncludeContact from "./components/IncludeContact";
+import ProjectSlider from "./components/ProjectSlider";
 
 import Link from "next/link";
 
@@ -285,6 +286,11 @@ export default function CaseStudies() {
                 <Slider className="slider " {...settings}>
                   <div>
                     <div className="case-result-item">
+                      <div className="case-wave">
+                        <div className="wave wave-01"></div>
+                        <div className="wave wave-02"></div>
+                        <div className="wave wave-03"></div>
+                      </div>
                       <div className="case-result-hd">
                         <h4>1. Enhanced Brand Representation</h4>
                       </div>
@@ -300,6 +306,11 @@ export default function CaseStudies() {
                   </div>
                   <div>
                     <div className="case-result-item">
+                      <div className="case-wave">
+                        <div className="wave wave-01"></div>
+                        <div className="wave wave-02"></div>
+                        <div className="wave wave-03"></div>
+                      </div>
                       <div className="case-result-hd">
                         <h4>2. Improved User Experience</h4>
                       </div>
@@ -317,6 +328,11 @@ export default function CaseStudies() {
                   </div>
                   <div>
                     <div className="case-result-item">
+                      <div className="case-wave">
+                        <div className="wave wave-01"></div>
+                        <div className="wave wave-02"></div>
+                        <div className="wave wave-03"></div>
+                      </div>
                       <div className="case-result-hd">
                         <h4>1. Enhanced Brand Representation</h4>
                       </div>
@@ -332,6 +348,11 @@ export default function CaseStudies() {
                   </div>
                   <div>
                     <div className="case-result-item">
+                      <div className="case-wave">
+                        <div className="wave wave-01"></div>
+                        <div className="wave wave-02"></div>
+                        <div className="wave wave-03"></div>
+                      </div>
                       <div className="case-result-hd">
                         <h4>2. Improved User Experience</h4>
                       </div>
@@ -349,6 +370,64 @@ export default function CaseStudies() {
                   </div>
                 </Slider>
               </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="pt-4 pt-lg-5 pb-4 pb-lg-5">
+        <Container fluid="xxl">
+          <Row className="d-flex align-items-center">
+            <Col lg={6} xs={12}>
+              <div className="case-dev-img">
+                <Image
+                  src="/images/case-dev.png"
+                  alt="Image"
+                  layout="intrinsic"
+                  width={700}
+                  height={535}
+                />
+              </div>
+            </Col>
+            <Col lg={6} xs={12}>
+              <div className="case-dev-con">
+                <h4 className="mb-xxl-4">
+                  Our team successfully transformed the Swiss Military's online
+                  presence by developing a unique and user-friendly e-commerce
+                  website.
+                </h4>
+                <p>
+                  The project resulted in enhanced brand representation,
+                  improved user experience, increased sales, and positive
+                  customer feedback. By aligning with the Swiss Military's
+                  objectives and leveraging our expertise, we delivered a
+                  high-quality e-commerce solution that positioned the brand for
+                  continued growth and success in the competitive digital
+                  landscape.
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12}></Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="our-project-sec">
+        <Container>
+          <Row>
+            <Col xs={12}>
+              <div className="section-hd text-center">
+                <h3>Other Projects</h3>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <Container fluid className="px-0">
+          <Row className="gx-0">
+            <Col xs={12}>
+              <ProjectSlider />
             </Col>
           </Row>
         </Container>

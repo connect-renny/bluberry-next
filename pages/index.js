@@ -273,6 +273,11 @@ export default function Home() {
               <Link href="#" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-04.png" alt="Icon" />
+                  <img
+                    className="hover"
+                    src="/images/service-icon-hover-04.png"
+                    alt="Icon"
+                  />
                 </div>
                 <div className="service-body">
                   <h4>Branding</h4>
@@ -287,7 +292,12 @@ export default function Home() {
             <Col lg={3} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
-                  <img src="/images/service-icon-01.png" alt="Icon" />
+                  <img src="/images/service-icon-05.png" alt="Icon" />
+                  <img
+                    className="hover"
+                    src="/images/service-icon-hover-05.png"
+                    alt="Icon"
+                  />
                 </div>
                 <div className="service-body">
                   <h4>Creative Design</h4>
@@ -303,6 +313,11 @@ export default function Home() {
               <Link href="#" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-02.png" alt="Icon" />
+                  <img
+                    className="hover"
+                    src="/images/service-icon-hover-02.png"
+                    alt="Icon"
+                  />
                 </div>
                 <div className="service-body">
                   <h4>Content</h4>
@@ -317,7 +332,12 @@ export default function Home() {
             <Col lg={3} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
-                  <img src="/images/service-icon-06.png" alt="Icon" />
+                  <img src="/images/service-icon-05.png" alt="Icon" />
+                  <img
+                    className="hover"
+                    src="/images/service-icon-hover-05.png"
+                    alt="Icon"
+                  />
                 </div>
                 <div className="service-body">
                   <h4>Website Design & Development</h4>
@@ -333,6 +353,11 @@ export default function Home() {
               <Link href="#" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-06.png" alt="Icon" />
+                  <img
+                    className="hover"
+                    src="/images/service-icon-hover-06.png"
+                    alt="Icon"
+                  />
                 </div>
                 <div className="service-body">
                   <h4>App Development</h4>
@@ -347,7 +372,12 @@ export default function Home() {
             <Col lg={3} md={6} xs={12}>
               <Link href="#" className="service-item">
                 <div className="service-icon">
-                  <img src="/images/service-icon-03.png" alt="Icon" />
+                  <img src="/images/service-icon-01.png" alt="Icon" />
+                  <img
+                    className="hover"
+                    src="/images/service-icon-hover-01.png"
+                    alt="Icon"
+                  />
                 </div>
                 <div className="service-body">
                   <h4>Social Media</h4>
@@ -364,6 +394,11 @@ export default function Home() {
               <Link href="#" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-03.png" alt="Icon" />
+                  <img
+                    className="hover"
+                    src="/images/service-icon-hover-03.png"
+                    alt="Icon"
+                  />
                 </div>
                 <div className="service-body">
                   <h4>SEO</h4>
@@ -379,6 +414,11 @@ export default function Home() {
               <Link href="#" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-06.png" alt="Icon" />
+                  <img
+                    className="hover"
+                    src="/images/service-icon-hover-06.png"
+                    alt="Icon"
+                  />
                 </div>
                 <div className="service-body">
                   <h4>Paid Ads</h4>

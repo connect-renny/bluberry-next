@@ -170,332 +170,336 @@ export default function Industries() {
         </div>
         <div className="ind-tab-content  py-4 py-lg-5  py-xl-6">
           <Container>
-            <Slider {...settings02} ref={indSliderMainRef}>
-              <div>
-                <div className="ind-tb-con">
-                  <Row className="d-flex align-items-center">
-                    <Col lg={6} xs={12}>
-                      <div className="ind-tb-con">
-                        <div className="ind-tb-hd">
-                          <h5>01</h5>
-                          <h4>
-                            E-commerce & <br />
-                            Retail:
-                          </h4>
+            <div className="ind-carousel-con">
+              <Slider {...settings02} ref={indSliderMainRef}>
+                <div>
+                  <div className="ind-tb-con">
+                    <Row className="d-flex align-items-center">
+                      <Col lg={6} xs={12}>
+                        <div className="ind-tb-con">
+                          <div className="ind-tb-hd">
+                            <h5>01</h5>
+                            <h4>
+                              E-commerce & <br />
+                              Retail:
+                            </h4>
+                          </div>
+                          <p>
+                            In the fast-paced world of online shopping, we
+                            understand the importance of creating easy,
+                            intuitive e-commerce experiences. Whether you&#39;re
+                            a small boutique or a large-scale retailer, we help
+                            you optimize your online store, drive traffic, and
+                            enhance the customer journey, ultimately boosting
+                            sales and fostering customer loyalty.
+                          </p>
                         </div>
-                        <p>
-                          In the fast-paced world of online shopping, we
-                          understand the importance of creating easy, intuitive
-                          e-commerce experiences. Whether you&#39;re a small
-                          boutique or a large-scale retailer, we help you
-                          optimize your online store, drive traffic, and enhance
-                          the customer journey, ultimately boosting sales and
-                          fostering customer loyalty.
-                        </p>
-                      </div>
-                    </Col>
-                    <Col lg={6} xs={12}>
-                      <div className="ind-tb-img">
-                        <Image
-                          src="/images/ind-tab-img-01.jpg"
-                          alt="Team"
-                          layout="intrinsic"
-                          width={625}
-                          height={485}
-                        />
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-              </div>
-              <div>
-                <div className="ind-tb-con">
-                  <Row className="d-flex align-items-center">
-                    <Col lg={6} xs={12}>
-                      <div className="ind-tb-con">
-                        <div className="ind-tb-hd">
-                          <h5>02</h5>
-                          <h4>
-                            Technology & <br />
-                            Software
-                          </h4>
+                      </Col>
+                      <Col lg={6} xs={12}>
+                        <div className="ind-tb-img">
+                          <Image
+                            src="/images/ind-tab-img-01.jpg"
+                            alt="Team"
+                            layout="intrinsic"
+                            width={625}
+                            height={485}
+                          />
                         </div>
-                        <p>
-                          The tech industry is constantly evolving, and
-                          we&#39;re here to help you stay at the forefront of
-                          digital innovation. From software development
-                          companies to tech startups, we provide solutions that
-                          highlight your product&#39;s unique value proposition,
-                          attract the right audience, and position you as a
-                          leader in the industry.
-                        </p>
-                      </div>
-                    </Col>
-                    <Col lg={6} xs={12}>
-                      <div className="team-img">
-                        <Image
-                          src="/images/ind-tab-img-01.jpg"
-                          alt="Team"
-                          layout="intrinsic"
-                          width={625}
-                          height={485}
-                        />
-                      </div>
-                    </Col>
-                  </Row>
+                      </Col>
+                    </Row>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div className="ind-tb-con">
-                  <Row className="d-flex align-items-center">
-                    <Col lg={6} xs={12}>
-                      <div className="ind-tb-con">
-                        <div className="ind-tb-hd">
-                          <h5>03</h5>
-                          <h4>
-                            Hospitality & <br />
-                            Tourism
-                          </h4>
+                <div>
+                  <div className="ind-tb-con">
+                    <Row className="d-flex align-items-center">
+                      <Col lg={6} xs={12}>
+                        <div className="ind-tb-con">
+                          <div className="ind-tb-hd">
+                            <h5>02</h5>
+                            <h4>
+                              Technology & <br />
+                              Software
+                            </h4>
+                          </div>
+                          <p>
+                            The tech industry is constantly evolving, and
+                            we&#39;re here to help you stay at the forefront of
+                            digital innovation. From software development
+                            companies to tech startups, we provide solutions
+                            that highlight your product&#39;s unique value
+                            proposition, attract the right audience, and
+                            position you as a leader in the industry.
+                          </p>
                         </div>
-                        <p>
-                          We understand that in the competitive hospitality and
-                          tourism industry, captivating your audience is
-                          essential. Our digital strategies and branding
-                          services help hotels, resorts, travel agencies, and
-                          other hospitality businesses create an exceptional
-                          online presence, reach a global audience, and drive
-                          bookings.
-                        </p>
-                      </div>
-                    </Col>
-                    <Col lg={6} xs={12}>
-                      <div className="team-img">
-                        <Image
-                          src="/images/ind-tab-img-01.jpg"
-                          alt="Team"
-                          layout="intrinsic"
-                          width={625}
-                          height={485}
-                        />
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-              </div>
-              <div>
-                <div className="ind-tb-con">
-                  <Row className="d-flex align-items-center">
-                    <Col lg={6} xs={12}>
-                      <div className="ind-tb-con">
-                        <div className="ind-tb-hd">
-                          <h5>04</h5>
-                          <h4>
-                            Health & <br />
-                            Wellness
-                          </h4>
+                      </Col>
+                      <Col lg={6} xs={12}>
+                        <div className="team-img">
+                          <Image
+                            src="/images/ind-tab-img-01.jpg"
+                            alt="Team"
+                            layout="intrinsic"
+                            width={625}
+                            height={485}
+                          />
                         </div>
-                        <p>
-                          For businesses in the health and wellness sector,
-                          building trust and credibility is vital. We help
-                          medical professionals, wellness centers, fitness
-                          studios, and other health-related businesses establish
-                          a strong online presence, communicate their expertise,
-                          and connect with individuals seeking their services.
-                        </p>
-                      </div>
-                    </Col>
-                    <Col lg={6} xs={12}>
-                      <div className="team-img">
-                        <Image
-                          src="/images/ind-tab-img-01.jpg"
-                          alt="Team"
-                          layout="intrinsic"
-                          width={625}
-                          height={485}
-                        />
-                      </div>
-                    </Col>
-                  </Row>
+                      </Col>
+                    </Row>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div className="ind-tb-con">
-                  <Row className="d-flex align-items-center">
-                    <Col lg={6} xs={12}>
-                      <div className="ind-tb-con">
-                        <div className="ind-tb-hd">
-                          <h5>05</h5>
-                          <h4>
-                            Education & <br />
-                            E-learning
-                          </h4>
+                <div>
+                  <div className="ind-tb-con">
+                    <Row className="d-flex align-items-center">
+                      <Col lg={6} xs={12}>
+                        <div className="ind-tb-con">
+                          <div className="ind-tb-hd">
+                            <h5>03</h5>
+                            <h4>
+                              Hospitality & <br />
+                              Tourism
+                            </h4>
+                          </div>
+                          <p>
+                            We understand that in the competitive hospitality
+                            and tourism industry, captivating your audience is
+                            essential. Our digital strategies and branding
+                            services help hotels, resorts, travel agencies, and
+                            other hospitality businesses create an exceptional
+                            online presence, reach a global audience, and drive
+                            bookings.
+                          </p>
                         </div>
-                        <p>
-                          In the digital age, education has transcended
-                          traditional boundaries. We work with educational
-                          institutions, e-learning platforms, and online course
-                          providers to create engaging digital experiences,
-                          drive enrollments, and empower learners with
-                          accessible and interactive content.
-                        </p>
-                      </div>
-                    </Col>
-                    <Col lg={6} xs={12}>
-                      <div className="team-img">
-                        <Image
-                          src="/images/ind-tab-img-01.jpg"
-                          alt="Team"
-                          layout="intrinsic"
-                          width={625}
-                          height={485}
-                        />
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-              </div>
-              <div>
-                <div className="ind-tb-con">
-                  <Row className="d-flex align-items-center">
-                    <Col lg={6} xs={12}>
-                      <div className="ind-tb-con">
-                        <div className="ind-tb-hd">
-                          <h5>06</h5>
-                          <h4>Real Estate</h4>
+                      </Col>
+                      <Col lg={6} xs={12}>
+                        <div className="team-img">
+                          <Image
+                            src="/images/ind-tab-img-01.jpg"
+                            alt="Team"
+                            layout="intrinsic"
+                            width={625}
+                            height={485}
+                          />
                         </div>
-                        <p>
-                          The real estate industry demands a powerful online
-                          presence to showcase properties and attract potential
-                          buyers or renters. Our expertise in website design,
-                          virtual tours, and digital marketing strategies helps
-                          real estate agents and property developers effectively
-                          engage with their target audience and generate leads.
-                        </p>
-                      </div>
-                    </Col>
-                    <Col lg={6} xs={12}>
-                      <div className="team-img">
-                        <Image
-                          src="/images/ind-tab-img-01.jpg"
-                          alt="Team"
-                          layout="intrinsic"
-                          width={625}
-                          height={485}
-                        />
-                      </div>
-                    </Col>
-                  </Row>
+                      </Col>
+                    </Row>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div className="ind-tb-con">
-                  <Row className="d-flex align-items-center">
-                    <Col lg={6} xs={12}>
-                      <div className="ind-tb-con">
-                        <div className="ind-tb-hd">
-                          <h5>07</h5>
-                          <h4>
-                            Financial <br />
-                            Services
-                          </h4>
+                <div>
+                  <div className="ind-tb-con">
+                    <Row className="d-flex align-items-center">
+                      <Col lg={6} xs={12}>
+                        <div className="ind-tb-con">
+                          <div className="ind-tb-hd">
+                            <h5>04</h5>
+                            <h4>
+                              Health & <br />
+                              Wellness
+                            </h4>
+                          </div>
+                          <p>
+                            For businesses in the health and wellness sector,
+                            building trust and credibility is vital. We help
+                            medical professionals, wellness centers, fitness
+                            studios, and other health-related businesses
+                            establish a strong online presence, communicate
+                            their expertise, and connect with individuals
+                            seeking their services.
+                          </p>
                         </div>
-                        <p>
-                          Building trust is crucial in the financial services
-                          industry. We assist banks, insurance companies,
-                          investment firms, and financial advisors in
-                          establishing a credible and user- friendly digital
-                          presence, providing educational resources, and guiding
-                          users towards their financial goals.
-                        </p>
-                      </div>
-                    </Col>
-                    <Col lg={6} xs={12}>
-                      <div className="team-img">
-                        <Image
-                          src="/images/ind-tab-img-01.jpg"
-                          alt="Team"
-                          layout="intrinsic"
-                          width={625}
-                          height={485}
-                        />
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-              </div>
-              <div>
-                <div className="ind-tb-con">
-                  <Row className="d-flex align-items-center">
-                    <Col lg={6} xs={12}>
-                      <div className="ind-tb-con">
-                        <div className="ind-tb-hd">
-                          <h5>08</h5>
-                          <h4>
-                            Non-profit <br />
-                            Organizations
-                          </h4>
+                      </Col>
+                      <Col lg={6} xs={12}>
+                        <div className="team-img">
+                          <Image
+                            src="/images/ind-tab-img-01.jpg"
+                            alt="Team"
+                            layout="intrinsic"
+                            width={625}
+                            height={485}
+                          />
                         </div>
-                        <p>
-                          We are dedicated to supporting non-profit
-                          organizations in their mission to make a positive
-                          impact. Our digital strategies and fundraising
-                          campaigns help non-profits raise awareness, engage
-                          supporters, and mobilize resources to drive meaningful
-                          change.
-                        </p>
-                      </div>
-                    </Col>
-                    <Col lg={6} xs={12}>
-                      <div className="team-img">
-                        <Image
-                          src="/images/ind-tab-img-01.jpg"
-                          alt="Team"
-                          layout="intrinsic"
-                          width={625}
-                          height={485}
-                        />
-                      </div>
-                    </Col>
-                  </Row>
+                      </Col>
+                    </Row>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div className="ind-tb-con">
-                  <Row className="d-flex align-items-center">
-                    <Col lg={6} xs={12}>
-                      <div className="ind-tb-con">
-                        <div className="ind-tb-hd">
-                          <h5>09</h5>
-                          <h4>
-                            Public <br />
-                            Sector
-                          </h4>
+                <div>
+                  <div className="ind-tb-con">
+                    <Row className="d-flex align-items-center">
+                      <Col lg={6} xs={12}>
+                        <div className="ind-tb-con">
+                          <div className="ind-tb-hd">
+                            <h5>05</h5>
+                            <h4>
+                              Education & <br />
+                              E-learning
+                            </h4>
+                          </div>
+                          <p>
+                            In the digital age, education has transcended
+                            traditional boundaries. We work with educational
+                            institutions, e-learning platforms, and online
+                            course providers to create engaging digital
+                            experiences, drive enrollments, and empower learners
+                            with accessible and interactive content.
+                          </p>
                         </div>
-                        <p>
-                          We are also ready to collaborate with government
-                          agencies, municipalities, and public institutions to
-                          create impactful digital strategies. These are aimed
-                          to enhance public participation, empower citizens, and
-                          foster transparency and a stronger connection with the
-                          community.
-                        </p>
-                      </div>
-                    </Col>
-                    <Col lg={6} xs={12}>
-                      <div className="team-img">
-                        <Image
-                          src="/images/ind-tab-img-01.jpg"
-                          alt="Team"
-                          layout="intrinsic"
-                          width={625}
-                          height={485}
-                        />
-                      </div>
-                    </Col>
-                  </Row>
+                      </Col>
+                      <Col lg={6} xs={12}>
+                        <div className="team-img">
+                          <Image
+                            src="/images/ind-tab-img-01.jpg"
+                            alt="Team"
+                            layout="intrinsic"
+                            width={625}
+                            height={485}
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                  </div>
                 </div>
-              </div>
-            </Slider>
+                <div>
+                  <div className="ind-tb-con">
+                    <Row className="d-flex align-items-center">
+                      <Col lg={6} xs={12}>
+                        <div className="ind-tb-con">
+                          <div className="ind-tb-hd">
+                            <h5>06</h5>
+                            <h4>Real Estate</h4>
+                          </div>
+                          <p>
+                            The real estate industry demands a powerful online
+                            presence to showcase properties and attract
+                            potential buyers or renters. Our expertise in
+                            website design, virtual tours, and digital marketing
+                            strategies helps real estate agents and property
+                            developers effectively engage with their target
+                            audience and generate leads.
+                          </p>
+                        </div>
+                      </Col>
+                      <Col lg={6} xs={12}>
+                        <div className="team-img">
+                          <Image
+                            src="/images/ind-tab-img-01.jpg"
+                            alt="Team"
+                            layout="intrinsic"
+                            width={625}
+                            height={485}
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                  </div>
+                </div>
+                <div>
+                  <div className="ind-tb-con">
+                    <Row className="d-flex align-items-center">
+                      <Col lg={6} xs={12}>
+                        <div className="ind-tb-con">
+                          <div className="ind-tb-hd">
+                            <h5>07</h5>
+                            <h4>
+                              Financial <br />
+                              Services
+                            </h4>
+                          </div>
+                          <p>
+                            Building trust is crucial in the financial services
+                            industry. We assist banks, insurance companies,
+                            investment firms, and financial advisors in
+                            establishing a credible and user- friendly digital
+                            presence, providing educational resources, and
+                            guiding users towards their financial goals.
+                          </p>
+                        </div>
+                      </Col>
+                      <Col lg={6} xs={12}>
+                        <div className="team-img">
+                          <Image
+                            src="/images/ind-tab-img-01.jpg"
+                            alt="Team"
+                            layout="intrinsic"
+                            width={625}
+                            height={485}
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                  </div>
+                </div>
+                <div>
+                  <div className="ind-tb-con">
+                    <Row className="d-flex align-items-center">
+                      <Col lg={6} xs={12}>
+                        <div className="ind-tb-con">
+                          <div className="ind-tb-hd">
+                            <h5>08</h5>
+                            <h4>
+                              Non-profit <br />
+                              Organizations
+                            </h4>
+                          </div>
+                          <p>
+                            We are dedicated to supporting non-profit
+                            organizations in their mission to make a positive
+                            impact. Our digital strategies and fundraising
+                            campaigns help non-profits raise awareness, engage
+                            supporters, and mobilize resources to drive
+                            meaningful change.
+                          </p>
+                        </div>
+                      </Col>
+                      <Col lg={6} xs={12}>
+                        <div className="team-img">
+                          <Image
+                            src="/images/ind-tab-img-01.jpg"
+                            alt="Team"
+                            layout="intrinsic"
+                            width={625}
+                            height={485}
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                  </div>
+                </div>
+                <div>
+                  <div className="ind-tb-con">
+                    <Row className="d-flex align-items-center">
+                      <Col lg={6} xs={12}>
+                        <div className="ind-tb-con">
+                          <div className="ind-tb-hd">
+                            <h5>09</h5>
+                            <h4>
+                              Public <br />
+                              Sector
+                            </h4>
+                          </div>
+                          <p>
+                            We are also ready to collaborate with government
+                            agencies, municipalities, and public institutions to
+                            create impactful digital strategies. These are aimed
+                            to enhance public participation, empower citizens,
+                            and foster transparency and a stronger connection
+                            with the community.
+                          </p>
+                        </div>
+                      </Col>
+                      <Col lg={6} xs={12}>
+                        <div className="team-img">
+                          <Image
+                            src="/images/ind-tab-img-01.jpg"
+                            alt="Team"
+                            layout="intrinsic"
+                            width={625}
+                            height={485}
+                          />
+                        </div>
+                      </Col>
+                    </Row>
+                  </div>
+                </div>
+              </Slider>
+            </div>
           </Container>
         </div>
       </section>

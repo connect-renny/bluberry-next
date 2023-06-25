@@ -3,10 +3,9 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
 import WorkSection from "./components/WorkSection";
 import IndustriesSection from "./components/IndustriesSection";
+import TaglineSection from "./components/TaglineSection";
 import IncludeContact from "./components/IncludeContact";
 import ContactConsultation from "./components/ContactConsultation";
-
-import Link from "next/link";
 
 export default function AppDevelopment() {
   return (
@@ -486,22 +485,7 @@ export default function AppDevelopment() {
         </Tab.Container>
       </section>
 
-      <section className="brand-story-sec trans-sec">
-        <Container fluid="xxl">
-          <Row>
-            <Col xs={12}>
-              <div className="brand-story">
-                <div className="section-hd unique-hd">
-                  <h3>
-                    Dream big, and envision the transformative power we can
-                    unleash together.
-                  </h3>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      <TaglineSection />
 
       <WorkSection />
 
