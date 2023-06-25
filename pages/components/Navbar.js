@@ -139,9 +139,9 @@ export default function NavbarMain() {
                       </Link>
                     </li>
                     <li className="mg-item">
-                      <a className="mg-nav" href="/SEO">
+                      <Link className="mg-nav" href="/SEO">
                         SEO
-                      </a>
+                      </Link>
                     </li>
                     <li className="mg-item">
                       <Link className="mg-nav" href="/Paid-Ads">
