@@ -98,7 +98,10 @@ export default function Blog() {
                           Unleashing the Power of GPT-4 and the Future of
                           ChatGPT
                         </h4>
-                        <Link className="btn btn-shine btn-more" href="#">
+                        <Link
+                          className="btn btn-shine btn-more"
+                          href="Blog-Details"
+                        >
                           <span className="btn-label">Read More</span>
                           <span className="btn-icon">
                             <FiArrowRight />
@@ -123,7 +126,10 @@ export default function Blog() {
                       <div className="blog-body">
                         <div className="blog-date">September 12,2023</div>
                         <h4>A Paradigm Shift in Business Growth</h4>
-                        <Link className="btn btn-shine btn-more" href="#">
+                        <Link
+                          className="btn btn-shine btn-more"
+                          href="Blog-Details"
+                        >
                           <span className="btn-label">Read More</span>
                           <span className="btn-icon">
                             <FiArrowRight />
@@ -148,7 +154,10 @@ export default function Blog() {
                       <div className="blog-body">
                         <div className="blog-date">September 12,2023</div>
                         <h4>Choosing the Right Social Platforms</h4>
-                        <Link className="btn btn-shine btn-more" href="#">
+                        <Link
+                          className="btn btn-shine btn-more"
+                          href="Blog-Details"
+                        >
                           <span className="btn-label">Read More</span>
                           <span className="btn-icon">
                             <FiArrowRight />
