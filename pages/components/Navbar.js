@@ -134,7 +134,7 @@ export default function NavbarMain() {
                       </Link>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/ Social-Media">
+                      <Link className="mg-nav" href="/Social-Media">
                         Social Media
                       </Link>
                     </li>

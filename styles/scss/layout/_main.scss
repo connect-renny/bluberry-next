@@ -3168,3 +3168,227 @@ input[type="number"]::-webkit-inner-spin-button {
 .paid-story-bg {
   background-image: url(../../../public/images/paid-story-bg.jpg);
 }
+
+.terms-item {
+  margin-bottom: 2rem;
+  .terms-hd {
+    margin-bottom: 1.5rem;
+    h3 {
+      color: var(--color-100);
+      font-size: var(--fs-18);
+      font-weight: var(--font-weight-semibold);
+      margin: 0;
+    }
+    h4 {
+      color: var(--color-100);
+      font-size: var(--fs-14);
+      font-weight: var(--font-weight-semibold);
+      margin: 0;
+    }
+  }
+  p {
+    color: var(--bk-grade-550);
+  }
+  ul {
+    margin-bottom: 1.5rem;
+    li {
+      position: relative;
+      color: var(--bk-grade-550);
+      padding-left: 1.25rem;
+      margin-bottom: 1rem;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 10px;
+        width: 6px;
+        height: 6px;
+        background-color: var(--bk-grade-950);
+        border-radius: 50%;
+      }
+    }
+  }
+  ol {
+    margin-bottom: 1.5rem;
+    li {
+      margin-bottom: 1rem;
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
+
+.content-steps {
+  .step-item {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 1.5rem;
+    overflow: hidden;
+    .step-count {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 0 0 48px;
+      max-width: 48px;
+      height: 48px;
+      color: var(--white);
+      font-size: var(--fs-12);
+      margin-right: 2rem;
+      background-color: var(--color-200);
+      border-radius: 50%;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        width: 1px;
+        height: 200px;
+        border-left: 1px dotted var(--color-200);
+      }
+    }
+    .step-body {
+      h4 {
+        color: var(--color-200);
+        font-size: var(--fs-12);
+        font-weight: var(--font-weight-medium);
+        margin: 0 0 1rem 0;
+      }
+      p {
+        color: var(--bk-grade-550);
+        margin: 0;
+      }
+    }
+    &:last-child {
+      .step-count {
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.blog-slider {
+  max-width: 1300px;
+  margin: 0 auto;
+  img {
+    width: 100%;
+  }
+}
+
+.blog-dtl-hd {
+  margin-bottom: 2rem;
+  h3 {
+    color: var(--color-100);
+    font-size: var(--fs-19);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 1rem;
+  }
+}
+
+.search-sidebar {
+  padding-left: 2.5rem;
+  border-left: 1px solid var(--bk-grade-100);
+}
+
+.blog-search-cover {
+  margin-bottom: 2rem;
+  h4 {
+    color: var(--color-200);
+    font-size: var(--fs-12);
+    font-weight: var(--font-weight-semibold);
+    margin: 0 0 2rem 0;
+    text-transform: uppercase;
+  }
+}
+
+.search-form {
+  .form-control {
+    color: var(--white);
+    border: 1px solid var(--bk-grade-150);
+    border-radius: 0.5rem !important;
+    background-color: transparent;
+    margin-right: 1rem;
+    &::placeholder {
+      color: var(--bk-grade-500);
+    }
+  }
+  .btn-send {
+    padding: 0.5rem 1.5rem;
+    background-color: var(--color-100);
+    border: 0;
+    border-radius: 0.5rem !important;
+    &:hover {
+      color: var(--white);
+      background: linear-gradient(
+        to right,
+        #354099 0%,
+        #6a2d8f 25%,
+        #354099 50%,
+        #6a2d8f 75%,
+        #354099 100%
+      );
+      background-size: 400% 400%;
+      animation: btnGradient 2s ease infinite;
+    }
+  }
+}
+
+.recent-post-hd {
+  margin-bottom: 2rem;
+  h4 {
+    color: var(--color-200);
+    font-size: var(--fs-12);
+    font-weight: var(--font-weight-semibold);
+    margin: 0 0 2rem 0;
+    text-transform: uppercase;
+  }
+}
+
+.recent-post-list {
+  .rec-post-item {
+    margin-bottom: 0.5rem;
+  }
+  .rec-post-link {
+    position: relative;
+    display: block;
+    padding: 0.25rem 0.25rem 0.25rem 2rem;
+    z-index: 5;
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 0;
+      height: 100%;
+      background-color: rgba($color-100, 10%);
+      transition: 0.3s ease-out;
+      z-index: -1;
+    }
+    .icon {
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--color-200);
+      font-size: var(--fs-12);
+    }
+    p {
+      color: var(--bk-grade-550);
+      font-size: var(--fs-10);
+      font-weight: var(--font-weight-medium);
+      margin: 0 0 0.25rem 0;
+    }
+    .post-date {
+      color: var(--color-100);
+      font-size: var(--fs-08);
+    }
+    &:hover {
+      &::before {
+        left: 0;
+        width: 100%;
+      }
+    }
+  }
+}

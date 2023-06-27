@@ -236,7 +236,7 @@ export default function Footer() {
             <Col lg={6} xs={12}>
               <ul class="btm-list">
                 <li class="btm-item">
-                  <Link class="btm-link" href="#">
+                  <Link class="btm-link" href="/Terms-Conditions">
                     Terms & Conditions
                   </Link>
                 </li>

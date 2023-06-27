@@ -408,9 +408,6 @@ export default function CaseStudies() {
               </div>
             </Col>
           </Row>
-          <Row>
-            <Col xs={12}></Col>
-          </Row>
         </Container>
       </section>
 
