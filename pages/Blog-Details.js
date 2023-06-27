@@ -230,24 +230,36 @@ export default function AppDevelopment() {
                     </div>
                     <div className="rec-post-item">
                       <Link className="rec-post-link" href="#">
+                        <div className="icon">
+                          <RiArrowRightFill />
+                        </div>
                         <p>Must things to know about Instagram Bio</p>
                         <div className="post-date">23 Jun 2023</div>
                       </Link>
                     </div>
                     <div className="rec-post-item">
                       <Link className="rec-post-link" href="#">
+                        <div className="icon">
+                          <RiArrowRightFill />
+                        </div>
                         <p>How to Create Content That Drives Sales</p>
                         <div className="post-date">23 Jun 2023</div>
                       </Link>
                     </div>
                     <div className="rec-post-item">
                       <Link className="rec-post-link" href="#">
+                        <div className="icon">
+                          <RiArrowRightFill />
+                        </div>
                         <p>Growing Importance of Local SEO for Businesses</p>
                         <div className="post-date">23 Jun 2023</div>
                       </Link>
                     </div>
                     <div className="rec-post-item">
                       <Link className="rec-post-link" href="#">
+                        <div className="icon">
+                          <RiArrowRightFill />
+                        </div>
                         <p>
                           Social Media Influencer Partnerships: Dos and
                           Don&apos;ts
