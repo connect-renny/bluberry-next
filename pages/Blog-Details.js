@@ -249,7 +249,8 @@ export default function AppDevelopment() {
                     <div className="rec-post-item">
                       <Link className="rec-post-link" href="#">
                         <p>
-                          Social Media Influencer Partnerships: Dos and Don'ts
+                          Social Media Influencer Partnerships: Dos and
+                          Don&apos;ts
                         </p>
                         <div className="post-date">23 Jun 2023</div>
                       </Link>
