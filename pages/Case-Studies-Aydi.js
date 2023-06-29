@@ -109,7 +109,7 @@ export default function CaseStudies() {
                   between Al Aydi Tents and our team, focusing on the
                   development of a robust online presence through website
                   development, SEO optimization, and strategic social media
-                  management. The project aimed to elevate Al Aydi Tents'
+                  management. The project aimed to elevate Al Aydi Tents&apos;
                   visibility, engage target audiences, and drive business growth
                   in the highly competitive tent and event solutions industry.
                 </p>
@@ -186,9 +186,9 @@ export default function CaseStudies() {
                     <p>
                       Transform the basic standard website of Al Aydi Tents to a
                       visually appealing and user-friendly website that
-                      showcases Al Aydi Tents' products and services, providing
-                      visitors with comprehensive information and a seamless
-                      browsing experience.
+                      showcases Al Aydi Tents&apos; products and services,
+                      providing visitors with comprehensive information and a
+                      seamless browsing experience.
                     </p>
                   </div>
                 </div>
@@ -198,8 +198,9 @@ export default function CaseStudies() {
                     <h4>SEO Optimization</h4>
                     <p>
                       Implement effective search engine optimization strategies
-                      to improve the website's visibility and organic rankings,
-                      driving targeted traffic and maximizing online exposure.
+                      to improve the website&apos;s visibility and organic
+                      rankings, driving targeted traffic and maximizing online
+                      exposure.
                     </p>
                   </div>
                 </div>
@@ -282,7 +283,7 @@ export default function CaseStudies() {
                       <div className="case-result-body">
                         <p>
                           We professionally designed website in the finest
-                          platform and showcased Al Aydi Tents' products,
+                          platform and showcased Al Aydi Tents&apos; products,
                           services, and expertise, creating a strong online
                           presence and establishing credibility in the market.
                         </p>
@@ -324,7 +325,7 @@ export default function CaseStudies() {
                       <div className="case-result-body">
                         <p>
                           We professionally designed website in the finest
-                          platform and showcased Al Aydi Tents' products,
+                          platform and showcased Al Aydi Tents&apos; products,
                           services, and expertise, creating a strong online
                           presence and establishing credibility in the market.
                         </p>
@@ -379,17 +380,17 @@ export default function CaseStudies() {
                 <h4 className="mb-xxl-4">
                   The collaboration between Al Aydi Tents and our team for
                   website development, SEO optimization, and social media
-                  management successfully transformed the company's online
+                  management successfully transformed the company&apos;s online
                   presence.
                 </h4>
                 <p>
                   The project is on-going and has resulted in an engaging
                   website, improved organic rankings, increased brand awareness,
                   and a growing customer base. By leveraging effective
-                  strategies and staying true to Al Aydi Tents' brand identity,
-                  we achieved tangible results that have positively impacted the
-                  company's growth and success in the competitive tent and event
-                  solutions market in the UAE.
+                  strategies and staying true to Al Aydi Tents&apos; brand
+                  identity, we achieved tangible results that have positively
+                  impacted the company&apos;s growth and success in the
+                  competitive tent and event solutions market in the UAE.
                 </p>
               </div>
             </Col>

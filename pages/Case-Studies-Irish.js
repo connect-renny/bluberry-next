@@ -103,11 +103,11 @@ export default function CaseStudies() {
                 <h4>Website Development Project for The Irish Village</h4>
                 <p>
                   This case study showcases the successful website development
-                  project executed by Accen'D for The Irish Village, a renowned
-                  Irish pub in Dubai. The project aimed to create a modern,
-                  user-friendly website that effectively represented the pub's
-                  brand, attracted potential clients and enhanced overall brand
-                  visibility.
+                  project executed by Accen&apos;D for The Irish Village, a
+                  renowned Irish pub in Dubai. The project aimed to create a
+                  modern, user-friendly website that effectively represented the
+                  pub&apos;s brand, attracted potential clients and enhanced
+                  overall brand visibility.
                 </p>
                 <p>
                   Client Background: The Irish Village is an iconic Irish pub
@@ -184,7 +184,7 @@ export default function CaseStudies() {
                     <h4>Brand Identity and Mobile-Friendly Design</h4>
                     <p>
                       a. Create a website with the latest technology to reflect
-                      The Irish Village's brand identity and values.
+                      The Irish Village&apos;s brand identity and values.
                     </p>
                     <p>
                       b. Ensure the website is mobile-friendly, catering to
@@ -201,8 +201,8 @@ export default function CaseStudies() {
                       organization for a seamless browsing experience.
                     </p>
                     <p>
-                      b. Showcase the pub's products and services clearly and
-                      engagingly.
+                      b. Showcase the pub&apos;s products and services clearly
+                      and engagingly.
                     </p>
                   </div>
                 </div>
@@ -271,8 +271,8 @@ export default function CaseStudies() {
                       <div className="case-result-body">
                         <p>
                           The revamped website effectively showcased The Irish
-                          Village's brand identity, values, and unique selling
-                          propositions, contributing to increased brand
+                          Village&apos;s brand identity, values, and unique
+                          selling propositions, contributing to increased brand
                           recognition and trust.
                         </p>
                       </div>
@@ -311,8 +311,8 @@ export default function CaseStudies() {
                       <div className="case-result-body">
                         <p>
                           The revamped website effectively showcased The Irish
-                          Village's brand identity, values, and unique selling
-                          propositions, contributing to increased brand
+                          Village&apos;s brand identity, values, and unique
+                          selling propositions, contributing to increased brand
                           recognition and trust.
                         </p>
                       </div>
@@ -362,17 +362,17 @@ export default function CaseStudies() {
             <Col lg={6} xs={12}>
               <div className="case-dev-con">
                 <h4 className="mb-xxl-4">
-                  Accen'D's website development project successfully transformed
-                  The Irish Village's online presence, leading to increased
-                  traffic, leads, and brand recognition.
+                  Accen&apos;D&apos;s website development project successfully
+                  transformed The Irish Village&apos;s online presence, leading
+                  to increased traffic, leads, and brand recognition.
                 </h4>
                 <p>
                   By focusing on user experience, effective communication of
                   offerings, and implementing strategies, the project resulted
-                  in a modern, engaging, and optimized website. The project's
-                  success contributed to The Irish Village's growth and success
-                  in the digital space, making it a valuable addition to
-                  Accen'D's portfolio.
+                  in a modern, engaging, and optimized website. The
+                  project&apos;s success contributed to The Irish Village&apos;s
+                  growth and success in the digital space, making it a valuable
+                  addition to Accen&apos;D&apos;s portfolio.
                 </p>
               </div>
             </Col>

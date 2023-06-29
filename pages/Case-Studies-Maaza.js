@@ -181,8 +181,9 @@ export default function CaseStudies() {
                     <h4>Brand Identity Development</h4>
                     <p>
                       Create a compelling brand identity that encapsulates
-                      Maaza's values, essence, and unique selling points, while
-                      aligning with the brand's target audience in the UAE.
+                      Maaza&apos;s values, essence, and unique selling points,
+                      while aligning with the brand&apos;s target audience in
+                      the UAE.
                     </p>
                   </div>
                 </div>
@@ -203,9 +204,9 @@ export default function CaseStudies() {
                     <h4>The Tone of Voice and Messaging</h4>
                     <p>
                       Define a distinctive and engaging tone of voice that
-                      reflects Maaza's brand personality, and develop guidelines
-                      for consistent messaging across various communication
-                      channels.
+                      reflects Maaza&apos;s brand personality, and develop
+                      guidelines for consistent messaging across various
+                      communication channels.
                     </p>
                   </div>
                 </div>

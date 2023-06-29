@@ -180,12 +180,12 @@ export default function CaseStudies() {
                   <div className="time-body">
                     <h4>
                       Design an aesthetically pleasing and user-friendly website
-                      that aligned with 10X Properties' brand image.
+                      that aligned with 10X Properties&apos; brand image.
                     </h4>
                     <p>
-                      Showcasing the company's diverse portfolio of properties
-                      with detailed information, high-quality images, and
-                      virtual tours.
+                      Showcasing the company&apos;s diverse portfolio of
+                      properties with detailed information, high-quality images,
+                      and virtual tours.
                     </p>
                   </div>
                 </div>
@@ -271,9 +271,9 @@ export default function CaseStudies() {
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The new website showcased 10X Properties' properties
-                          and services engagingly and intuitively, resulting in
-                          an enhanced user experience.
+                          The new website showcased 10X Properties&apos;
+                          properties and services engagingly and intuitively,
+                          resulting in an enhanced user experience.
                         </p>
                       </div>
                     </div>
@@ -311,9 +311,9 @@ export default function CaseStudies() {
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The new website showcased 10X Properties' properties
-                          and services engagingly and intuitively, resulting in
-                          an enhanced user experience.
+                          The new website showcased 10X Properties&apos;
+                          properties and services engagingly and intuitively,
+                          resulting in an enhanced user experience.
                         </p>
                       </div>
                     </div>
