@@ -74,7 +74,7 @@ export default function CaseStudies() {
           <Row>
             <Col xs={12}>
               <div className="section-hd case-intro-hd text-center">
-                <h3>Swiss Military</h3>
+                <h3>Maaza</h3>
               </div>
             </Col>
           </Row>
@@ -82,7 +82,7 @@ export default function CaseStudies() {
             <Col xs={12}>
               <div className="case-screen-img">
                 <Image
-                  src="/images/case-study-screen.png"
+                  src="/images/case-study-screen-maaza.png"
                   alt="Team"
                   layout="intrinsic"
                   width={1300}
@@ -100,25 +100,25 @@ export default function CaseStudies() {
             <Col lg="8" xs={12}>
               <div className="case-dtl-con">
                 <div className="count">01</div>
-                <h4>E-commerce Website Development for the Swiss Military</h4>
+                <h4>
+                  Maaza Brand Guidelines Case Study: Building Consistency and
+                  Engagement in the UAE
+                </h4>
                 <p>
-                  This case study presents a unique e-commerce website
-                  development project undertaken by our team for the Swiss
-                  Military, a renowned brand specializing in high-quality
-                  watches and other accessories. The objective of the project
-                  was to create a visually appealing and user-friendly online
-                  platform that would enhance the Swiss Military&apos;s brand
-                  image, drive sales, and provide a seamless shopping experience
-                  to customers.
+                  This case study highlights the development and implementation
+                  of comprehensive brand guidelines for Maaza, a beloved fruit
+                  beverage brand, in the UAE. The objective of this project was
+                  to establish a consistent and engaging brand identity that
+                  resonates with the target audience, strengthens brand
+                  recognition, and fosters a deeper connection with consumers.
                 </p>
                 <p>
-                  Client Background: Swiss Military is a prestigious brand known
-                  for its durable and reliable outdoor products. With a
-                  reputation for excellence, the Swiss Military offers a wide
-                  range of items, including watches, travel gear, TWS, and more.
-                  The UAE distribution of the brand began in 2023. The client
-                  sought to establish a robust online presence and expand their
-                  customer reach through an optimized e-commerce platform.
+                  Client Background: Maaza is a well-known fruit beverage brand
+                  that offers a wide range of refreshing and natural fruit
+                  juices with high focus on mangoes. The brand holds a
+                  significant market presence in the UAE and aims to reinforce
+                  its position as a trusted and preferred choice for consumers
+                  seeking quality fruit beverages.
                 </p>
               </div>
             </Col>
@@ -130,19 +130,17 @@ export default function CaseStudies() {
                 </div>
                 <div className="info-item">
                   <div className="info-label">LOCATION</div>
-                  <div className="info-value">Dubai</div>
+                  <div className="info-value">UAE</div>
                 </div>
                 <div className="info-item">
                   <div className="info-label">INVOLVEMENT</div>
-                  <div className="info-value">
-                    E-Commerce Website Development
-                  </div>
+                  <div className="info-value">Branding</div>
                 </div>
                 <div className="info-item">
                   <div className="info-label">VISIT</div>
                   <div className="info-value">
-                    <Link href="https://swissmilitary.me/" target="_blank">
-                      swissmilitary.me
+                    <Link href="https://www.maaza.com/" target="_blank">
+                      maaza.com
                     </Link>
                   </div>
                 </div>
@@ -155,7 +153,7 @@ export default function CaseStudies() {
       <section>
         <div className="case-collage">
           <Image
-            src="/images/case-collage.jpg"
+            src="/images/case-collage-maaza.jpg"
             alt="Team"
             layout="intrinsic"
             width={1920}
@@ -180,67 +178,57 @@ export default function CaseStudies() {
                 <div className="time-item">
                   <div className="time-count">01</div>
                   <div className="time-body">
-                    <h4>Requirement Gathering</h4>
+                    <h4>Brand Identity Development</h4>
                     <p>
-                      Conducted comprehensive discussions with the Swiss
-                      Military team to understand their specific requirements,
-                      target audience, and desired functionalities.
+                      Create a compelling brand identity that encapsulates
+                      Maaza's values, essence, and unique selling points, while
+                      aligning with the brand's target audience in the UAE.
                     </p>
                   </div>
                 </div>
                 <div className="time-item">
                   <div className="time-count">02</div>
                   <div className="time-body">
-                    <h4>Custom Design and Development</h4>
+                    <h4>Consistent Visual Branding</h4>
                     <p>
-                      Created a visually striking and unique website design
-                      tailored to the Swiss Military&apos;s brand identity,
-                      incorporating captivating visuals and clear product
-                      showcases.
+                      Establish guidelines for consistent and cohesive visual
+                      branding elements, including logo usage, typography,
+                      colour palette, and imagery, across all brand touchpoints.
                     </p>
                   </div>
                 </div>
                 <div className="time-item">
                   <div className="time-count">03</div>
                   <div className="time-body">
-                    <h4>Seamless User Experience</h4>
+                    <h4>The Tone of Voice and Messaging</h4>
                     <p>
-                      Developed an intuitive navigation structure, streamlined
-                      the purchasing process and implemented user-friendly
-                      features such as filters, search options, and wishlists.
+                      Define a distinctive and engaging tone of voice that
+                      reflects Maaza's brand personality, and develop guidelines
+                      for consistent messaging across various communication
+                      channels.
                     </p>
                   </div>
                 </div>
                 <div className="time-item">
                   <div className="time-count">04</div>
                   <div className="time-body">
-                    <h4>Mobile Responsiveness</h4>
+                    <h4>Packaging and Labeling</h4>
                     <p>
-                      Ensured that the website was fully optimized for mobile
-                      devices, providing a seamless shopping experience across
-                      smartphones and tablets.
+                      Design guidelines for packaging and labelling to ensure
+                      consistency and a visually appealing presence on store
+                      shelves, enhancing brand recognition and recall.
                     </p>
                   </div>
                 </div>
                 <div className="time-item">
                   <div className="time-count">05</div>
                   <div className="time-body">
-                    <h4>Secure Payment Integration</h4>
+                    <h4>Digital and Social Media Guidelines</h4>
                     <p>
-                      Integrated a reliable and secure payment gateway, enabling
-                      customers to make purchases with confidence and peace of
-                      mind.
-                    </p>
-                  </div>
-                </div>
-                <div className="time-item">
-                  <div className="time-count">06</div>
-                  <div className="time-body">
-                    <h4>Performance Optimization</h4>
-                    <p>
-                      Conducted extensive optimization techniques, including
-                      caching, image compression, and code optimization, to
-                      enhance the website&apos;s speed and performance.
+                      Create guidelines for digital and social media platforms,
+                      including website design, social media posts, and online
+                      advertising, to maintain a cohesive brand experience
+                      across all online channels.
                     </p>
                   </div>
                 </div>
@@ -249,7 +237,7 @@ export default function CaseStudies() {
             <Col lg="4" xs={12}>
               <div className="case-mob-screen">
                 <Image
-                  src="/images/case-mob-screen.png"
+                  src="/images/case-mob-screen-maaza.png"
                   alt="Slider"
                   layout="intrinsic"
                   width={450}
@@ -267,7 +255,7 @@ export default function CaseStudies() {
             <Col xs={12} className="case-res-img-col">
               <div className="case-caro-img">
                 <Image
-                  src="/images/case-result-img.png"
+                  src="/images/case-result-img-maaza.png"
                   alt="Image"
                   layout="intrinsic"
                   width={730}
@@ -281,8 +269,8 @@ export default function CaseStudies() {
                   <div className="count">03</div>
                   <h4>Result</h4>
                   <p>
-                    The e-commerce website development project for the Swiss
-                    Military delivered the following results:
+                    The website development project delivered the following
+                    outcomes:
                   </p>
                 </div>
                 <Slider className="slider " {...settings}>
@@ -294,14 +282,14 @@ export default function CaseStudies() {
                         <div className="wave wave-03"></div>
                       </div>
                       <div className="case-result-hd">
-                        <h4>1. Enhanced Brand Representation</h4>
+                        <h4>1. Consistent Brand Identity</h4>
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The website is created in WordPress and effectively
-                          showcased the Swiss Military&apos;s brand identity,
-                          values, and commitment to quality, leading to
-                          increased brand recognition and customer trust.
+                          The comprehensive brand guidelines established a
+                          consistent and recognizable brand identity for Maaza,
+                          strengthening brand recognition and recall among
+                          consumers in the UAE.
                         </p>
                       </div>
                     </div>
@@ -314,16 +302,14 @@ export default function CaseStudies() {
                         <div className="wave wave-03"></div>
                       </div>
                       <div className="case-result-hd">
-                        <h4>2. Improved User Experience</h4>
+                        <h4>2. Enhanced Customer Engagement</h4>
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The intuitive navigation, streamlined purchasing
-                          process, and user-friendly features enhanced the
-                          overall shopping experience, resulting in increased
-                          customer satisfaction and reduced bounce rates. The
-                          website follows the colour scheme of the parent brand
-                          and adopts the latest trends and features of the era.
+                          The distinctive tone of voice and consistent messaging
+                          across all communication channels fostered a deeper
+                          connection with consumers, increasing engagement and
+                          brand loyalty.
                         </p>
                       </div>
                     </div>
@@ -336,14 +322,14 @@ export default function CaseStudies() {
                         <div className="wave wave-03"></div>
                       </div>
                       <div className="case-result-hd">
-                        <h4>1. Enhanced Brand Representation</h4>
+                        <h4>1. Consistent Brand Identity</h4>
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The website is created in WordPress and effectively
-                          showcased the Swiss Military&apos;s brand identity,
-                          values, and commitment to quality, leading to
-                          increased brand recognition and customer trust.
+                          The comprehensive brand guidelines established a
+                          consistent and recognizable brand identity for Maaza,
+                          strengthening brand recognition and recall among
+                          consumers in the UAE.
                         </p>
                       </div>
                     </div>
@@ -356,16 +342,14 @@ export default function CaseStudies() {
                         <div className="wave wave-03"></div>
                       </div>
                       <div className="case-result-hd">
-                        <h4>2. Improved User Experience</h4>
+                        <h4>2. Enhanced Customer Engagement</h4>
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The intuitive navigation, streamlined purchasing
-                          process, and user-friendly features enhanced the
-                          overall shopping experience, resulting in increased
-                          customer satisfaction and reduced bounce rates. The
-                          website follows the colour scheme of the parent brand
-                          and adopts the latest trends and features of the era.
+                          The distinctive tone of voice and consistent messaging
+                          across all communication channels fostered a deeper
+                          connection with consumers, increasing engagement and
+                          brand loyalty.
                         </p>
                       </div>
                     </div>
@@ -383,7 +367,7 @@ export default function CaseStudies() {
             <Col lg={6} xs={12}>
               <div className="case-dev-img">
                 <Image
-                  src="/images/case-dev.png"
+                  src="/images/case-dev-maaza.png"
                   alt="Image"
                   layout="intrinsic"
                   width={700}
@@ -394,18 +378,17 @@ export default function CaseStudies() {
             <Col lg={6} xs={12}>
               <div className="case-dev-con">
                 <h4 className="mb-xxl-4">
-                  Our team successfully transformed the Swiss Military&apos;s
-                  online presence by developing a unique and user-friendly
-                  e-commerce website.
+                  The development and implementation of comprehensive brand
+                  guidelines for Maaza in the UAE successfully established a
+                  consistent and engaging brand identity.
                 </h4>
                 <p>
-                  The project resulted in enhanced brand representation,
-                  improved user experience, increased sales, and positive
-                  customer feedback. By aligning with the Swiss Military&apos;s
-                  objectives and leveraging our expertise, we delivered a
-                  high-quality e-commerce solution that positioned the brand for
-                  continued growth and success in the competitive digital
-                  landscape.
+                  The guidelines ensured coherence in visual branding, tone of
+                  voice, and messaging across various touchpoints, leading to
+                  increased brand recognition, customer engagement, and overall
+                  brand loyalty. By adhering to the brand guidelines, Maaza has
+                  positioned itself as a trusted and preferred choice for
+                  consumers in the competitive fruit beverage market in the UAE.
                 </p>
               </div>
             </Col>

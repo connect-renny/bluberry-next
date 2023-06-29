@@ -74,7 +74,7 @@ export default function CaseStudies() {
           <Row>
             <Col xs={12}>
               <div className="section-hd case-intro-hd text-center">
-                <h3>Swiss Military</h3>
+                <h3>10X Properties</h3>
               </div>
             </Col>
           </Row>
@@ -82,7 +82,7 @@ export default function CaseStudies() {
             <Col xs={12}>
               <div className="case-screen-img">
                 <Image
-                  src="/images/case-study-screen.png"
+                  src="/images/case-study-screen-10x.png"
                   alt="Team"
                   layout="intrinsic"
                   width={1300}
@@ -100,25 +100,22 @@ export default function CaseStudies() {
             <Col lg="8" xs={12}>
               <div className="case-dtl-con">
                 <div className="count">01</div>
-                <h4>E-commerce Website Development for the Swiss Military</h4>
+                <h4>Website Development for 10X Properties</h4>
                 <p>
-                  This case study presents a unique e-commerce website
-                  development project undertaken by our team for the Swiss
-                  Military, a renowned brand specializing in high-quality
-                  watches and other accessories. The objective of the project
-                  was to create a visually appealing and user-friendly online
-                  platform that would enhance the Swiss Military&apos;s brand
-                  image, drive sales, and provide a seamless shopping experience
-                  to customers.
+                  This case study presents the website development project
+                  undertaken for 10X Properties, a prominent real estate
+                  company. The objective was to create a dynamic and
+                  user-friendly website that showcased their properties,
+                  services, and brand identity while providing a seamless user
+                  experience.
                 </p>
                 <p>
-                  Client Background: Swiss Military is a prestigious brand known
-                  for its durable and reliable outdoor products. With a
-                  reputation for excellence, the Swiss Military offers a wide
-                  range of items, including watches, travel gear, TWS, and more.
-                  The UAE distribution of the brand began in 2023. The client
-                  sought to establish a robust online presence and expand their
-                  customer reach through an optimized e-commerce platform.
+                  Client Background: 10X Properties is a leading real estate
+                  firm specializing in residential and commercial property
+                  development, sales, and leasing. With a focus on delivering
+                  exceptional customer service and innovative solutions, the
+                  company sought to enhance its online presence through a modern
+                  and engaging website.
                 </p>
               </div>
             </Col>
@@ -130,19 +127,20 @@ export default function CaseStudies() {
                 </div>
                 <div className="info-item">
                   <div className="info-label">LOCATION</div>
-                  <div className="info-value">Dubai</div>
+                  <div className="info-value">UAE</div>
                 </div>
                 <div className="info-item">
                   <div className="info-label">INVOLVEMENT</div>
                   <div className="info-value">
-                    E-Commerce Website Development
+                    E-Commerce <br />
+                    Website Development
                   </div>
                 </div>
                 <div className="info-item">
                   <div className="info-label">VISIT</div>
                   <div className="info-value">
-                    <Link href="https://swissmilitary.me/" target="_blank">
-                      swissmilitary.me
+                    <Link href="https://10xproperties.ae/" target="_blank">
+                      10xproperties.ae
                     </Link>
                   </div>
                 </div>
@@ -155,7 +153,7 @@ export default function CaseStudies() {
       <section>
         <div className="case-collage">
           <Image
-            src="/images/case-collage.jpg"
+            src="/images/case-collage-10x.jpg"
             alt="Team"
             layout="intrinsic"
             width={1920}
@@ -180,67 +178,40 @@ export default function CaseStudies() {
                 <div className="time-item">
                   <div className="time-count">01</div>
                   <div className="time-body">
-                    <h4>Requirement Gathering</h4>
+                    <h4>
+                      Design an aesthetically pleasing and user-friendly website
+                      that aligned with 10X Properties' brand image.
+                    </h4>
                     <p>
-                      Conducted comprehensive discussions with the Swiss
-                      Military team to understand their specific requirements,
-                      target audience, and desired functionalities.
+                      Showcasing the company's diverse portfolio of properties
+                      with detailed information, high-quality images, and
+                      virtual tours.
                     </p>
                   </div>
                 </div>
                 <div className="time-item">
                   <div className="time-count">02</div>
                   <div className="time-body">
-                    <h4>Custom Design and Development</h4>
+                    <h4>
+                      Implementing an intuitive property search functionality to
+                      facilitate seamless property exploration and selection.
+                    </h4>
                     <p>
-                      Created a visually striking and unique website design
-                      tailored to the Swiss Military&apos;s brand identity,
-                      incorporating captivating visuals and clear product
-                      showcases.
+                      Creating a responsive website design to ensure optimal
+                      user experience across various devices and screen sizes.
                     </p>
                   </div>
                 </div>
                 <div className="time-item">
                   <div className="time-count">03</div>
                   <div className="time-body">
-                    <h4>Seamless User Experience</h4>
+                    <h4>
+                      Integrating lead generation mechanisms to drive customer
+                      inquiries and engagement.
+                    </h4>
                     <p>
-                      Developed an intuitive navigation structure, streamlined
-                      the purchasing process and implemented user-friendly
-                      features such as filters, search options, and wishlists.
-                    </p>
-                  </div>
-                </div>
-                <div className="time-item">
-                  <div className="time-count">04</div>
-                  <div className="time-body">
-                    <h4>Mobile Responsiveness</h4>
-                    <p>
-                      Ensured that the website was fully optimized for mobile
-                      devices, providing a seamless shopping experience across
-                      smartphones and tablets.
-                    </p>
-                  </div>
-                </div>
-                <div className="time-item">
-                  <div className="time-count">05</div>
-                  <div className="time-body">
-                    <h4>Secure Payment Integration</h4>
-                    <p>
-                      Integrated a reliable and secure payment gateway, enabling
-                      customers to make purchases with confidence and peace of
-                      mind.
-                    </p>
-                  </div>
-                </div>
-                <div className="time-item">
-                  <div className="time-count">06</div>
-                  <div className="time-body">
-                    <h4>Performance Optimization</h4>
-                    <p>
-                      Conducted extensive optimization techniques, including
-                      caching, image compression, and code optimization, to
-                      enhance the website&apos;s speed and performance.
+                      Ensuring robust security measures to protect user data and
+                      maintain a safe browsing experience.
                     </p>
                   </div>
                 </div>
@@ -249,7 +220,7 @@ export default function CaseStudies() {
             <Col lg="4" xs={12}>
               <div className="case-mob-screen">
                 <Image
-                  src="/images/case-mob-screen.png"
+                  src="/images/case-mob-screen-10x.png"
                   alt="Slider"
                   layout="intrinsic"
                   width={450}
@@ -267,7 +238,7 @@ export default function CaseStudies() {
             <Col xs={12} className="case-res-img-col">
               <div className="case-caro-img">
                 <Image
-                  src="/images/case-result-img.png"
+                  src="/images/case-result-img-10x.png"
                   alt="Image"
                   layout="intrinsic"
                   width={730}
@@ -281,8 +252,8 @@ export default function CaseStudies() {
                   <div className="count">03</div>
                   <h4>Result</h4>
                   <p>
-                    The e-commerce website development project for the Swiss
-                    Military delivered the following results:
+                    The website development project delivered the following
+                    outcomes:
                   </p>
                 </div>
                 <Slider className="slider " {...settings}>
@@ -294,14 +265,15 @@ export default function CaseStudies() {
                         <div className="wave wave-03"></div>
                       </div>
                       <div className="case-result-hd">
-                        <h4>1. Enhanced Brand Representation</h4>
+                        <h4>
+                          1. Visually Captivating and User-Friendly Website
+                        </h4>
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The website is created in WordPress and effectively
-                          showcased the Swiss Military&apos;s brand identity,
-                          values, and commitment to quality, leading to
-                          increased brand recognition and customer trust.
+                          The new website showcased 10X Properties' properties
+                          and services engagingly and intuitively, resulting in
+                          an enhanced user experience.
                         </p>
                       </div>
                     </div>
@@ -314,16 +286,13 @@ export default function CaseStudies() {
                         <div className="wave wave-03"></div>
                       </div>
                       <div className="case-result-hd">
-                        <h4>2. Improved User Experience</h4>
+                        <h4>2. Seamless Property Search Experience</h4>
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The intuitive navigation, streamlined purchasing
-                          process, and user-friendly features enhanced the
-                          overall shopping experience, resulting in increased
-                          customer satisfaction and reduced bounce rates. The
-                          website follows the colour scheme of the parent brand
-                          and adopts the latest trends and features of the era.
+                          The implemented search functionality enabled visitors
+                          to easily explore and filter properties based on their
+                          preferences, leading to improved user satisfaction.
                         </p>
                       </div>
                     </div>
@@ -336,14 +305,15 @@ export default function CaseStudies() {
                         <div className="wave wave-03"></div>
                       </div>
                       <div className="case-result-hd">
-                        <h4>1. Enhanced Brand Representation</h4>
+                        <h4>
+                          1. Visually Captivating and User-Friendly Website
+                        </h4>
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The website is created in WordPress and effectively
-                          showcased the Swiss Military&apos;s brand identity,
-                          values, and commitment to quality, leading to
-                          increased brand recognition and customer trust.
+                          The new website showcased 10X Properties' properties
+                          and services engagingly and intuitively, resulting in
+                          an enhanced user experience.
                         </p>
                       </div>
                     </div>
@@ -356,16 +326,13 @@ export default function CaseStudies() {
                         <div className="wave wave-03"></div>
                       </div>
                       <div className="case-result-hd">
-                        <h4>2. Improved User Experience</h4>
+                        <h4>2. Seamless Property Search Experience</h4>
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The intuitive navigation, streamlined purchasing
-                          process, and user-friendly features enhanced the
-                          overall shopping experience, resulting in increased
-                          customer satisfaction and reduced bounce rates. The
-                          website follows the colour scheme of the parent brand
-                          and adopts the latest trends and features of the era.
+                          The implemented search functionality enabled visitors
+                          to easily explore and filter properties based on their
+                          preferences, leading to improved user satisfaction.
                         </p>
                       </div>
                     </div>
@@ -383,7 +350,7 @@ export default function CaseStudies() {
             <Col lg={6} xs={12}>
               <div className="case-dev-img">
                 <Image
-                  src="/images/case-dev.png"
+                  src="/images/case-dev-10x.png"
                   alt="Image"
                   layout="intrinsic"
                   width={700}

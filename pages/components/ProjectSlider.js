@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Slider from "react-slick";
 
 // slick carousel import css files
@@ -46,78 +47,75 @@ export default function ProjectSlider() {
         <div>
           <div className="pro-caro-item">
             <figure>
-              <Image
-                src="/images/pro-slider-thumb-01.jpg"
-                alt="Image"
-                layout="intrinsic"
-                width={935}
-                height={500}
-              />
+              <Link href="Case-Studies">
+                <Image
+                  src="/images/pro-slider-thumb-01.jpg"
+                  alt="Image"
+                  layout="intrinsic"
+                  width={935}
+                  height={500}
+                />
+              </Link>
             </figure>
           </div>
         </div>
         <div>
           <div className="pro-caro-item">
             <figure>
-              <Image
-                src="/images/pro-slider-thumb-02.jpg"
-                alt="Image"
-                layout="intrinsic"
-                width={935}
-                height={500}
-              />
+              <Link href="Case-Studies-10x">
+                <Image
+                  src="/images/pro-slider-thumb-02.jpg"
+                  alt="Image"
+                  layout="intrinsic"
+                  width={935}
+                  height={500}
+                />
+              </Link>
             </figure>
           </div>
         </div>
         <div>
           <div className="pro-caro-item">
             <figure>
-              <Image
-                src="/images/pro-slider-thumb-03.jpg"
-                alt="Image"
-                layout="intrinsic"
-                width={935}
-                height={500}
-              />
+              <Link href="Case-Studies-Aydi">
+                <Image
+                  src="/images/pro-slider-thumb-03.jpg"
+                  alt="Image"
+                  layout="intrinsic"
+                  width={935}
+                  height={500}
+                />
+              </Link>
             </figure>
           </div>
         </div>
         <div>
           <div className="pro-caro-item">
             <figure>
-              <Image
-                src="/images/pro-slider-thumb-01.jpg"
-                alt="Image"
-                layout="intrinsic"
-                width={935}
-                height={500}
-              />
+              <Link href="Case-Studies-Irish">
+                <Image
+                  src="/images/pro-slider-thumb-04.jpg"
+                  alt="Image"
+                  layout="intrinsic"
+                  width={935}
+                  height={500}
+                />
+              </Link>
             </figure>
           </div>
         </div>
         <div>
           <div className="pro-caro-item">
             <figure>
-              <Image
-                src="/images/pro-slider-thumb-02.jpg"
-                alt="Image"
-                layout="intrinsic"
-                width={935}
-                height={500}
-              />
-            </figure>
-          </div>
-        </div>
-        <div>
-          <div className="pro-caro-item">
-            <figure>
-              <Image
-                src="/images/pro-slider-thumb-03.jpg"
-                alt="Image"
-                layout="intrinsic"
-                width={935}
-                height={500}
-              />
+              <Link href="Case-Studies-Maaza">
+                <Image
+                  src="/images/pro-slider-thumb-05.jpg"
+                  alt="Image"
+                  layout="intrinsic"
+                  width={935}
+                  height={500}
+                />
+              </Link>
             </figure>
           </div>
         </div>

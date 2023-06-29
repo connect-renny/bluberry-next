@@ -74,7 +74,7 @@ export default function CaseStudies() {
           <Row>
             <Col xs={12}>
               <div className="section-hd case-intro-hd text-center">
-                <h3>Swiss Military</h3>
+                <h3>The Irish Village</h3>
               </div>
             </Col>
           </Row>
@@ -82,7 +82,7 @@ export default function CaseStudies() {
             <Col xs={12}>
               <div className="case-screen-img">
                 <Image
-                  src="/images/case-study-screen.png"
+                  src="/images/case-study-screen-aydi.png"
                   alt="Team"
                   layout="intrinsic"
                   width={1300}
@@ -100,25 +100,22 @@ export default function CaseStudies() {
             <Col lg="8" xs={12}>
               <div className="case-dtl-con">
                 <div className="count">01</div>
-                <h4>E-commerce Website Development for the Swiss Military</h4>
+                <h4>Website Development Project for The Irish Village</h4>
                 <p>
-                  This case study presents a unique e-commerce website
-                  development project undertaken by our team for the Swiss
-                  Military, a renowned brand specializing in high-quality
-                  watches and other accessories. The objective of the project
-                  was to create a visually appealing and user-friendly online
-                  platform that would enhance the Swiss Military&apos;s brand
-                  image, drive sales, and provide a seamless shopping experience
-                  to customers.
+                  This case study showcases the successful website development
+                  project executed by Accen'D for The Irish Village, a renowned
+                  Irish pub in Dubai. The project aimed to create a modern,
+                  user-friendly website that effectively represented the pub's
+                  brand, attracted potential clients and enhanced overall brand
+                  visibility.
                 </p>
                 <p>
-                  Client Background: Swiss Military is a prestigious brand known
-                  for its durable and reliable outdoor products. With a
-                  reputation for excellence, the Swiss Military offers a wide
-                  range of items, including watches, travel gear, TWS, and more.
-                  The UAE distribution of the brand began in 2023. The client
-                  sought to establish a robust online presence and expand their
-                  customer reach through an optimized e-commerce platform.
+                  Client Background: The Irish Village is an iconic Irish pub
+                  and a company under the Dubai Duty Free located in Dubai,
+                  offering an authentic Irish experience to its patrons. With
+                  branches in Garhoud and Studio City, each with its own unique
+                  ambience, the pub has become a popular destination known for
+                  its warm Irish welcome, Guinness, and hearty food.
                 </p>
               </div>
             </Col>
@@ -130,19 +127,23 @@ export default function CaseStudies() {
                 </div>
                 <div className="info-item">
                   <div className="info-label">LOCATION</div>
-                  <div className="info-value">Dubai</div>
+                  <div className="info-value">UAE</div>
                 </div>
                 <div className="info-item">
                   <div className="info-label">INVOLVEMENT</div>
                   <div className="info-value">
-                    E-Commerce Website Development
+                    E-Commerce <br />
+                    Website Development
                   </div>
                 </div>
                 <div className="info-item">
                   <div className="info-label">VISIT</div>
                   <div className="info-value">
-                    <Link href="https://swissmilitary.me/" target="_blank">
-                      swissmilitary.me
+                    <Link
+                      href="https://www.theirishvillage.com/"
+                      target="_blank"
+                    >
+                      theirishvillage.com
                     </Link>
                   </div>
                 </div>
@@ -155,7 +156,7 @@ export default function CaseStudies() {
       <section>
         <div className="case-collage">
           <Image
-            src="/images/case-collage.jpg"
+            src="/images/case-collage-irish.jpg"
             alt="Team"
             layout="intrinsic"
             width={1920}
@@ -180,67 +181,38 @@ export default function CaseStudies() {
                 <div className="time-item">
                   <div className="time-count">01</div>
                   <div className="time-body">
-                    <h4>Requirement Gathering</h4>
+                    <h4>Brand Identity and Mobile-Friendly Design</h4>
                     <p>
-                      Conducted comprehensive discussions with the Swiss
-                      Military team to understand their specific requirements,
-                      target audience, and desired functionalities.
+                      a. Create a website with the latest technology to reflect
+                      The Irish Village's brand identity and values.
+                    </p>
+                    <p>
+                      b. Ensure the website is mobile-friendly, catering to
+                      users on different devices.
                     </p>
                   </div>
                 </div>
                 <div className="time-item">
                   <div className="time-count">02</div>
                   <div className="time-body">
-                    <h4>Custom Design and Development</h4>
+                    <h4>Enhanced User Experience:</h4>
                     <p>
-                      Created a visually striking and unique website design
-                      tailored to the Swiss Military&apos;s brand identity,
-                      incorporating captivating visuals and clear product
-                      showcases.
+                      a. Implement intuitive navigation and streamlined content
+                      organization for a seamless browsing experience.
+                    </p>
+                    <p>
+                      b. Showcase the pub's products and services clearly and
+                      engagingly.
                     </p>
                   </div>
                 </div>
                 <div className="time-item">
                   <div className="time-count">03</div>
                   <div className="time-body">
-                    <h4>Seamless User Experience</h4>
+                    <h4>Lead Generation:</h4>
                     <p>
-                      Developed an intuitive navigation structure, streamlined
-                      the purchasing process and implemented user-friendly
-                      features such as filters, search options, and wishlists.
-                    </p>
-                  </div>
-                </div>
-                <div className="time-item">
-                  <div className="time-count">04</div>
-                  <div className="time-body">
-                    <h4>Mobile Responsiveness</h4>
-                    <p>
-                      Ensured that the website was fully optimized for mobile
-                      devices, providing a seamless shopping experience across
-                      smartphones and tablets.
-                    </p>
-                  </div>
-                </div>
-                <div className="time-item">
-                  <div className="time-count">05</div>
-                  <div className="time-body">
-                    <h4>Secure Payment Integration</h4>
-                    <p>
-                      Integrated a reliable and secure payment gateway, enabling
-                      customers to make purchases with confidence and peace of
-                      mind.
-                    </p>
-                  </div>
-                </div>
-                <div className="time-item">
-                  <div className="time-count">06</div>
-                  <div className="time-body">
-                    <h4>Performance Optimization</h4>
-                    <p>
-                      Conducted extensive optimization techniques, including
-                      caching, image compression, and code optimization, to
-                      enhance the website&apos;s speed and performance.
+                      a. Integrate lead generation forms strategically to
+                      capture user information and generate leads.
                     </p>
                   </div>
                 </div>
@@ -249,7 +221,7 @@ export default function CaseStudies() {
             <Col lg="4" xs={12}>
               <div className="case-mob-screen">
                 <Image
-                  src="/images/case-mob-screen.png"
+                  src="/images/case-mob-screen-irish.png"
                   alt="Slider"
                   layout="intrinsic"
                   width={450}
@@ -267,7 +239,7 @@ export default function CaseStudies() {
             <Col xs={12} className="case-res-img-col">
               <div className="case-caro-img">
                 <Image
-                  src="/images/case-result-img.png"
+                  src="/images/case-result-img-irish.png"
                   alt="Image"
                   layout="intrinsic"
                   width={730}
@@ -281,8 +253,8 @@ export default function CaseStudies() {
                   <div className="count">03</div>
                   <h4>Result</h4>
                   <p>
-                    The e-commerce website development project for the Swiss
-                    Military delivered the following results:
+                    The website development project delivered the following
+                    outcomes:
                   </p>
                 </div>
                 <Slider className="slider " {...settings}>
@@ -294,14 +266,14 @@ export default function CaseStudies() {
                         <div className="wave wave-03"></div>
                       </div>
                       <div className="case-result-hd">
-                        <h4>1. Enhanced Brand Representation</h4>
+                        <h4>1. Enhanced Brand Identity</h4>
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The website is created in WordPress and effectively
-                          showcased the Swiss Military&apos;s brand identity,
-                          values, and commitment to quality, leading to
-                          increased brand recognition and customer trust.
+                          The revamped website effectively showcased The Irish
+                          Village's brand identity, values, and unique selling
+                          propositions, contributing to increased brand
+                          recognition and trust.
                         </p>
                       </div>
                     </div>
@@ -318,12 +290,10 @@ export default function CaseStudies() {
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The intuitive navigation, streamlined purchasing
-                          process, and user-friendly features enhanced the
-                          overall shopping experience, resulting in increased
-                          customer satisfaction and reduced bounce rates. The
-                          website follows the colour scheme of the parent brand
-                          and adopts the latest trends and features of the era.
+                          The intuitive navigation, responsive design, and
+                          well-organized content enhanced user experience,
+                          resulting in reduced bounce rates and improved
+                          engagement.
                         </p>
                       </div>
                     </div>
@@ -336,14 +306,14 @@ export default function CaseStudies() {
                         <div className="wave wave-03"></div>
                       </div>
                       <div className="case-result-hd">
-                        <h4>1. Enhanced Brand Representation</h4>
+                        <h4>1. Enhanced Brand Identity</h4>
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The website is created in WordPress and effectively
-                          showcased the Swiss Military&apos;s brand identity,
-                          values, and commitment to quality, leading to
-                          increased brand recognition and customer trust.
+                          The revamped website effectively showcased The Irish
+                          Village's brand identity, values, and unique selling
+                          propositions, contributing to increased brand
+                          recognition and trust.
                         </p>
                       </div>
                     </div>
@@ -360,12 +330,10 @@ export default function CaseStudies() {
                       </div>
                       <div className="case-result-body">
                         <p>
-                          The intuitive navigation, streamlined purchasing
-                          process, and user-friendly features enhanced the
-                          overall shopping experience, resulting in increased
-                          customer satisfaction and reduced bounce rates. The
-                          website follows the colour scheme of the parent brand
-                          and adopts the latest trends and features of the era.
+                          The intuitive navigation, responsive design, and
+                          well-organized content enhanced user experience,
+                          resulting in reduced bounce rates and improved
+                          engagement.
                         </p>
                       </div>
                     </div>
@@ -383,7 +351,7 @@ export default function CaseStudies() {
             <Col lg={6} xs={12}>
               <div className="case-dev-img">
                 <Image
-                  src="/images/case-dev.png"
+                  src="/images/case-dev-irish.png"
                   alt="Image"
                   layout="intrinsic"
                   width={700}
@@ -394,18 +362,17 @@ export default function CaseStudies() {
             <Col lg={6} xs={12}>
               <div className="case-dev-con">
                 <h4 className="mb-xxl-4">
-                  Our team successfully transformed the Swiss Military&apos;s
-                  online presence by developing a unique and user-friendly
-                  e-commerce website.
+                  Accen'D's website development project successfully transformed
+                  The Irish Village's online presence, leading to increased
+                  traffic, leads, and brand recognition.
                 </h4>
                 <p>
-                  The project resulted in enhanced brand representation,
-                  improved user experience, increased sales, and positive
-                  customer feedback. By aligning with the Swiss Military&apos;s
-                  objectives and leveraging our expertise, we delivered a
-                  high-quality e-commerce solution that positioned the brand for
-                  continued growth and success in the competitive digital
-                  landscape.
+                  By focusing on user experience, effective communication of
+                  offerings, and implementing strategies, the project resulted
+                  in a modern, engaging, and optimized website. The project's
+                  success contributed to The Irish Village's growth and success
+                  in the digital space, making it a valuable addition to
+                  Accen'D's portfolio.
                 </p>
               </div>
             </Col>
