@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import { Carousel } from "react-bootstrap";
-import { FiArrowRight } from "react-icons/fi";
+import Image from "next/image";
 import Link from "next/link";
+
+import { FiArrowRight } from "react-icons/fi";
 
 import Slider from "react-slick";
 
@@ -48,17 +50,41 @@ export default function BannerCarousel() {
                 indicators={false}
               >
                 <Carousel.Item>
-                  <img src="/images/slider-01.jpg" alt="First Slide" />
+                  <Image
+                    src="/images/slider-01.jpg"
+                    alt="Image"
+                    layout="intrinsic"
+                    width={845}
+                    height={790}
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src="/images/slider-02.jpg" alt="Second Slide" />
+                  <Image
+                    src="/images/slider-02.jpg"
+                    alt="Image"
+                    layout="intrinsic"
+                    width={845}
+                    height={790}
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src="/images/slider-03.jpg" alt="Third Slide" />
+                  <Image
+                    src="/images/slider-03.jpg"
+                    alt="Image"
+                    layout="intrinsic"
+                    width={845}
+                    height={790}
+                  />
                 </Carousel.Item>
               </Carousel>
               <div className="slider-overlay">
-                <img src="/images/slider-mask.png" alt="Slider Mask" />
+                <Image
+                  src="/images/slider-mask.png"
+                  alt="Image"
+                  layout="intrinsic"
+                  width={845}
+                  height={790}
+                />
               </div>
             </div>
           </div>
