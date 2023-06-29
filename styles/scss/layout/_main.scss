@@ -3394,3 +3394,22 @@ input[type="number"]::-webkit-inner-spin-button {
     }
   }
 }
+
+.social-med-img {
+  position: relative;
+  max-width: 670x;
+  img {
+    width: 100%;
+  }
+}
+.social-med-column {
+  h4 {
+    color: var(--bk-grade-550);
+    font-size: var(--fs-12);
+    font-weight: var(--font-weight-semibold);
+    margin: 0 0 1rem 0;
+  }
+  p {
+    color: var(--bk-grade-550);
+  }
+}
