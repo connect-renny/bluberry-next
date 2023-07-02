@@ -28,7 +28,12 @@ export default function GraphicDesign() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="ins-slider-hd">
+              <div
+                className="ins-slider-hd"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h6>Services</h6>
                 <h1>Graphic Design</h1>
               </div>
@@ -41,7 +46,12 @@ export default function GraphicDesign() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col xs={12}>
-              <div className="branding-intro">
+              <div
+                className="branding-intro"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>
                   Are your artworks and digital media a true reflection of who
                   you are?
@@ -75,7 +85,12 @@ export default function GraphicDesign() {
         <Container fluid="xxl">
           <Row className="d-flex flex-lg-row-reverse align-items-center">
             <Col lg={6} xs={12}>
-              <div className="graphics-img">
+              <div
+                className="graphics-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/graphic-des-01.jpg"
                   alt="Team"
@@ -86,7 +101,12 @@ export default function GraphicDesign() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="graphics-content">
+              <div
+                className="graphics-content"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4 className="mb-xxl-4">
                   BluBerry Labs thrives on creative expression. Our visual
                   storytelling transforms ideas into captivating realities.
@@ -113,7 +133,12 @@ export default function GraphicDesign() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div className="graphics-img">
+              <div
+                className="graphics-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/graphic-des-02.jpg"
                   alt="Team"
@@ -124,7 +149,12 @@ export default function GraphicDesign() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="graphics-content">
+              <div
+                className="graphics-content"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4 className="mb-xxl-4">
                   At the core of our service is a team of highly skilled graphic
                   designers who possess a deep understanding of design
@@ -147,7 +177,12 @@ export default function GraphicDesign() {
         <Container fluid="xxl">
           <Row className="d-flex flex-row-reverse align-items-end">
             <Col lg={6} xs={12}>
-              <div className="brand-high-img">
+              <div
+                className="brand-high-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/graphic-computer.png"
                   alt="Values"
@@ -158,7 +193,12 @@ export default function GraphicDesign() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="graphics-high-con">
+              <div
+                className="graphics-high-con"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   We translate your brand&apos;s message into mesmerizing logos
                   and striking marketing materials that embody your brand&apos;s
@@ -179,7 +219,12 @@ export default function GraphicDesign() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-imp-con">
+              <div
+                className="brand-imp-con"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   Throughout the process, we maintain open and transparent
                   communication with our clients.
@@ -200,7 +245,12 @@ export default function GraphicDesign() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div className="graphics-img">
+              <div
+                className="graphics-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/graphic-des-03.png"
                   alt="Team"
@@ -211,7 +261,12 @@ export default function GraphicDesign() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="graphics-content">
+              <div
+                className="graphics-content"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4 className="mb-xxl-4">
                   We can promise you the right vibe and the right feel for our
                   services because we stay up-to-date with the latest trends and
@@ -233,11 +288,21 @@ export default function GraphicDesign() {
           <Container fluid="xxl">
             <Row>
               <Col lg={6} xs={12}>
-                <div className="section-hd">
+                <div
+                  className="section-hd"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h6>What we do</h6>
                   <h3>Our Expertise</h3>
                 </div>
-                <Nav className="exp-tb-nav">
+                <Nav
+                  className="exp-tb-nav"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-01">01. Print Design</Nav.Link>
                   </Nav.Item>
@@ -265,7 +330,12 @@ export default function GraphicDesign() {
                 </Nav>
               </Col>
               <Col lg={6} xs={12}>
-                <div className="exp-tb-con">
+                <div
+                  className="exp-tb-con"
+                  data-aos="fadeIn"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <figure>
                     <Image
                       src="/images/expertise-tb-graphic-01.jpg"

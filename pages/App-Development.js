@@ -385,156 +385,20 @@ export default function AppDevelopment() {
               <Col lg={6} xs={12}>
                 <Tab.Content>
                   <Tab.Pane eventKey="exp-tab-01">
-                    <div className="exp-tb-con">
+                    <div
+                      className="exp-tb-con"
+                      data-aos="fadeIn"
+                      data-aos-delay="100"
+                      data-aos-duration="1000"
+                    >
                       <figure>
                         <Image
-                          src="/images/web-expertise-tb-01.jpg"
+                          src="/images/app-expertise-tb-01.jpg"
                           alt="Values"
                           layout="intrinsic"
-                          width={700}
+                          width={655}
                           height={750}
                         />
-                        <div className="counter">01</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-02">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/web-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">02</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-03">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/web-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">03</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-04">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/web-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">04</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-05">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/web-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">05</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-06">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/web-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">06</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-07">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/web-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">07</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-08">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/web-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">08</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-09">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/web-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">09</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-10">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/web-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">10</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-11">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/web-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={700}
-                          height={750}
-                        />
-                        <div className="counter">11</div>
                       </figure>
                     </div>
                   </Tab.Pane>

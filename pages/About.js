@@ -28,7 +28,12 @@ export default function About() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="ins-slider-hd">
+              <div
+                className="ins-slider-hd"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h6>About Us</h6>
                 <h1>Introduction</h1>
               </div>
@@ -41,7 +46,12 @@ export default function About() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="section-hd mb-0 text-center">
+              <div
+                className="section-hd mb-0 text-center"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>Welcome to BluBerry Labs.</h3>
               </div>
             </Col>
@@ -51,9 +61,14 @@ export default function About() {
 
       <section className="pt-4 pt-lg-5 pt-xl-6 pb-4">
         <Container fluid="xxl">
-          <Row className="d-flex align-items-center">
+          <Row>
             <Col xs={12}>
-              <div className="about-intro">
+              <div
+                className="about-intro"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   We are a full-service digital media agency providing top-notch
                   services to help businesses thrive in the online world.
@@ -76,7 +91,12 @@ export default function About() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center gx-xxl-5">
             <Col lg={6} xs={12}>
-              <div className="mindset-img">
+              <div
+                className="mindset-img"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>
                   With a keen eye for detail and a strategic mindset, we delve
                   deep into your brand&apos;s DNA to uncover its true potential.
@@ -84,7 +104,12 @@ export default function About() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="mindset-content">
+              <div
+                className="mindset-content"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   From there, we weave together compelling visuals, engaging
                   content, and innovative strategies that make your brand come
@@ -108,7 +133,12 @@ export default function About() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="section-hd">
+              <div
+                className="section-hd"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h6>What we do</h6>
                 <h3 className="mb-2">Our Services</h3>
                 <p>
@@ -120,7 +150,12 @@ export default function About() {
           </Row>
           <Row>
             <Col lg={6} xs={12}>
-              <Accordion className="service-accordion">
+              <Accordion
+                className="service-accordion"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
@@ -227,7 +262,12 @@ export default function About() {
               </Accordion>
             </Col>
             <Col lg={6} xs={12}>
-              <Accordion className="service-accordion">
+              <Accordion
+                className="service-accordion"
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
                     <span className="acc-nav-icon">
@@ -350,7 +390,12 @@ export default function About() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-story text-center">
+              <div
+                className="brand-story text-center"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <div className="section-hd brand-hd">
                   <h3>
                     So, let&apos;s grab a virtual cup of coffee and dive into
@@ -372,7 +417,12 @@ export default function About() {
         <Container fluid="xxl">
           <Row>
             <Col lg={6} xs={12}>
-              <div className="values-img">
+              <div
+                className="values-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/values-img.png"
                   alt="Values"
@@ -384,12 +434,22 @@ export default function About() {
             </Col>
             <Col lg={6} xs={12}>
               <div className="values-content">
-                <div className="values-hd">
+                <div
+                  className="values-hd"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h3>Our Values</h3>
                   <h4>We believe in-</h4>
                 </div>
                 <ul className="value-list">
-                  <li className="value-item">
+                  <li
+                    className="value-item"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                  >
                     <div className="value-icon">
                       <Image
                         src="/images/value-icon-01.png"
@@ -401,7 +461,12 @@ export default function About() {
                     </div>
                     <div className="value-label">Human Touch</div>
                   </li>
-                  <li className="value-item">
+                  <li
+                    className="value-item"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="1000"
+                  >
                     <div className="value-icon">
                       <Image
                         src="/images/value-icon-02.png"
@@ -413,7 +478,12 @@ export default function About() {
                     </div>
                     <div className="value-label">Win-win outcomes</div>
                   </li>
-                  <li className="value-item">
+                  <li
+                    className="value-item"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                    data-aos-duration="1000"
+                  >
                     <div className="value-icon">
                       <Image
                         src="/images/value-icon-03.png"
@@ -436,7 +506,12 @@ export default function About() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div className="team-content">
+              <div
+                className="team-content"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <div className="section-hd">
                   <h3>Our Team</h3>
                 </div>
@@ -452,7 +527,12 @@ export default function About() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="team-img">
+              <div
+                className="team-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/our-team-img.jpg"
                   alt="Team"
@@ -473,7 +553,12 @@ export default function About() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="dig-magic">
+              <div
+                className="dig-magic"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>Are you ready to take your brand to new heights? </h3>
                 <p>
                   Let&apos;s embark on this exciting journey together. Reach out

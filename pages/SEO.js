@@ -28,7 +28,12 @@ export default function SEO() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="ins-slider-hd">
+              <div
+                className="ins-slider-hd"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h6>Services</h6>
                 <h1>SEO</h1>
               </div>
@@ -39,7 +44,12 @@ export default function SEO() {
 
       <section className="pt-4 pt-lg-5 pt-xl-6 pb-4">
         <Container fluid="xxl">
-          <Row className="d-flex align-items-center">
+          <Row
+            className="d-flex align-items-center"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
             <Col xs={12}>
               <div className="branding-intro">
                 <h3>
@@ -61,7 +71,12 @@ export default function SEO() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div className="seo-img">
+              <div
+                className="seo-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/seo-img.png"
                   alt="Team"
@@ -72,7 +87,12 @@ export default function SEO() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="seo-content">
+              <div
+                className="seo-content"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4 className="mb-xxl-4">
                   Visibility on search engines is paramount to driving organic
                   traffic, increasing brand awareness, and achieving sustainable
@@ -102,7 +122,12 @@ export default function SEO() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="seo-highlight">
+              <div
+                className="seo-highlight"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>
                   Our team of SEO experts employs a range of techniques to boost
                   your website&apos;s authority and credibility.
@@ -127,7 +152,12 @@ export default function SEO() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div className="seo-column-img">
+              <div
+                className="seo-column-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/seo-img-01.jpg"
                   alt="Team"
@@ -138,7 +168,12 @@ export default function SEO() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="seo-column-con">
+              <div
+                className="seo-column-con"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4 className="mb-xxl-4">
                   But SEO goes beyond keywords. We meticulously analyze and
                   optimize your website&apos;s structure, ensuring it adheres to
@@ -165,7 +200,12 @@ export default function SEO() {
 
       <section className="pt-4 pt-lg-5 pb-4 pb-lg-5">
         <Container fluid="xxl">
-          <Row className="d-flex align-items-center">
+          <Row
+            className="d-flex align-items-center"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
             <Col lg={6} xs={12}>
               <div className="team-content">
                 <h4>
@@ -182,7 +222,12 @@ export default function SEO() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="seo-column-hlt">
+              <div
+                className="seo-column-hlt"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>
                   So, if you&apos;re ready to claim your position at the top of
                   search engine results, drive organic traffic, and establish
@@ -202,7 +247,12 @@ export default function SEO() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-story">
+              <div
+                className="brand-story"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <div className="section-hd unique-hd">
                   <h3>
                     We invite you to embark on this transformative journey with
@@ -220,7 +270,12 @@ export default function SEO() {
           <Container fluid="xxl">
             <Row>
               <Col xs={12}>
-                <div className="section-hd">
+                <div
+                  className="section-hd"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h6>What we do</h6>
                   <h3>Our Expertise</h3>
                 </div>
@@ -228,7 +283,12 @@ export default function SEO() {
             </Row>
             <Row>
               <Col lg={6} xs={12}>
-                <Nav className="exp-tb-nav">
+                <Nav
+                  className="exp-tb-nav"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-01">
                       01. Website Audit and Analysis
@@ -289,7 +349,12 @@ export default function SEO() {
               </Col>
               <Col lg={6} xs={12}>
                 <Tab.Content>
-                  <Tab.Pane eventKey="exp-tab-01">
+                  <Tab.Pane
+                    eventKey="exp-tab-01"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                  >
                     <div className="exp-tb-con">
                       <figure>
                         <Image
@@ -299,161 +364,6 @@ export default function SEO() {
                           width={655}
                           height={750}
                         />
-                        <div className="counter">01</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-02">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/seo-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={655}
-                          height={750}
-                        />
-                        <div className="counter">02</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-03">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/seo-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={655}
-                          height={750}
-                        />
-                        <div className="counter">03</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-04">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/seo-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={655}
-                          height={750}
-                        />
-                        <div className="counter">04</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-05">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/seo-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={655}
-                          height={750}
-                        />
-                        <div className="counter">05</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-06">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/seo-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={655}
-                          height={750}
-                        />
-                        <div className="counter">06</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-07">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/seo-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={655}
-                          height={750}
-                        />
-                        <div className="counter">07</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-08">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/seo-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={655}
-                          height={750}
-                        />
-                        <div className="counter">08</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-09">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/seo-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={655}
-                          height={750}
-                        />
-                        <div className="counter">09</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-10">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/seo-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={655}
-                          height={750}
-                        />
-                        <div className="counter">10</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-11">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/seo-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={655}
-                          height={750}
-                        />
-                        <div className="counter">11</div>
-                      </figure>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="exp-tab-12">
-                    <div className="exp-tb-con">
-                      <figure>
-                        <Image
-                          src="/images/seo-expertise-tb-01.jpg"
-                          alt="Values"
-                          layout="intrinsic"
-                          width={655}
-                          height={750}
-                        />
-                        <div className="counter">11</div>
                       </figure>
                     </div>
                   </Tab.Pane>

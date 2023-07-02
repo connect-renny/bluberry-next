@@ -28,7 +28,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="ins-slider-hd">
+              <div
+                className="ins-slider-hd"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h6>Services</h6>
                 <h1>Social Media Marketing</h1>
               </div>
@@ -41,7 +46,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col xs={12}>
-              <div className="branding-intro">
+              <div
+                className="branding-intro"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>
                   Does your social media reach the relevant audience? Are the
                   likes and comments on your social media organic?
@@ -62,7 +72,7 @@ export default function AppDevelopment() {
             <Col lg={6} xs={12}>
               <div
                 className="paid-ads-img"
-                data-aos="fade-up"
+                data-aos="fadeIn"
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
@@ -113,7 +123,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="app-highlight">
+              <div
+                className="app-highlight"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   We help you build a strong online presence and engage your
                   target audience across diverse social media platforms.
@@ -136,7 +151,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center gx-xxl-5">
             <Col lg={6} xs={12}>
-              <div className="mindset-content">
+              <div
+                className="mindset-content"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   From platform selection to content creation, we curate a
                   captivating social media ecosystem that captivates your
@@ -152,7 +172,12 @@ export default function AppDevelopment() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="mindset-img">
+              <div
+                className="mindset-img"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3 className="mb-4">
                   Furthermore, we adopt advanced analytics tools to measure the
                   performance of your social media campaigns.
@@ -172,7 +197,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-imp-con">
+              <div
+                className="brand-imp-con"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   Our commitment to staying at the forefront of social media
                   trends ensures that your brand remains relevant and impactful.
@@ -192,7 +222,12 @@ export default function AppDevelopment() {
           <Container fluid="xxl">
             <Row>
               <Col xs={12}>
-                <div className="section-hd">
+                <div
+                  className="section-hd"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h6>What we do</h6>
                   <h3>Our Expertise</h3>
                 </div>
@@ -200,7 +235,12 @@ export default function AppDevelopment() {
             </Row>
             <Row>
               <Col lg={6} xs={12}>
-                <Nav className="exp-tb-nav">
+                <Nav
+                  className="exp-tb-nav"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-01">
                       01. Social Media Strategy Development
@@ -271,7 +311,12 @@ export default function AppDevelopment() {
                 </Nav>
               </Col>
               <Col lg={6} xs={12}>
-                <div className="exp-tb-con">
+                <div
+                  className="exp-tb-con"
+                  data-aos="fadeIn"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <figure>
                     <Image
                       src="/images/paid-expertise-tb-01.jpg"

@@ -28,7 +28,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="ins-slider-hd">
+              <div
+                className="ins-slider-hd"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h6>Services</h6>
                 <h1>Content</h1>
               </div>
@@ -41,7 +46,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col xs={12}>
-              <div className="branding-intro">
+              <div
+                className="branding-intro"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>
                   Does your online content influence consumers? Is it effective
                   in bringing people to your digital presence? Does it inspire
@@ -109,7 +119,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="app-highlight">
+              <div
+                className="app-highlight"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   Our content management and content marketing services
                   helpconnect your audience with your brand and elevate these
@@ -130,7 +145,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div className="app-dev-column">
+              <div
+                className="app-dev-column"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   To do this,we first gauge your needs, study your ecosystem and
                   understand your business goals.
@@ -146,7 +166,12 @@ export default function AppDevelopment() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="app-column-01">
+              <div
+                className="app-column-01"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/content-goals.jpg"
                   alt="Team"
@@ -167,7 +192,12 @@ export default function AppDevelopment() {
         <Container>
           <Row>
             <Col xs={12}>
-              <div className="content-highlights">
+              <div
+                className="content-highlights"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>
                   Our content management service then focuses on creating
                   high-quality, relevant, and valuable digital resources that
@@ -189,7 +219,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row className="gx-xxl-5">
             <Col lg={6} xs={12}>
-              <div className="app-exp-item">
+              <div
+                className="app-exp-item"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   But creating diverse digital materials is only one aspect of
                   our services.
@@ -204,7 +239,12 @@ export default function AppDevelopment() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="app-exp-item">
+              <div
+                className="app-exp-item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
                 <h4>
                   We analyze performance metrics and insights to continuously
                   refine our strategies.
@@ -224,7 +264,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-story">
+              <div
+                className="brand-story"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <div className="section-hd unique-hd">
                   <h3>
                     We invite you to embark on this transformative journey with
@@ -242,7 +287,12 @@ export default function AppDevelopment() {
           <Container fluid="xxl">
             <Row>
               <Col xs={12}>
-                <div className="section-hd">
+                <div
+                  className="section-hd"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h6>What we do</h6>
                   <h3>Our Expertise</h3>
                 </div>
@@ -250,7 +300,12 @@ export default function AppDevelopment() {
             </Row>
             <Row>
               <Col lg={6} xs={12}>
-                <Nav className="exp-tb-nav">
+                <Nav
+                  className="exp-tb-nav"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-01">
                       01. Content Assessment & Audit
@@ -280,7 +335,12 @@ export default function AppDevelopment() {
                 </Nav>
               </Col>
               <Col lg={6} xs={12}>
-                <div className="exp-tb-con">
+                <div
+                  className="exp-tb-con"
+                  data-aos="fadeIn"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <figure>
                     <Image
                       src="/images/con-expertise-tb-01.jpg"

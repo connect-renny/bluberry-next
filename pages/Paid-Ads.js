@@ -127,7 +127,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center gx-xxl-5">
             <Col lg={6} xs={12}>
-              <div className="mindset-content">
+              <div
+                className="mindset-content"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   We are well-versed in the intricacies of paid ads across
                   various platforms, including search engines, social media, and
@@ -148,7 +153,12 @@ export default function AppDevelopment() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="mindset-img">
+              <div
+                className="mindset-img"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>
                   With a keen eye for detail and a strategic mindset, we delve
                   deep into your brand&apos;s DNA to uncover its true potential.
@@ -164,7 +174,11 @@ export default function AppDevelopment() {
           <Row className="gx-xxl-5">
             <Col lg={6} xs={12}>
               <div className="paid-com-item">
-                <figure>
+                <figure
+                  data-aos="fadeIn"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Image
                     src="/images/paid-com-img-01.jpg"
                     alt="Team"
@@ -173,7 +187,12 @@ export default function AppDevelopment() {
                     height={325}
                   />
                 </figure>
-                <div className="paid-com-body">
+                <div
+                  className="paid-com-body"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h4>
                     Whether you&apos;re aiming to increase brand awareness,
                     generate leads, or drive conversions, our paid ads service
@@ -190,7 +209,11 @@ export default function AppDevelopment() {
             </Col>
             <Col lg={6} xs={12}>
               <div className="paid-com-item">
-                <figure>
+                <figure
+                  data-aos="fadeIn"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Image
                     src="/images/paid-com-img-02.jpg"
                     alt="Team"
@@ -199,7 +222,12 @@ export default function AppDevelopment() {
                     height={325}
                   />
                 </figure>
-                <div className="paid-com-body">
+                <div
+                  className="paid-com-body"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h4>
                     Rest assured, we keep you informed every step of the way,
                     providing detailed reports and transparent insights into
@@ -221,7 +249,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-imp-con">
+              <div
+                className="brand-imp-con"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   Make the best use of paid advertising and catapult your brand
                   to new heights.Let&apos;s ignite your online presence, boost
@@ -242,7 +275,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-story">
+              <div
+                className="brand-story"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <div className="section-hd unique-hd">
                   <h3>
                     Reach the right audience at the right time and through the
@@ -260,7 +298,12 @@ export default function AppDevelopment() {
           <Container fluid="xxl">
             <Row>
               <Col xs={12}>
-                <div className="section-hd">
+                <div
+                  className="section-hd"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h6>What we do</h6>
                   <h3>Our Expertise</h3>
                 </div>
@@ -268,7 +311,12 @@ export default function AppDevelopment() {
             </Row>
             <Row>
               <Col lg={6} xs={12}>
-                <Nav className="exp-tb-nav">
+                <Nav
+                  className="exp-tb-nav"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-01">
                       01. Social Media Paid Ads
@@ -313,7 +361,12 @@ export default function AppDevelopment() {
                 </Nav>
               </Col>
               <Col lg={6} xs={12}>
-                <div className="exp-tb-con">
+                <div
+                  className="exp-tb-con"
+                  data-aos="fadeIn"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <figure>
                     <Image
                       src="/images/paid-expertise-tb-01.jpg"

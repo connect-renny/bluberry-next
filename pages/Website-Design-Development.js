@@ -111,7 +111,12 @@ export default function WebsiteDesign() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-imp-con">
+              <div
+                className="brand-imp-con"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   We begin by delving into the intricacies of your business,
                   understanding your goals, target audience, and unique value
@@ -133,7 +138,12 @@ export default function WebsiteDesign() {
         <Container fluid="xxl">
           <Row className="gx-xxl-5">
             <Col lg={6} xs={12}>
-              <div className="web-des-item">
+              <div
+                className="web-des-item"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <figure>
                   <Image
                     src="/images/web-des-img-01.jpg"
@@ -143,7 +153,12 @@ export default function WebsiteDesign() {
                     height={325}
                   />
                 </figure>
-                <div className="web-des-body">
+                <div
+                  className="web-des-body"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <p>
                     Our website design and development services go beyond
                     external aesthetics. We pay meticulous attention to user
@@ -157,7 +172,11 @@ export default function WebsiteDesign() {
             </Col>
             <Col lg={6} xs={12}>
               <div className="web-des-item">
-                <figure>
+                <figure
+                  data-aos="fadeIn"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Image
                     src="/images/web-des-img-02.jpg"
                     alt="Team"
@@ -166,7 +185,12 @@ export default function WebsiteDesign() {
                     height={325}
                   />
                 </figure>
-                <div className="web-des-body">
+                <div
+                  className="web-des-body"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <p>
                     Our developers then bring the design to life, using
                     cutting-edge technologies and industry best practices like
@@ -187,7 +211,12 @@ export default function WebsiteDesign() {
           <Row>
             <Col>
               <div className="web-highlights">
-                <div className="web-high-icon">
+                <div
+                  className="web-high-icon"
+                  data-aos="fadeIn"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Image
                     src="/images/web-high-icon.png"
                     alt="Icon"
@@ -196,7 +225,12 @@ export default function WebsiteDesign() {
                     height={100}
                   />
                 </div>
-                <div className="web-high-body">
+                <div
+                  className="web-high-body"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <p>
                     From intuitive product catalogs and streamlined checkout
                     processes to integrated payment gateways and inventory
@@ -215,7 +249,12 @@ export default function WebsiteDesign() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center gx-xxl-5">
             <Col lg={6} xs={12}>
-              <div className="mindset-img">
+              <div
+                className="mindset-img"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3 className="mb-4">
                   Accessibility and usability are at the core of our development
                   philosophy. Accessibility and usability are at the core of our
@@ -229,7 +268,12 @@ export default function WebsiteDesign() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="mindset-content">
+              <div
+                className="mindset-content"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   And our commitment doesn&apos;t end with the launch of your
                   website.
@@ -251,7 +295,12 @@ export default function WebsiteDesign() {
           <Container fluid="xxl">
             <Row>
               <Col xs={12}>
-                <div className="section-hd">
+                <div
+                  className="section-hd"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h6>What we do</h6>
                   <h3>Our Expertise</h3>
                 </div>
@@ -259,7 +308,12 @@ export default function WebsiteDesign() {
             </Row>
             <Row>
               <Col lg={6} xs={12}>
-                <Nav className="exp-tb-nav">
+                <Nav
+                  className="exp-tb-nav"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-01">
                       01. Custom Website Design
@@ -318,7 +372,12 @@ export default function WebsiteDesign() {
                 </Nav>
               </Col>
               <Col lg={6} xs={12}>
-                <div className="exp-tb-con">
+                <div
+                  className="exp-tb-con"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                >
                   <figure>
                     <Image
                       src="/images/expertise-tb-web-01.jpg"

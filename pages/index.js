@@ -270,7 +270,7 @@ export default function Home() {
           </Row>
           <Row>
             <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
+              <Link href="/Branding" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-04.png" alt="Icon" />
                   <img
@@ -290,7 +290,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
+              <Link href="/Graphic-Design" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-05.png" alt="Icon" />
                   <img
@@ -310,7 +310,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
+              <Link href="/Content" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-02.png" alt="Icon" />
                   <img
@@ -330,7 +330,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
+              <Link href="/Website-Design-Development" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-05.png" alt="Icon" />
                   <img
@@ -350,7 +350,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
+              <Link href="/App-Development" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-06.png" alt="Icon" />
                   <img
@@ -370,7 +370,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
+              <Link href="/Social-Media" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-01.png" alt="Icon" />
                   <img
@@ -391,7 +391,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
+              <Link href="/SEO" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-03.png" alt="Icon" />
                   <img
@@ -411,7 +411,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col lg={3} md={6} xs={12}>
-              <Link href="#" className="service-item">
+              <Link href="/Paid-Ads" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-06.png" alt="Icon" />
                   <img
