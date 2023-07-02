@@ -28,7 +28,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="ins-slider-hd">
+              <div
+                className="ins-slider-hd"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h6>Services</h6>
                 <h1>App Development</h1>
               </div>
@@ -41,7 +46,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col xs={12}>
-              <div className="branding-intro">
+              <div
+                className="branding-intro"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>
                   Is your web presence limited to website & social media? Have
                   you considered how apps can transform your digital presence?
@@ -59,7 +69,7 @@ export default function AppDevelopment() {
             <Col lg={6} xs={12}>
               <div
                 className="app-dev-img"
-                data-aos="fade-up"
+                data-aos="fadeIn"
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
@@ -103,7 +113,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="app-highlight">
+              <div
+                className="app-highlight"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   We specialize in creating custom applications for mobile on
                   iOS and Android platforms as well as for the web.
@@ -127,7 +142,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div className="app-dev-column">
+              <div
+                className="app-dev-column"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <p>
                   Our mobile and web app development services are tailored to
                   bring your vision to life and create a seamless mobile
@@ -143,7 +163,12 @@ export default function AppDevelopment() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="app-column-01">
+              <div
+                className="app-column-01"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/app-dev-img-01.jpg"
                   alt="Team"
@@ -164,7 +189,12 @@ export default function AppDevelopment() {
         <Container fluid className="gx-0">
           <Row className="gx-0">
             <Col lg={6} xs={12}>
-              <div className="app-expert-img">
+              <div
+                className="app-expert-img"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/app-expertise-img.jpg"
                   alt="App"
@@ -175,7 +205,12 @@ export default function AppDevelopment() {
               </div>
             </Col>
             <Col lg={6} xs={12} className="d-flex align-items-center">
-              <div className="app-expert-con">
+              <div
+                className="app-expert-con"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   We combine technical expertise, creative flair, and a deep
                   understanding of user behavior to build robust, scalable, and
@@ -196,7 +231,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row className="gx-xxl-5">
             <Col lg={6} xs={12}>
-              <div className="app-exp-item">
+              <div
+                className="app-exp-item"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   If your business or service caters to retail, e-commerce, or
                   other service industries, apps are a natural extension of your
@@ -210,7 +250,12 @@ export default function AppDevelopment() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="app-exp-item">
+              <div
+                className="app-exp-item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
                 <p>
                   We also offer comprehensive app deployment and ongoing
                   maintenance services, ensuring your app remains up-to-date,
@@ -234,7 +279,12 @@ export default function AppDevelopment() {
           <Row>
             <Col xs={12}>
               <div className="brand-story">
-                <div className="section-hd unique-hd">
+                <div
+                  className="section-hd unique-hd"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h3>
                     So if you are looking at new avenues for business growth,
                     give apps a try.
@@ -251,7 +301,12 @@ export default function AppDevelopment() {
           <Container fluid="xxl">
             <Row>
               <Col xs={12}>
-                <div className="section-hd">
+                <div
+                  className="section-hd"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h6>What we do</h6>
                   <h3>Our Expertise</h3>
                 </div>
@@ -259,7 +314,12 @@ export default function AppDevelopment() {
             </Row>
             <Row>
               <Col lg={6} xs={12}>
-                <Nav className="exp-tb-nav">
+                <Nav
+                  className="exp-tb-nav"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-01">
                       01. Mobile App Development

@@ -31,7 +31,12 @@ export default function Branding() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="ins-slider-hd">
+              <div
+                className="ins-slider-hd"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h6>Services</h6>
                 <h1>Branding</h1>
               </div>
@@ -44,7 +49,12 @@ export default function Branding() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col xs={12}>
-              <div className="branding-intro">
+              <div
+                className="branding-intro"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>
                   What does your brand portray to the world? What images does it
                   evoke? What values do you stand for?
@@ -67,7 +77,12 @@ export default function Branding() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div className="branding-content">
+              <div
+                className="branding-content"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4 className="mb-xxl-4">
                   Our branding services transcend mere aesthetics and delve into
                   strategic craftsmanship.
@@ -87,7 +102,12 @@ export default function Branding() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="branding-img">
+              <div
+                className="branding-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/branding.jpg"
                   alt="Team"
@@ -105,7 +125,12 @@ export default function Branding() {
         <Container fluid="xxl">
           <Row className="d-flex flex-row-reverse align-items-end">
             <Col lg={7} xs={12}>
-              <div className="brand-high-con">
+              <div
+                className="brand-high-con"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   But the power of our branding extends beyond the realm of
                   traditional brand collaterals. It permeates every facet of
@@ -121,7 +146,12 @@ export default function Branding() {
               </div>
             </Col>
             <Col lg={5} xs={12}>
-              <div className="brand-high-img">
+              <div
+                className="brand-high-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/branding-man.png"
                   alt="Values"
@@ -139,7 +169,12 @@ export default function Branding() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-imp-con">
+              <div
+                className="brand-imp-con"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4>
                   Just as important, it&apos;s also not merely about captivating
                   visuals— it&apos;s about creating an immersive journey that
@@ -160,7 +195,12 @@ export default function Branding() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-story">
+              <div
+                className="brand-story"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <div className="section-hd unique-hd">
                   <h3>
                     The world is waiting to embrace your unique story - let us
@@ -178,11 +218,21 @@ export default function Branding() {
           <Container fluid="xxl">
             <Row>
               <Col lg={6} xs={12}>
-                <div className="section-hd">
+                <div
+                  className="section-hd"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h6>What we do</h6>
                   <h3>Our Expertise</h3>
                 </div>
-                <Nav className="exp-tb-nav">
+                <Nav
+                  className="exp-tb-nav"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <Nav.Item>
                     <Nav.Link eventKey="exp-tab-01">
                       01. Brand Assessment & Audit
@@ -221,7 +271,12 @@ export default function Branding() {
                 </Nav>
               </Col>
               <Col lg={6} xs={12}>
-                <div className="exp-tb-con">
+                <div
+                  className="exp-tb-con"
+                  data-aos="fadeIn"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <figure>
                     <Image
                       src="/images/expertise-tb-brand-01.jpg"
@@ -246,7 +301,12 @@ export default function Branding() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="brand-consult-cover">
+              <div
+                className="brand-consult-cover"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>Take the first step towards brand brilliance today. </h3>
                 <p>
                   Connect with us and let us bring your brand to life in ways

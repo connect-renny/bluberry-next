@@ -14,7 +14,6 @@ const settings = {
   autoplay: true,
   slidesToShow: 3,
   slidesToScroll: 1,
-  variableWidth: true,
   responsive: [
     {
       breakpoint: 1024,
@@ -27,6 +26,13 @@ const settings = {
       breakpoint: 768,
       settings: {
         slidesToShow: 3,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 2,
         slidesToScroll: 1,
       },
     },

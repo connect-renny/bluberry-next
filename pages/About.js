@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Container, Row, Col, Accordion } from "react-bootstrap";
 
+import Link from "next/link";
+
 import IncludeContact from "./components/IncludeContact";
 
 import { FiArrowRight } from "react-icons/fi";
@@ -130,10 +132,18 @@ export default function About() {
                     </span>
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
+                    <p>
+                      We employ a blend of technical prowess, creative vision,
+                      and consumer psychology to craft an authentic and
+                      captivating brand experience that will set you apart from
+                      the crowd.
+                    </p>
+                    <Link className="btn btn-shine btn-more" href="/Branding">
+                      <span className="btn-label">Read More</span>
+                      <span className="btn-icon">
+                        <FiArrowRight />
+                      </span>
+                    </Link>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
@@ -147,10 +157,17 @@ export default function About() {
                     </span>
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
+                    <p>
+                      Only if you capture the attention of your target audience
+                      and then retain it enough to get your message acrosswill
+                      you be able to persuade them.Action starts with attention.
+                    </p>
+                    <Link className="btn btn-shine btn-more" href="/Content">
+                      <span className="btn-label">Read More</span>
+                      <span className="btn-icon">
+                        <FiArrowRight />
+                      </span>
+                    </Link>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
@@ -164,10 +181,21 @@ export default function About() {
                     </span>
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
+                    <p>
+                      There&apos;s an app for each of that and for a million
+                      other tasks. Apps are fast becoming the interface of
+                      choice for the current generation brought up as digital
+                      natives.
+                    </p>
+                    <Link
+                      className="btn btn-shine btn-more"
+                      href="/App-Development"
+                    >
+                      <span className="btn-label">Read More</span>
+                      <span className="btn-icon">
+                        <FiArrowRight />
+                      </span>
+                    </Link>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
@@ -181,10 +209,19 @@ export default function About() {
                     </span>
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
+                    <p>
+                      BluBerry Labs brings to youpersonalizedsearch engine
+                      optimization (SEO) services that can help you achieve
+                      success. We offer personalized solutions, including
+                      keyword research, on-page optimization, backlink building,
+                      and analytics tracking.
+                    </p>
+                    <Link className="btn btn-shine btn-more" href="/SEO">
+                      <span className="btn-label">Read More</span>
+                      <span className="btn-icon">
+                        <FiArrowRight />
+                      </span>
+                    </Link>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
@@ -202,10 +239,21 @@ export default function About() {
                     </span>
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
+                    <p>
+                      Every element in a design should have a purpose. And every
+                      end product should communicate a powerful message. And
+                      that&apos;s what we offer; we convey your brand&apos;s
+                      message through our mindful and effective digital media.
+                    </p>
+                    <Link
+                      className="btn btn-shine btn-more"
+                      href="/Graphic-Design"
+                    >
+                      <span className="btn-label">Read More</span>
+                      <span className="btn-icon">
+                        <FiArrowRight />
+                      </span>
+                    </Link>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
@@ -221,10 +269,22 @@ export default function About() {
                     </span>
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
+                    <p>
+                      It is the home ground for all your online activities and
+                      the top reference point for your customers. Of course, the
+                      looks and décor matter. But the sitemust also be stable,
+                      well-organized, and user-friendly to be effective and
+                      functional.
+                    </p>
+                    <Link
+                      className="btn btn-shine btn-more"
+                      href="/Website-Design-Development"
+                    >
+                      <span className="btn-label">Read More</span>
+                      <span className="btn-icon">
+                        <FiArrowRight />
+                      </span>
+                    </Link>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
@@ -238,10 +298,21 @@ export default function About() {
                     </span>
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
+                    <p>
+                      Partner with BluBerry to harness this power. Our social
+                      media marketing and management (SMM) services will enable
+                      you to build a loyal community of followers and drive
+                      engagement.
+                    </p>
+                    <Link
+                      className="btn btn-shine btn-more"
+                      href="/Social-Media"
+                    >
+                      <span className="btn-label">Read More</span>
+                      <span className="btn-icon">
+                        <FiArrowRight />
+                      </span>
+                    </Link>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
@@ -255,10 +326,18 @@ export default function About() {
                     </span>
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip.
+                    <p>
+                      But unlike water in the ocean, with the right strategy and
+                      content, a digital drop in the sea of internet can grow in
+                      reach and impact.It can cross beyond the proverbial
+                      oceans.BluBerry Labs offers this amplified reach.
+                    </p>
+                    <Link className="btn btn-shine btn-more" href="/Paid-Ads">
+                      <span className="btn-label">Read More</span>
+                      <span className="btn-icon">
+                        <FiArrowRight />
+                      </span>
+                    </Link>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>

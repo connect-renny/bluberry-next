@@ -82,7 +82,7 @@ export default function Blog() {
                   <div>
                     <div className="blog-item">
                       <figure>
-                        <Link href="#">
+                        <Link href="/Blog-Details">
                           <Image
                             src="/images/blog-thumb-01.jpg"
                             alt="Image"
@@ -113,7 +113,7 @@ export default function Blog() {
                   <div>
                     <div className="blog-item">
                       <figure>
-                        <Link href="#">
+                        <Link href="/Blog-Details">
                           <Image
                             src="/images/blog-thumb-02.jpg"
                             alt="Image"
@@ -141,7 +141,7 @@ export default function Blog() {
                   <div>
                     <div className="blog-item">
                       <figure>
-                        <Link href="#">
+                        <Link href="/Blog-Details">
                           <Image
                             src="/images/blog-thumb-03.jpg"
                             alt="Image"

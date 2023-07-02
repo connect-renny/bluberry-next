@@ -5,11 +5,9 @@ import { FiArrowRight } from "react-icons/fi";
 
 import { MdOutlinePhonelinkRing } from "react-icons/md";
 import { TfiEmail } from "react-icons/tfi";
-import { AiOutlineUser } from "react-icons/ai";
-import { FiPhoneCall } from "react-icons/fi";
-import { IoIosInformationCircleOutline } from "react-icons/io";
 import { RxShare1 } from "react-icons/rx";
-import { MdOutlineEdit } from "react-icons/md";
+
+import ContactForm from "./components/ContactForm";
 
 import Link from "next/link";
 
@@ -145,106 +143,7 @@ export default function Contact() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div
-                className="contact-form"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
-                <div className="con-add-hd">
-                  <h3>Hello.</h3>
-                  <h4>
-                    Please tell us about yourself and we will get back to within
-                    24 hours.
-                  </h4>
-                </div>
-                <Row>
-                  <Col md={6}>
-                    <FloatingLabel
-                      controlId="floatingInput"
-                      label="Name"
-                      className="mb-3"
-                    >
-                      <Form.Control placeholder="Name" />
-                      <div className="icon">
-                        <AiOutlineUser />
-                      </div>
-                    </FloatingLabel>
-                  </Col>
-                  <Col md={6}>
-                    <FloatingLabel
-                      controlId="floatingInput"
-                      label="Email Address"
-                      className="mb-3"
-                    >
-                      <Form.Control placeholder="Email Address" />
-                      <div className="icon">
-                        <TfiEmail />
-                      </div>
-                    </FloatingLabel>
-                  </Col>
-                  <Col md={6}>
-                    <FloatingLabel
-                      controlId="floatingInput"
-                      label="Phone"
-                      className="mb-3"
-                    >
-                      <Form.Control placeholder="Phone" />
-                      <div className="icon">
-                        <FiPhoneCall />
-                      </div>
-                    </FloatingLabel>
-                  </Col>
-                  <Col md={6}>
-                    <FloatingLabel
-                      controlId="floatingInput"
-                      label="Subject"
-                      className="mb-3"
-                    >
-                      <Form.Control placeholder="Subject" />
-                      <div className="icon">
-                        <IoIosInformationCircleOutline />
-                      </div>
-                    </FloatingLabel>
-                  </Col>
-                  <Col xs={12}>
-                    <FloatingLabel
-                      controlId="floatingInput"
-                      label="How can we help you? Feel free to get in touch!"
-                      className="mb-3"
-                    >
-                      <Form.Control
-                        as="textarea"
-                        placeholder="How can we help you? Feel free to get in touch!"
-                      />
-                      <div className="icon">
-                        <MdOutlineEdit />
-                      </div>
-                    </FloatingLabel>
-                  </Col>
-                  <Col sm={6} xs={12}>
-                    <button className="btn btn-shine btn-submit" href="#">
-                      <span className="btn-label">Submit</span>
-                      <span className="btn-icon">
-                        <FiArrowRight />
-                      </span>
-                    </button>
-                  </Col>
-                  <Col sm={6} xs={12}>
-                    <div className="con-agree">
-                      <Form.Check
-                        type="radio"
-                        id="option1"
-                        name="options"
-                        label="I agree that my data is collected and stored"
-                        value="option1"
-                        checked={selectedOption === "option1"}
-                        onChange={handleOptionChange}
-                      />
-                    </div>
-                  </Col>
-                </Row>
-              </div>
+              <ContactForm />
             </Col>
           </Row>
         </Container>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 
+import CasestudyNav from "./components/CasestudyNav";
 import IncludeContact from "./components/IncludeContact";
 import ProjectSlider from "./components/ProjectSlider";
 
@@ -69,7 +70,8 @@ export default function CaseStudies() {
         </Container>
       </section>
 
-      <section className="pt-4 pb-4">
+      <section className="position-relative pt-4 pb-4">
+        <CasestudyNav />
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
@@ -80,7 +82,12 @@ export default function CaseStudies() {
           </Row>
           <Row>
             <Col xs={12}>
-              <div className="case-screen-img">
+              <div
+                className="case-screen-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/case-study-screen-aydi.png"
                   alt="Team"
@@ -98,7 +105,12 @@ export default function CaseStudies() {
         <Container fluid="xxl">
           <Row>
             <Col lg="8" xs={12}>
-              <div className="case-dtl-con">
+              <div
+                className="case-dtl-con"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <div className="count">01</div>
                 <h4>
                   Al Aydi Tents: Transforming Online Presence through Website,
@@ -124,7 +136,12 @@ export default function CaseStudies() {
               </div>
             </Col>
             <Col lg="4" xs={12}>
-              <div className="case-dtl-info">
+              <div
+                className="case-dtl-info"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <div className="info-item">
                   <div className="info-label">INDUSTRY</div>
                   <div className="info-value">Outdoor Products</div>
@@ -155,7 +172,12 @@ export default function CaseStudies() {
       </section>
 
       <section>
-        <div className="case-collage">
+        <div
+          className="case-collage"
+          data-aos="fadeIn"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
           <Image
             src="/images/case-collage-aydi.jpg"
             alt="Team"
@@ -170,7 +192,12 @@ export default function CaseStudies() {
         <Container fluid="xxl">
           <Row>
             <Col lg="8" xs={12}>
-              <div className="case-timeline">
+              <div
+                className="case-timeline"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <div className="case-dtl-con mb-4">
                   <div className="count">02</div>
                   <h4>Project Objectives</h4>
@@ -231,7 +258,12 @@ export default function CaseStudies() {
               </div>
             </Col>
             <Col lg="4" xs={12}>
-              <div className="case-mob-screen">
+              <div
+                className="case-mob-screen"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/case-mob-screen-aydi.png"
                   alt="Slider"
@@ -249,7 +281,12 @@ export default function CaseStudies() {
         <Container fluid>
           <Row>
             <Col xs={12} className="case-res-img-col">
-              <div className="case-caro-img">
+              <div
+                className="case-caro-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/case-result-img-aydi.png"
                   alt="Image"
@@ -261,7 +298,12 @@ export default function CaseStudies() {
             </Col>
             <Col xs={12} className="case-res-caro-col">
               <div className="case-carousel">
-                <div className="case-dtl-con mb-4">
+                <div
+                  className="case-dtl-con mb-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <div className="count">03</div>
                   <h4>Result</h4>
                   <p>
@@ -365,7 +407,12 @@ export default function CaseStudies() {
         <Container fluid="xxl">
           <Row className="d-flex align-items-center">
             <Col lg={6} xs={12}>
-              <div className="case-dev-img">
+              <div
+                className="case-dev-img"
+                data-aos="fadeIn"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/case-dev-aydi.png"
                   alt="Image"
@@ -376,7 +423,12 @@ export default function CaseStudies() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
-              <div className="case-dev-con">
+              <div
+                className="case-dev-con"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h4 className="mb-xxl-4">
                   The collaboration between Al Aydi Tents and our team for
                   website development, SEO optimization, and social media
@@ -402,7 +454,12 @@ export default function CaseStudies() {
         <Container>
           <Row>
             <Col xs={12}>
-              <div className="section-hd text-center">
+              <div
+                className="section-hd text-center"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h3>Other Projects</h3>
               </div>
             </Col>

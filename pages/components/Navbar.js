@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import { Navbar, NavDropdown, Container } from "react-bootstrap";
+import { Navbar, NavDropdown, Container, Dropdown } from "react-bootstrap";
 import Link from "next/link";
 import { GoMail } from "react-icons/go";
 import { FiPhoneCall } from "react-icons/fi";
@@ -106,47 +106,72 @@ export default function NavbarMain() {
                 <div className="mega-menu-links">
                   <ul className="drop-mega-link">
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/Branding">
-                        Branding
-                      </Link>
-                    </li>
-                    <li className="mg-item">
-                      <Link className="mg-nav" href="/Graphic-Design">
-                        Graphic Design
-                      </Link>
-                    </li>
-                    <li className="mg-item">
-                      <Link className="mg-nav" href="/Content">
-                        Content
-                      </Link>
-                    </li>
-                    <li className="mg-item">
-                      <Link
+                      <Dropdown.Item
                         className="mg-nav"
+                        as={Link}
+                        href="/Branding"
+                      >
+                        Branding
+                      </Dropdown.Item>
+                    </li>
+                    <li className="mg-item">
+                      <Dropdown.Item
+                        className="mg-nav"
+                        as={Link}
+                        href="/Graphic-Design"
+                      >
+                        Graphic Design
+                      </Dropdown.Item>
+                    </li>
+                    <li className="mg-item">
+                      <Dropdown.Item
+                        className="mg-nav"
+                        as={Link}
+                        href="/Content"
+                      >
+                        Content
+                      </Dropdown.Item>
+                    </li>
+                    <li className="mg-item">
+                      <Dropdown.Item
+                        className="mg-nav"
+                        as={Link}
                         href="/Website-Design-Development"
                       >
                         Website Design & Development
-                      </Link>
+                      </Dropdown.Item>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/App-Development">
+                      <Dropdown.Item
+                        className="mg-nav"
+                        as={Link}
+                        href="/App-Development"
+                      >
                         App Development
-                      </Link>
+                      </Dropdown.Item>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/Social-Media">
+                      <Dropdown.Item
+                        className="mg-nav"
+                        as={Link}
+                        href="/Social-Media"
+                      >
                         Social Media
-                      </Link>
+                      </Dropdown.Item>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/SEO">
+                      <Dropdown.Item className="mg-nav" as={Link} href="/SEO">
                         SEO
-                      </Link>
+                      </Dropdown.Item>
                     </li>
                     <li className="mg-item">
-                      <Link className="mg-nav" href="/Paid-Ads">
+                      <Dropdown.Item
+                        className="mg-nav"
+                        as={Link}
+                        href="/Paid-Ads"
+                      >
                         Paid Ads
-                      </Link>
+                      </Dropdown.Item>
                     </li>
                   </ul>
                 </div>
@@ -191,9 +216,11 @@ export default function NavbarMain() {
             </div>
             <div className="nav-item">
               <Link
-                href="/Blog"
+                href="/Blog-Details"
                 className={
-                  router.pathname == "/Blog" ? "active nav-link" : "nav-link"
+                  router.pathname == "/Blog-Details"
+                    ? "active nav-link"
+                    : "nav-link"
                 }
                 onClick={handleLinkClick}
               >

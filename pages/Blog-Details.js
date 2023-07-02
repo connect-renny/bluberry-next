@@ -15,7 +15,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="ins-slider-hd">
+              <div
+                className="ins-slider-hd"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <h1>Blog</h1>
               </div>
             </Col>
@@ -27,7 +32,12 @@ export default function AppDevelopment() {
         <Container fluid="xxl">
           <Row>
             <Col xs={12}>
-              <div className="blog-slider">
+              <div
+                className="blog-slider"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <Image
                   src="/images/blog-slider.png"
                   alt="Slider"
@@ -46,14 +56,23 @@ export default function AppDevelopment() {
           <Row className="gx-xxl-5">
             <Col lg="8" xs={12}>
               <div className="blog-dtl-cover">
-                <p></p>
-                <div className="blog-dtl-hd">
+                <div
+                  className="blog-dtl-hd"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h3>
                     Here are some steps to create content that can help drive
                     sales:
                   </h3>
                 </div>
-                <div className="content-steps">
+                <div
+                  className="content-steps"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <div className="step-item">
                     <div className="step-count">01</div>
                     <div className="step-body">
@@ -203,7 +222,12 @@ export default function AppDevelopment() {
             </Col>
             <Col lg="4" xs={12}>
               <div className="search-sidebar">
-                <div className="blog-search-cover">
+                <div
+                  className="blog-search-cover"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <h4>Search</h4>
                   <div className="search-form">
                     <InputGroup>
@@ -214,7 +238,12 @@ export default function AppDevelopment() {
                     </InputGroup>
                   </div>
                 </div>
-                <div className="recent-post-cover">
+                <div
+                  className="recent-post-cover"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   <div className="recent-post-hd">
                     <h4>Recent Post</h4>
                   </div>
