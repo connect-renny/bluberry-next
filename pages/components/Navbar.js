@@ -57,7 +57,7 @@ export default function NavbarMain() {
           >
             <path
               class="line"
-              stroke-width="3"
+              strokeWidth="3"
               // stroke-linecap="round"
               // stroke-linejoin="round"
               d="m 20 40 h 60 a 1 1 0 0 1 0 20 h -60 a 1 1 0 0 1 0 -40 h 30 v 70"
