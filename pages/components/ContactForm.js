@@ -27,7 +27,6 @@ export default function contactForm() {
   } = useForm();
   const onSubmit = (data) => {
     recaptchaRef.current.execute();
-    alert();
   };
 
   const onReCAPTCHAChange = async (captchaCode) => {
@@ -40,7 +39,7 @@ export default function contactForm() {
       let data = getValues();
       data.recaptcha = recaptchaRef?.current?.getValue();
       if (data.recaptcha) {
-        let response = await fetch("/nex-contact.php", {
+        let response = await fetch("/next-contact.php", {
           method: "POST", // or 'PUT'
           credentials: "same-origin",
           headers: {
@@ -52,6 +51,7 @@ export default function contactForm() {
         if (response.ok) {
           reset();
           // router.push('/ThankYou');
+          let result = await response.json();
           setResponseMessage(result.message);
         } else {
           let result = await response.json();
@@ -135,7 +135,7 @@ export default function contactForm() {
               label="Phone"
               className="mb-3"
             >
-              <Form.Control placeholder="Phone" {...register("phone", { required: true })} />
+              <Form.Control placeholder="Phone" type="tel" {...register("phone", { required: true })} />
               <div className="icon">
                 <FiPhoneCall />
               </div>
