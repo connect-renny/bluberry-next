@@ -38,7 +38,7 @@ const settings = {
   ],
 };
 
-export default function ClientSlider() {
+export default function clientSlider() {
   return (
     <Slider className="slider " {...settings}>
       <div>

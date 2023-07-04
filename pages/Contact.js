@@ -143,6 +143,13 @@ export default function Contact() {
               </div>
             </Col>
             <Col lg={6} xs={12}>
+              <div className="con-add-hd">
+                <h3>Hello.</h3>
+                <h4>
+                  Please tell us about yourself and we will get back to within
+                  24 hours.
+                </h4>
+              </div>
               <ContactForm />
             </Col>
           </Row>
@@ -167,7 +174,7 @@ export default function Contact() {
                     Or better yet, let&apos;s meet. <br />
                     <span>We would love to talk to you!</span>
                   </h4>
-                  <Link className="btn btn-book" href="">
+                  <Link className="btn btn-book" href="/Virtual-Meeting">
                     <span className="btn-label">
                       Book a <span className="fw-bold">Virtual Meeting</span>
                       &nbsp; with us!
