@@ -11,7 +11,6 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { useRouter } from "next/router";
 
 export default function contactForm() {
-
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [responseMessage, setResponseMessage] = useState(false);
   const recaptchaRef = useRef(null);
@@ -79,7 +78,7 @@ export default function contactForm() {
       data-aos-delay="100"
       data-aos-duration="1000"
     >
-      <form
+      {/* <form
         reference={formRef}
         onSubmit={handleSubmit(onSubmit)}
         className="assessmentForm"
@@ -198,7 +197,7 @@ export default function contactForm() {
           </Col>
           {responseMessage ? (<Col xs={12}><span className="error">{responseMessage}</span></Col>) : ("")}
         </Row>
-      </form>
-    </div >
+      </form> */}
+    </div>
   );
 }
