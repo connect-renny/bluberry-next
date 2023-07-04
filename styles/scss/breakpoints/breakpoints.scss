@@ -821,6 +821,14 @@
   .case-timeline .time-item .time-count {
     margin-right: 1rem;
   }
+  .thanks-cover figure {
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--color-200);
+  }
+  .thanks-cover .thank-graphics .graph-item {
+    width: 20px;
+  }
 }
 
 @media (max-width: 480px) {
