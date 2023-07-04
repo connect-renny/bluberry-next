@@ -78,7 +78,7 @@ export default function contactForm() {
       data-aos-delay="100"
       data-aos-duration="1000"
     >
-      {/* <form
+      <form
         reference={formRef}
         onSubmit={handleSubmit(onSubmit)}
         className="assessmentForm"
@@ -96,7 +96,10 @@ export default function contactForm() {
               label="Name"
               className="mb-3"
             >
-              <Form.Control placeholder="Name" {...register("name", { required: true })} />
+              <Form.Control
+                placeholder="Name"
+                {...register("name", { required: true })}
+              />
               <div className="icon">
                 <AiOutlineUser />
               </div>
@@ -111,15 +114,16 @@ export default function contactForm() {
               label="Email Address"
               className="mb-3"
             >
-              <Form.Control placeholder="Email Address"
+              <Form.Control
+                placeholder="Email Address"
                 {...register("email", {
                   required: "required",
                   pattern: {
                     value: /\S+@\S+\.\S+/,
-                    message:
-                      "Entered value does not match email format",
+                    message: "Entered value does not match email format",
                   },
-                })} />
+                })}
+              />
               <div className="icon">
                 <TfiEmail />
               </div>
@@ -134,7 +138,10 @@ export default function contactForm() {
               label="Phone"
               className="mb-3"
             >
-              <Form.Control placeholder="Phone" {...register("phone", { required: true })} />
+              <Form.Control
+                placeholder="Phone"
+                {...register("phone", { required: true })}
+              />
               <div className="icon">
                 <FiPhoneCall />
               </div>
@@ -149,7 +156,10 @@ export default function contactForm() {
               label="Subject"
               className="mb-3"
             >
-              <Form.Control placeholder="Subject"  {...register("subject", { required: true })} />
+              <Form.Control
+                placeholder="Subject"
+                {...register("subject", { required: true })}
+              />
               <div className="icon">
                 <IoIosInformationCircleOutline />
               </div>
@@ -180,7 +190,11 @@ export default function contactForm() {
           <Col xs={12}>
             <div className="con-agree mb-4">
               <label>
-                <input type="radio"  {...register("agree", { required: true })} />I agree that my data is collected and stored
+                <input
+                  type="radio"
+                  {...register("agree", { required: true })}
+                />
+                I agree that my data is collected and stored
               </label>
             </div>
             {errors.agree && errors.agree.type === "required" && (
@@ -189,15 +203,31 @@ export default function contactForm() {
           </Col>
           <Col xs={12} className="d-flex justify-content-end">
             <button className="btn btn-shine btn-submit" type="submit">
-              <span className="btn-label">{isSubmitting ? (<div className="button-loader" id="loader-4"><span></span><span></span><span></span></div>) : ("Submit")}</span>
+              <span className="btn-label">
+                {isSubmitting ? (
+                  <div className="button-loader" id="loader-4">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                ) : (
+                  "Submit"
+                )}
+              </span>
               <span className="btn-icon">
                 <FiArrowRight />
               </span>
             </button>
           </Col>
-          {responseMessage ? (<Col xs={12}><span className="error">{responseMessage}</span></Col>) : ("")}
+          {responseMessage ? (
+            <Col xs={12}>
+              <span className="error">{responseMessage}</span>
+            </Col>
+          ) : (
+            ""
+          )}
         </Row>
-      </form> */}
+      </form>
     </div>
   );
 }

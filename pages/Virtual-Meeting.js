@@ -105,7 +105,7 @@ export default function Contact() {
                         label="Date"
                         className="mb-3"
                       >
-                        <Form.Control placeholder="Date" />
+                        <Form.Control type="date" placeholder="Date" />
                         <div className="icon">
                           <BsCalendar4Week />
                         </div>
