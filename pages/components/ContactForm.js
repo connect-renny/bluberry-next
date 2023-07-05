@@ -49,9 +49,9 @@ export default function contactForm() {
         });
         if (response.ok) {
           reset();
-          // router.push('/ThankYou');
-          let result = await response.json();
-          setResponseMessage(result.message);
+          router.push('/ThankYou');
+          // let result = await response.json();
+          // setResponseMessage(result.message);
         } else {
           let result = await response.json();
           setResponseMessage(result.error);

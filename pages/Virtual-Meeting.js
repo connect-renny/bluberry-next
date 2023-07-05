@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { Container, Row, Col, Form, FloatingLabel } from "react-bootstrap";
 import { FiArrowRight } from "react-icons/fi";
@@ -7,14 +7,76 @@ import { MdOutlinePhonelinkRing } from "react-icons/md";
 import { TfiEmail } from "react-icons/tfi";
 import { RxShare1 } from "react-icons/rx";
 
-import ContactForm from "./components/ContactForm";
 
 import { AiOutlineUser } from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
 import { BsCalendar4Week } from "react-icons/bs";
 import { MdOutlineEdit } from "react-icons/md";
 
+import { useForm } from "react-hook-form";
+import ReCAPTCHA from "react-google-recaptcha";
+import { useRouter } from "next/router";
+
 export default function Contact() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [responseMessage, setResponseMessage] = useState(false);
+  const recaptchaRef = useRef(null);
+  const formRef = useRef();
+  const router = useRouter();
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+    reset,
+    getValues,
+  } = useForm();
+  const onSubmit = (data) => {
+    recaptchaRef.current.execute();
+  };
+
+  const onReCAPTCHAChange = async (captchaCode) => {
+    if (!captchaCode) {
+      return;
+    }
+    try {
+      setIsSubmitting(true);
+      setResponseMessage(false);
+      let data = getValues();
+      data.recaptcha = recaptchaRef?.current?.getValue();
+      if (data.recaptcha) {
+        let response = await fetch("/next-contact.php", {
+          method: "POST", // or 'PUT'
+          credentials: "same-origin",
+          headers: {
+            "Content-Type": "application/json",
+            "X-Requested-With": "XMLHttpRequest",
+          },
+          body: JSON.stringify(data),
+        });
+        if (response.ok) {
+          reset();
+          router.push('/ThankYou');
+          // let result = await response.json();
+          // setResponseMessage(result.message);
+        } else {
+          let result = await response.json();
+          setResponseMessage(result.error);
+        }
+        recaptchaRef.current.reset();
+        setIsSubmitting(false);
+      } else {
+        setIsSubmitting(false);
+        setResponseMessage("Captcha Field is Required.");
+        recaptchaRef.current.execute();
+      }
+    } catch (error) {
+      console.log(error);
+      setIsSubmitting(false);
+      setResponseMessage("Error!!!");
+      recaptchaRef.current.reset();
+    }
+  };
   return (
     <>
       <section className="ins-slider-img-sec">
@@ -61,7 +123,17 @@ export default function Contact() {
                     you!
                   </h4>
                 </div>
-                <form>
+                <form
+                  reference={formRef}
+                  onSubmit={handleSubmit(onSubmit)}
+                  className="assessmentForm"
+                >
+                  <ReCAPTCHA
+                    ref={recaptchaRef}
+                    size="invisible"
+                    sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                    onChange={onReCAPTCHAChange}
+                  />
                   <Row>
                     <Col md={6}>
                       <FloatingLabel
@@ -69,11 +141,14 @@ export default function Contact() {
                         label="Name"
                         className="mb-3"
                       >
-                        <Form.Control placeholder="Name" />
+                        <Form.Control placeholder="Name" {...register("name", { required: true })} />
                         <div className="icon">
                           <AiOutlineUser />
                         </div>
                       </FloatingLabel>
+                      {errors.name && errors.name.type === "required" && (
+                        <span className="error">This field is required</span>
+                      )}
                     </Col>
                     <Col md={6}>
                       <FloatingLabel
@@ -81,11 +156,21 @@ export default function Contact() {
                         label="Email Address"
                         className="mb-3"
                       >
-                        <Form.Control placeholder="Email Address" />
+                        <Form.Control placeholder="Email Address"
+                          {...register("email", {
+                            required: "required",
+                            pattern: {
+                              value: /\S+@\S+\.\S+/,
+                              message: "Entered value does not match email format",
+                            },
+                          })} />
                         <div className="icon">
                           <TfiEmail />
                         </div>
                       </FloatingLabel>
+                      {errors.email && errors.email.type === "required" && (
+                        <span className="error">This field is required</span>
+                      )}
                     </Col>
                     <Col md={6}>
                       <FloatingLabel
@@ -93,11 +178,14 @@ export default function Contact() {
                         label="Phone"
                         className="mb-3"
                       >
-                        <Form.Control placeholder="Phone" />
+                        <Form.Control placeholder="Phone"  {...register("phone", { required: true })} />
                         <div className="icon">
                           <FiPhoneCall />
                         </div>
                       </FloatingLabel>
+                      {errors.phone && errors.phone.type === "required" && (
+                        <span className="error">This field is required</span>
+                      )}
                     </Col>
                     <Col md={6}>
                       <FloatingLabel
@@ -105,11 +193,14 @@ export default function Contact() {
                         label="Date"
                         className="mb-3"
                       >
-                        <Form.Control type="date" placeholder="Date" />
+                        <Form.Control type="date" placeholder="Date"  {...register("date", { date: true })} />
                         <div className="icon">
                           <BsCalendar4Week />
                         </div>
                       </FloatingLabel>
+                      {errors.date && errors.date.type === "required" && (
+                        <span className="error">This field is required</span>
+                      )}
                     </Col>
                     <Col xs={12}>
                       <FloatingLabel
@@ -117,31 +208,52 @@ export default function Contact() {
                         label="Message"
                         className="mb-3"
                       >
-                        <Form.Control as="textarea" placeholder="Message" />
+                        <Form.Control as="textarea" {...register("message", { required: true })} placeholder="Message" />
                         <div className="icon">
                           <MdOutlineEdit />
                         </div>
                       </FloatingLabel>
+                      {errors.message && errors.message.type === "required" && (
+                        <span className="error">This field is required</span>
+                      )}
                     </Col>
                     <Col xs={12}>
                       <div className="con-agree mb-4">
                         <label>
-                          <input type="radio" />I agree that my data is
+                          <input type="radio" {...register("agree", { required: true })} />I agree that my data is
                           collected and stored
                         </label>
                       </div>
+                      {errors.agree && errors.agree.type === "required" && (
+                        <span className="error">Please agree to the terms.</span>
+                      )}
                     </Col>
                     <Col xs={12} className="d-flex justify-content-end">
                       <button
                         className="btn btn-shine btn-submit"
                         type="submit"
                       >
-                        <span className="btn-label">Submit</span>
+                        <span className="btn-label">{isSubmitting ? (
+                          <div className="button-loader" id="loader-4">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </div>
+                        ) : (
+                          "Submit"
+                        )}</span>
                         <span className="btn-icon">
                           <FiArrowRight />
                         </span>
                       </button>
                     </Col>
+                    {responseMessage ? (
+                      <Col xs={12}>
+                        <span className="error">{responseMessage}</span>
+                      </Col>
+                    ) : (
+                      ""
+                    )}
                   </Row>
                 </form>
               </div>

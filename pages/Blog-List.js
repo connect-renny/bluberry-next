@@ -46,7 +46,7 @@ export default function blogList() {
                   </Link>
                 </figure>
                 <div className="blog-body">
-                  <div className="blog-date">September 12,2023</div>
+                  <div className="blog-date">30 Jun 2023</div>
                   <h4>
                     Unleashing the Power of GPT-4 and the Future of ChatGPT
                   </h4>
@@ -73,7 +73,7 @@ export default function blogList() {
                   </Link>
                 </figure>
                 <div className="blog-body">
-                  <div className="blog-date">September 12,2023</div>
+                  <div className="blog-date">23 Jun 2023</div>
                   <h4>A Paradigm Shift in Business Growth</h4>
                   <Link
                     className="btn btn-shine btn-more"
@@ -101,7 +101,7 @@ export default function blogList() {
                   </Link>
                 </figure>
                 <div className="blog-body">
-                  <div className="blog-date">September 12,2023</div>
+                  <div className="blog-date">16 Jun 2023</div>
                   <h4>Choosing the Right Social Platforms</h4>
                   <Link
                     className="btn btn-shine btn-more"
@@ -129,7 +129,7 @@ export default function blogList() {
                   </Link>
                 </figure>
                 <div className="blog-body">
-                  <div className="blog-date">September 12,2023</div>
+                  <div className="blog-date">9 Jun 2023</div>
                   <h4>
                     Riding the Wave: Unveiling the Latest Trends in Digital...
                   </h4>
@@ -159,7 +159,7 @@ export default function blogList() {
                   </Link>
                 </figure>
                 <div className="blog-body">
-                  <div className="blog-date">September 12,2023</div>
+                  <div className="blog-date">2 Jun 2023</div>
                   <h4>
                     The Superpowers of Content: Identifying the Crucial...
                   </h4>
@@ -189,7 +189,7 @@ export default function blogList() {
                   </Link>
                 </figure>
                 <div className="blog-body">
-                  <div className="blog-date">September 12,2023</div>
+                  <div className="blog-date">26 May 2023</div>
                   <h4>
                     Here are some steps to create content that can help...
                   </h4>
