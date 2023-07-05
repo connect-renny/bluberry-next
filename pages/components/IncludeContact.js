@@ -7,7 +7,7 @@ import ContactForm from "./ContactForm";
 
 import Link from "next/link";
 
-export default function IncludeContact() {
+export default function includeContact() {
   // Radio js
   const [selectedOption, setSelectedOption] = useState("");
 

@@ -13,7 +13,7 @@ import ScrollToTopButton from "./ScrollToTopButton";
 
 import Image from "next/image";
 
-export default function Footer() {
+export default function footerSection() {
   // Radio js
   const [selectedOption, setSelectedOption] = useState("");
 

@@ -235,7 +235,7 @@ export default function Industries() {
                       <Col lg={6} xs={12}>
                         <div className="team-img">
                           <Image
-                            src="/images/ind-tab-img-01.jpg"
+                            src="/images/ind-tab-img-02.jpg"
                             alt="Team"
                             layout="intrinsic"
                             width={625}
@@ -272,7 +272,7 @@ export default function Industries() {
                       <Col lg={6} xs={12}>
                         <div className="team-img">
                           <Image
-                            src="/images/ind-tab-img-01.jpg"
+                            src="/images/ind-tab-img-03.jpg"
                             alt="Team"
                             layout="intrinsic"
                             width={625}
@@ -309,7 +309,7 @@ export default function Industries() {
                       <Col lg={6} xs={12}>
                         <div className="team-img">
                           <Image
-                            src="/images/ind-tab-img-01.jpg"
+                            src="/images/ind-tab-img-04.jpg"
                             alt="Team"
                             layout="intrinsic"
                             width={625}
@@ -345,7 +345,7 @@ export default function Industries() {
                       <Col lg={6} xs={12}>
                         <div className="team-img">
                           <Image
-                            src="/images/ind-tab-img-01.jpg"
+                            src="/images/ind-tab-img-05.jpg"
                             alt="Team"
                             layout="intrinsic"
                             width={625}
@@ -379,7 +379,7 @@ export default function Industries() {
                       <Col lg={6} xs={12}>
                         <div className="team-img">
                           <Image
-                            src="/images/ind-tab-img-01.jpg"
+                            src="/images/ind-tab-img-06.jpg"
                             alt="Team"
                             layout="intrinsic"
                             width={625}
@@ -415,7 +415,7 @@ export default function Industries() {
                       <Col lg={6} xs={12}>
                         <div className="team-img">
                           <Image
-                            src="/images/ind-tab-img-01.jpg"
+                            src="/images/ind-tab-img-07.jpg"
                             alt="Team"
                             layout="intrinsic"
                             width={625}
@@ -451,7 +451,7 @@ export default function Industries() {
                       <Col lg={6} xs={12}>
                         <div className="team-img">
                           <Image
-                            src="/images/ind-tab-img-01.jpg"
+                            src="/images/ind-tab-img-08.jpg"
                             alt="Team"
                             layout="intrinsic"
                             width={625}
@@ -487,7 +487,7 @@ export default function Industries() {
                       <Col lg={6} xs={12}>
                         <div className="team-img">
                           <Image
-                            src="/images/ind-tab-img-01.jpg"
+                            src="/images/ind-tab-img-09.jpg"
                             alt="Team"
                             layout="intrinsic"
                             width={625}

@@ -7,7 +7,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { SlHome } from "react-icons/sl";
 import { FiArrowRight } from "react-icons/fi";
 
-export default function NavbarMain() {
+export default function navbarMain() {
   const [stickyClass, setStickyClass] = useState("");
 
   useEffect(() => {
@@ -216,9 +216,9 @@ export default function NavbarMain() {
             </div>
             <div className="nav-item">
               <Link
-                href="/Blog-Details"
+                href="/Blog-List"
                 className={
-                  router.pathname == "/Blog-Details"
+                  router.pathname == "/Blog-List"
                     ? "active nav-link"
                     : "nav-link"
                 }

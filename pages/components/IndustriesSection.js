@@ -17,7 +17,6 @@ const settings = {
   autoplay: true,
   slidesToShow: 4,
   slidesToScroll: 1,
-  variableWidth: true,
   responsive: [
     {
       breakpoint: 1080,
@@ -50,7 +49,7 @@ const settings = {
   ],
 };
 
-export default function IndustriesSlider() {
+export default function industriesSlider() {
   return (
     <section
       className="industries-sec pt-4 pt-lg-5 pt-xl-7 pb-4 pb-lg-4 pb-xl-5"

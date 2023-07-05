@@ -211,3 +211,15 @@
       0 0 0 30px rgba(106, 45, 142, 0.2);
   }
 }
+
+// Banner particles
+@keyframes bannerParticle {
+  0% {
+    stroke-dashoffset: 120px;
+    stroke-dasharray: 120px 120px;
+  }
+  40% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 120px 50px;
+  }
+}

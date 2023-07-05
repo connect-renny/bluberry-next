@@ -1,9 +1,9 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import { FiArrowRight } from 'react-icons/fi';
+import { Container, Row, Col } from "react-bootstrap";
+import { FiArrowRight } from "react-icons/fi";
 
-import Link from 'next/link';
+import Link from "next/link";
 
-export default function ContactConsultaion() {
+export default function contactConsultaion() {
   return (
     <section className="brand-consult-sec py-4 py-lg-5 py-xl-7">
       <Container fluid="xxl">

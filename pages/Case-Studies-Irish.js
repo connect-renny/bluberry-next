@@ -94,7 +94,7 @@ export default function CaseStudies() {
                 data-aos-duration="1000"
               >
                 <Image
-                  src="/images/case-study-screen-aydi.png"
+                  src="/images/case-study-screen-irish.png"
                   alt="Team"
                   layout="intrinsic"
                   width={1300}

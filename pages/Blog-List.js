@@ -6,7 +6,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 import Link from "next/link";
 
-export default function ErrorPage() {
+export default function blogList() {
   // Radio js
   const [selectedOption, setSelectedOption] = useState("");
 
@@ -16,20 +16,6 @@ export default function ErrorPage() {
 
   return (
     <>
-      <section className="ins-slider-img-sec">
-        <Container fluid="xxl">
-          <div className="ins-slider">
-            <Image
-              src="/images/ins-slider-contact.jpg"
-              alt="Slider"
-              layout="intrinsic"
-              width={1320}
-              height={350}
-            />
-          </div>
-        </Container>
-      </section>
-
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>
@@ -47,9 +33,9 @@ export default function ErrorPage() {
         <Container fluid="xxl">
           <Row>
             <Col lg={4} md={6} xs={12}>
-              <div className="blog-item">
+              <div className="blog-item mb-5">
                 <figure>
-                  <Link href="#">
+                  <Link href="/Blog-GPT">
                     <Image
                       src="/images/blog-thumb-01.jpg"
                       alt="Image"
@@ -64,7 +50,7 @@ export default function ErrorPage() {
                   <h4>
                     Unleashing the Power of GPT-4 and the Future of ChatGPT
                   </h4>
-                  <Link className="btn btn-shine btn-more" href="Blog-Details">
+                  <Link className="btn btn-shine btn-more" href="/Blog-GPT">
                     <span className="btn-label">Read More</span>
                     <span className="btn-icon">
                       <FiArrowRight />
@@ -74,9 +60,9 @@ export default function ErrorPage() {
               </div>
             </Col>
             <Col lg={4} md={6} xs={12}>
-              <div className="blog-item">
+              <div className="blog-item mb-5">
                 <figure>
-                  <Link href="#">
+                  <Link href="/Blog-Business-Growth">
                     <Image
                       src="/images/blog-thumb-02.jpg"
                       alt="Image"
@@ -89,7 +75,10 @@ export default function ErrorPage() {
                 <div className="blog-body">
                   <div className="blog-date">September 12,2023</div>
                   <h4>A Paradigm Shift in Business Growth</h4>
-                  <Link className="btn btn-shine btn-more" href="Blog-Details">
+                  <Link
+                    className="btn btn-shine btn-more"
+                    href="/Blog-Business-Growth"
+                  >
                     <span className="btn-label">Read More</span>
                     <span className="btn-icon">
                       <FiArrowRight />
@@ -99,9 +88,9 @@ export default function ErrorPage() {
               </div>
             </Col>
             <Col lg={4} md={6} xs={12}>
-              <div className="blog-item">
+              <div className="blog-item mb-5">
                 <figure>
-                  <Link href="#">
+                  <Link href="/Blog-Social-Platforms">
                     <Image
                       src="/images/blog-thumb-03.jpg"
                       alt="Image"
@@ -114,7 +103,97 @@ export default function ErrorPage() {
                 <div className="blog-body">
                   <div className="blog-date">September 12,2023</div>
                   <h4>Choosing the Right Social Platforms</h4>
-                  <Link className="btn btn-shine btn-more" href="Blog-Details">
+                  <Link
+                    className="btn btn-shine btn-more"
+                    href="/Blog-Social-Platforms"
+                  >
+                    <span className="btn-label">Read More</span>
+                    <span className="btn-icon">
+                      <FiArrowRight />
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </Col>
+            <Col lg={4} md={6} xs={12}>
+              <div className="blog-item mb-5">
+                <figure>
+                  <Link href="/Blog-Digital-Marketing">
+                    <Image
+                      src="/images/blog-thumb-04.jpg"
+                      alt="Image"
+                      layout="intrinsic"
+                      width={420}
+                      height={435}
+                    />
+                  </Link>
+                </figure>
+                <div className="blog-body">
+                  <div className="blog-date">September 12,2023</div>
+                  <h4>
+                    Riding the Wave: Unveiling the Latest Trends in Digital...
+                  </h4>
+                  <Link
+                    className="btn btn-shine btn-more"
+                    href="/Blog-Digital-Marketing"
+                  >
+                    <span className="btn-label">Read More</span>
+                    <span className="btn-icon">
+                      <FiArrowRight />
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </Col>
+            <Col lg={4} md={6} xs={12}>
+              <div className="blog-item mb-5">
+                <figure>
+                  <Link href="/Blog-Content-Power">
+                    <Image
+                      src="/images/blog-thumb-05.jpg"
+                      alt="Image"
+                      layout="intrinsic"
+                      width={420}
+                      height={435}
+                    />
+                  </Link>
+                </figure>
+                <div className="blog-body">
+                  <div className="blog-date">September 12,2023</div>
+                  <h4>
+                    The Superpowers of Content: Identifying the Crucial...
+                  </h4>
+                  <Link
+                    className="btn btn-shine btn-more"
+                    href="/Blog-Content-Power"
+                  >
+                    <span className="btn-label">Read More</span>
+                    <span className="btn-icon">
+                      <FiArrowRight />
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </Col>
+            <Col lg={4} md={6} xs={12}>
+              <div className="blog-item mb-5">
+                <figure>
+                  <Link href="/Blog-Sales">
+                    <Image
+                      src="/images/blog-thumb-06.jpg"
+                      alt="Image"
+                      layout="intrinsic"
+                      width={420}
+                      height={435}
+                    />
+                  </Link>
+                </figure>
+                <div className="blog-body">
+                  <div className="blog-date">September 12,2023</div>
+                  <h4>
+                    Here are some steps to create content that can help...
+                  </h4>
+                  <Link className="btn btn-shine btn-more" href="/Blog-Sales">
                     <span className="btn-label">Read More</span>
                     <span className="btn-icon">
                       <FiArrowRight />

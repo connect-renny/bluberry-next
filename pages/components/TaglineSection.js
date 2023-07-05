@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-export default function WorkSection() {
+export default function taglineSection() {
   return (
     <section className="brand-story-sec trans-sec">
       <Container fluid="xxl">

@@ -1,12 +1,8 @@
 import Image from "next/image";
 import { Container, Row, Col, Form, InputGroup, Button } from "react-bootstrap";
 
+import BlogSidebar from "./components/BlogSidebar";
 import IncludeContact from "./components/IncludeContact";
-
-import { LuSearch } from "react-icons/lu";
-import { RiArrowRightFill } from "react-icons/ri";
-
-import Link from "next/link";
 
 export default function AppDevelopment() {
   return (
@@ -30,38 +26,24 @@ export default function AppDevelopment() {
 
       <section className="pt-4 pt-lg-5 pb-4 pb-lg-5">
         <Container fluid="xxl">
-          <Row>
-            <Col xs={12}>
+          <Row className="gx-xxl-5">
+            <Col lg="8" xs={12}>
               <div
-                className="blog-slider"
+                className="blog-dtl-cover"
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <Image
-                  src="/images/blog-slider.png"
-                  alt="Slider"
-                  layout="intrinsic"
-                  width={1300}
-                  height={800}
-                />
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
-      <section className="pt-4 pt-lg-5 pb-4 pb-lg-5">
-        <Container fluid="xxl">
-          <Row className="gx-xxl-5">
-            <Col lg="8" xs={12}>
-              <div className="blog-dtl-cover">
-                <div
-                  className="blog-dtl-hd"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="1000"
-                >
+                <div className="blog-img">
+                  <Image
+                    src="/images/blog-sales.png"
+                    alt="Slider"
+                    layout="intrinsic"
+                    width={850}
+                    height={525}
+                  />
+                </div>
+                <div className="blog-dtl-hd">
                   <h3>
                     Here are some steps to create content that can help drive
                     sales:
@@ -221,84 +203,7 @@ export default function AppDevelopment() {
               </div>
             </Col>
             <Col lg="4" xs={12}>
-              <div className="search-sidebar">
-                <div
-                  className="blog-search-cover"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="1000"
-                >
-                  <h4>Search</h4>
-                  <div className="search-form">
-                    <InputGroup>
-                      <Form.Control placeholder="Search" />
-                      <Button className="btn btn-shine btn-send" href="#">
-                        <LuSearch />
-                      </Button>
-                    </InputGroup>
-                  </div>
-                </div>
-                <div
-                  className="recent-post-cover"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="1000"
-                >
-                  <div className="recent-post-hd">
-                    <h4>Recent Post</h4>
-                  </div>
-                  <div className="recent-post-list">
-                    <div className="rec-post-item">
-                      <Link className="rec-post-link" href="#">
-                        <div className="icon">
-                          <RiArrowRightFill />
-                        </div>
-                        <p>10 Steps to improve your seo ranking in 2023</p>
-                        <div className="post-date">23 Jun 2023</div>
-                      </Link>
-                    </div>
-                    <div className="rec-post-item">
-                      <Link className="rec-post-link" href="#">
-                        <div className="icon">
-                          <RiArrowRightFill />
-                        </div>
-                        <p>Must things to know about Instagram Bio</p>
-                        <div className="post-date">23 Jun 2023</div>
-                      </Link>
-                    </div>
-                    <div className="rec-post-item">
-                      <Link className="rec-post-link" href="#">
-                        <div className="icon">
-                          <RiArrowRightFill />
-                        </div>
-                        <p>How to Create Content That Drives Sales</p>
-                        <div className="post-date">23 Jun 2023</div>
-                      </Link>
-                    </div>
-                    <div className="rec-post-item">
-                      <Link className="rec-post-link" href="#">
-                        <div className="icon">
-                          <RiArrowRightFill />
-                        </div>
-                        <p>Growing Importance of Local SEO for Businesses</p>
-                        <div className="post-date">23 Jun 2023</div>
-                      </Link>
-                    </div>
-                    <div className="rec-post-item">
-                      <Link className="rec-post-link" href="#">
-                        <div className="icon">
-                          <RiArrowRightFill />
-                        </div>
-                        <p>
-                          Social Media Influencer Partnerships: Dos and
-                          Don&apos;ts
-                        </p>
-                        <div className="post-date">23 Jun 2023</div>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <BlogSidebar />
             </Col>
           </Row>
         </Container>
