@@ -97,27 +97,27 @@ export default function footerSection() {
                 <h3>Company</h3>
                 <ul className="ft-list">
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="/Industries">
                       Industries
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="/Case-Studies">
                       Case Studies
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="/Blog-List">
                       Blog
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="/About">
                       About
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="/Contact">
                       Contact
                     </Link>
                   </li>
@@ -131,27 +131,47 @@ export default function footerSection() {
                   <Col xs={6}>
                     <ul className="ft-list">
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
+                        <Link
+                          className="ft-nav"
+                          href="https://nodejs.org/en"
+                          target="_blank"
+                        >
                           Node
                         </Link>
                       </li>
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
+                        <Link
+                          className="ft-nav"
+                          href="https://react.dev/"
+                          target="_blank"
+                        >
                           React
                         </Link>
                       </li>
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
+                        <Link
+                          className="ft-nav"
+                          href="https://angular.io/"
+                          target="_blank"
+                        >
                           Angular
                         </Link>
                       </li>
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
+                        <Link
+                          className="ft-nav"
+                          href="https://vuejs.org/"
+                          target="_blank"
+                        >
                           Vue.js
                         </Link>
                       </li>
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
+                        <Link
+                          className="ft-nav"
+                          href="https://reactnative.dev/"
+                          target="_blank"
+                        >
                           React Native
                         </Link>
                       </li>
@@ -160,17 +180,29 @@ export default function footerSection() {
                   <Col xs={6}>
                     <ul className="ft-list">
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
+                        <Link
+                          className="ft-nav"
+                          href="https://symfony.com/"
+                          target="_blank"
+                        >
                           Symfony
                         </Link>
                       </li>
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
+                        <Link
+                          className="ft-nav"
+                          href="https://laravel.com/"
+                          target="_blank"
+                        >
                           Laravel
                         </Link>
                       </li>
                       <li className="ft-item">
-                        <Link className="ft-nav" href="#">
+                        <Link
+                          className="ft-nav"
+                          href="https://ai.google/"
+                          target="_blank"
+                        >
                           Ai
                         </Link>
                       </li>

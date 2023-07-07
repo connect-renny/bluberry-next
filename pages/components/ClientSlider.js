@@ -86,37 +86,34 @@ export default function clientSlider() {
           <img src="/images/customer-icon-15.png" alt="Image" />
         </div>
         <div className="client-item">
-          <img src="/images/customer-icon-16.png" alt="Image" />
+          <img src="/images/customer-icon-17.png" alt="Image" />
         </div>
       </div>
       <div>
         <di className="client-item">
-          <img src="/images/customer-icon-17.png" alt="Image" />
-        </di>
-        <div className="client-item">
           <img src="/images/customer-icon-18.png" alt="Image" />
-        </div>
-      </div>
-      <div>
+        </di>
         <div className="client-item">
           <img src="/images/customer-icon-19.png" alt="Image" />
         </div>
+      </div>
+      <div>
         <div className="client-item">
           <img src="/images/customer-icon-20.png" alt="Image" />
         </div>
-      </div>
-      <div>
         <div className="client-item">
           <img src="/images/customer-icon-21.png" alt="Image" />
         </div>
-        <div className="client-item">
-          <img src="/images/customer-icon-22.png" alt="Image" />
-        </div>
       </div>
       <div>
         <div className="client-item">
+          <img src="/images/customer-icon-22.png" alt="Image" />
+        </div>
+        <div className="client-item">
           <img src="/images/customer-icon-23.png" alt="Image" />
         </div>
+      </div>
+      <div>
         <div className="client-item">
           <img src="/images/customer-icon-24.png" alt="Image" />
         </div>

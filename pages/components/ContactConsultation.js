@@ -16,13 +16,16 @@ export default function contactConsultaion() {
                 never thought possible.
               </p>
               <div className="brand-con-nav">
-                <Link className="btn btn-shine btn-contact" href="#">
+                <Link className="btn btn-shine btn-contact" href="/Contact">
                   <span className="btn-label">Contact Us</span>
                   <span className="btn-icon">
                     <FiArrowRight />
                   </span>
                 </Link>
-                <Link className="btn btn-shine btn-contact" href="#">
+                <Link
+                  className="btn btn-shine btn-contact"
+                  href="/Virtual-Meeting"
+                >
                   <span className="btn-label">Book a Free Consultation</span>
                   <span className="btn-icon">
                     <FiArrowRight />
