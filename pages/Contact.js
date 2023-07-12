@@ -174,7 +174,7 @@ export default function Contact() {
                     Or better yet, let&apos;s meet. <br />
                     <span>We would love to talk to you!</span>
                   </h4>
-                  <Link className="btn btn-book" href="/Virtual-Meeting">
+                  <Link className="btn btn-book" href="https://calendly.com/the_bb/30min" target="_blank">
                     <span className="btn-label">
                       Book a <span className="fw-bold">Virtual Meeting</span>
                       &nbsp; with us!

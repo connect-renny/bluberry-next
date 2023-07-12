@@ -105,7 +105,7 @@ export default function bannerCarousel() {
                   </div>
                 </Slider>
               </h1>
-              <Link className="btn btn-book" href="#">
+              <Link className="btn btn-book" href="https://calendly.com/the_bb/30min" target="_blank">
                 <span className="btn-label">Book a Virtual Meeting Today!</span>
                 <span className="btn-icon">
                   <FiArrowRight />
