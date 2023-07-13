@@ -118,7 +118,7 @@ export default function navbarMain() {
                       <Dropdown.Item
                         className="mg-nav"
                         as={Link}
-                        href="/Graphic-Design"
+                        href="/Creative-Design"
                       >
                         Graphic Design
                       </Dropdown.Item>

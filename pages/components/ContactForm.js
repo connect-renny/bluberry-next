@@ -49,7 +49,7 @@ export default function contactForm() {
         });
         if (response.ok) {
           reset();
-          router.push('/ThankYou');
+          router.push("/ThankYou");
           // let result = await response.json();
           // setResponseMessage(result.message);
         } else {
@@ -138,7 +138,11 @@ export default function contactForm() {
               label="Phone"
               className="mb-3"
             >
-              <Form.Control placeholder="Phone" type="tel" {...register("phone", { required: true })} />
+              <Form.Control
+                placeholder="Phone"
+                type="tel"
+                {...register("phone", { required: true })}
+              />
               <div className="icon">
                 <FiPhoneCall />
               </div>
@@ -186,17 +190,17 @@ export default function contactForm() {
           </Col>
           <Col xs={12}>
             <div className="con-agree mb-4">
-              <label>
+              {/* <label>
                 <input
                   type="radio"
                   {...register("agree", { required: true })}
                 />
                 I agree that my data is collected and stored
-              </label>
+              </label> */}
             </div>
-            {errors.agree && errors.agree.type === "required" && (
+            {/* {errors.agree && errors.agree.type === "required" && (
               <span className="error">Please agree to the terms.</span>
-            )}
+            )} */}
           </Col>
           <Col xs={12} className="d-flex justify-content-end">
             <button className="btn btn-shine btn-submit" type="submit">

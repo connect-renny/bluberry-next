@@ -536,12 +536,12 @@ export default function Industries() {
                   Check out our portfolio of projects that have transformed
                   businesses just like yours.
                 </h3>
-                <Link className="btn btn-shine btn-portfolio" href="#">
+                {/* <Link className="btn btn-shine btn-portfolio" href="#">
                   <span className="btn-label">Load All Services</span>
                   <span className="btn-icon">
                     <FiArrowRight />
                   </span>
-                </Link>
+                </Link> */}
               </div>
             </Col>
           </Row>
@@ -560,13 +560,17 @@ export default function Industries() {
                   presence.
                 </p>
                 <div>
-                  <Link className="btn btn-shine btn-contact" href="#">
+                  <Link className="btn btn-shine btn-contact" href="/Contact">
                     <span className="btn-label">Contact Us</span>
                     <span className="btn-icon">
                       <FiArrowRight />
                     </span>
                   </Link>
-                  <Link className="btn btn-shine btn-contact" href="#">
+                  <Link
+                    className="btn btn-shine btn-contact"
+                    href="https://calendly.com/the_bb/30min"
+                    target="_blank"
+                  >
                     <span className="btn-label">Book a Free Consultation</span>
                     <span className="btn-icon">
                       <FiArrowRight />

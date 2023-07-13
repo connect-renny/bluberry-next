@@ -171,12 +171,12 @@ export default function WorkSection() {
         <Row>
           <Col xs={12}>
             <div className="feature-footer-nav">
-              <Link className="btn btn-shine btn-explore" href="#">
+              {/* <Link className="btn btn-shine btn-explore" href="#">
                 <span className="btn-label">Explore our works</span>
                 <span className="btn-icon">
                   <FiArrowRight />
                 </span>
-              </Link>
+              </Link> */}
               <Link className="btn btn-shine btn-explore" href="/Process">
                 <span className="btn-label">Process</span>
                 <span className="btn-icon">

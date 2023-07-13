@@ -168,10 +168,9 @@ export default function About() {
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
-                      We employ a blend of technical prowess, creative vision,
-                      and consumer psychology to craft an authentic and
-                      captivating brand experience that will set you apart from
-                      the crowd.
+                      Our branding services transcend aesthetics and delve into
+                      strategic craftsmanship. We create compelling brand
+                      stories honed to reflect your core values.
                     </p>
                     <Link className="btn btn-shine btn-more" href="/Branding">
                       <span className="btn-label">Read More</span>
@@ -193,9 +192,9 @@ export default function About() {
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
-                      Only if you capture the attention of your target audience
-                      and then retain it enough to get your message acrosswill
-                      you be able to persuade them.Action starts with attention.
+                      We weave stories through words and visuals - stories that
+                      inspire, educate, entertain, and drive action, and
+                      positions your brand as a voice of trust.
                     </p>
                     <Link className="btn btn-shine btn-more" href="/Content">
                       <span className="btn-label">Read More</span>
@@ -217,10 +216,9 @@ export default function About() {
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
-                      There&apos;s an app for each of that and for a million
-                      other tasks. Apps are fast becoming the interface of
-                      choice for the current generation brought up as digital
-                      natives.
+                      We create intuitive, secure, and scalable applications
+                      built for iOS, Android, and the web with a strong focus on
+                      user experience (UX) and user interface (UI) design.
                     </p>
                     <Link
                       className="btn btn-shine btn-more"
@@ -245,11 +243,10 @@ export default function About() {
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
-                      BluBerry Labs brings to youpersonalizedsearch engine
-                      optimization (SEO) services that can help you achieve
-                      success. We offer personalized solutions, including
-                      keyword research, on-page optimization, backlink building,
-                      and analytics tracking.
+                      We combine cutting-edge techniques, industry best
+                      practices, and a deep understanding of search engine
+                      algorithms to optimize every aspect of your digital
+                      presence.
                     </p>
                     <Link className="btn btn-shine btn-more" href="/SEO">
                       <span className="btn-label">Read More</span>
@@ -280,10 +277,9 @@ export default function About() {
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
-                      Every element in a design should have a purpose. And every
-                      end product should communicate a powerful message. And
-                      that&apos;s what we offer; we convey your brand&apos;s
-                      message through our mindful and effective digital media.
+                      Our visual storytelling transforms ideas into captivating
+                      realities. We convey your brand's message through engaging
+                      and effective digital media.
                     </p>
                     <Link
                       className="btn btn-shine btn-more"
@@ -310,11 +306,9 @@ export default function About() {
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
-                      It is the home ground for all your online activities and
-                      the top reference point for your customers. Of course, the
-                      looks and décor matter. But the sitemust also be stable,
-                      well-organized, and user-friendly to be effective and
-                      functional.
+                      Go full throttle with our custom-designed websites that
+                      embody the essence of your brand and backed by intuitive
+                      navigation, fast loading times, and responsive layouts.
                     </p>
                     <Link
                       className="btn btn-shine btn-more"
@@ -339,10 +333,10 @@ export default function About() {
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
-                      Partner with BluBerry to harness this power. Our social
-                      media marketing and management (SMM) services will enable
-                      you to build a loyal community of followers and drive
-                      engagement.
+                      Partner with us to harness the power of internet. Our
+                      social media marketing and management (SMM) services will
+                      enable you to build a loyal community of followers and
+                      drive engagement.
                     </p>
                     <Link
                       className="btn btn-shine btn-more"
@@ -367,10 +361,10 @@ export default function About() {
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
-                      But unlike water in the ocean, with the right strategy and
-                      content, a digital drop in the sea of internet can grow in
-                      reach and impact.It can cross beyond the proverbial
-                      oceans.BluBerry Labs offers this amplified reach.
+                      We bring to you amplified reach with measurable impact.
+                      Through strategic campaigns and data-driven insights, we
+                      help you drive targeted traffic and achieve tangible
+                      results.
                     </p>
                     <Link className="btn btn-shine btn-more" href="/Paid-Ads">
                       <span className="btn-label">Read More</span>
