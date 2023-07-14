@@ -270,7 +270,7 @@ export default function About() {
                     <span className="acc-nav-icon">
                       <img src="/images/service-acc-icon-03.png" alt="Icon" />
                     </span>
-                    <span className="acc-nav-label">Graphic Design</span>
+                    <span className="acc-nav-label">Creative Design</span>
                     <span className="acc-nav-arrow">
                       <FiArrowRight />
                     </span>
@@ -283,7 +283,7 @@ export default function About() {
                     </p>
                     <Link
                       className="btn btn-shine btn-more"
-                      href="/Graphic-Design"
+                      href="/Creative-Design"
                     >
                       <span className="btn-label">Read More</span>
                       <span className="btn-icon">

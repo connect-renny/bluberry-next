@@ -120,7 +120,7 @@ export default function navbarMain() {
                         as={Link}
                         href="/Creative-Design"
                       >
-                        Graphic Design
+                        Creative Design
                       </Dropdown.Item>
                     </li>
                     <li className="mg-item">

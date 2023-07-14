@@ -35,7 +35,7 @@ export default function GraphicDesign() {
                 data-aos-duration="1000"
               >
                 <h6>Services</h6>
-                <h1>Graphic Design</h1>
+                <h1>Creative Design</h1>
               </div>
             </Col>
           </Row>

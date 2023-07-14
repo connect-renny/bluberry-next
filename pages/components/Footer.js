@@ -65,8 +65,8 @@ export default function footerSection() {
                   <Col xs={6}>
                     <ul className="ft-list">
                       <li className="ft-item">
-                        <Link className="ft-nav" href="/Graphic-Design">
-                          Graphic Design
+                        <Link className="ft-nav" href="/Creative-Design">
+                          Creative Design
                         </Link>
                       </li>
                       <li className="ft-item">

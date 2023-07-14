@@ -290,7 +290,7 @@ export default function Home() {
               </Link>
             </Col>
             <Col lg={3} md={6} xs={12}>
-              <Link href="/Graphic-Design" className="service-item">
+              <Link href="/Creative-Design" className="service-item">
                 <div className="service-icon">
                   <img src="/images/service-icon-05.png" alt="Icon" />
                   <img
