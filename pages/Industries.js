@@ -1,8 +1,9 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import IncludeContact from "./components/IncludeContact";
 import { FiArrowRight } from "react-icons/fi";
+import { useRouter } from 'next/router';
 
 import Link from "next/link";
 
@@ -18,6 +19,14 @@ export default function Industries() {
 
   const indSliderNavRef = useRef();
   const indSliderMainRef = useRef();
+
+  const { asPath } = useRouter();
+
+  useEffect(() => {
+    const hash = asPath.split('#')[1];
+    setIndSliderMain(hash);
+    indSliderNavRef.current.slickGoTo(hash);
+  }, [asPath]);
 
   const handleSliderOneBeforeChange = (oldIndex, newIndex) => {
     setIndSliderMain(newIndex);

@@ -103,7 +103,7 @@ export default function industriesSlider() {
             >
               <Slider className="slider " {...settings}>
                 <div>
-                  <Link href="/Industries" className="industries-item">
+                  <Link href="/Industries#0" className="industries-item">
                     <figure>
                       <Image
                         src="/images/industries-item-01.jpg"
@@ -128,7 +128,7 @@ export default function industriesSlider() {
                   </Link>
                 </div>
                 <div>
-                  <Link href="/Industries" className="industries-item">
+                  <Link href="/Industries#1" className="industries-item">
                     <figure>
                       <Image
                         src="/images/industries-item-02.jpg"
@@ -153,7 +153,7 @@ export default function industriesSlider() {
                   </Link>
                 </div>
                 <div>
-                  <Link href="/Industries" className="industries-item">
+                  <Link href="/Industries#3" className="industries-item">
                     <figure>
                       <Image
                         src="/images/industries-item-03.jpg"
@@ -178,7 +178,7 @@ export default function industriesSlider() {
                   </Link>
                 </div>
                 <div>
-                  <Link href="/Industries" className="industries-item">
+                  <Link href="/Industries#6" className="industries-item">
                     <figure>
                       <Image
                         src="/images/industries-item-04.jpg"
@@ -203,7 +203,7 @@ export default function industriesSlider() {
                   </Link>
                 </div>
                 <div>
-                  <Link href="/Industries" className="industries-item">
+                  <Link href="/Industries#2" className="industries-item">
                     <figure>
                       <Image
                         src="/images/industries-item-05.jpg"
@@ -228,7 +228,7 @@ export default function industriesSlider() {
                   </Link>
                 </div>
                 <div>
-                  <Link href="/Industries" className="industries-item">
+                  <Link href="/Industries#4" className="industries-item">
                     <figure>
                       <Image
                         src="/images/industries-item-06.jpg"
@@ -253,7 +253,7 @@ export default function industriesSlider() {
                   </Link>
                 </div>
                 <div>
-                  <Link href="/Industries" className="industries-item">
+                  <Link href="/Industries#5" className="industries-item">
                     <figure>
                       <Image
                         src="/images/industries-item-07.jpg"
@@ -278,7 +278,7 @@ export default function industriesSlider() {
                   </Link>
                 </div>
                 <div>
-                  <Link href="/Industries" className="industries-item">
+                  <Link href="/Industries#7" className="industries-item">
                     <figure>
                       <Image
                         src="/images/industries-item-08.jpg"
@@ -303,7 +303,7 @@ export default function industriesSlider() {
                   </Link>
                 </div>
                 <div>
-                  <Link href="/Industries" className="industries-item">
+                  <Link href="/Industries#8" className="industries-item">
                     <figure>
                       <Image
                         src="/images/industries-item-09.jpg"
