@@ -26,6 +26,32 @@ export default function AppDevelopment() {
         </Container>
       </section>
 
+      <section>
+        <Container fluid="xxl">
+          <Row>
+            <Col>
+              <div className="blog-slider">
+                <div className="blog-slider-img">
+                  <Image
+                    src="/images/blog-social-platforms.png"
+                    alt="Slider"
+                    layout="intrinsic"
+                    width={850}
+                    height={525}
+                  />
+                </div>
+                <div className="blog-slider-hd">
+                  <h3>
+                    Choosing the Right Social Platforms: Reaching Your Target
+                    Audience with Precision
+                  </h3>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
       <section className="pt-4 pt-lg-5 pb-4 pb-lg-5">
         <Container fluid="xxl">
           <Row className="gx-xxl-5">
@@ -36,21 +62,6 @@ export default function AppDevelopment() {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <div className="blog-img">
-                  <Image
-                    src="/images/blog-social-platforms.png"
-                    alt="Slider"
-                    layout="intrinsic"
-                    width={850}
-                    height={525}
-                  />
-                </div>
-                <div className="blog-dtl-hd">
-                  <h3>
-                    Choosing the Right Social Platforms: Reaching Your Target
-                    Audience with Precision
-                  </h3>
-                </div>
                 <div className="blog-dtl-body">
                   <p>
                     We all are well aware of the fact that social media

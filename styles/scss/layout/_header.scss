@@ -148,6 +148,19 @@
       }
     }
   }
+  .dropdown-menu {
+    padding: 0;
+    margin: 0;
+    border: 1px solid var(--bk-grade-150);
+    overflow: hidden;
+    .dropdown-item {
+      padding: 0.5rem;
+      &:hover {
+        color: var(--white);
+        background-color: var(--color-100);
+      }
+    }
+  }
 }
 
 .menu-mega {

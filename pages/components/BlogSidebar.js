@@ -9,7 +9,7 @@ export default function blogSidebar() {
   return (
     <>
       <div className="search-sidebar">
-        <div
+        {/* <div
           className="blog-search-cover"
           data-aos="fade-up"
           data-aos-delay="100"
@@ -24,7 +24,7 @@ export default function blogSidebar() {
               </Button>
             </InputGroup>
           </div>
-        </div>
+        </div> */}
         <div
           className="recent-post-cover"
           data-aos="fade-up"

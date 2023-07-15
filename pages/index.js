@@ -47,12 +47,12 @@ export default function Home() {
                   <h6>Who we are</h6>
                   <h3>Welcome to BluBerry Labs.</h3>
                 </div>
-                <h4>
+                <p>
                   We are a full-service digital media agency from the heart of
                   New York. As you navigate through the ever-evolving digital
                   landscape, we are here to guide you with an entire portfolio
                   of futuristic services.
-                </h4>
+                </p>
                 <p>
                   We believe in the power of human connections, the art of
                   storytelling, and the science of data-backed strategies. And

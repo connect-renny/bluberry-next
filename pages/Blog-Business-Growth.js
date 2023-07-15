@@ -26,17 +26,12 @@ export default function AppDevelopment() {
         </Container>
       </section>
 
-      <section className="pt-4 pt-lg-5 pb-4 pb-lg-5">
+      <section>
         <Container fluid="xxl">
-          <Row className="gx-xxl-5">
-            <Col lg="8" xs={12}>
-              <div
-                className="blog-dtl-cover"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
-                <div className="blog-img">
+          <Row>
+            <Col>
+              <div className="blog-slider">
+                <div className="blog-slider-img">
                   <Image
                     src="/images/blog-social-media.png"
                     alt="Slider"
@@ -45,12 +40,28 @@ export default function AppDevelopment() {
                     height={525}
                   />
                 </div>
-                <div className="blog-dtl-hd">
+                <div className="blog-slider-hd">
                   <h3>
                     A Paradigm Shift in Business Growth: How Social Media
                     Transcends Entertainment?
                   </h3>
                 </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="pt-4 pt-lg-5 pb-4 pb-lg-5">
+        <Container fluid="xxl">
+          <Row className="gx-xxl-5">
+            <Col lg={8} xs={12}>
+              <div
+                className="blog-dtl-cover"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 <div className="blog-dtl-body">
                   <p>
                     We live in an era where social media transcends as a
@@ -151,7 +162,7 @@ export default function AppDevelopment() {
                 </div>
               </div>
             </Col>
-            <Col lg="4" xs={12}>
+            <Col lg={4} xs={12}>
               <BlogSidebar />
             </Col>
           </Row>

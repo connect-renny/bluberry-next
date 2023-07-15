@@ -3424,10 +3424,22 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .blog-slider {
-  max-width: 1300px;
+  max-width: 1000px;
   margin: 0 auto;
-  img {
-    width: 100%;
+  .blog-slider-img {
+    margin: 2rem;
+    img {
+      width: 100%;
+    }
+  }
+  .blog-slider-hd {
+    text-align: center;
+    h3 {
+      color: var(--color-100);
+      font-size: var(--fs-16);
+      font-weight: var(--font-weight-semibold);
+      margin: 0;
+    }
   }
 }
 

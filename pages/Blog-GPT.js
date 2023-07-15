@@ -26,6 +26,31 @@ export default function AppDevelopment() {
         </Container>
       </section>
 
+      <section>
+        <Container fluid="xxl">
+          <Row>
+            <Col>
+              <div className="blog-slider">
+                <div className="blog-slider-img">
+                  <Image
+                    src="/images/blog-gpt.png"
+                    alt="Slider"
+                    layout="intrinsic"
+                    width={850}
+                    height={525}
+                  />
+                </div>
+                <div className="blog-slider-hd">
+                  <h3>
+                    Unleashing the Power of GPT-4 and the Future of ChatGPT
+                  </h3>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
       <section className="pt-4 pt-lg-5 pb-4 pb-lg-5">
         <Container fluid="xxl">
           <Row className="gx-xxl-5">
@@ -36,20 +61,6 @@ export default function AppDevelopment() {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <div className="blog-img">
-                  <Image
-                    src="/images/blog-gpt.png"
-                    alt="Slider"
-                    layout="intrinsic"
-                    width={850}
-                    height={525}
-                  />
-                </div>
-                <div className="blog-dtl-hd">
-                  <h3>
-                    Unleashing the Power of GPT-4 and the Future of ChatGPT
-                  </h3>
-                </div>
                 <div className="blog-dtl-body">
                   <p>
                     Have you ever wondered what it would be like to witness a

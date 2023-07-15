@@ -227,7 +227,7 @@ export default function navbarMain() {
                 <span className="nav-block">Blog</span>
               </Link>
             </div>
-            <div className="nav-item">
+            {/* <div className="nav-item">
               <Link
                 className={
                   router.pathname == "/About" ? "active nav-link" : "nav-link"
@@ -237,7 +237,15 @@ export default function navbarMain() {
               >
                 <span className="nav-block">About</span>
               </Link>
-            </div>
+            </div> */}
+            <NavDropdown title="About" id="basic-nav-dropdown">
+              <NavDropdown.Item as={Link} href="/About">
+                Introduction
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} href="/Process">
+                Process
+              </NavDropdown.Item>
+            </NavDropdown>
             <div className="nav-item">
               <Link
                 href="/Contact"
