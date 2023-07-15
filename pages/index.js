@@ -462,98 +462,79 @@ export default function Home() {
               </div>
             </Col>
           </Row>
-          <LightGallery
+          <Row className="gx-0">
+            <Col md={6} xs={12} px="0">
+              <Link className="feature-item" href="/Case-Studies-Aydi">
+                <figure>
+                  <img src="/images/portfolio-thumb-lg-01.jpg" alt="Image" />
+                </figure>
+                <div className="fe-overlay"></div>
+                <div className="fe-arrow">
+                  <FiArrowDownRight />
+                </div>
+              </Link>
+            </Col>
+            <Col md={3} xs={6}>
+              <Link className="feature-item" href="/Case-Studies-Irish">
+                <figure>
+                  <img src="/images/portfolio-thumb-sm-01.jpg" alt="Image" />
+                </figure>
+                <div className="fe-overlay"></div>
+                <div className="fe-arrow">
+                  <FiArrowDownRight />
+                </div>
+              </Link>
+            </Col>
+            <Col md={3} xs={6}>
+              <Link className="feature-item" href="">
+                <figure>
+                  <img src="/images/portfolio-thumb-sm-02.jpg" alt="Image" />
+                </figure>
+                <div className="fe-overlay"></div>
+                <div className="fe-arrow">
+                  <FiArrowDownRight />
+                </div>
+              </Link>
+            </Col>
+            <Col md={3} xs={12}>
+              <Link className="feature-item" href="/Case-Studies-10x">
+                <figure>
+                  <img src="/images/portfolio-thumb-sm-03.jpg" alt="Image" />
+                </figure>
+                <div className="fe-overlay"></div>
+                <div className="fe-arrow">
+                  <FiArrowDownRight />
+                </div>
+              </Link>
+            </Col>
+            <Col md={3} xs={6}>
+              <Link className="feature-item" href="">
+                <figure>
+                  <img src="/images/portfolio-thumb-sm-04.jpg" alt="Image" />
+                </figure>
+                <div className="fe-overlay"></div>
+                <div className="fe-arrow">
+                  <FiArrowDownRight />
+                </div>
+              </Link>
+            </Col>
+            <Col xs={6}>
+              <Link className="feature-item" href="/Case-Studies-Maaza">
+                <figure>
+                  <img src="/images/portfolio-thumb-lg-02.jpg" alt="Image" />
+                </figure>
+                <div className="fe-overlay"></div>
+                <div className="fe-arrow">
+                  <FiArrowDownRight />
+                </div>
+              </Link>
+            </Col>
+          </Row>
+          {/* <LightGallery
             speed={500}
             plugins={[lgThumbnail, lgZoom]}
             selector="a"
-          >
-            <Row className="gx-0">
-              <Col md={6} xs={12} px="0">
-                <Link
-                  className="feature-item"
-                  href="/images/portfolio-thumb-lg-01.jpg"
-                >
-                  <figure>
-                    <img src="/images/portfolio-thumb-lg-01.jpg" alt="Image" />
-                  </figure>
-                  <div className="fe-overlay"></div>
-                  <div className="fe-arrow">
-                    <FiArrowDownRight />
-                  </div>
-                </Link>
-              </Col>
-              <Col md={3} xs={6}>
-                <Link
-                  className="feature-item"
-                  href="/images/portfolio-thumb-sm-01.jpg"
-                >
-                  <figure>
-                    <img src="/images/portfolio-thumb-sm-01.jpg" alt="Image" />
-                  </figure>
-                  <div className="fe-overlay"></div>
-                  <div className="fe-arrow">
-                    <FiArrowDownRight />
-                  </div>
-                </Link>
-              </Col>
-              <Col md={3} xs={6}>
-                <Link
-                  className="feature-item"
-                  href="/images/portfolio-thumb-sm-02.jpg"
-                >
-                  <figure>
-                    <img src="/images/portfolio-thumb-sm-02.jpg" alt="Image" />
-                  </figure>
-                  <div className="fe-overlay"></div>
-                  <div className="fe-arrow">
-                    <FiArrowDownRight />
-                  </div>
-                </Link>
-              </Col>
-              <Col md={3} xs={12}>
-                <Link
-                  className="feature-item"
-                  href="/images/portfolio-thumb-sm-03.jpg"
-                >
-                  <figure>
-                    <img src="/images/portfolio-thumb-sm-03.jpg" alt="Image" />
-                  </figure>
-                  <div className="fe-overlay"></div>
-                  <div className="fe-arrow">
-                    <FiArrowDownRight />
-                  </div>
-                </Link>
-              </Col>
-              <Col md={3} xs={6}>
-                <Link
-                  className="feature-item"
-                  href="/images/portfolio-thumb-sm-04.jpg"
-                >
-                  <figure>
-                    <img src="/images/portfolio-thumb-sm-04.jpg" alt="Image" />
-                  </figure>
-                  <div className="fe-overlay"></div>
-                  <div className="fe-arrow">
-                    <FiArrowDownRight />
-                  </div>
-                </Link>
-              </Col>
-              <Col xs={6}>
-                <Link
-                  className="feature-item"
-                  href="/images/portfolio-thumb-lg-02.jpg"
-                >
-                  <figure>
-                    <img src="/images/portfolio-thumb-lg-02.jpg" alt="Image" />
-                  </figure>
-                  <div className="fe-overlay"></div>
-                  <div className="fe-arrow">
-                    <FiArrowDownRight />
-                  </div>
-                </Link>
-              </Col>
-            </Row>
-          </LightGallery>
+          ></LightGallery> */}
         </Container>
       </section>
 
