@@ -425,6 +425,45 @@ input[type="number"]::-webkit-inner-spin-button {
   }
 }
 
+.particles-cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  .particle {
+    position: absolute;
+    width: 48px;
+    svg {
+      fill: none;
+      stroke: var(--color-200);
+      stroke-miterlimit: 1;
+      stroke-width: 3px;
+      stroke-linecap: square;
+      stroke-dasharray: 1;
+      stroke-dashoffset: 10px;
+      animation: bannerParticle 8s 1s infinite;
+    }
+    &.particle-01 {
+      right: 2%;
+      top: 2%;
+    }
+    &.particle-02 {
+      right: 2%;
+      bottom: 2%;
+    }
+    &.particle-03 {
+      left: 2%;
+      bottom: 2%;
+    }
+    &.particle-04 {
+      left: 2%;
+      top: 2%;
+      width: 90px;
+    }
+  }
+}
+
 .how-we-img {
   position: relative;
   max-width: 750px;
