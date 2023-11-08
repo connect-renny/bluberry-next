@@ -48,6 +48,10 @@ export default function includeContact() {
                     <div className="add-value">+971 55 787 6289</div>
                   </div>
                   <div className="addr-item">
+                    <div className="add-label">Oman</div>
+                    <div className="add-value">00968 – 93800148 / 94187820</div>
+                  </div>
+                  <div className="addr-item">
                     <div className="add-label">Kerala, India</div>
                     <div className="add-value">+91 90618 81111</div>
                   </div>

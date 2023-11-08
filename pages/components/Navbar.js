@@ -66,14 +66,14 @@ export default function navbarMain() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <div className="navbar-nav info-nav">
-            <div className="nav-item">
+            {/* <div className="nav-item">
               <Link className="nav-link" href="tel:+96891269531">
                 <span className="nav-icon">
                   <FiPhoneCall />
                 </span>
                 +1(347)882−8281
               </Link>
-            </div>
+            </div> */}
             <div className="nav-item">
               <Link className="nav-link" href="mailto:Hello@thebblabs.com">
                 <span className="nav-icon">

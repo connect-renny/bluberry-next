@@ -49,9 +49,10 @@ export default function Home() {
                 </div>
                 <p>
                   We are a full-service digital media agency from the heart of
-                  New York. As you navigate through the ever-evolving digital
-                  landscape, we are here to guide you with an entire portfolio
-                  of futuristic services.
+                  New York with offices in various parts of the world. As you
+                  navigate through the ever-evolving digital landscape, we are
+                  here to guide you with an entire portfolio of futuristic
+                  services.
                 </p>
                 <p>
                   We believe in the power of human connections, the art of
@@ -200,7 +201,7 @@ export default function Home() {
                   data-aos-duration="1000"
                 >
                   <h6>Key facts</h6>
-                  <h3>Reasons why we are the best</h3>
+                  <h3>Reasons why we are best at what we do</h3>
                 </div>
               </Col>
             </Row>
@@ -239,7 +240,7 @@ export default function Home() {
                         )}
                         +
                       </h4>
-                      <p>no of Projects</p>
+                      <p>Completed Projects</p>
                     </div>
                   </div>
                   <div className="facts-item">
@@ -269,7 +270,7 @@ export default function Home() {
                         )}
                         +
                       </h4>
-                      <p>Websites</p>
+                      <p>Creative Websites</p>
                     </div>
                   </div>
                   <div className="facts-item">

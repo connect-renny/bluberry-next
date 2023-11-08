@@ -858,6 +858,19 @@ input[type="number"]::-webkit-inner-spin-button {
     background-color: var(--black);
     border-radius: 0.5rem;
     overflow: hidden;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 50%;
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0) 100%
+      );
+    }
     img {
       width: 100%;
       @include transEase;
@@ -869,6 +882,7 @@ input[type="number"]::-webkit-inner-spin-button {
       color: var(--white);
       font-size: var(--fs-20);
       font-weight: var(--font-weight-semibold);
+      z-index: 10;
     }
   }
   .ind-body {
@@ -1158,10 +1172,13 @@ input[type="number"]::-webkit-inner-spin-button {
   .con-add-body {
     flex: 1 0 0%;
     display: flex;
+    flex-wrap: wrap;
   }
   .addr-item {
     position: relative;
-    padding: 0 1rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0.5rem 1rem;
     z-index: 1;
     &::before {
       content: "";
@@ -1174,9 +1191,9 @@ input[type="number"]::-webkit-inner-spin-button {
       transition: 0.3s ease-out;
       z-index: -1;
     }
-    + .addr-item {
-      border-left: 1px solid var(--bk-grade-150);
-    }
+    // + .addr-item {
+    //   border-left: 1px solid var(--bk-grade-150);
+    // }
     .add-label {
       color: var(--bk-grade-350);
       font-weight: var(--font-weight-medium);
@@ -1257,6 +1274,12 @@ input[type="number"]::-webkit-inner-spin-button {
         color: var(--bk-grade-150);
       }
     }
+  }
+  select {
+    min-height: 3.625rem;
+    border: 0;
+    border-bottom: 1px solid var(--bk-grade-150);
+    border-radius: 0;
   }
   textarea {
     min-height: 150px !important;

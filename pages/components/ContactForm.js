@@ -133,6 +133,11 @@ export default function contactForm() {
             )}
           </Col>
           <Col md={6}>
+            <Form.Select className="mb-3">
+              <option>Default select</option>
+            </Form.Select>
+          </Col>
+          <Col md={6}>
             <FloatingLabel
               controlId="floatingInput"
               label="Phone"
@@ -151,7 +156,7 @@ export default function contactForm() {
               <span className="error">This field is required</span>
             )}
           </Col>
-          <Col md={6}>
+          <Col xs={12}>
             <FloatingLabel
               controlId="floatingInput"
               label="Subject"
