@@ -9,6 +9,7 @@ import IncludeContact from "./components/IncludeContact";
 
 import { FiArrowDownRight } from "react-icons/fi";
 import { FiArrowRight } from "react-icons/fi";
+import { BiCaretRightCircle } from "react-icons/bi";
 
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
@@ -27,8 +28,52 @@ import lgZoom from "lightgallery/plugins/zoom";
 
 export default function Home() {
   const [counterOn, setCounterOn] = useState(false);
+
+  const [isActive, setIsActive] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsActive(!isActive);
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
+      <div className={`sticky-container ${isActive ? "active" : ""}`}>
+        <div className="sticky-cover">
+          <div className="st-contact">
+            <p>New York, USA</p>
+            <h4>+1 (347) 882-8281</h4>
+            <h4>team@bblabs.com</h4>
+          </div>
+          <div className="st-contact">
+            <p>Dubai, UAE</p>
+            <h4>+971 55 787 6289</h4>
+            <h4>team@bblabs.com</h4>
+          </div>
+          <div className="st-contact">
+            <p>Oman</p>
+            <h4>00968 - 93800148 / 94187820</h4>
+            <h4>team@bblabs.com</h4>
+          </div>
+          <div className="st-contact">
+            <p>Kerala, India</p>
+            <h4>+91 90618 81111</h4>
+            <h4>team@bblabs.com</h4>
+          </div>
+        </div>
+        <Link
+          href="#"
+          className={`btn-contact ${isOpen ? "open" : ""}`}
+          onClick={handleClick}
+        >
+          <span className="nav-icon">
+            <BiCaretRightCircle />
+          </span>
+          <span className="nav-label">Contact</span>
+        </Link>
+      </div>
+
       <BannerCarousel />
       <section
         className="who-we-sec pt-4 pt-lg-5 pb-4 pb-lg-4 pb-xl-5"

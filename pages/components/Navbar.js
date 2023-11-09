@@ -77,15 +77,15 @@ export default function navbarMain() {
             </div> */}
 
             <div className="nav-item">
-              <GoogleTranslate />
-            </div>
-            <div className="nav-item">
               <Link className="nav-link" href="mailto:Hello@thebblabs.com">
                 <span className="nav-icon">
                   <GoMail />
                 </span>
                 Hello@thebblabs.com
               </Link>
+            </div>
+            <div className="nav-item nav-translate">
+              <GoogleTranslate />
             </div>
           </div>
           <div className="navbar-nav main-nav">

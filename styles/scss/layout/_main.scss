@@ -220,6 +220,103 @@ input[type="number"]::-webkit-inner-spin-button {
   }
 }
 
+.sticky-container {
+  position: fixed;
+  left: 0;
+  top: 20%;
+  width: 400px;
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: 0 8rem 8rem 0;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  transform: translateX(-100%);
+  @include transEase;
+  .sticky-cover {
+    position: relative;
+    padding: 2rem;
+    background-image: linear-gradient(
+      to left bottom,
+      #802c79,
+      #6a2e90,
+      #3d2f84,
+      #2c4298,
+      #1e56a1
+    );
+    border-radius: 0 calc(8rem - 1rem) calc(8rem - 1rem) 0;
+    &::before {
+      content: "";
+      position: absolute;
+      right: -2px;
+      top: 50%;
+      width: 70px;
+      height: 105px;
+      transform: translateY(-50%);
+      background-image: url(../../../public/images/stikcy-con-shape.png);
+      background-size: contain;
+    }
+    .st-contact {
+      + .st-contact {
+        padding-top: 1rem;
+        margin-top: 1rem;
+        border-top: 1px solid rgba($white, 10%);
+      }
+      p {
+        color: rgba($white, 65%);
+        font-size: var(--fs-10);
+        margin: 0 0 0.5rem 0;
+      }
+      h4 {
+        color: var(--white);
+        font-size: var(--fs-10);
+        font-weight: var(--font-weight-medium);
+        margin: 0;
+      }
+    }
+  }
+  .btn-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    color: var(--white);
+    padding: 1rem 0.5rem;
+    background-image: linear-gradient(
+      to left bottom,
+      #802c79,
+      #6a2e90,
+      #3d2f84,
+      #2c4298,
+      #1e56a1
+    );
+    background-size: 200% 200%;
+    border-radius: 0 1rem 1rem 0;
+    transform: translate(100%, -50%);
+    animation: btnGradient 2s ease infinite;
+    .nav-icon {
+      font-size: var(--fs-12);
+      margin-bottom: 0.5rem;
+      animation: btnIconMoveRight 2s ease infinite;
+      @include transEase;
+    }
+    .nav-label {
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      text-transform: uppercase;
+    }
+  }
+  z-index: 100;
+  &.active {
+    transform: translateX(0);
+    // .btn-contact {
+    //   .nav-icon {
+    //     transform: rotate(-180deg);
+    //   }
+    // }
+  }
+}
+
 .banner-sec {
   position: relative;
 }
@@ -3795,7 +3892,7 @@ input[type="number"]::-webkit-inner-spin-button {
   }
 }
 
-.goog-te-gadget-simple{
+.goog-te-gadget-simple {
   border-top: 0 !important;
   border-right: 0 !important;
   border-left: 0 !important;
