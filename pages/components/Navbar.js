@@ -6,6 +6,7 @@ import { GoMail } from "react-icons/go";
 import { FiPhoneCall } from "react-icons/fi";
 import { SlHome } from "react-icons/sl";
 import { FiArrowRight } from "react-icons/fi";
+import GoogleTranslate from "./GoogleTranslate";
 
 export default function navbarMain() {
   const [stickyClass, setStickyClass] = useState("");
@@ -74,6 +75,10 @@ export default function navbarMain() {
                 +1(347)882−8281
               </Link>
             </div> */}
+
+            <div className="nav-item">
+              <GoogleTranslate />
+            </div>
             <div className="nav-item">
               <Link className="nav-link" href="mailto:Hello@thebblabs.com">
                 <span className="nav-icon">
