@@ -80,6 +80,12 @@ export default function Contact() {
                       <div className="add-value">+971 55 787 6289</div>
                     </div>
                     <div className="addr-item">
+                      <div className="add-label">Oman</div>
+                      <div className="add-value">
+                        00968 – 93800148 / 94187820
+                      </div>
+                    </div>
+                    <div className="addr-item">
                       <div className="add-label">Kerala, India</div>
                       <div className="add-value">+91 90618 81111</div>
                     </div>
@@ -174,7 +180,11 @@ export default function Contact() {
                     Or better yet, let&apos;s meet. <br />
                     <span>We would love to talk to you!</span>
                   </h4>
-                  <Link className="btn btn-book" href="https://calendly.com/the_bb/30min" target="_blank">
+                  <Link
+                    className="btn btn-book"
+                    href="https://calendly.com/the_bb/30min"
+                    target="_blank"
+                  >
                     <span className="btn-label">
                       Book a <span className="fw-bold">Virtual Meeting</span>
                       &nbsp; with us!
