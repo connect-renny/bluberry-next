@@ -29,10 +29,10 @@ export default function includeContact() {
               <div className="con-add-hd">
                 <h3>Hi.</h3>
                 <h4>Have a question? Want to connect? Reach out to us.</h4>
-                <p>
+                {/* <p>
                   Please tell us about yourself and we will get back to within
                   24 hours.
-                </p>
+                </p> */}
               </div>
               <div className="con-add-item">
                 <div className="con-add-icon">

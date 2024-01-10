@@ -244,7 +244,7 @@ export default function Process() {
                     <div className="dot"></div>
                   </figure>
                   <div className="process-body">
-                    <div className="count">06</div>
+                    <div className="count">07</div>
                     <h3>Reporting & Analysis:</h3>
                     <p>
                       We provide regular reports and analytics to track the
@@ -277,7 +277,7 @@ export default function Process() {
                     <div className="dot"></div>
                   </figure>
                   <div className="process-body">
-                    <div className="count">06</div>
+                    <div className="count">08</div>
                     <h3>Ongoing Management & Support:</h3>
                     <p>
                       Our commitment doesn&apos;t end with the delivery of the

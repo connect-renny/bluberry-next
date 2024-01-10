@@ -10,7 +10,7 @@ export default function contactConsultaion() {
         <Row>
           <Col xs={12}>
             <div className="brand-consult-cover">
-              <h3>Take the first step towards brand brilliance today. </h3>
+              <h3>Take the first step towards brand brilliance today.</h3>
               <p>
                 Connect with us and let us bring your brand to life in ways you
                 never thought possible.

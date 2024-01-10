@@ -44,22 +44,22 @@ export default function Home() {
           <div className="st-contact">
             <p>New York, USA</p>
             <h4>+1 (347) 882-8281</h4>
-            <h4>team@bblabs.com</h4>
+            {/* <h4>team@bblabs.com</h4> */}
           </div>
           <div className="st-contact">
             <p>Dubai, UAE</p>
             <h4>+971 55 787 6289</h4>
-            <h4>team@bblabs.com</h4>
           </div>
           <div className="st-contact">
             <p>Oman</p>
             <h4>00968 - 93800148 / 94187820</h4>
-            <h4>team@bblabs.com</h4>
           </div>
           <div className="st-contact">
             <p>Kerala, India</p>
             <h4>+91 90618 81111</h4>
-            <h4>team@bblabs.com</h4>
+          </div>
+          <div className="st-contact">
+            <h4>hello@bblabs.com</h4>
           </div>
         </div>
         <Link
