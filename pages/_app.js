@@ -30,15 +30,16 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>BluBerry</title>
+        <title>Digital marketing services USA | Digital marketing company New York</title>
         <meta
           name="keywords"
           content="web design companies USA, Social media promotions USA, web design USA, software development company USA, website design services USA, website design USA, web design in USA"
         />
         <meta
           name="description"
-          content="Bluberry is a premier Digital Marketing Agency in USA that specializes in strategizing your digital presence to scale your business. Get In Touch Today!"
+          content="Unlock the potential of your online presence with BBLabs, a leading Digital Marketing Company in New York, USA. Our tailored Digital Marketing Services provide innovative solutions to elevate your brand. Choose BBLabs for effective and results-driven Digital Marketing Solutions that propel your business forward in the competitive digital landscape."
         />
+        <meta name="google-site-verification" content="ZUMEhYk3r7dlqr_OGlgRc4ipEvbxX-oYxg8Di-dF-vk" />
       </Head>
 
       <PreLoader loading={isLoading} />

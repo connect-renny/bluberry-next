@@ -22,7 +22,11 @@ export default function Branding() {
           </div>
         </Container>
       </section>
-
+      <Head>
+        <title>Branding in USA | Digital Marketing Services</title>
+        <meta name="keywords" content="Branding in USA,Digital Marketing Services" />
+        <meta name="description" content="Empower your brand with BBLabs, a trusted leader in branding and digital marketing services in the USA. Our strategic approach to branding ensures a strong and memorable presence. Explore tailored Digital Marketing Services for a localized impact. Choose BBLabs for a unique blend of creativity and strategy, propelling your brand to new heights in the competitive market." />
+      </Head>
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>

@@ -23,7 +23,11 @@ export default function WebsiteDesign() {
           </div>
         </Container>
       </section>
-
+      <Head>
+        <title>Web Development company in New York | Website designing services in USA</title>
+        <meta name="keywords" content="Web development New York,Website designing services in USA,Web Development company in New York" />
+        <meta name="description" content="Best web development and website designing services in the USA with BBLabs, a leading web development company in New York. Elevate your online presence with our expert team's innovative solutions. Transform your digital landscape with BBLabs – Your trusted partner for cutting-edge web solutions in New York." />
+      </Head>
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>

@@ -23,7 +23,11 @@ export default function GraphicDesign() {
           </div>
         </Container>
       </section>
-
+      <Head>
+        <title>Digital creative services NYC | Company Profile Design in New York</title>
+        <meta name="keywords" content="Digital creative services NYC,Company Profile Design in New York" />
+        <meta name="description" content="Explore cutting-edge digital creative services in NYC with BBLabs. From innovative Company Profile Designs to a spectrum of creative solutions, we redefine your brand's visual identity. Partner with BBLabs for a unique blend of artistic flair and strategic design, elevating your brand presence in New York with compelling digital creativity." />
+      </Head>
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>
