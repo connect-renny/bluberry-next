@@ -10,6 +10,7 @@ import PreLoader from './components/PreLoader';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
+
 export default function App({ Component, pageProps }) {
   // Preloader
   const router = useRouter();
@@ -26,6 +27,28 @@ export default function App({ Component, pageProps }) {
       AOS.init();
     });
   }, []);
+
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+  }, []);
+
+  useEffect(()=>{
+    const handleRouteChange = (url) => {
+      window.dataLayer.push({
+        event: 'page_view',
+        page: url,
+      })
+    }
+
+    router.events.on('routeChangeComplete', handleRouteChange)
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
 
   return (
     <>
