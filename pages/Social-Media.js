@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
@@ -10,6 +11,18 @@ import ContactConsultation from "./components/ContactConsultation";
 export default function AppDevelopment() {
   return (
     <>
+      <Head>
+        <title>Social media marketing new York | Social Media Agency NYC</title>
+        <meta
+          name="keywords"
+          content="Social media marketing new York,Social media management (Near to me),Social Media Marketing Agency,Social Media Agency NYC,Social media agency New York"
+        />
+        <meta
+          name="description"
+          content="Discover impactful Social Media Marketing services in New York with BBLabs, your trusted Social Media Agency. From strategic Social Media Management to targeted campaigns, we bring your brand to life online. Choose BBLabs for effective and personalized solutions in New York City – Your go-to Social Media Marketing Agency."
+        />
+      </Head>
+
       <section className="ins-slider-img-sec">
         <Container fluid="xxl">
           <div className="ins-slider">
@@ -23,11 +36,7 @@ export default function AppDevelopment() {
           </div>
         </Container>
       </section>
-      <Head>
-        <title>Social media marketing new York | Social Media Agency NYC</title>
-        <meta name="keywords" content="Social media marketing new York,Social media management (Near to me),Social Media Marketing Agency,Social Media Agency NYC,Social media agency New York" />
-        <meta name="description" content="Discover impactful Social Media Marketing services in New York with BBLabs, your trusted Social Media Agency. From strategic Social Media Management to targeted campaigns, we bring your brand to life online. Choose BBLabs for effective and personalized solutions in New York City – Your go-to Social Media Marketing Agency." />
-      </Head>
+
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>

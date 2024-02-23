@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
@@ -10,6 +11,18 @@ import ContactConsultation from "./components/ContactConsultation";
 export default function SEO() {
   return (
     <>
+      <Head>
+        <title>SEO company New York | SEO Services USA</title>
+        <meta
+          name="keywords"
+          content="SEO Services USA,SEO company New York,SEO agency in NYC"
+        />
+        <meta
+          name="description"
+          content="Amplify your online visibility with BBLabs, a top-tier SEO Company in New York. Our SEO Services in the USA are tailored for success, backed by expert strategies. Partner with the leading SEO Agency in NYC, BBLabs, and watch your website climb the search rankings. Drive targeted traffic and boost your online presence with our proven SEO solutions."
+        />
+      </Head>
+
       <section className="ins-slider-img-sec">
         <Container fluid="xxl">
           <div className="ins-slider">
@@ -23,11 +36,7 @@ export default function SEO() {
           </div>
         </Container>
       </section>
-      <Head>
-        <title>SEO company New York | SEO Services USA</title>
-        <meta name="keywords" content="SEO Services USA,SEO company New York,SEO agency in NYC" />
-        <meta name="description" content="Amplify your online visibility with BBLabs, a top-tier SEO Company in New York. Our SEO Services in the USA are tailored for success, backed by expert strategies. Partner with the leading SEO Agency in NYC, BBLabs, and watch your website climb the search rankings. Drive targeted traffic and boost your online presence with our proven SEO solutions." />
-      </Head>
+
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>

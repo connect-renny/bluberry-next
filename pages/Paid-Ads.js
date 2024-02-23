@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
@@ -10,6 +11,18 @@ import ContactConsultation from "./components/ContactConsultation";
 export default function AppDevelopment() {
   return (
     <>
+      <Head>
+        <title>PPC Agencies in New York | Paid Ads Agency USA</title>
+        <meta
+          name="keywords"
+          content="Paid Ads Agency USA,PPC Agencies in New York"
+        />
+        <meta
+          name="description"
+          content="Maximize your online reach with BBLabs, a premier Paid Ads Agency in the USA. As one of the leading PPC Agencies in New York, we specialize in delivering targeted and impactful paid advertising solutions. Trust BBLabs to elevate your online presence and drive results through expertly crafted PPC campaigns. Partner with us for a strategic approach to paid advertising success."
+        />
+      </Head>
+
       <section className="ins-slider-img-sec">
         <Container fluid="xxl">
           <div className="ins-slider">
@@ -23,11 +36,7 @@ export default function AppDevelopment() {
           </div>
         </Container>
       </section>
-      <Head>
-        <title>PPC Agencies in New York | Paid Ads Agency USA</title>
-        <meta name="keywords" content="Paid Ads Agency USA,PPC Agencies in New York" />
-        <meta name="description" content="Maximize your online reach with BBLabs, a premier Paid Ads Agency in the USA. As one of the leading PPC Agencies in New York, we specialize in delivering targeted and impactful paid advertising solutions. Trust BBLabs to elevate your online presence and drive results through expertly crafted PPC campaigns. Partner with us for a strategic approach to paid advertising success." />
-      </Head>
+
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>
