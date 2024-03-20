@@ -21,6 +21,16 @@ export default function SEO() {
           name="description"
           content="Amplify your online visibility with BBLabs, a top-tier SEO Company in New York. Our SEO Services in the USA are tailored for success, backed by expert strategies. Partner with the leading SEO Agency in NYC, BBLabs, and watch your website climb the search rankings. Drive targeted traffic and boost your online presence with our proven SEO solutions."
         />
+        <link rel="canonical" href="https://thebblabs.com" />
+        <script type="application/ld+json">
+          {`{
+            "@context": "http://www.schema.org",
+            "@type": "WebSite",
+            "name": "The blue berry labs",
+            "alternateName": "bblabs",
+            "url": "https://thebblabs.com/SEO"
+          }`}
+        </script>
       </Head>
 
       <section className="ins-slider-img-sec">

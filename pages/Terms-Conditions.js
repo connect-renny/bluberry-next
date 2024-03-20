@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
@@ -7,9 +8,22 @@ import TaglineSection from "./components/TaglineSection";
 import IncludeContact from "./components/IncludeContact";
 import ContactConsultation from "./components/ContactConsultation";
 
-export default function AppDevelopment() {
+export default function TermsConditions() {
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://thebblabs.com" />
+        <script type="application/ld+json">
+          {`{
+            "@context": "http://www.schema.org",
+            "@type": "WebSite",
+            "name": "The blue berry labs",
+            "alternateName": "bblabs",
+            "url": "https://thebblabs.com/Terms-Conditions"
+          }`}
+        </script>
+      </Head>
+
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>

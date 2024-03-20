@@ -1,9 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
+import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import IncludeContact from "./components/IncludeContact";
 import { FiArrowRight } from "react-icons/fi";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 
 import Link from "next/link";
 
@@ -23,7 +24,7 @@ export default function Industries() {
   const { asPath } = useRouter();
 
   useEffect(() => {
-    const hash = asPath.split('#')[1];
+    const hash = asPath.split("#")[1];
     setIndSliderMain(hash);
     indSliderNavRef.current.slickGoTo(hash);
   }, [asPath]);
@@ -59,6 +60,19 @@ export default function Industries() {
 
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://thebblabs.com" />
+        <script type="application/ld+json">
+          {`{
+            "@context": "http://www.schema.org",
+            "@type": "WebSite",
+            "name": "The blue berry labs",
+            "alternateName": "bblabs",
+            "url": "https://thebblabs.com/Industries"
+          }`}
+        </script>
+      </Head>
+
       <section className="ins-slider-img-sec">
         <Container fluid="xxl">
           <div className="ins-slider">

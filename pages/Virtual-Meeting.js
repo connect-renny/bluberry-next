@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col, Form, FloatingLabel } from "react-bootstrap";
 import { FiArrowRight } from "react-icons/fi";
@@ -6,7 +7,6 @@ import { FiArrowRight } from "react-icons/fi";
 import { MdOutlinePhonelinkRing } from "react-icons/md";
 import { TfiEmail } from "react-icons/tfi";
 import { RxShare1 } from "react-icons/rx";
-
 
 import { AiOutlineUser } from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
@@ -17,7 +17,7 @@ import { useForm } from "react-hook-form";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useRouter } from "next/router";
 
-export default function Contact() {
+export default function VirtualMeeting() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [responseMessage, setResponseMessage] = useState(false);
   const recaptchaRef = useRef(null);
@@ -56,7 +56,7 @@ export default function Contact() {
         });
         if (response.ok) {
           reset();
-          router.push('/ThankYou');
+          router.push("/ThankYou");
           // let result = await response.json();
           // setResponseMessage(result.message);
         } else {
@@ -79,6 +79,19 @@ export default function Contact() {
   };
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://thebblabs.com" />
+        <script type="application/ld+json">
+          {`{
+            "@context": "http://www.schema.org",
+            "@type": "WebSite",
+            "name": "The blue berry labs",
+            "alternateName": "bblabs",
+            "url": "https://thebblabs.com/Virtual-Meeting"
+          }`}
+        </script>
+      </Head>
+
       <section className="ins-slider-img-sec">
         <Container fluid="xxl">
           <div className="ins-slider">
@@ -141,7 +154,10 @@ export default function Contact() {
                         label="Name"
                         className="mb-3"
                       >
-                        <Form.Control placeholder="Name" {...register("name", { required: true })} />
+                        <Form.Control
+                          placeholder="Name"
+                          {...register("name", { required: true })}
+                        />
                         <div className="icon">
                           <AiOutlineUser />
                         </div>
@@ -156,14 +172,17 @@ export default function Contact() {
                         label="Email Address"
                         className="mb-3"
                       >
-                        <Form.Control placeholder="Email Address"
+                        <Form.Control
+                          placeholder="Email Address"
                           {...register("email", {
                             required: "required",
                             pattern: {
                               value: /\S+@\S+\.\S+/,
-                              message: "Entered value does not match email format",
+                              message:
+                                "Entered value does not match email format",
                             },
-                          })} />
+                          })}
+                        />
                         <div className="icon">
                           <TfiEmail />
                         </div>
@@ -178,7 +197,10 @@ export default function Contact() {
                         label="Phone"
                         className="mb-3"
                       >
-                        <Form.Control placeholder="Phone"  {...register("phone", { required: true })} />
+                        <Form.Control
+                          placeholder="Phone"
+                          {...register("phone", { required: true })}
+                        />
                         <div className="icon">
                           <FiPhoneCall />
                         </div>
@@ -193,7 +215,11 @@ export default function Contact() {
                         label="Date"
                         className="mb-3"
                       >
-                        <Form.Control type="date" placeholder="Date"  {...register("date", { date: true })} />
+                        <Form.Control
+                          type="date"
+                          placeholder="Date"
+                          {...register("date", { date: true })}
+                        />
                         <div className="icon">
                           <BsCalendar4Week />
                         </div>
@@ -208,7 +234,11 @@ export default function Contact() {
                         label="Message"
                         className="mb-3"
                       >
-                        <Form.Control as="textarea" {...register("message", { required: true })} placeholder="Message" />
+                        <Form.Control
+                          as="textarea"
+                          {...register("message", { required: true })}
+                          placeholder="Message"
+                        />
                         <div className="icon">
                           <MdOutlineEdit />
                         </div>
@@ -220,12 +250,17 @@ export default function Contact() {
                     <Col xs={12}>
                       <div className="con-agree mb-4">
                         <label>
-                          <input type="radio" {...register("agree", { required: true })} />I agree that my data is
-                          collected and stored
+                          <input
+                            type="radio"
+                            {...register("agree", { required: true })}
+                          />
+                          I agree that my data is collected and stored
                         </label>
                       </div>
                       {errors.agree && errors.agree.type === "required" && (
-                        <span className="error">Please agree to the terms.</span>
+                        <span className="error">
+                          Please agree to the terms.
+                        </span>
                       )}
                     </Col>
                     <Col xs={12} className="d-flex justify-content-end">
@@ -233,15 +268,17 @@ export default function Contact() {
                         className="btn btn-shine btn-submit"
                         type="submit"
                       >
-                        <span className="btn-label">{isSubmitting ? (
-                          <div className="button-loader" id="loader-4">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                          </div>
-                        ) : (
-                          "Submit"
-                        )}</span>
+                        <span className="btn-label">
+                          {isSubmitting ? (
+                            <div className="button-loader" id="loader-4">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                            </div>
+                          ) : (
+                            "Submit"
+                          )}
+                        </span>
                         <span className="btn-icon">
                           <FiArrowRight />
                         </span>

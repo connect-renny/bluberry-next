@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -6,9 +7,22 @@ import IncludeContact from "./components/IncludeContact";
 
 import Link from "next/link";
 
-export default function AppDevelopment() {
+export default function BlogContentPower() {
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://thebblabs.com" />
+        <script type="application/ld+json">
+          {`{
+            "@context": "http://www.schema.org",
+            "@type": "WebSite",
+            "name": "The blue berry labs",
+            "alternateName": "bblabs",
+            "url": "https://thebblabs.com/Blog-Content-Power"
+          }`}
+        </script>
+      </Head>
+
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>

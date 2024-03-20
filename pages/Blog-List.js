@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
@@ -6,7 +7,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 import Link from "next/link";
 
-export default function blogList() {
+export default function BlogList() {
   // Radio js
   const [selectedOption, setSelectedOption] = useState("");
 
@@ -16,6 +17,19 @@ export default function blogList() {
 
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://thebblabs.com" />
+        <script type="application/ld+json">
+          {`{
+            "@context": "http://www.schema.org",
+            "@type": "WebSite",
+            "name": "The blue berry labs",
+            "alternateName": "bblabs",
+            "url": "https://thebblabs.com/Blog-List"
+          }`}
+        </script>
+      </Head>
+
       <section className="ins-slider-hd-sec">
         <Container fluid="xxl">
           <Row>

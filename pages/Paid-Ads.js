@@ -8,7 +8,7 @@ import TaglineSection from "./components/TaglineSection";
 import IncludeContact from "./components/IncludeContact";
 import ContactConsultation from "./components/ContactConsultation";
 
-export default function AppDevelopment() {
+export default function PaidAds() {
   return (
     <>
       <Head>
@@ -21,6 +21,16 @@ export default function AppDevelopment() {
           name="description"
           content="Maximize your online reach with BBLabs, a premier Paid Ads Agency in the USA. As one of the leading PPC Agencies in New York, we specialize in delivering targeted and impactful paid advertising solutions. Trust BBLabs to elevate your online presence and drive results through expertly crafted PPC campaigns. Partner with us for a strategic approach to paid advertising success."
         />
+        <link rel="canonical" href="https://thebblabs.com" />
+        <script type="application/ld+json">
+          {`{
+            "@context": "http://www.schema.org",
+            "@type": "WebSite",
+            "name": "The blue berry labs",
+            "alternateName": "bblabs",
+            "url": "https://thebblabs.com/Paid-Ads"
+          }`}
+        </script>
       </Head>
 
       <section className="ins-slider-img-sec">

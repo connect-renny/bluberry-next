@@ -11,6 +11,19 @@ export default function Branding() {
   return (
     <>
       <Head>
+        <link rel="canonical" href="https://thebblabs.com" />
+        <script type="application/ld+json">
+          {`{
+            "@context": "http://www.schema.org",
+            "@type": "WebSite",
+            "name": "The blue berry labs",
+            "alternateName": "bblabs",
+            "url": "https://thebblabs.com/Branding"
+          }`}
+        </script>
+      </Head>
+
+      <Head>
         <title>Branding in USA | Digital Marketing Services</title>
         <meta
           name="keywords"

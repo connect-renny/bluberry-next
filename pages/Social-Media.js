@@ -8,7 +8,7 @@ import TaglineSection from "./components/TaglineSection";
 import IncludeContact from "./components/IncludeContact";
 import ContactConsultation from "./components/ContactConsultation";
 
-export default function AppDevelopment() {
+export default function SocialMedia() {
   return (
     <>
       <Head>
@@ -21,6 +21,16 @@ export default function AppDevelopment() {
           name="description"
           content="Discover impactful Social Media Marketing services in New York with BBLabs, your trusted Social Media Agency. From strategic Social Media Management to targeted campaigns, we bring your brand to life online. Choose BBLabs for effective and personalized solutions in New York City – Your go-to Social Media Marketing Agency."
         />
+        <link rel="canonical" href="https://thebblabs.com" />
+        <script type="application/ld+json">
+          {`{
+            "@context": "http://www.schema.org",
+            "@type": "WebSite",
+            "name": "The blue berry labs",
+            "alternateName": "bblabs",
+            "url": "https://thebblabs.com/Social-Media"
+          }`}
+        </script>
       </Head>
 
       <section className="ins-slider-img-sec">

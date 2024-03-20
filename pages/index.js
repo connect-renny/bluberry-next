@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import BannerCarousel from "./components/BannerCarousel";
@@ -39,6 +40,19 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://thebblabs.com" />
+        <script type="application/ld+json">
+          {`{
+            "@context": "http://www.schema.org",
+            "@type": "WebSite",
+            "name": "The blue berry labs",
+            "alternateName": "bblabs",
+            "url": "https://thebblabs.com/"
+          }`}
+        </script>
+      </Head>
+
       <div className={`sticky-container ${isActive ? "active" : ""}`}>
         <div className="sticky-cover">
           <div className="st-contact">
