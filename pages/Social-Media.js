@@ -21,7 +21,7 @@ export default function SocialMedia() {
           name="description"
           content="Discover impactful Social Media Marketing services in New York with BBLabs, your trusted Social Media Agency. From strategic Social Media Management to targeted campaigns, we bring your brand to life online. Choose BBLabs for effective and personalized solutions in New York City – Your go-to Social Media Marketing Agency."
         />
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Social-Media" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

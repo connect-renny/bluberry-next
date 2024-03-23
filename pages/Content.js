@@ -12,7 +12,7 @@ export default function Content() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Content" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

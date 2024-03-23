@@ -12,7 +12,7 @@ export default function AppDevelopment() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/App-Development" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

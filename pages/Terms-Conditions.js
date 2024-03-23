@@ -12,7 +12,7 @@ export default function TermsConditions() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Terms-Conditions" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

@@ -80,7 +80,7 @@ export default function VirtualMeeting() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Virtual-Meeting" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

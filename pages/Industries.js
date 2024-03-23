@@ -61,7 +61,7 @@ export default function Industries() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Industries" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

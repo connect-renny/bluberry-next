@@ -23,7 +23,7 @@ export default function CreativeDesign() {
           name="description"
           content="Explore cutting-edge digital creative services in NYC with BBLabs. From innovative Company Profile Designs to a spectrum of creative solutions, we redefine your brand's visual identity. Partner with BBLabs for a unique blend of artistic flair and strategic design, elevating your brand presence in New York with compelling digital creativity."
         />
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Creative-Design" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

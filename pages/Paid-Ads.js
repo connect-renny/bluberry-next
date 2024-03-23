@@ -21,7 +21,7 @@ export default function PaidAds() {
           name="description"
           content="Maximize your online reach with BBLabs, a premier Paid Ads Agency in the USA. As one of the leading PPC Agencies in New York, we specialize in delivering targeted and impactful paid advertising solutions. Trust BBLabs to elevate your online presence and drive results through expertly crafted PPC campaigns. Partner with us for a strategic approach to paid advertising success."
         />
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Paid-Ads" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

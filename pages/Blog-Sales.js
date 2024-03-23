@@ -9,7 +9,7 @@ export default function BlogSales() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Blog-Sales" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

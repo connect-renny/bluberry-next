@@ -11,7 +11,7 @@ export default function BlogGPT() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Blog-GPT" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

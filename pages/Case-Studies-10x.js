@@ -59,7 +59,7 @@ export default function CaseStudies10x() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Case-Studies-10x" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

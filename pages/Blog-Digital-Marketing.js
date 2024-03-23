@@ -11,7 +11,10 @@ export default function BlogDigitalMarketing() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link
+          rel="canonical"
+          href="https://thebblabs.com/Blog-Digital-Marketing"
+        />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

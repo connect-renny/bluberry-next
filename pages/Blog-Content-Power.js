@@ -11,7 +11,7 @@ export default function BlogContentPower() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Blog-Content-Power" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

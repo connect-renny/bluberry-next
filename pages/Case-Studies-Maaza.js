@@ -59,7 +59,7 @@ export default function CaseStudiesMaaza() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Case-Studies-Maaza" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

@@ -7,7 +7,7 @@ export default function ThankYou() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/ThankYou" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",

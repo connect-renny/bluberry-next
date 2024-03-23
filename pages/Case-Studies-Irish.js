@@ -59,7 +59,7 @@ export default function CaseStudiesIrish() {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://thebblabs.com" />
+        <link rel="canonical" href="https://thebblabs.com/Case-Studies-Irish" />
         <script type="application/ld+json">
           {`{
             "@context": "http://www.schema.org",
