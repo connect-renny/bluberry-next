@@ -84,9 +84,9 @@ export default function navbarMain() {
                 Hello@thebblabs.com
               </Link>
             </div>
-            <div className="nav-item nav-translate">
+            {/* <div className="nav-item nav-translate">
               <GoogleTranslate />
-            </div>
+            </div> */}
           </div>
           <div className="navbar-nav main-nav">
             <div className="nav-item">
