@@ -53,7 +53,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>
-          Digital marketing services USA | Digital marketing company New York
+          Digital marketing services United States | Digital marketing company New York
         </title>
         <meta
           name="keywords"
@@ -61,7 +61,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           name="description"
-          content="Unlock the potential of your online presence with BBLabs, a leading Digital Marketing Company in New York, USA. Our tailored Digital Marketing Services provide innovative solutions to elevate your brand. Choose BBLabs for effective and results-driven Digital Marketing Solutions that propel your business forward in the competitive digital landscape."
+          content="Best Digital Marketing Company in New York, USA. Our tailored Digital Marketing Services provide innovative solutions for your brand. Contact us to learn more about Digital marketing services that can help your business grow."
         />
         <meta
           name="google-site-verification"

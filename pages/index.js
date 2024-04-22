@@ -42,15 +42,7 @@ export default function Home() {
     <>
       <Head>
         <link rel="canonical" href="https://thebblabs.com" />
-        <script type="application/ld+json">
-          {`{
-            "@context": "http://www.schema.org",
-            "@type": "WebSite",
-            "name": "The blue berry labs",
-            "alternateName": "bblabs",
-            "url": "https://thebblabs.com/"
-          }`}
-        </script>
+        
       </Head>
 
       <div className={`sticky-container ${isActive ? "active" : ""}`}>
@@ -107,8 +99,8 @@ export default function Home() {
                   <h3>Welcome to BluBerry Labs.</h3>
                 </div>
                 <p>
-                  We are a full-service digital media agency from the heart of
-                  New York with offices in various parts of the world. As you
+                  We are a full-service digital marketing agency from the heart of
+                  New York,USA with offices in various parts of the world. As you
                   navigate through the ever-evolving digital landscape, we are
                   here to guide you with an entire portfolio of futuristic
                   services.
@@ -120,7 +112,7 @@ export default function Home() {
                   will change the way the world sees you.
                 </p>
                 <p>
-                  Our bespoke solutions, infused with color, creativity, and
+                  Our bespoke digital marketing service solutions, infused with color, creativity, and
                   collaboration, are as unique as you are.
                 </p>
                 <p>

@@ -12,15 +12,7 @@ export default function BlogContentPower() {
     <>
       <Head>
         <link rel="canonical" href="https://thebblabs.com/Blog-Content-Power" />
-        <script type="application/ld+json">
-          {`{
-            "@context": "http://www.schema.org",
-            "@type": "WebSite",
-            "name": "The blue berry labs",
-            "alternateName": "bblabs",
-            "url": "https://thebblabs.com/Blog-Content-Power"
-          }`}
-        </script>
+        
       </Head>
 
       <section className="ins-slider-hd-sec">

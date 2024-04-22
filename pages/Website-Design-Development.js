@@ -13,8 +13,7 @@ export default function WebsiteDesign() {
     <>
       <Head>
         <title>
-          Web Development company in New York | Website designing services in
-          USA
+          Web Development company in New York | Website designing services in USA
         </title>
         <meta
           name="keywords"
@@ -22,21 +21,13 @@ export default function WebsiteDesign() {
         />
         <meta
           name="description"
-          content="Best web development and website designing services in the USA with BBLabs, a leading web development company in New York. Elevate your online presence with our expert team's innovative solutions. Transform your digital landscape with BBLabs – Your trusted partner for cutting-edge web solutions in New York."
+          content="Best web development and website designing services in USA. As a leading web development company in New York we offer the best web development service. Your trusted partner for cutting-edge web solutions in New York."
         />
         <link
           rel="canonical"
           href="https://thebblabs.com/Website-Design-Development"
         />
-        <script type="application/ld+json">
-          {`{
-            "@context": "http://www.schema.org",
-            "@type": "WebSite",
-            "name": "The blue berry labs",
-            "alternateName": "bblabs",
-            "url": "https://thebblabs.com/Website-Design-Development"
-          }`}
-        </script>
+        
       </Head>
 
       <section className="ins-slider-img-sec">

@@ -19,18 +19,10 @@ export default function SocialMedia() {
         />
         <meta
           name="description"
-          content="Discover impactful Social Media Marketing services in New York with BBLabs, your trusted Social Media Agency. From strategic Social Media Management to targeted campaigns, we bring your brand to life online. Choose BBLabs for effective and personalized solutions in New York City – Your go-to Social Media Marketing Agency."
+          content="Get best Social Media Marketing services in New York,USA your trusted Social Media Agency.From strategic Social Media Marketing to targeted campaigns, we bring your brand to online.Your go-to Social Media Marketing Agency NYC."
         />
         <link rel="canonical" href="https://thebblabs.com/Social-Media" />
-        <script type="application/ld+json">
-          {`{
-            "@context": "http://www.schema.org",
-            "@type": "WebSite",
-            "name": "The blue berry labs",
-            "alternateName": "bblabs",
-            "url": "https://thebblabs.com/Social-Media"
-          }`}
-        </script>
+        
       </Head>
 
       <section className="ins-slider-img-sec">

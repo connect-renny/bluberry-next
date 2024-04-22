@@ -13,15 +13,7 @@ export default function About() {
     <>
       <Head>
         <link rel="canonical" href="https://thebblabs.com/About" />
-        <script type="application/ld+json">
-          {`{
-            "@context": "http://www.schema.org",
-            "@type": "WebSite",
-            "name": "The blue berry labs",
-            "alternateName": "bblabs",
-            "url": "https://thebblabs.com/About"
-          }`}
-        </script>
+        
       </Head>
 
       <section className="ins-slider-img-sec">

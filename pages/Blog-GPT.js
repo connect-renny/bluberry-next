@@ -12,15 +12,7 @@ export default function BlogGPT() {
     <>
       <Head>
         <link rel="canonical" href="https://thebblabs.com/Blog-GPT" />
-        <script type="application/ld+json">
-          {`{
-            "@context": "http://www.schema.org",
-            "@type": "WebSite",
-            "name": "The blue berry labs",
-            "alternateName": "bblabs",
-            "url": "https://thebblabs.com/Blog-GPT"
-          }`}
-        </script>
+        
       </Head>
 
       <section className="ins-slider-hd-sec">

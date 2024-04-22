@@ -15,15 +15,7 @@ export default function BlogDigitalMarketing() {
           rel="canonical"
           href="https://thebblabs.com/Blog-Digital-Marketing"
         />
-        <script type="application/ld+json">
-          {`{
-            "@context": "http://www.schema.org",
-            "@type": "WebSite",
-            "name": "The blue berry labs",
-            "alternateName": "bblabs",
-            "url": "https://thebblabs.com/Blog-Digital-Marketing"
-          }`}
-        </script>
+        
       </Head>
 
       <section className="ins-slider-hd-sec">

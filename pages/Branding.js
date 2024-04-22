@@ -12,15 +12,7 @@ export default function Branding() {
     <>
       <Head>
         <link rel="canonical" href="https://thebblabs.com/Branding" />
-        <script type="application/ld+json">
-          {`{
-            "@context": "http://www.schema.org",
-            "@type": "WebSite",
-            "name": "The blue berry labs",
-            "alternateName": "bblabs",
-            "url": "https://thebblabs.com/Branding"
-          }`}
-        </script>
+        
       </Head>
 
       <Head>
@@ -31,7 +23,7 @@ export default function Branding() {
         />
         <meta
           name="description"
-          content="Empower your brand with BBLabs, a trusted leader in branding and digital marketing services in the USA. Our strategic approach to branding ensures a strong and memorable presence. Explore tailored Digital Marketing Services for a localized impact. Choose BBLabs for a unique blend of creativity and strategy, propelling your brand to new heights in the competitive market."
+          content="Best trusted leader in branding and digital marketing services in USA. Explore tailored Digital Marketing Services for a localized impact. Choose BBLabs for a unique branding in USA."
         />
       </Head>
 

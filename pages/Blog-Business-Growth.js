@@ -15,15 +15,7 @@ export default function BlogBusinessGrowth() {
           rel="canonical"
           href="https://thebblabs.com/Blog-Business-Growth"
         />
-        <script type="application/ld+json">
-          {`{
-            "@context": "http://www.schema.org",
-            "@type": "WebSite",
-            "name": "The blue berry labs",
-            "alternateName": "bblabs",
-            "url": "https://thebblabs.com/Blog-Business-Growth"
-          }`}
-        </script>
+        
       </Head>
 
       <section className="ins-slider-hd-sec">

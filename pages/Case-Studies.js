@@ -60,15 +60,7 @@ export default function CaseStudies() {
     <>
       <Head>
         <link rel="canonical" href="https://thebblabs.com/Case-Studies" />
-        <script type="application/ld+json">
-          {`{
-            "@context": "http://www.schema.org",
-            "@type": "WebSite",
-            "name": "The blue berry labs",
-            "alternateName": "bblabs",
-            "url": "https://thebblabs.com/Case-Studies"
-          }`}
-        </script>
+        
       </Head>
 
       <section className="ins-slider-hd-sec">

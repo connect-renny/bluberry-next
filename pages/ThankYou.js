@@ -8,15 +8,7 @@ export default function ThankYou() {
     <>
       <Head>
         <link rel="canonical" href="https://thebblabs.com/ThankYou" />
-        <script type="application/ld+json">
-          {`{
-            "@context": "http://www.schema.org",
-            "@type": "WebSite",
-            "name": "The blue berry labs",
-            "alternateName": "bblabs",
-            "url": "https://thebblabs.com/ThankYou"
-          }`}
-        </script>
+       
       </Head>
 
       <main className="py-4 py-lg-5 py-xl-7">
