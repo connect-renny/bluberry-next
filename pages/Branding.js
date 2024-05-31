@@ -10,10 +10,7 @@ import IncludeContact from "./components/IncludeContact";
 export default function Branding() {
   return (
     <>
-      <Head>
-        <link rel="canonical" href="https://thebblabs.com/Branding" />
-        
-      </Head>
+  
 
       <Head>
         <title>Branding in USA | Digital Marketing Services</title>
@@ -25,6 +22,8 @@ export default function Branding() {
           name="description"
           content="Best trusted leader in branding and digital marketing services in USA. Explore tailored Digital Marketing Services for a localized impact. Choose BBLabs for a unique branding in USA."
         />
+
+        <link rel="canonical" href="https://thebblabs.com/Branding" />
       </Head>
 
       <section className="ins-slider-img-sec">
