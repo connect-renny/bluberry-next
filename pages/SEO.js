@@ -115,17 +115,26 @@ export default function SEO() {
                 </h4>
                 <p>
                   BluBerry Labs brings to youpersonalizedsearch engine
-                  optimization (SEO) services that can help you achieve success.
+                  optimization (SEO) services USA that can help you achieve success.
                   We offer personalized solutions, including keyword research,
                   on-page optimization, backlink building, and analytics
                   tracking.
                 </p>
                 <p>
-                  Our SEO service is aimed at improving your website&apos;s
+                  Our SEO SEO agency in NYC is aimed at improving your website&apos;s
                   visibility on search engines like Google, Bing, and Yahoo.We
                   combine cutting-edge techniques, industry best practices, and
                   a deep understanding of search algorithms to optimize every
                   aspect of your digital presence.
+                </p>
+                <p>
+                  Boost your online visibility with our top-tier SEO services in USA. 
+                  As a leading SEO company in New York, we specialize in optimizing your 
+                  website to rank higher in search engine results, driving organic traffic 
+                  and increasing your online presence. Our SEO agency in NYC employs the 
+                  latest techniques and strategies to ensure your business stands out in 
+                  the competitive digital landscape. Trust our expertise to enhance your 
+                  search engine performance and achieve sustainable growth.
                 </p>
               </div>
             </Col>

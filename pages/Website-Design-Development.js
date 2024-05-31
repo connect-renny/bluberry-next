@@ -116,10 +116,16 @@ export default function WebsiteDesign() {
                   and minds of your visitors.
                 </p>
                 <p>
-                  We merge technical expertise, creative brilliance, and
-                  user-centric design principles to craft a virtual masterpiece
-                  that not only dazzles the eyes but also captivates the hearts
-                  and minds of your visitors.
+                  Looking for best website designing services in USA? Look no
+                  further than our premier web development company in New York. 
+                  We specialize in creating stunning, user-friendly websites tailored to 
+                  meet your business needs. With a team of experienced professionals, we 
+                  provide comprehensive web development solutions, ensuring your online 
+                  presence is both powerful and effective. Whether you're a small startup 
+                  or a large corporation, our expertise in web development in New York 
+                  guarantees a cutting-edge, responsive design that will elevate your brand 
+                  and engage your audience. Trust us to bring your vision to life with 
+                  exceptional website designing services in USA.
                 </p>
               </div>
             </Col>
@@ -180,7 +186,7 @@ export default function WebsiteDesign() {
                   data-aos-duration="1000"
                 >
                   <p>
-                    Our website design and development services go beyond
+                    Our website design and development services in USA go beyond
                     external aesthetics. We pay meticulous attention to user
                     interface (UI) and user experience (UX) design principles to
                     ensure intuitive navigation, fast loading times, and

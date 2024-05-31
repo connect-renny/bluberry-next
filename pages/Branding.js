@@ -98,7 +98,7 @@ export default function Branding() {
                 data-aos-duration="1000"
               >
                 <h4 className="mb-xxl-4">
-                  Our branding services transcend mere aesthetics and delve into
+                  Our branding services USA transcend mere aesthetics and delve into
                   strategic craftsmanship.
                 </h4>
                 <p>
@@ -112,6 +112,14 @@ export default function Branding() {
                   aspirations, and unique selling propositions. Our team then
                   distills this essence into a visually arresting and
                   emotionally evocative brand identity.
+                </p>
+                <p>
+                  Elevate your business with exceptional branding in USA 
+                  through our comprehensive services. Our expert team specializes 
+                  in crafting unique, impactful brand identities that resonate with 
+                  your target audience, ensuring your branding in USA stands out. 
+                  From logo design to full-scale brand development, our commitment to 
+                  excellence drives success and recognition.
                 </p>
               </div>
             </Col>

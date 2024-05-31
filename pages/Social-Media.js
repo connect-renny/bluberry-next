@@ -117,7 +117,7 @@ export default function SocialMedia() {
                 </p>
                 <p>
                   Partner with BluBerry to harness this power. Our social media
-                  marketing and management (SMM) services will enable you to
+                  marketing and management (SMM) services in New York will enable you to
                   build a loyal community of followers and drive engagement. Our
                   social media experts will create and execute tailored
                   strategies to increase your brand&apos;s visibility, foster
@@ -183,6 +183,18 @@ export default function SocialMedia() {
                   relationships with your followers. Our goal is to build an
                   engaged and loyal community around your brand, fostering
                   meaningful interactions and driving advocacy.
+                </p>
+                <p>
+                  Discover expert social media management services right here 
+                  with our premier Social Media Agency in New York. As a leading 
+                  social media marketing agency, we specialize in crafting tailored 
+                  strategies that drive engagement and growth. Located in the heart 
+                  of NYC, our team understands the dynamic landscape of social media 
+                  marketing in New York, providing innovative solutions to connect you 
+                  with your audience. Our Social Media Agency NYC manages your campaigns 
+                  with precision and creativity, ensuring your brand stands out in the 
+                  competitive market. Trust us to elevate your online presence and drive 
+                  results with our top-notch social media management services.
                 </p>
               </div>
             </Col>

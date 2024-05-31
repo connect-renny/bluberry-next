@@ -15,7 +15,6 @@ export default function BlogSocialPlatforms() {
           rel="canonical"
           href="https://thebblabs.com/Blog-Social-Platforms"
         />
-        
       </Head>
 
       <section className="ins-slider-hd-sec">
