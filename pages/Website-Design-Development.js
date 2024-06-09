@@ -28,6 +28,32 @@ export default function WebsiteDesign() {
           href="https://thebblabs.com/Website-Design-Development"
         />
         
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <meta name="audience" content="all" />
+        <meta name="subject" content="Best web development and website designing services in USA. As a leading web development company in New York we offer the best web development service. Your trusted partner for cutting-edge web solutions in New York." />
+        <meta name="abstract" content="Best web development and website designing services in USA. As a leading web development company in New York we offer the best web development service. Your trusted partner for cutting-edge web solutions in New York." />
+        <meta name="classification" content="Web Development company in New York , Website designing services in USA" />
+        <meta name="distribution" content="Global" />
+        <meta NAME="Language" CONTENT="English" />
+        <meta name="DC.title" content="Web Development company in New York | Website designing services in USA" />
+        <meta name="DC.description" content="Best web development and website designing services in USA. As a leading web development company in New York we offer the best web development service. Your trusted partner for cutting-edge web solutions in New York."/>
+        <meta name="DC.subject" content="Web Development company in New York | Website designing services in USA" />
+        <meta name="topic" content="Web Development company in New York | Website designing services in USA"/>
+        <meta name="resourse-type" content="web page"/>
+        <meta name="doc-type" content="web page"/>
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Web Development company in New York | Website designing services in USA" />
+        <meta name="city" content="USA" />
+        <meta name="state" content="New York" />
+        <meta property="og:description" content="Best web development and website designing services in USA. As a leading web development company in New York we offer the best web development service. Your trusted partner for cutting-edge web solutions in New York." />
+        <meta property="og:url" content="https://thebblabs.com/Website-Design-Development" />
+        <meta property="og:site_name" content="Web Development company in New York | Website designing services in USA" />
+        <meta property="og:image" content="https://thebblabs.com/images/bluberry-logo.png" />
+        <meta name="twitter:site" content="https://thebblabs.com/Website-Design-Development" />
+        <meta name="geo.placename" content="USA" />
+        <meta name="geo.region" content="New York" />
+
       </Head>
 
       <section className="ins-slider-img-sec">
@@ -101,7 +127,8 @@ export default function WebsiteDesign() {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <h4>Your website is your most precious digital asset.</h4>
+                <h4>Your website is your most precious digital asset, entrusted 
+                  to the expertise of our premier Web Development company in New York.</h4>
                 <p>
                   It is the home ground for all your online activities and the
                   top reference point for your customers. Of course, the looks
@@ -152,7 +179,9 @@ export default function WebsiteDesign() {
                   Our digital architects then embarks on a journey to create a
                   custom-designed website that embodies the essence of your
                   brand and seamlessly guides your visitors toward meaningful
-                  interactions.
+                  interactions.As a leading Web development New York firm, we 
+                  specialize in crafting online experiences that elevate your 
+                  brand's presence and drive results.
                 </p>
               </div>
             </Col>
@@ -300,6 +329,7 @@ export default function WebsiteDesign() {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
+                <h4>Website designing services in USA</h4>
                 <h4>
                   And our commitment doesn&apos;t end with the launch of your
                   website.

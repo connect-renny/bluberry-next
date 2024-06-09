@@ -10,20 +10,46 @@ import IncludeContact from "./components/IncludeContact";
 export default function Branding() {
   return (
     <>
-  
-
+    
       <Head>
-        <title>Branding in USA | Digital Marketing Services</title>
+
+        <title>Branding in USA | Branding Agency in United States</title>
         <meta
           name="keywords"
           content="Branding in USA,Digital Marketing Services"
         />
         <meta
           name="description"
-          content="Best trusted leader in branding and digital marketing services in USA. Explore tailored Digital Marketing Services for a localized impact. Choose BBLabs for a unique branding in USA."
+          content="Find the best branding agency in USA. Our Branding company offers creative brand strategy, design, development and brand management services in United States."
         />
-
         <link rel="canonical" href="https://thebblabs.com/Branding" />
+
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <meta name="audience" content="all" />
+        <meta name="subject" content="Find the best branding agency in USA. Our Branding company offers creative brand strategy, design, development and brand management services in United States." />
+        <meta name="abstract" content="Find the best branding agency in USA. Our Branding company offers creative brand strategy, design, development and brand management services in United States." />
+        <meta name="classification" content="Branding in USA , Branding Agency in United States" />
+        <meta name="distribution" content="Global" />
+        <meta NAME="Language" CONTENT="English" />
+        <meta name="DC.title" content="Branding in USA | Branding Agency in United States" />
+        <meta name="DC.description" content="Find the best branding agency in USA. Our Branding company offers creative brand strategy, design, development and brand management services in United States."/>
+        <meta name="DC.subject" content="Branding in USA | Branding Agency in United States" />
+        <meta name="topic" content="Branding in USA | Branding Agency in United States"/>
+        <meta name="resourse-type" content="web page"/>
+        <meta name="doc-type" content="web page"/>
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Branding in USA | Branding Agency in United States" />
+        <meta name="city" content="USA" />
+        <meta name="state" content="New York" />
+        <meta property="og:description" content="Find the best branding agency in USA. Our Branding company offers creative brand strategy, design, development and brand management services in United States." />
+        <meta property="og:url" content="https://thebblabs.com/Branding" />
+        <meta property="og:site_name" content="Branding in USA | Branding Agency in United States" />
+        <meta property="og:image" content="https://thebblabs.com/images/bluberry-logo.png" />
+        <meta name="twitter:site" content="https://thebblabs.com/Branding" />
+        <meta name="geo.placename" content="USA" />
+        <meta name="geo.region" content="New York" />
+    
       </Head>
 
       <section className="ins-slider-img-sec">
@@ -31,7 +57,7 @@ export default function Branding() {
           <div className="ins-slider">
             <Image
               src="/images/ins-slider-branding.jpg"
-              alt="Slider"
+              alt="branding in usa"
               layout="intrinsic"
               width={1320}
               height={350}
@@ -78,7 +104,8 @@ export default function Branding() {
                   cornerstone of success in today&apos;s competitive landscape.
                   It is the art of creating a powerful connection with your
                   audience, leaving an indelible mark that resonates long after
-                  the encounter.
+                  the encounter.As experts in branding in USA, we specialize in 
+                  crafting compelling brand identities that stand out and make a lasting impact.
                 </p>
               </div>
             </Col>
@@ -96,8 +123,9 @@ export default function Branding() {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
+                
                 <h4 className="mb-xxl-4">
-                  Our branding services USA transcend mere aesthetics and delve into
+                  Our branding in USA transcend mere aesthetics and delve into
                   strategic craftsmanship.
                 </h4>
                 <p>
@@ -135,7 +163,7 @@ export default function Branding() {
                   layout="intrinsic"
                   width={625}
                   height={525}
-                />
+                /> 
               </div>
             </Col>
           </Row>
@@ -175,7 +203,7 @@ export default function Branding() {
               >
                 <Image
                   src="/images/branding-man.png"
-                  alt="Values"
+                  alt="branding in usa"
                   layout="intrinsic"
                   width={450}
                   height={550}
@@ -204,7 +232,9 @@ export default function Branding() {
                 <p>
                   We craft compelling brand stories, meticulously honed to
                   reflect your core values, and craft messaging that speaks
-                  directly to the hearts and minds of your customers.
+                  directly to the hearts and minds of your customers.As leaders 
+                  in branding in USA, we ensure your brand resonates powerfully 
+                  in today's competitive market.
                 </p>
               </div>
             </Col>
@@ -301,7 +331,7 @@ export default function Branding() {
                   <figure>
                     <Image
                       src="/images/expertise-tb-brand-01.jpg"
-                      alt="Values"
+                      alt="Branding in USA"
                       layout="intrinsic"
                       width={700}
                       height={750}

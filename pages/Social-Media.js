@@ -23,6 +23,32 @@ export default function SocialMedia() {
         />
         <link rel="canonical" href="https://thebblabs.com/Social-Media" />
         
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <meta name="audience" content="all" />
+        <meta name="subject" content="Get best Social Media Marketing services in New York,USA your trusted Social Media Agency.From strategic Social Media Marketing to targeted campaigns, we bring your brand to online.Your go-to Social Media Marketing Agency NYC." />
+        <meta name="abstract" content="Get best Social Media Marketing services in New York,USA your trusted Social Media Agency.From strategic Social Media Marketing to targeted campaigns, we bring your brand to online.Your go-to Social Media Marketing Agency NYC." />
+        <meta name="classification" content="Social media marketing new York, Social Media Agency NYC" />
+        <meta name="distribution" content="Global" />
+        <meta NAME="Language" CONTENT="English" />
+        <meta name="DC.title" content="Social media marketing new York | Social Media Agency NYC" />
+        <meta name="DC.description" content="Get best Social Media Marketing services in New York,USA your trusted Social Media Agency.From strategic Social Media Marketing to targeted campaigns, we bring your brand to online.Your go-to Social Media Marketing Agency NYC."/>
+        <meta name="DC.subject" content="Social media marketing new York | Social Media Agency NYC" />
+        <meta name="topic" content="Social media marketing new York | Social Media Agency NYC"/>
+        <meta name="resourse-type" content="web page"/>
+        <meta name="doc-type" content="web page"/>
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Social media marketing new York | Social Media Agency NYC" />
+        <meta name="city" content="USA" />
+        <meta name="state" content="New York" />
+        <meta property="og:description" content="Get best Social Media Marketing services in New York,USA your trusted Social Media Agency.From strategic Social Media Marketing to targeted campaigns, we bring your brand to online.Your go-to Social Media Marketing Agency NYC." />
+        <meta property="og:url" content="https://thebblabs.com/Social-Media" />
+        <meta property="og:site_name" content="Social media marketing new York | Social Media Agency NYC" />
+        <meta property="og:image" content="https://thebblabs.com/images/bluberry-logo.png" />
+        <meta name="twitter:site" content="https://thebblabs.com/Social-Media" />
+        <meta name="geo.placename" content="USA" />
+        <meta name="geo.region" content="New York" />
+
       </Head>
 
       <section className="ins-slider-img-sec">

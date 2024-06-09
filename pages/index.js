@@ -141,7 +141,9 @@ export default function Home() {
                 <p>
                   We work on the maxim that content dictates action. Every
                   service we offer is, therefore, underlined by strong focus on
-                  content that informs, influences, and inspires.
+                  content that informs, influences, and inspires.As a leading Digital 
+                  marketing company in New York, we understand the power of 
+                  content in driving results and shaping brand perception.
                 </p>
                 <p>
                   We seek to be partners, understanding your needs, aspirations,
@@ -150,7 +152,8 @@ export default function Home() {
                   strategy across the team before we embark on a project. Each
                   piece of work whether it is a logo or website or advertisement
                   or design is part of a comprehensive and unified plan of
-                  action.
+                  action, tailored to deliver impactful Digital marketing 
+                  solutions across the USA.
                 </p>
                 {/* <Link className="btn btn-shine btn-explore" href="#">
                   <span className="btn-label">Explore</span>

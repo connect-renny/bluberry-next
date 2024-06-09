@@ -38,6 +38,33 @@ export default function BlogList() {
       <section className="pt-4 pt-lg-5 pt-xl-6 pb-4 pb-lg-5">
         <Container fluid="xxl">
           <Row>
+          <Col lg={4} md={6} xs={12}>
+              <div className="blog-item mb-5">
+                <figure>
+                  <Link href="/Blog-Digital-Marketing-Strategy">
+                    <Image
+                      src="/images/blog-thumb-04.jpg"
+                      alt="Image"
+                      layout="intrinsic"
+                      width={420}
+                      height={435}
+                    />
+                  </Link>
+                </figure>
+                <div className="blog-body">
+                  <div className="blog-date">31 May 2024</div>
+                  <h4>
+                  Crafting a Winning Digital Marketing Strategy for Your Business: A Step-by-Step Guide
+                  </h4>
+                  <Link className="btn btn-shine btn-more" href="/Blog-Digital-Marketing-Strategy">
+                    <span className="btn-label">Read More</span>
+                    <span className="btn-icon">
+                      <FiArrowRight />
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </Col>
             <Col lg={4} md={6} xs={12}>
               <div className="blog-item mb-5">
                 <figure>

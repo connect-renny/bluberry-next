@@ -23,6 +23,31 @@ export default function PaidAds() {
         />
         <link rel="canonical" href="https://thebblabs.com/Paid-Ads" />
         
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <meta name="audience" content="all" />
+        <meta name="subject" content="Maximize your online reach with BBLabs, a premier Paid Ads Agency in the USA. As one of the leading PPC Agencies in New York, we specialize in delivering targeted and impactful paid advertising solutions. Trust BBLabs to elevate your online presence and drive results through expertly crafted PPC campaigns. Partner with us for a strategic approach to paid advertising success." />
+        <meta name="abstract" content="Maximize your online reach with BBLabs, a premier Paid Ads Agency in the USA. As one of the leading PPC Agencies in New York, we specialize in delivering targeted and impactful paid advertising solutions. Trust BBLabs to elevate your online presence and drive results through expertly crafted PPC campaigns. Partner with us for a strategic approach to paid advertising success." />
+        <meta name="classification" content="PPC Agencies in New York ,Paid Ads Agency USA" />
+        <meta name="distribution" content="Global" />
+        <meta NAME="Language" CONTENT="English" />
+        <meta name="DC.title" content="PPC Agencies in New York | Paid Ads Agency USA" />
+        <meta name="DC.description" content="Maximize your online reach with BBLabs, a premier Paid Ads Agency in the USA. As one of the leading PPC Agencies in New York, we specialize in delivering targeted and impactful paid advertising solutions. Trust BBLabs to elevate your online presence and drive results through expertly crafted PPC campaigns. Partner with us for a strategic approach to paid advertising success."/>
+        <meta name="DC.subject" content="PPC Agencies in New York | Paid Ads Agency USA" />
+        <meta name="topic" content="PPC Agencies in New York | Paid Ads Agency USA"/>
+        <meta name="resourse-type" content="web page"/>
+        <meta name="doc-type" content="web page"/>
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="PPC Agencies in New York | Paid Ads Agency USA" />
+        <meta name="city" content="USA" />
+        <meta name="state" content="New York" />
+        <meta property="og:description" content="Maximize your online reach with BBLabs, a premier Paid Ads Agency in the USA. As one of the leading PPC Agencies in New York, we specialize in delivering targeted and impactful paid advertising solutions. Trust BBLabs to elevate your online presence and drive results through expertly crafted PPC campaigns. Partner with us for a strategic approach to paid advertising success." />
+        <meta property="og:url" content="https://thebblabs.com/Paid-Ads" />
+        <meta property="og:site_name" content="PPC Agencies in New York | Paid Ads Agency USA" />
+        <meta property="og:image" content="https://thebblabs.com/images/bluberry-logo.png" />
+        <meta name="twitter:site" content="https://thebblabs.com/Paid-Ads" />
+        <meta name="geo.placename" content="USA" />
+        <meta name="geo.region" content="New York" />
       </Head>
 
       <section className="ins-slider-img-sec">

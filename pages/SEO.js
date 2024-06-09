@@ -19,10 +19,37 @@ export default function SEO() {
         />
         <meta
           name="description"
-          content="Amplify your online visibility, a top-tier SEO Company in New York. Our SEO Services in USA are tailored for success, backed by expert strategies.Partner with the leading SEO Company in NYC, and watch your website climb the search rankings."
+          content="Get Search engine optimization service from the leading SEO Company in New York. Our SEO Services in USA are tailored for success, backed by expert strategies.Partner with the leading SEO Company in NYC, and watch your website climb the search rankings."
         />
         <link rel="canonical" href="https://thebblabs.com/SEO" />
         
+
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <meta name="audience" content="all" />
+        <meta name="subject" content="Get Search engine optimization service from the leading SEO Company in New York. Our SEO Services in USA are tailored for success, backed by expert strategies.Partner with the leading SEO Company in NYC, and watch your website climb the search rankings." />
+        <meta name="abstract" content="Get Search engine optimization service from the leading SEO Company in New York. Our SEO Services in USA are tailored for success, backed by expert strategies.Partner with the leading SEO Company in NYC, and watch your website climb the search rankings." />
+        <meta name="classification" content="SEO company New York ,SEO Services USA" />
+        <meta name="distribution" content="Global" />
+        <meta NAME="Language" CONTENT="English" />
+        <meta name="DC.title" content="SEO company New York | SEO Services USA" />
+        <meta name="DC.description" content="Get Search engine optimization service from the leading SEO Company in New York. Our SEO Services in USA are tailored for success, backed by expert strategies.Partner with the leading SEO Company in NYC, and watch your website climb the search rankings."/>
+        <meta name="DC.subject" content="SEO company New York | SEO Services USA" />
+        <meta name="topic" content="SEO company New York | SEO Services USA"/>
+        <meta name="resourse-type" content="web page"/>
+        <meta name="doc-type" content="web page"/>
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="SEO company New York | SEO Services USA" />
+        <meta name="city" content="USA" />
+        <meta name="state" content="New York" />
+        <meta property="og:description" content="Get Search engine optimization service from the leading SEO Company in New York. Our SEO Services in USA are tailored for success, backed by expert strategies.Partner with the leading SEO Company in NYC, and watch your website climb the search rankings." />
+        <meta property="og:url" content="https://thebblabs.com/SEO" />
+        <meta property="og:site_name" content="SEO company New York | SEO Services USA" />
+        <meta property="og:image" content="https://thebblabs.com/images/bluberry-logo.png" />
+        <meta name="twitter:site" content="https://thebblabs.com/SEO" />
+        <meta name="geo.placename" content="USA" />
+        <meta name="geo.region" content="New York" />
+
       </Head>
 
       <section className="ins-slider-img-sec">
@@ -107,21 +134,22 @@ export default function SEO() {
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000"
-              >
+              > 
+                
                 <h4 className="mb-xxl-4">
                   Visibility on search engines is paramount to driving organic
                   traffic, increasing brand awareness, and achieving sustainable
                   growth.
                 </h4>
                 <p>
-                  BluBerry Labs brings to youpersonalizedsearch engine
+                  BluBerry Labs brings to you personalized search engine
                   optimization (SEO) services USA that can help you achieve success.
                   We offer personalized solutions, including keyword research,
                   on-page optimization, backlink building, and analytics
                   tracking.
                 </p>
                 <p>
-                  Our SEO SEO agency in NYC is aimed at improving your website&apos;s
+                  Our SEO agency in NYC is aimed at improving your website&apos;s
                   visibility on search engines like Google, Bing, and Yahoo.We
                   combine cutting-edge techniques, industry best practices, and
                   a deep understanding of search algorithms to optimize every
@@ -153,8 +181,10 @@ export default function SEO() {
                 data-aos-duration="1000"
               >
                 <h3>
-                  Our team of SEO experts employs a range of techniques to boost
-                  your website&apos;s authority and credibility.
+                Our team of SEO experts at a leading SEO company in New York employs a range 
+                of techniques to boost your website's authority and credibility. As a top 
+                SEO agency in NYC, we specialize in enhancing your online visibility and 
+                ensuring your business stands out.
                 </h3>
                 <p>
                   Through thorough keyword research, we identify the most
@@ -198,6 +228,7 @@ export default function SEO() {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
+      
                 <h4 className="mb-xxl-4">
                   But SEO goes beyond keywords. We meticulously analyze and
                   optimize your website&apos;s structure, ensuring it adheres to

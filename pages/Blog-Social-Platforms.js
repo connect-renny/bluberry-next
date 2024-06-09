@@ -33,7 +33,7 @@ export default function BlogSocialPlatforms() {
           </Row>
         </Container>
       </section>
-
+      
       <section>
         <Container fluid="xxl">
           <Row>
